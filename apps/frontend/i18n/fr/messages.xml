@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="fr" datatype="plaintext" original="messages" date="2011-07-19T01:25:14Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Hotel Sutherland House - Hotel Boutique &amp;amp; Café Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>El Hotel Boutique &amp;amp; Café Sutherland House se encuentran aledaños a la zona típica de conservación histórica de Valparaíso, en una casona cuya data de construcción es de 1870, en pleno Cerro Alegre.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Hotel, Valparaíso, Hotel Boutique, Hotel Boutique Sutherland House, Reservas, hoteles, alojamiento, Paseos, Vista a la Bahía, Cafetería, Café</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Logo Hotel Boutique Sutherland House</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Al &lt;strong&gt;Valparaíso&lt;/strong&gt; de la segunda mitad del siglo XIX, se remonta la historia de la casa de la Av. Alemania 4966, en Cerro Alegre.
+Antigua rectoría del &lt;strong&gt;Colegio Mackay&lt;/strong&gt;, la cual se transformó en el &lt;strong&gt;Hotel Boutique Sutherland House&lt;/strong&gt;.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Vista Bahía Valparaíso desde Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Fachada Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Vista Cerros de Valparaíso desde Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Fachada Nocturna Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Escalera Ingreso Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Vista Recepción Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Hotel</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Habitaciones</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Comentarios</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Reservas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Ubicación</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Historia</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Quienes Somos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Cafe &amp;amp; RestoBar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Logo Café &amp;amp; RestoBar Sutherland House</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Teléfono</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Español</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>español</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Inglés</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>inglés</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Francés</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>francés</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

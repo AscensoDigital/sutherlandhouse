@@ -1,0 +1,69 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+change_language:
+  url:   /change_language/:new_language/:modulo/:accion
+  param: { module: language, action: changeLanguage }
+  requirements:
+    sf_culture: (?:es|fr|en)
+
+hotel_homepage:
+  url:   /
+  param: { module: hotel, action: index }
+  
+localized_hotel_homepage:
+  url:   /:sf_culture/
+  param: { module: hotel, action: index }
+  requirements:
+    sf_culture: (?:es|fr|en)
+    
+hotel_hotel:
+  url:   /:sf_culture/hotel
+  param: { module: hotel, action: hotel }
+  requirements:
+    sf_culture: (?:es|fr|en)
+    
+hotel_habitacion:
+  url:   /:sf_culture/habitaciones
+  param: { module: hotel, action: habitacion }
+  requirements:
+    sf_culture: (?:es|fr|en)
+
+hotel_comentario:
+  url:   /:sf_culture/comentarios
+  param: { module: hotel, action: comentario }
+  requirements:
+    sf_culture: (?:es|fr|en)
+
+hotel_ubicacion:
+  url:   /:sf_culture/ubicacion
+  param: { module: hotel, action: ubicacion }
+  requirements:
+    sf_culture: (?:es|fr|en)
+    
+hotel_historia:
+  url:   /:sf_culture/historia
+  param: { module: hotel, action: historia }
+  requirements:
+    sf_culture: (?:es|fr|en)
+    
+hotel_quienes_somos:
+  url:   /:sf_culture/quienessomos
+  param: { module: hotel, action: quienesSomos }
+  requirements:
+    sf_culture: (?:es|fr|en)
+    
+reserva:
+  url:   /:sf_culture/reservas
+  param: { module: reserva, action: index }
+  requirements:
+    sf_culture: (?:es|fr|en)
+    
+cafe_homepage:
+  url:   /caferestobar/
+  param: { module: cafe, action: index }
+  
+localized_cafe_homepage:
+  url:   /:sf_culture/
+  param: { module: cafe, action: index }
+  requirements:
+    sf_culture: (?:es|fr|en)

@@ -1,0 +1,21 @@
+@charset "utf-8";html, body{margin:0;padding:0;}
+body{text-align:center;font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;background-color:#fefce4;color:#444;font-size:75%;}
+#principal{margin:auto;width:900px;}
+#superior{height:100px;margin-top:7px;margin-bottom:-25px;margin-left:-8px;}
+#logo{position:relative;z-index:11;float:left;height:105px;}
+#logo img{border:none;}
+#texto-superior{float:right;width:460px;text-align:right;font-style:italic;margin-right:10px;margin-top:10px;*margin-top:15px;}
+#idioma{float:right;color:#999999;margin-top:10px;*margin-top:15px;height:30px;margin-right:-50px;z-index:12;position:relative;}
+#idioma img{border:none;}
+#idioma li{float:left;margin-left:5px;list-style:none;}
+#slideshow{position:relative;height:390px;margin-left:-8px;}
+#slideshow IMG{position:absolute;top:0;left:0;z-index:8;opacity:0.0;border:3px double #c2bc00;}
+#slideshow IMG.active{z-index:10;opacity:1.0;}
+#pieweb{float:left;width:885px;margin-bottom:5px;margin-top:15px;margin-left:-8px;}
+#pieweb li{float:left;list-style:none;margin-right:10px;border-right-width:thin;border-top-style:none;border-right-style:solid;border-bottom-style:none;border-left-style:none;}
+#pieweb li.ultimo{border:none;}
+#pieweb img{border:none;margin-top:-4px;}
+#pieweb ul{margin-left:25px;margin-top:8px;}
+#pieweb a{text-align:center;margin-right:8px;text-decoration:none;color:#181818;}
+#pieweb a:hover{color:#ABABAB;}
+#contactos{float:left;width:900px;margin-top:-20px;*margin-top:-10px;margin-bottom:5px;*margin-left:-40px;}
