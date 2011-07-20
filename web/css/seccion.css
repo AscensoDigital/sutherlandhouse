@@ -10,7 +10,7 @@ div.controls{margin-top:8px;height:1px;float:right;position:relative;z-index:3;m
 div.download{float:right;}
 div.image-desc{line-height:1.3em;padding-top:12px;}
 div.image-title{font-weight:bold;font-size:1.4em;}
-div.loader{position:absolute;background-image:url('loader.gif');background-repeat:no-repeat;background-position:center;width:655px;height:222px;}
+div.loader{position:absolute;background-image:url('/images/loader.gif');background-repeat:no-repeat;background-position:center;width:655px;height:222px;}
 div.navigation{float:right;margin-right:-10px;margin-top:-10px;*margin-top:53px;}
 div.navigation div.top{margin-bottom:2px;}
 div.navigation div.bottom{margin-top:2px;}
@@ -75,7 +75,7 @@ ul.thumbs li.selected a.thumb{background:#c2bc00;}
 #pieweb a{text-align:center;margin-right:8px;text-decoration:none;color:#181818;}
 #pieweb a:hover{color:#ABABAB;}
 #principal{margin:auto;width:900px;}
-#textogaleria{float:right;position:relative;z-index:3;margin-top:83px;margin-right:-168px;width:192px;height:25px;background-color:#484848;}
+#textogaleria{float:right;position:relative;z-index:3;margin-top:83px;margin-right:-183px;width:192px;height:25px;background-color:#484848;}
 #textogaleria p{text-align:center;font-weight:bold;font-size:14px;color:#FFFFFF;margin-top:0px;}
 #valores td{border-bottom:solid 1px black;}
 .content a, .navigation a{text-decoration:none;color:#777;}
