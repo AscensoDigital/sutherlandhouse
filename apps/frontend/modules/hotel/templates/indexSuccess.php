@@ -28,6 +28,6 @@ Antigua rectoría del <strong>Colegio Mackay</strong>, la cual se transformó en
 <li class="ultimo"><?php echo link_image_to('logo_cafeteria_sutherland_house_chico.png','@cafe_homepage', array('size' => '40x28', 'alt' => __("Logo Café &amp; RestoBar Sutherland House")))?></li>
 </ul>
 </div>
-<div id="contactos"><p><?php echo __('Teléfono'); ?>: (+56) 32-3196798 - contacto@sutherlandhouse.cl<br/>Av. Alemania #4966 - Cerro Alegre - Valparaíso - Chile</p></div>
+<?php include_partial('hotel/footerContacto')?>
 </div>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'es-419'}</script>

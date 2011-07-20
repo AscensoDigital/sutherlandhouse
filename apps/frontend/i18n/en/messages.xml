@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2011-07-19T00:55:19Z" product-name="messages">
+  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2011-07-20T00:41:08Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
@@ -52,7 +52,7 @@ Old Rectory &lt;strong&gt;Mackay School&lt;/strong&gt;, which became the &lt;str
       </trans-unit>
       <trans-unit id="12">
         <source>Logo Hotel Boutique Sutherland House</source>
-        <target/>
+        <target>Sutherland House Boutique Hotel Logo</target>
       </trans-unit>
       <trans-unit id="13">
         <source>Hotel</source>
@@ -88,7 +88,7 @@ Old Rectory &lt;strong&gt;Mackay School&lt;/strong&gt;, which became the &lt;str
       </trans-unit>
       <trans-unit id="21">
         <source>Logo Café &amp;amp; RestoBar Sutherland House</source>
-        <target/>
+        <target>Sutherland House Café &amp;amp; RestoBar Logo</target>
       </trans-unit>
       <trans-unit id="22">
         <source>Teléfono</source>
@@ -117,6 +117,175 @@ Old Rectory &lt;strong&gt;Mackay School&lt;/strong&gt;, which became the &lt;str
       <trans-unit id="28">
         <source>francés</source>
         <target>french</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Mapa</source>
+        <target>Map</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>New Year</source>
+        <target>New Year</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Cafetería</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Paseos</source>
+        <target>Tours</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Valparaíso</source>
+        <target>Valparaiso</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Noticias</source>
+        <target>News</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>iniciar galería</source>
+        <target>play gallery</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>detener galería</source>
+        <target>stop gallery</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Siguiente &amp;rsaquo;</source>
+        <target>Next &amp;rsaquo;</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>&amp;lsaquo; Anterior</source>
+        <target>&amp;lsaquo; Prev</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Galería </source>
+        <target>Gallery</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Habitaciones todas con vista a la bahía - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target>Rooms all overlooking the bay - Sutherland House Boutique Hotel Valparaiso, Chile</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>habitaciones, suite, king, doble, Hotel Boutique Sutherland House, vista a la bahía, vistas</source>
+        <target>rooms, suites, king, double, Sutherland House Boutique Hotel, overlooking the bay, views</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>Nuestro hotel cuenta con 9 habitaciones: todas cómodas y luminosas, con vista a la ciudad y la bahía,  distribuidas en 3 pisos.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>Todas tienen teléfono, TV cable, secador de pelo, calefacción, cerradura electrónica, almohadas Memory Flex e incluyen desayuno Buffet o Americano en nuestro salón Mackay o terraza.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Adicionalmente incluimos gratuitamente traslado desde Terminal de Buses de Valparaíso al Hotel.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>Los baños de nuestras habitaciones tienen un diseño con reminiscencias de los antiguos baños, constan de un mueble en pino Oregón, un vanitorio y una grifería que representan al lavatorio y la jarra que usaban antiguamente.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>Habitación 303 King Corner</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>La &lt;b&gt;habitación 303 - King Corner&lt;/b&gt; cuenta con una vista de 260 grados desde el box windows de la habitación, donde se presencia una visión distinta que invita a quedarse en contemplación del anfiteatro que forman los cerros y la amplia bahía de Valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Galería de la habitación</source>
+        <target>Gallery Room</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>Consultar y/o Reservar</source>
+        <target>Consult and/or Book</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>Desde 1 Octubre será habitación King.</source>
+        <target>From 1 October will be King room.</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>Habitación 201 Twin con terraza</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>Habitación 301 King Panoramic</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>La &lt;b&gt;habitación 301 - King Panoramic&lt;/b&gt; es un espacio excepcional muy seductor, con un completo equipamiento interior que incluye frigo bar.
+Todo esto acompañado de una vista PANORÁMICA de Valparaíso que podrá gozar y compartir Ud y su pareja desde la propia cama.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>La &lt;b&gt;habitación 302 - Suite Romantic&lt;/b&gt; es el espacio ideal para la seducción de una escapada romántica, noche de bodas o aniversario de matrimonio;
+desde la entrada se distingue su singular belleza y ese toque que invita a la intimidad, su box windows llama a contemplar la ciudad y a la conversación cercana.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>Habitación 302 Suite Romantic</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Habitación 304 Suite</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>La &lt;b&gt;habitación 304 - Suite&lt;/b&gt; es un espacio ideal para el descanso y al acercarse a la ventana aparece en toda su dimensión la amplia bahía de Valparaíso
+hasta las dunas de Concon. Y en las noches de luna llena la bahía resplandece y la noche de fin de año nos permite una vista total del espectáculo pirotécnico.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>En la &lt;b&gt;habitación 202 - Suite&lt;/b&gt; desde su puerta ya podemos ver que estámos en una de las habitaciones propias de esta casa que data del año 1874,
+su ventana de doble hoja nos presenta la ciudad, su bahía y sus cerros, pero también nos muestra la calides de las maderas originales de esta hermosa construcción.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>Habitación 202 Suite</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>Habitación 101 Suite</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>La &lt;b&gt;Habitación 101 - Suite&lt;/b&gt; consta de doble puerta lo que favorece su intimidad. Es un espacio de techo muy alto, típico de los primeros pisos de estas
+casas de estilo inglés. Al acercarse a la ventana, nos encontramos con una vista sobre el eje de la Avenida Alemania y al fondo la bahía de Valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>La &lt;b&gt;habitación 203 - Doble&lt;/b&gt; presenta dos confortables camas de 1 1/2 plazas en un espacio que nos habla del antiguo esplendor de esta casona,
+permitió la implementación de un espacioso baño interior en que se cuidó todos los detalles para lograr un nivel de calidad.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>Habitación 203 Twin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>Habitación 204 Twin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>La &lt;b&gt;Habitación 204 - Doble&lt;/b&gt; se agrega a la construcción original de la casa; es un amplio y luminoso espacio con dos camas, desde su ventana
+se aprecian magnificas vista diurnas y nocturnas de la ciudad y la bahía. La gran ventaja es que en ella se puede agregar una tercera cama sin perjudicar el
+desplazamiento interior.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>Valparaíso - Chile</source>
+        <target>Valparaiso - Chile</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>La &lt;b&gt;habitación 201 - Doble* con amplia Terraza&lt;/b&gt; es un espacio soñado: luminosa, amplia, con dos camas de calidad.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>El plus está en su amplia terraza que mira a la bahía, los cerros y enfrente una hermosa postal de bosque verde, una imponente edificación de colegio y al fondo la cordillera
+de la costa y en dias despejados la majestuosa silueta del monte Aconcagua.</source>
+        <target/>
       </trans-unit>
     </body>
   </file>

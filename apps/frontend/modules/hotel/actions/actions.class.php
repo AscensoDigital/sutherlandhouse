@@ -33,4 +33,14 @@ class hotelActions extends sfActions
       $this->redirect('@localized_hotel_homepage');
     }
   }
+  
+  public function executeHabitacion()
+  {
+    $this->galeria=Hotel::getGaleria('habitaciones');
+  }
+  
+  public function executeHotel()
+  {
+    $this->galeria=Hotel::getGaleria('hotel');
+  }
 }

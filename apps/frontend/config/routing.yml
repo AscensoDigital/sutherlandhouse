@@ -52,6 +52,30 @@ hotel_quienes_somos:
   requirements:
     sf_culture: (?:es|fr|en)
     
+hotel_new_year:
+  url:   /:sf_culture/promocion_new_year
+  param: { module: hotel, action: newYear }
+  requirements:
+    sf_culture: (?:es|fr|en)
+    
+hotel_paseo:
+  url:   /:sf_culture/paseos
+  param: { module: hotel, action: paseo }
+  requirements:
+    sf_culture: (?:es|fr|en)
+
+hotel_valparaiso:
+  url:   /:sf_culture/valparaiso
+  param: { module: hotel, action: valparaiso }
+  requirements:
+    sf_culture: (?:es|fr|en)
+
+hotel_noticia:
+  url:   /:sf_culture/noticias
+  param: { module: hotel, action: noticia }
+  requirements:
+    sf_culture: (?:es|fr|en)
+    
 reserva:
   url:   /:sf_culture/reservas
   param: { module: reserva, action: index }
