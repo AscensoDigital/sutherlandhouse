@@ -1,6 +1,4 @@
 <?php use_stylesheet('seccion.css') ?>
-<?php use_javascript('jquery.used-min.js')?>
-<?php use_helper('UrlExt')?>
 <?php slot('title', __('Habitaciones todas con vista a la bahía - Hotel Boutique Sutherland House Valparaíso, Chile'))?>
 <?php slot('keywords', __("habitaciones, suite, king, doble, Hotel Boutique Sutherland House, vista a la bahía, vistas"))?>
 <?php slot('galeria', get_partial('hotel/galeria',array('id' => 'habitaciones', 'title' => 'Habitaciones', 'imagenes' => $galeria)))?>

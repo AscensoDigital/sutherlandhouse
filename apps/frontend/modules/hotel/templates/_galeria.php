@@ -1,3 +1,5 @@
+<?php use_javascript('jquery.used-min.js')?>
+<?php use_helper('UrlExt')?>
 <div id="textogaleria">
 <p><?php echo __('Galería '.$title) ?></p>
 </div>

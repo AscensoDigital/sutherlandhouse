@@ -1,0 +1,8 @@
+<?php use_stylesheet('seccion.css') ?>
+<?php slot('title', __('Mapa de Ubicación - Hotel Boutique Sutherland House Valparaíso, Chile'))?>
+<?php slot('keywords', __("Hotel Boutique Sutherland House, Avenida Alemania 4966, Cerro Alegre, Valparaíso, Chile, ubicación google maps"))?>
+<?php slot('description', __("Mapa de ubicación por google maps del Hotel Boutique Sutherland House en la Avenida Alemania 4966, Cerro Alegre, Valparaíso, Chile."))?>
+<?php slot('galeria', get_partial('hotel/galeria',array('id' => 'historia', 'title' => 'Historia', 'imagenes' => $galeria)))?>
+<h2><?php echo __('Ubicación') ?></h2>
+<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.google.cl/maps?f=q&amp;source=s_q&amp;hl=<?php echo $sf_params->get('sf_culture')?>&amp;geocode=&amp;q=Hotel+Boutique+Sutherland+House,+Valpara%C3%ADso&amp;aq=t&amp;sll=-35.675147,-71.542969&amp;sspn=64.066578,158.027344&amp;ie=UTF8&amp;hq=Hotel+Boutique+Sutherland+House,&amp;hnear=Valpara%C3%ADso&amp;t=h&amp;cid=1052824776149910529&amp;ll=-33.043853,-71.632619&amp;spn=0.017267,0.027423&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+<br/><small><a href="http://www.google.cl/maps?f=q&amp;source=embed&amp;hl=<?php echo $sf_params->get('sf_culture')?>&amp;geocode=&amp;q=Hotel+Boutique+Sutherland+House,+Valpara%C3%ADso&amp;aq=t&amp;sll=-35.675147,-71.542969&amp;sspn=64.066578,158.027344&amp;ie=UTF8&amp;hq=Hotel+Boutique+Sutherland+House,&amp;hnear=Valpara%C3%ADso&amp;t=h&amp;cid=1052824776149910529&amp;ll=-33.043853,-71.632619&amp;spn=0.017267,0.027423&amp;z=15&amp;iwloc=A" style="color:#0000FF;text-align:left"><?php echo __('Ver mapa más grande') ?></a></small>
