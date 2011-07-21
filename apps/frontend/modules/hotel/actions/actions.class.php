@@ -34,13 +34,53 @@ class hotelActions extends sfActions
     }
   }
   
+  public function executeComentario()
+  {
+    $this->galeria=Hotel::getGaleria('hotel');
+  }
+  
   public function executeHabitacion()
   {
     $this->galeria=Hotel::getGaleria('habitaciones');
   }
   
+  public function executeHistoria()
+  {
+    $this->galeria=Hotel::getGaleria('historia');
+  }
+  
   public function executeHotel()
   {
     $this->galeria=Hotel::getGaleria('hotel');
+  }
+  
+  public function executeNewYear()
+  {
+    $this->galeria=Hotel::getGaleria('newyear');
+  }
+  
+  public function executeNoticia()
+  {
+    $this->galeria=Hotel::getGaleria('habitaciones');
+  }
+  
+  public function executePaseo()
+  {
+    $this->galeria=Hotel::getGaleria('paseos');
+  }
+  
+  public function executeQuienesSomos()
+  {
+    $this->galeria=Hotel::getGaleria('quienessomos');
+  }
+  
+  public function executeUbicacion()
+  {
+    $this->galeria=Hotel::getGaleria('historia');
+  }
+  
+  public function executeValparaiso()
+  {
+    $this->galeria=Hotel::getGaleria('valparaiso');
   }
 }
