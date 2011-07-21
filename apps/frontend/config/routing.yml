@@ -15,22 +15,64 @@ localized_hotel_homepage:
   param: { module: hotel, action: index }
   requirements:
     sf_culture: (?:es|fr|en)
-    
-hotel_hotel:
-  url:   /:sf_culture/hotel
-  param: { module: hotel, action: hotel }
+
+hotel_comentario:
+  url:   /:sf_culture/comentarios
+  param: { module: hotel, action: comentario }
   requirements:
     sf_culture: (?:es|fr|en)
-    
+
+hotel_desayuno:
+  url:   /:sf_culture/desayunos
+  param: { module: hotel, action: desayuno }
+  requirements:
+    sf_culture: (?:es|fr|en)
+
 hotel_habitacion:
   url:   /:sf_culture/habitaciones
   param: { module: hotel, action: habitacion }
   requirements:
     sf_culture: (?:es|fr|en)
 
-hotel_comentario:
-  url:   /:sf_culture/comentarios
-  param: { module: hotel, action: comentario }
+hotel_historia:
+  url:   /:sf_culture/historia
+  param: { module: hotel, action: historia }
+  requirements:
+    sf_culture: (?:es|fr|en)
+
+hotel_hotel:
+  url:   /:sf_culture/hotel
+  param: { module: hotel, action: hotel }
+  requirements:
+    sf_culture: (?:es|fr|en)    
+        
+hotel_new_year:
+  url:   /:sf_culture/promocion_new_year
+  param: { module: hotel, action: newYear }
+  requirements:
+    sf_culture: (?:es|fr|en)
+
+hotel_noticia:
+  url:   /:sf_culture/noticias
+  param: { module: hotel, action: noticia }
+  requirements:
+    sf_culture: (?:es|fr|en)
+
+hotel_paseo:
+  url:   /:sf_culture/paseos
+  param: { module: hotel, action: paseo }
+  requirements:
+    sf_culture: (?:es|fr|en)
+
+hotel_quienes_somos:
+  url:   /:sf_culture/quienessomos
+  param: { module: hotel, action: quienesSomos }
+  requirements:
+    sf_culture: (?:es|fr|en)
+
+hotel_servicio:
+  url:   /:sf_culture/servicios
+  param: { module: hotel, action: servicio }
   requirements:
     sf_culture: (?:es|fr|en)
 
@@ -39,40 +81,10 @@ hotel_ubicacion:
   param: { module: hotel, action: ubicacion }
   requirements:
     sf_culture: (?:es|fr|en)
-    
-hotel_historia:
-  url:   /:sf_culture/historia
-  param: { module: hotel, action: historia }
-  requirements:
-    sf_culture: (?:es|fr|en)
-    
-hotel_quienes_somos:
-  url:   /:sf_culture/quienessomos
-  param: { module: hotel, action: quienesSomos }
-  requirements:
-    sf_culture: (?:es|fr|en)
-    
-hotel_new_year:
-  url:   /:sf_culture/promocion_new_year
-  param: { module: hotel, action: newYear }
-  requirements:
-    sf_culture: (?:es|fr|en)
-    
-hotel_paseo:
-  url:   /:sf_culture/paseos
-  param: { module: hotel, action: paseo }
-  requirements:
-    sf_culture: (?:es|fr|en)
 
 hotel_valparaiso:
   url:   /:sf_culture/valparaiso
   param: { module: hotel, action: valparaiso }
-  requirements:
-    sf_culture: (?:es|fr|en)
-
-hotel_noticia:
-  url:   /:sf_culture/noticias
-  param: { module: hotel, action: noticia }
   requirements:
     sf_culture: (?:es|fr|en)
     
