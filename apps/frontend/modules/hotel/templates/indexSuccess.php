@@ -24,8 +24,8 @@ Antigua rectoría del <strong>Colegio Mackay</strong>, la cual se transformó en
 <li><?php echo link_to(__('Ubicación'),'@hotel_ubicacion')?></li>
 <li><?php echo link_to(__('Historia'),'@hotel_historia')?></li>
 <li><?php echo link_to(__('Quienes Somos'),'@hotel_quienes_somos')?></li>
-<li class="ultimo"><?php echo link_to(__('Cafe &amp; RestoBar'),'@cafe_homepage')?></li>
-<li class="ultimo"><?php echo link_image_to('logo_cafeteria_sutherland_house_chico.png','@cafe_homepage', array('size' => '40x28', 'alt' => __("Logo Café &amp; RestoBar Sutherland House")))?></li>
+<li class="ultimo"><?php echo link_to(__('Cafe &amp; RestoBar'),'@cafe')?></li>
+<li class="ultimo"><?php echo link_image_to('logo_cafeteria_sutherland_house_chico.png','@cafe', array('size' => '40x28', 'alt' => __("Logo Café &amp; RestoBar Sutherland House")))?></li>
 </ul>
 </div>
 <?php include_partial('hotel/footerContacto')?>

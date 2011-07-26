@@ -24,9 +24,8 @@
 <h2><?php echo __('Información y Reservas')?></h2>
 <strong><?php echo __('Fono')?>:</strong> (+56) 32-3196798<br/>
 <strong>Email:</strong> <a href="mailto:reservas@sutherlandhouse.cl?subject=Reserva Año Nuevo">reservas@sutherlandhouse.cl</a>
-<?php /*TODO: IMPLEMENTAR FORMULARIO DE RESERVA*/?>
-<?php $asunto="Reserva Año Nuevo";$mes_inicio=12;$dia_inicio=30;$anho_inicio=2011;$mes_final=1;$dia_final=1;$anho_final=2012;$tarifas=true;?>
-
+<?php include_component('reserva', 'formulario', array('asunto' => "Reserva Año Nuevo", 'llegada' => '2011-12-30', 'salida' => '2012-01-01'))?>
+<?php $tarifas=sfConfig::get('app_tarifa_new_year')?>
 <h2><?php echo __('Habitaciones')?> <?php if($tarifas):?><?php echo __('y Valores de Promoción')?><?php endif?></h2>
 <table id="habitacion">
 <tbody><tr>

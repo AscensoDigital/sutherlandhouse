@@ -20,7 +20,7 @@
 <?php echo link_image_to('reservas-es.jpg', '@reserva', array('alt' => __('Reservas'), 'title' => __('Reservas'), 'size' => '192x30'))?>
 <?php echo link_image_to('mapa-es.jpg', '@hotel_ubicacion', array('alt' => __('Mapa'), 'title' => __('Mapa'), 'size' => '192x86'))?>
 <?php echo link_image_to('new_year_2012_hotel_sutherland_house.jpg', '@hotel_new_year', array('alt' => __('New Year').' '.date('Y')+1, 'title' => __('New Year').' '.date('Y')+1, 'size' => '192x86'))?>  
-<?php echo link_image_to('logo_cafeteria_sutherland_house.png', '@cafe_homepage', array('alt' => __('Cafetería'), 'title' => __('Cafetería'), 'size' => '192x136'))?>
+<?php echo link_image_to('logo_cafeteria_sutherland_house.png', '@cafe', array('alt' => __('Cafetería'), 'title' => __('Cafetería'), 'size' => '192x136'))?>
 <script type="text/javascript" src="http://www.booking.com/general.html?tmpl=bookit;aid=330843;lang=<?php echo $sf_params->get('sf_culture')?>;hotel_id=289904;pb=1"></script><br/>
 <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FHotel-Boutique-Sutherland-House-Valparaiso%2F117324945005401&amp;width=196&amp;colorscheme=light&amp;show_faces=false&amp;stream=false&amp;header=false&amp;height=110" scrolling="no" frameborder="0" style="border:none;overflow:hidden;width:196px;height:110px;"></iframe>
 </div>
@@ -47,8 +47,8 @@
 <li><?php echo link_to(__('Valparaíso'),'@hotel_valparaiso')?></li>
 <li><?php echo link_to(__('Quienes Somos'),'@hotel_quienes_somos')?></li>
 <li><?php echo link_to(__('Noticias'),'@hotel_noticia')?></li>
-<li class="ultimo"><?php echo link_to(__('Cafe &amp; RestoBar'),'@cafe_homepage')?></li>
-<li class="ultimo"><?php echo link_image_to('logo_cafeteria_sutherland_house_chico.png','@cafe_homepage', array('size' => '40x28', 'alt' => __("Logo Café &amp; RestoBar Sutherland House")))?></li>
+<li class="ultimo"><?php echo link_to(__('Cafe &amp; RestoBar'),'@cafe')?></li>
+<li class="ultimo"><?php echo link_image_to('logo_cafeteria_sutherland_house_chico.png','@cafe', array('size' => '40x28', 'alt' => __("Logo Café &amp; RestoBar Sutherland House")))?></li>
 </ul></div>
 <?php include_partial('hotel/footerContacto')?>
 </div>

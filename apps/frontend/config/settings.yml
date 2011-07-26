@@ -32,7 +32,7 @@ all:
     escaping_method:        ESC_SPECIALCHARS
 
     # Enable the database manager
-    use_database:           true
+    use_database:           false
 
     i18n: true
     standard_helpers: [Partial, Cache, I18N, AssetExt ]

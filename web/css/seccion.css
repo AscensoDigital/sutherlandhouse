@@ -82,9 +82,9 @@ ul.thumbs li.selected a.thumb{background:#c2bc00;}
 .content a:focus, .content a:hover, .content a:active{text-decoration:underline;}
 .controls a{padding:5px;}
 .clear{clear:both;}
+.error_list, .required{color: red;}
 .noscript {display: none;}
 .pagination a:hover{background-color:#eee;text-decoration:none;}
-.required{color:red;}
 .slideshow img{border:3px double #c2bc00;*margin-top:-15px;}
 .thumbs img{border:none;display:block;}
 .thumbs li{float:left;padding:0;margin:3px 5px 3px 0;list-style:none;}

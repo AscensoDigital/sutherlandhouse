@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="pt" datatype="plaintext" original="messages" date="2011-07-26T00:36:02Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Hotel Sutherland House - Hotel Boutique &amp;amp; Café Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>El Hotel Boutique &amp;amp; Café Sutherland House se encuentran aledaños a la zona típica de conservación histórica de Valparaíso, en una casona cuya data de construcción es de 1870, en pleno Cerro Alegre.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Hotel, Valparaíso, Hotel Boutique, Hotel Boutique Sutherland House, Reservas, hoteles, alojamiento, Paseos, Vista a la Bahía, Cafetería, Café</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Logo Hotel Boutique Sutherland House</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Reservas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Mapa</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>New Year</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Cafetería</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Habitaciones</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Comentarios</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Hotel</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Paseos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Historia</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Valparaíso</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Quienes Somos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Noticias</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Cafe &amp;amp; RestoBar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Logo Café &amp;amp; RestoBar Sutherland House</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>iniciar galería</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>detener galería</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Siguiente &amp;rsaquo;</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>&amp;lsaquo; Anterior</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Ver galería habitación %HAB%</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Tarifa en Dólares referenciales y aplicable para extranjeros no residentes en Chile con Factura de Exportación. Tarifa sujeta
+a modificación sin previo aviso, dependiendo del tipo de cambio de cierre del mercado al momento de la reserva. Franquicia Tributaria (Exentos del pago de
+Impuesto 19% IVA).</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Las tarifas en pesos chilenos (CLP) incluyen IVA.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Valor por habitación simple o doble.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Horario de Check In desde las 15:00 hrs.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>Horario de Check Out hasta las 12:00 hrs.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>No incluye cama adicional.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Reservas limitadas a 9 habitaciones (capacidad máxima del Hotel).</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>No dispone de acceso para minusválidos.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>No se aceptan mascotas.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Las dependencias del hotel son para no fumadores, solo en las terrazas se permite fumar.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Forma de Pago</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Prepago del 50% al momento de la reserva, mediante pago efectivo, transferencia bancaria, tarjetas de crédito indicando su número y fecha de vencimiento.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>Saldo se cancela en mesón de recepción del Hotel.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Política de Cancelación</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Cancelación de reservas hasta con 48 horas de anticipación pasado ese plazo se cargará el valor del prepago realizado al momento de la reserva.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>No habrá reintegros ni devoluciones.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Información y Contacto</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Fono</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>Reserva nuestras habitaciones - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>reservas, habitaciones, Hotel Boutique Sutherland House, Valparaíso, hoteles, alojamiento, chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Consultar y/o Reservas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>Estimado(a)</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>Su mail ha sido enviado con éxito, lo contactaremos lo antes posible.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>Para mayor información contacte a los siguientes teléfonos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>o al</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>[0]Reserva nuestras habitaciones todas con vista al mar - Hotel Boutique Sutherland House Valparaíso, Chile 
+     |(1,+Inf]Reserva nuestra habitación %hab% con vista al mar - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>reservas, habitaciones con vista al mar, Hotel Boutique Sutherland House, Valparaíso, hoteles, alojamiento, chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>Consulta y Reserva nuestras habitaciones, todas con vista a la bahía y los cerros de Valparaíso, en el Hotel Boutique Sutherland House del Cerro Alegre de Valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>Galería </source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>Mapa de Ubicación - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>Hotel Boutique Sutherland House, Avenida Alemania 4966, Cerro Alegre, Valparaíso, Chile, ubicación google maps</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>Mapa de ubicación por google maps del Hotel Boutique Sutherland House en la Avenida Alemania 4966, Cerro Alegre, Valparaíso, Chile.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>Ubicación</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Ver mapa más grande</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>Valparaíso Patrimonio de la Humanidad - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>Valparaíso, Patrimonio de la Humanidad, Monumentos Nacionales, Puerto de mi amor, ascensores</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>Descripción historica de Valparaíso y sus encantos.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>Con forma de anfiteatro, &lt;strong&gt;Valparaíso&lt;/strong&gt; mezcla el presente y el pasado, junto a una amplia y hermosa bahía, se rodea de una cadena de altos
+cerros, por la cual trepan hacia sus cumbres, calles, callejuelas, pasajes, escaleras y funiculares.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>Entre el pie de los cerros y el mar hay una angosta faja de calles, donde se ubica el comercio, los centros financieros, oficinas en antiguas residencias y modernos edificios.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>Gran parte del borde marino es ocupado por el puerto: molos, muelles, espigón de atraque y patios de acopio de contenedores; pero también hay diversos lugares en los cuales es posible acceder al mar en playas, miradores y rocas.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>Siempre un paseo por Valparaíso es una agradable experiencia, ya que a su vida de ciudad portuaria le suma una inusitada arquitectura y un peculiar trazado de calles.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>Emulando al arte, sobre una naturaleza agreste y escarpada se ha desplegado un ingenioso diseño urbano, que combina disposiciones prácticas y pintorescas que hacen de esta ciudad una de las más originales del mundo.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>Como la mayoría de los puertos de la América hispana, Valparaíso carece de una acta de fundación y crece sin un orden determinado.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>Durante los veranos de los siglos XVI y XVII, los barcos venían desde el Callao a la bahía y la ciudad se llenaban de actividad, la que decaía el resto del año.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>La calidad de Puerto, “para el trato de estas tierras y la ciudad de Santiago”, fue oficializada por el conquistador de Chile, Pedro de Valdivia, en 1542.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>En 1599 se levantó una capilla en donde hoy está la Iglesia de La Matriz.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>Poco a poco se levantan viviendas, una iglesia y un fuerte en el Castillo de San José, del cerro Cordillera, sobre la actual calle Serrano.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>A partir de la Independencia, a inicios del siglo XIX, Chile y América se incorporan al comercio mundial.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>Valparaíso es un puerto estratégico para las rutas que a través del Cabo de Hornos vienen desde el Atlántico a las costas e islas del Pacífico; generándose el auge de la ciudad: en sus bodegas se guardaba la mercadería que posteriormente se reembarcaba a otros puertos del Pacífico y Oceanía.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>Ingleses, alemanes y franceses se instalan en Valparaíso a manejar su comercio de importación; trayendo también capital que desarrollaría la minería del cobre, la plata y el salitre, así como las grandes obras públicas de mediados del siglo XIX.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>De esa forma, la ciudad se convierte en la principal plaza comercial y financiera de Chile, creándose los primeros bancos y la bolsa de valores; acogiendo a los miembros de una nueva clase social surgida de la riqueza minera, en grandes mansiones, donde algunas aún sobreviven.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>En Chile, Valparaíso fue pionero en muchos ámbitos: los primeros tranvías, primer tendido eléctrico para luminarias públicas y domiciliarias, primeros teléfonos, primer tendido de gas de cañería.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>Desde acá se inicia la construcción del ferrocarril a Santiago, la capital, la capital del país. Lo mismo con la red telefónica y telegráfica.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>Entre 1914 y 1930 se dan situaciones que cambian la suerte del principal puerto del país.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>Se abre el canal de Panamá transformándolo en destino terminal y ya no de paso; las nuevas políticas gubernamentales de industrialización interna llevan a las casas matrices comerciales y financieras a mudarse a Santiago, más cerca del poder político.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>En los inicios del siglo XXI, Valparaíso es un centro comercial, administrativo, universitario y laboral de una vasta región, también conocida como Gran Valparaíso, que incluye además a las comunas de Viña del Mar, Con Cón, Quintero, Quilpué, Villa Alemana y Limache.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>Habitaciones todas con vista a la bahía - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>habitaciones, suite, king, doble, Hotel Boutique Sutherland House, vista a la bahía, vistas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>Nuestro hotel cuenta con 9 habitaciones: todas cómodas y luminosas, con vista a la ciudad y la bahía,  distribuidas en 3 pisos.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>Todas tienen teléfono, TV cable, secador de pelo, calefacción, cerradura electrónica, almohadas Memory Flex e incluyen desayuno Buffet o Americano en nuestro salón Mackay o terraza.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>Adicionalmente incluimos gratuitamente traslado desde Terminal de Buses de Valparaíso al Hotel.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>Los baños de nuestras habitaciones tienen un diseño con reminiscencias de los antiguos baños, constan de un mueble en pino Oregón, un vanitorio y una grifería que representan al lavatorio y la jarra que usaban antiguamente.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>Habitación 303 King Corner</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>La &lt;b&gt;habitación 303 - King Corner&lt;/b&gt; cuenta con una vista de 260 grados desde el box windows de la habitación, donde se presencia una visión distinta que invita a quedarse en contemplación del anfiteatro que forman los cerros y la amplia bahía de Valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>Galería de la habitación</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>Consultar y/o Reservar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>La &lt;b&gt;habitación 201 - Doble* con amplia Terraza&lt;/b&gt; es un espacio soñado: luminosa, amplia, con dos camas de calidad.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>El plus está en su amplia terraza que mira a la bahía, los cerros y enfrente una hermosa postal de bosque verde, una imponente edificación de colegio y al fondo la cordillera
+de la costa y en dias despejados la majestuosa silueta del monte Aconcagua.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>Desde 1 Octubre será habitación King.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>Habitación 201 Twin con terraza</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>Habitación 301 King Panoramic</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>La &lt;b&gt;habitación 301 - King Panoramic&lt;/b&gt; es un espacio excepcional muy seductor, con un completo equipamiento interior que incluye frigo bar.
+Todo esto acompañado de una vista PANORÁMICA de Valparaíso que podrá gozar y compartir Ud y su pareja desde la propia cama.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>La &lt;b&gt;habitación 302 - Suite Romantic&lt;/b&gt; es el espacio ideal para la seducción de una escapada romántica, noche de bodas o aniversario de matrimonio;
+desde la entrada se distingue su singular belleza y ese toque que invita a la intimidad, su box windows llama a contemplar la ciudad y a la conversación cercana.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>Habitación 302 Suite Romantic</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>Habitación 304 Suite</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>La &lt;b&gt;habitación 304 - Suite&lt;/b&gt; es un espacio ideal para el descanso y al acercarse a la ventana aparece en toda su dimensión la amplia bahía de Valparaíso
+hasta las dunas de Concon. Y en las noches de luna llena la bahía resplandece y la noche de fin de año nos permite una vista total del espectáculo pirotécnico.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>En la &lt;b&gt;habitación 202 - Suite&lt;/b&gt; desde su puerta ya podemos ver que estámos en una de las habitaciones propias de esta casa que data del año 1874,
+su ventana de doble hoja nos presenta la ciudad, su bahía y sus cerros, pero también nos muestra la calides de las maderas originales de esta hermosa construcción.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>Habitación 202 Suite</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Habitación 101 Suite</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>La &lt;b&gt;Habitación 101 - Suite&lt;/b&gt; consta de doble puerta lo que favorece su intimidad. Es un espacio de techo muy alto, típico de los primeros pisos de estas
+casas de estilo inglés. Al acercarse a la ventana, nos encontramos con una vista sobre el eje de la Avenida Alemania y al fondo la bahía de Valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>La &lt;b&gt;habitación 203 - Doble&lt;/b&gt; presenta dos confortables camas de 1 1/2 plazas en un espacio que nos habla del antiguo esplendor de esta casona,
+permitió la implementación de un espacioso baño interior en que se cuidó todos los detalles para lograr un nivel de calidad.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>Habitación 203 Twin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>Habitación 204 Twin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>La &lt;b&gt;Habitación 204 - Doble&lt;/b&gt; se agrega a la construcción original de la casa; es un amplio y luminoso espacio con dos camas, desde su ventana
+se aprecian magnificas vista diurnas y nocturnas de la ciudad y la bahía. La gran ventaja es que en ella se puede agregar una tercera cama sin perjudicar el
+desplazamiento interior.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>Promoción Año Nuevo %year% en el Mar - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>promoción año nuevo en el mar valparaíso, fuegos articiales, juegos artificiales borde costero, año nuevo %year% hotel, reserva año nuevo %year%</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>Reserva tu habitación en el hotel boutique sutherland house para el programa de año nuevo en el mar %year% de valparaíso donde verás uno de los espectáculos pirotecnicos más espectaculares del mundo.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>Año Nuevo %year% en Hotel Boutique Sutherland House&lt;br/&gt;3 días - 2 noches</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>Llegada 30 de diciembre -  Salida 1 de Enero</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>de diciembre</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>horas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>Invitación a recorrer el sector patrimonial, incluyendo paseo por la bahía.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>Cóctel de bienvenida.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>Desayuno buffet.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>Salad bar incluye aperitivos, buffet de ensalada y antipastos, trincho de pavo y degustación de vinos.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>Atardecer en la terraza del hotel con música y sushi bar.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>Cena buffet, variedad de entradas y platos de fondo, buffet de postres, vinos, cervezas y bebidas.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>Botella de Champaña en la habitación y copa de frutillas bañadas en chocolate.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>de Enero</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>Desde 00.30 horas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>Fiesta bailable con dj Salo, cotillón, bar abierto incluye whisky Jhonnie Walkers red label, champaña, ron Havana, vodka Stolichnaya, pisco Mistral, jugos, bebidas, cervezas y vinos.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>Consomé y tapaditos.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>Término de evento.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>Brunch desayuno almuerzo.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>Información y Reservas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>y Valores de Promoción</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>Habitación 303 - Suite King Corner</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>RESERVADA</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>Valor Promoción</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>Vista Nocturna Habitación</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>Habitación 201 Twin con Terraza</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>Habitación 201 - Doble con amplia Terraza</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="136">
+        <source>Habitación 301 - Suite King Panoramic</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>Habitación 302 - Suite Romantic</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>Habitación 304 - Suite</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>Habitación 202 - Suite</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="140">
+        <source>Habitación 101 - Suite</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>Habitación 203 Doble</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="142">
+        <source>Habitación 203 - Doble</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>Habitación 204 Doble</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="144">
+        <source>Habitación 204 - Doble</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="145">
+        <source>Vista Nocturna Habitación 204</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="146">
+        <source>Condiciones Generales</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="147">
+        <source>Tarifa en Dólares referenciales y aplicable para extranjeros no residentes en Chile con Factura de Exportación. Tarifa sujeta
+a modificación sin previo aviso, dependiendo del tipo de cambio de cierre del mercado al momento de la reserva. Franquicia Tributaria (Exentos del pago de Impuesto 19% IVA).</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="148">
+        <source>Las tarifas en pesos chilenos incluyen IVA.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="149">
+        <source>Valor por habitación single o doble.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="150">
+        <source>Late Check Out, 16:00 hrs.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="151">
+        <source>Reservas limitadas a 9 habitaciones.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="152">
+        <source>No se aceptan mascotas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="153">
+        <source>Prepago del 50% al momento de la reserva mediante: pago efectivo, transferencia bancaria, tarjetas de crédito indicando su número y fecha de vencimiento.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="154">
+        <source>Saldo se cancela en mesón de recepción del Hotel al momento del Check In.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="155">
+        <source>Cancelación de reservas hasta el &lt;b&gt;30 de Noviembre del %year%&lt;/b&gt;. Pasado ese plazo no habrá reintegros ni devoluciones.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="156">
+        <source>Servicios - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="157">
+        <source>Hotel Boutique Sutherland House, wifi, lavandería, tv cable, niñera</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="158">
+        <source>Servicios</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="159">
+        <source>WIFI en Hotel y Habitaciones Gratis</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="160">
+        <source>wifi gratis</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="161">
+        <source>WIFI libre en todas las areas.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="162">
+        <source>Servicio Camarera</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="163">
+        <source>servicio camarera</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="164">
+        <source>Servicio de camarera.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="165">
+        <source>Servicio de Estacionamiento</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="166">
+        <source>servicio estacionamiento</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="167">
+        <source>Servicio de ballet parking.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="168">
+        <source>Cafetería abierta al público</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="169">
+        <source>cafetería</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="170">
+        <source>Cafetería.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="171">
+        <source>Welcome drink</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="172">
+        <source>welcome drink</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="173">
+        <source>Welcome drink.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="174">
+        <source>Desayuno Buffet incluido</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="175">
+        <source>desayuno buffet</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="176">
+        <source>Desayuno buffet o Americano.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="177">
+        <source>Secador de Pelo</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="178">
+        <source>secador de pelo</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="179">
+        <source>Secador de pelo.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="180">
+        <source>TV Cable</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="181">
+        <source>tv cable</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="182">
+        <source>Televisión por cable.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="183">
+        <source>Amenities</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="184">
+        <source>amenities</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="185">
+        <source>Amenities en las habitaciones.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="186">
+        <source>Cerradura Electrica</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="187">
+        <source>cerradura electrica</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="188">
+        <source>Cerradura Eléctrica.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="189">
+        <source>Calefacción Central</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="190">
+        <source>calefacción central</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="191">
+        <source>Calefacción central.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="192">
+        <source>Personal Bilingue</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="193">
+        <source>personal bilingue</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="194">
+        <source>Personal bilingüe inglés, portugués y español.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="195">
+        <source>Impresora y escaner</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="196">
+        <source>impresora y escaner</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="197">
+        <source>Impresora y escaner.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="198">
+        <source>Citófono en habitación</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="199">
+        <source>citófono</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="200">
+        <source>Citófonos en las habitaciones.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="201">
+        <source>Frigobar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="202">
+        <source>frigo bar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="203">
+        <source>Frigobar en suite Panoramic y Corner.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="204">
+        <source>Asistencia turística</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="205">
+        <source>asistencia turística</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="206">
+        <source>Servicio de taxi y city tour a pedido.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="207">
+        <source>Directorio Español e Inglés</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="208">
+        <source>directorio</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="209">
+        <source>Directorios en español e inglés.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="210">
+        <source>Cámaras de Seguridad</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="211">
+        <source>cámaras</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="212">
+        <source>Cámaras de seguridad interiores y exteriores.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="213">
+        <source>Quienes Somos - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="214">
+        <source>Hotel Boutique Sutherland House, Valparaíso, Claudio Corvalán Espinoza, Berta Aravena Contreras, Claudio Corvalán Aravena, Macarena Corvalán Aravena</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="215">
+        <source>Historia de los dueños del Hotel Boutique Sutherland House y su familia.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="216">
+        <source>El nombre de este hotel boutique alude a George Sutherland, uno de los fundadores del Colegio Mackay, actualmente ubicado en Viña del Mar, quien fuera dueño del inmueble ubicado en el Cerro Alegre, sector con una importante tradición de actividad cultural y artística y que se ha constituido en un polo de desarrollo turístico, con una gran y variada oferta de establecimientos teatrales, gastronómicos, de hospedaje y de exposiciones y talleres artísticos, con una gran afluencia de visitantes extranjeros, provenientes de diversas partes del mundo.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="217">
+        <source>El “Proyecto Sutherland House” implicó la restauración del inmueble y su consiguiente transformación y habilitación para la función hotelera descrita, conservando el estilo arquitectónico de la construcción original; según la voluntad de los propietarios: Berta Aravena y Claudio Corvalán.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="218">
+        <source>Claudio es profesor de educación física y entrenador de atletismo, hijo de Claudio Corvalán Bone y María Isabel Espinoza Figueroa, tiene 2 hermanas y nació en Valparaíso en 1955.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="219">
+        <source>Sus padres crearon y desarrollaron la empresa Créditos Patricia, entre 1958 y 1985, una pequeña multitienda que llegó a tener una cartera cercana a los 3 mil clientes, y que ocupaba las mismas dependencias que el hotel.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="220">
+        <source>Berta es profesora de educación general básica, hija de Roberto Aravena y María Luisa Contreras, es la mayor de 7 hermanos y nació en San Felipe en 1957.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="221">
+        <source>Sus padres se dedicaron al rubro agrícola en parcelas del sector de calle Herrera en el camino a Putaendo. Berta fue la primera mujer de su comunidad en cursar estudios superiores en la Universidad.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="222">
+        <source>Berta y Claudio se conocen hacia el final de sus estudios en la Universidad Católica de Valparaíso (UCV) y se casaron en 1981. Tienen 2 hijos: Macarena, fonoaudióloga de la Universidad de Valparaíso, y Claudio, ingeniero civil informático de la Universidad Santa María.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="223">
+        <source>En esta nueva etapa de su vida, los Corvalán Aravena dan un giro hacia una opción empresarial, contando con el apoyo de toda su familia.  Además, han recibido el apoyo de dos importantes instituciones, como lo son CORFO y el Banco SantanderSantiago.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="224">
+        <source>El inmueble de Av. Alemania 4966, Cerro Alegre, originalmente de 430 m2, ha sido transformado en un establecimiento de 9 dormitorios, todos con vista a la ciudad y la bahía. Se trata de un hotel boutique que ha sido creado pensando en los más altos estándares  internacionales.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="225">
+        <source>Desayuno Buffet - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="226">
+        <source>desayuno buffet, Hotel Boutique Sutherland House, vista a la bahía</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="227">
+        <source>El desayuno Buffet del hotel boutique Sutherland House viene incluido en la tarifa, este puede servirse en nuestro salón Mackay o en la terraza del hotel.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="228">
+        <source>Buffet</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="229">
+        <source>Café</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="230">
+        <source>Té e infusiones</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="231">
+        <source>Leche entera y semi-descremada (sin lactosa)</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="232">
+        <source>Jugos naturales</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="233">
+        <source>Pan blanco e integral</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="234">
+        <source>Mantequilla</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="235">
+        <source>Dulce</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="236">
+        <source>Mermeladas artesanales</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="237">
+        <source>Ensalada de frutas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="238">
+        <source>Cereales (granola y avena)</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="239">
+        <source>Frutos secos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="240">
+        <source>Frutas de la estación</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="241">
+        <source>Yogurt natural</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="242">
+        <source>Cheesecake</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="243">
+        <source>Tarteletas de frutas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="244">
+        <source>Pastelitos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="245">
+        <source>Miel</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="246">
+        <source>Azúcar blanca y rubia, sacarina</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="247">
+        <source>Salado</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="248">
+        <source>Jamón</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="249">
+        <source>Salame</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="250">
+        <source>Queso</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="251">
+        <source>Opciones</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="252">
+        <source>Panqueques + salsas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="253">
+        <source>Huevos revueltos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="254">
+        <source>Omelette</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="255">
+        <source>Noticias en la prensa - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="256">
+        <source>noticias, prensa, Hotel Boutique Sutherland House, Valparaíso, hoteles, alojamiento, chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="257">
+        <source>Apariciones en prensa del Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="258">
+        <source>Vista de la bahía y de los cerros de Valparaíso en Sutherland House</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="259">
+        <source>Conversar con Claudio Corvalán es como hojear una enciclopedia histórica, cultural, deportiva y turística.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="260">
+        <source>+ ver noticia</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="261">
+        <source>Inauguran Hotel Sutherland</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="262">
+        <source>Valparaíso - Corfo lo apoyó con subsidio de inversión a inmuebles de interés patrimonial.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="263">
+        <source>+ ver fotos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="264">
+        <source>Nuevo emprendimiento en el cerro Alegre</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="265">
+        <source>Proyecto - "Casa George Sutherland", cuya inversión supera los 150 millones de pesos, estará operativa en enero del próximo año.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="266">
+        <source>Hoteles “boutique” piden igualdad en la diferencia</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="267">
+        <source>Parámetros especiales para esta clase de emprendimientos plantean empresarios, autordades y Consetur.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="268">
+        <source>Profes porteños se la juegan con hotel</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="269">
+        <source>A través de CORFO, co-financiaron cototo recinto.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="270">
+        <source>Hotel boutique en el Cerro Alegre de Valparaíso ofertará un servicio de calidad en casona restaurada</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="271">
+        <source>El Hotel Boutique Casa George Sutherland aspira a transformarse en una oferta de alta calidad y atributos diferenciadores para la ciudad Patrimonio Cultural de la
+Humanidad. Próximo a su apertura, fue visitado por la Seremi de Economía, Carmen Gloria Godoy, el director regional de CORFO, Rodrigo Cárcamo y el director de Turismo
+del municipio porteño, Milos Miskovich.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="272">
+        <source>Comentarios de Huespedes - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="273">
+        <source>comentarios huespedes, Hotel Boutique Sutherland House, Valparaíso</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="274">
+        <source>Comentarios y críticas de nuestros huespedes sobre su estadía en el Hotel Boutique Sutherland House de Valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="275">
+        <source>Opina sobre</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="276">
+        <source>Hotel Boutique Sutherland House</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="277">
+        <source>Contamos con críticas sobre</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="278">
+        <source>en Valparaíso</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="279">
+        <source>desayunos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="280">
+        <source>servicios</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="281">
+        <source>café &amp;amp; RestoBar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="282">
+        <source>Historia de Sutherland - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="283">
+        <source>Historia Sutherland House, The Mackay School, Hotel Boutique Sutherland House</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="284">
+        <source>Se cuenta quien fue George Sutherland y por que se nombre el hotel así.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="285">
+        <source>El hotel Sutherland House debe su nombre a George Sutherland, quien llegó a Chile en 1861, desde el “Moray House Training College” de Edimburgo, Inglaterra,
+para colaborar con Peter Mackay en el “Artizan College”, en la tarea de educar a los hijos de las familias británicas que trabajaban en Valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="286">
+        <source>Con posterioridad, ambos educadores y el pintor Thomas Somerscales se separan por diferencias religiosas de ese colegio, iniciando en 1877 el “Mackay and Sutherland School”.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="287">
+        <source>La sociedad educacional de “Mackay &amp;amp; Sutherland” en el año 1882 compró al Banco de Valparaíso los terrenos donde se encuentra el actual Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="288">
+        <source>Este es una casona de típico estilo inglés, construida en 1870 la cual sirvió de Rectoría al establecimiento.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="289">
+        <source>En el año 1893, George Sutherland adquiere los derechos de la propiedad como único dueño.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="290">
+        <source>A la muerte de Mackay; Sutherland y el nuevo profesor George Robertson deciden renombrar al colegio como “The Mackay English School”, como homenaje póstumo.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="291">
+        <source>Actualmente, a un costado del acceso principal a la sede de “The Mackay School” en Reñaca, Viña del Mar, se pueden observar los bustos de tres personalidades
+de gran importancia para el desarrollo de esa institución. Se trata de los profesores Peter Mackay, George Sutherland y George Robertson.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="292">
+        <source>Paseos por Valparaíso - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="293">
+        <source>paseos por valparaíso, bahía, miradores, sector patrimonial, barrio puerto</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="294">
+        <source>Lista de paseos y recorridos de referencia para conocer valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="295">
+        <source>Imperdibles para un día</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="296">
+        <source>Plaza Sotomayor, Cerros Alegre y Concepción</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="297">
+        <source>Los caminos para conocer una ciudad son infinitos.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="298">
+        <source>Si usted cuenta sólo con un día en Valparaíso, hay hitos, atractivos y rincones significativos de la ciudad que no puede perder.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="299">
+        <source>&lt;b&gt;La Plaza Sotomayor&lt;/b&gt;, escenario del devenir urbano de Valparaíso, espacio único que conecta los cerros y el mar.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="300">
+        <source>Gran explanada dura rodeada de edificios de valor patrimonial, con el Monumento a los Héroes de Iquique en un lugar destacado.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="301">
+        <source>Al borde del marel Muelle Prat y las enormes grúas, el movimiento de los barcos y las lanchas de todos los tamaños y colores que ofrecen paseos por la bahía; junto al muelle una feria artesanal. Vale la pena detenerse unos momentos a respirar aires de mar y puerto.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="302">
+        <source>La plaza remata al otro extremo en el edificio de la Comandancia en Jefe de la Armada.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="303">
+        <source>En la vereda, a sus pies, una placa indica hasta dónde llegaba el mar antiguamente, testimonio de la gran empresa de ganarle terrenos para la ciudad.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="304">
+        <source>Desde este punto se abre la opción de ir al Cerro Alegre, al fondo a la izquierda, o internarse por el plan.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="305">
+        <source>La elegancia de las viviendas de la colonia inglesa del siglo XIX en el &lt;b&gt;Cerro Alegre&lt;/b&gt; y su buen estado de conservación se perciben al salir del ascensor al Paseo Yugoslavo, hermoso mirador a una de las mejores vistas de la bahía.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="306">
+        <source>Destaca aquí el Palacio Baburizza con sus aires Art Nouveau y Museo de Bellas Artes, hoy en proceso de restauración patrimonial.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="307">
+        <source>Al costado de la plaza la escalera Apolo es una alternativa para volver al plan.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="308">
+        <source>Pero bajar sin incursionar por los vericuetos de los cerros de Valparaíso es impensable.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="309">
+        <source>Suba desde el fondo de la plaza por la estrecha calle Miramar.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="310">
+        <source>Se encontrará de frente con la Casa Proa y arriba las casas del Cerro Alegre cayendo a la quebrada, una de las postales más típicas de la arquitectura porteña.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="311">
+        <source>Atravesando la calle cruce el arco del Pasaje Bavestrello.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="312">
+        <source>Baje por su larga escalinata cubierta y experimente la sensación de ir pasando "por dentro" de las casas.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="313">
+        <source>Siga bajando por las curvas de Álvaro Besa hasta el cruce con calle Urriola, otra esquina que muestra la arquitectura de Valparaíso en plenitud.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="314">
+        <source>Al frente suyo una escalera y el Cerro Concepción, hacia la izquierda el Barrio Comercial en el plan.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="315">
+        <source>Si decidió seguir por los cerros, suba por la larga escalera al &lt;b&gt;Cerro Concepción&lt;/b&gt;.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="316">
+        <source>Bordeando edificios antiguos de altos muros llegará al Pasaje Gálvez, que por sus vericuetos empedrados lleva a calle Papudo.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="317">
+        <source>Es el corazón de un barrio pequeño, muy bien conservado, con pequeños bares, hoteles y restaurantes, tiendas de diseño y artesanía, mezcla de modernidad y tradición.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="318">
+        <source>Desde Papudo se accede al Paseo Gervasoni, otro importante y hermoso mirador de Valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="319">
+        <source>Aquí está la Casa Mirador de Lukas, dibujante que retrató el alma porteña en los años 60 y el Gran Hotel, lograda restauración de una enorme casona de fines del siglo XIX, como todas las del sector.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="320">
+        <source>En el otro extremo del paseo está el Ascensor Concepción, el primero que se instaló en la ciudad, en 1883.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="321">
+        <source>Si ya es hora de almorzar, tiene dos alternativas: comer en alguno de los buenos restaurantes de este cerro, varios con estupenda vista a la bahía o bien bajar al plan en el ascensor, a los animados cafés de la Plaza Aníbal Pinto.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="322">
+        <source>Barrio Comercial, Cerros Bellavista y Florida, Almendral</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="323">
+        <source>Cuando vuelva al plan, llegará el histórico Barrio Comercial y Financiero de Valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="324">
+        <source>Avance media cuadra hacia la derecha y mire a sus espaldas otra perspectiva típica: las calles en crucero con el Edificio Edwards y en su torre el Reloj Turri, un símbolo de la ciudad.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="325">
+        <source>A poco andar, al valioso edificio del Diario El Mercurio de Valparaíso, la publicación más antigua del mundo en habla hispana, que funciona aquí desde 1901.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="326">
+        <source>En medio del ajetreo comercial y por angostas veredas, hay que alzar la vista para apreciar las antiguas construcciones que se suceden hasta la Plaza Aníbal Pinto, como el otrora famoso Hotel Royal.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="327">
+        <source>Ya en la plaza, el ex Hotel Dimmier, el ex Café Riquet, la Librería Ivens, la fuente con Neptuno, el Dios de las Aguas, dan el marco patrimonial a un espacio de mucha vida urbana.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="328">
+        <source>Aquí llega la calle Almirante Montt, que viene bajando desde los Cerros Alegre y Concepción, parte Cumming a los Cerros Cárcel y Panteón, remata la Plaza Bellavista, centro cívico de la ciudad.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="329">
+        <source>Los cafés con sus mesas a la calle acogen al visitante para un momento de descanso y observación.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="330">
+        <source>A poco más de una cuadra por calle Condell, se llega a calle Bellavista.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="331">
+        <source>Hacia arriba, en una explanada, hay un paradero de buses y taxis colectivos.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="332">
+        <source>Aborde el colectivo N° 39, que lo llevará por los Cerros Bellavista y Florida hasta La Sebastiana, casa en Valparaíso del célebre poeta Pablo Neruda.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="333">
+        <source>Con una maravillosa vista a la bahía, ofrece visitas guiadas por los rincones e ingeniosas colecciones del poeta.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="334">
+        <source>Cuenta con sala de exposiciones, tienda de libros y souvenir y café.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="335">
+        <source>Tras la visita, sugerimos bajar a pie por calle Héctor Calvo hasta topar con la colorida construcción de madera que acoge a la Fundación Valparaíso, con sus tiendas de diseño y artesanía y restaurante.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="336">
+        <source>En las cercanías el Museo a Cielo Abierto, murales de importantes artistas nacionales: Mario Carreño, Roberto Matta, Roser Bru, Nemesio Antúnez, Mario Toral, Gracia Barros, José Balmes, entre otros.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="337">
+        <source>Puede seguir el trazado de los murales hasta el plan o bien bajar por el ascensor Espíritu Santo.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="338">
+        <source>Se llega al llano más amplio de Valparaíso: el Almendral.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="339">
+        <source>Y por calle Huito o calle Edwards a la señorial  Plaza Victoria, donde porteños de todas las edades pasean y descansan bajo  grandes árboles.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="340">
+        <source>Al frente la Catedral de Valparaíso y por un costado de la misma una parada de trolebuses, los buses de motor eléctrico más antiguos del mundo en funcionamiento.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="341">
+        <source>Subir a uno de ellos es ir a otro tiempo, a la velocidad justa para observar la ciudad por sus ventanillas.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="342">
+        <source>La Casona del Hotel - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="343">
+        <source>Hotel Boutique Sutherland House, Cerro Alegre Valparaíso, chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="344">
+        <source>Se cuenta la Historia de la Casona donde se implementó el Hotel Boutique Sutherland House junto con las bondades del Cerro Alegre de Valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="345">
+        <source>El &lt;strong&gt;Hotel Boutique Sutherland House&lt;/strong&gt; se encuentra aledaño a la zona típica de conservación histórica, en una casona cuya data de construcción es de 1870,
+con un estilo arquitectónico &lt;em&gt;vernáculo&lt;/em&gt;, en pleno &lt;em&gt;Cerro Alegre&lt;/em&gt;.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="346">
+        <source>Este cerro es conocido por su valiosa tradición cultural y artística, con una gran y
+variada oferta de establecimientos gastronómicos, de hospedaje, exposiciones y talleres artísticos.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="347">
+        <source>Lo cual permite una gran afluencia de visitantes nacionales y extranjeros.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="348">
+        <source>El inmueble está ligado a los inmigrantes europeos, especialmente ingleses, que se radicaron en el &lt;em&gt;Valparaíso del siglo XIX&lt;/em&gt;: ciudad puerto, pujante y cosmopolita.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="349">
+        <source>La propiedad formó parte de las instalaciones del &lt;em&gt;"The Mackay English School",&lt;/em&gt; en donde funcionó en sus inicios la Rectoría del Colegio.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="350">
+        <source>&lt;strong&gt;Ubicado en la Avenida Alemania&lt;/strong&gt;, ofrece en todas sus habitaciones una vista espectacular sobre la ciudad y la bahía de Valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="351">
+        <source>Durante el 2009,
+se realizaron obras de habilitación para transformar el inmueble en un moderno establecimiento hotelero, conservando el estilo arquitectónico original y
+preparándolo para ofrecer la mejor atención personalizada a sus futuros pasajeros.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="352">
+        <source>Al &lt;strong&gt;Valparaíso&lt;/strong&gt; de la segunda mitad del siglo XIX, se remonta la historia de la casa de la Av. Alemania 4966, en Cerro Alegre.
+Antigua rectoría del &lt;strong&gt;Colegio Mackay&lt;/strong&gt;, la cual se transformó en el &lt;strong&gt;Hotel Boutique Sutherland House&lt;/strong&gt;.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="353">
+        <source>Vista Bahía Valparaíso desde Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="354">
+        <source>Fachada Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="355">
+        <source>Vista Cerros de Valparaíso desde Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="356">
+        <source>Fachada Nocturna Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="357">
+        <source>Escalera Ingreso Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="358">
+        <source>Vista Recepción Hotel Boutique Sutherland House.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="359">
+        <source>Teléfono</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="360">
+        <source>Valparaíso - Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="361">
+        <source>Español</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="362">
+        <source>español</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="363">
+        <source>Inglés</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="364">
+        <source>inglés</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="365">
+        <source>Francés</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="366">
+        <source>francés</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

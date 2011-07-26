@@ -1,4 +1,4 @@
-<?php
+<?php sfContext::getInstance()->getConfiguration()->loadHelpers(array('Asset','Url','Tag'));
 function link_to_upload($name='',$upload_uri='',$options=array())
 {
   $html_options = _parse_attributes($options);

@@ -22,7 +22,7 @@ abstract class sfValidatorBase
 {
   protected static
     $charset = 'UTF-8',
-    $globalDefaultMessages = array('invalid' => 'Invalid.', 'required' => 'Required.');
+    $globalDefaultMessages = array('invalid' => 'Inválido', 'required' => 'Obligatorio');
 
   protected
     $requiredOptions = array(),

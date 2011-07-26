@@ -93,13 +93,17 @@ reserva:
   param: { module: reserva, action: index }
   requirements:
     sf_culture: (?:es|fr|en)
-    
-cafe_homepage:
+  
+reserva_gracias:
+  url:   /:sf_culture/gracias/:nombre
+  param: { module: reserva, action: gracias }
+  
+cafe:
   url:   /caferestobar/
   param: { module: cafe, action: index }
   
-localized_cafe_homepage:
-  url:   /:sf_culture/
+localized_cafe:
+  url:   /:sf_culture/caferestobar/
   param: { module: cafe, action: index }
   requirements:
     sf_culture: (?:es|fr|en)

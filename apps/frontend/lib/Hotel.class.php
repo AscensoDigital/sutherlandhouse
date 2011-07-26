@@ -5,6 +5,16 @@
  * @author claudio
  */
 class Hotel {
+  private static $habitaciones = array ('303' => array('url'=>'http://www.facebook.com/album.php?aid=26817&amp;id=117324945005401','alt'=>'Habitación 303 King Corner'),
+                                        '201' => array('url'=>'http://www.facebook.com/album.php?aid=26570&amp;id=117324945005401','alt'=>'Habitación 201 Doble Terraza'),
+                                        '301' => array('url'=>'http://www.facebook.com/album.php?aid=26637&amp;id=117324945005401','alt'=>'Habitación 301 King Panoramic'),
+                                        '302' => array('url'=>'http://www.facebook.com/album.php?aid=26639&amp;id=117324945005401','alt'=>'Habitación 302 Suite Romantic'),
+                                        '304' => array('url'=>'http://www.facebook.com/album.php?aid=26831&amp;id=117324945005401','alt'=>'Habitación 304 Suite'),
+                                        '202' => array('url'=>'http://www.facebook.com/album.php?aid=26577&amp;id=117324945005401','alt'=>'Habitación 202 Suite'),
+                                        '101' => array('url'=>'http://www.facebook.com/album.php?aid=26567&amp;id=117324945005401','alt'=>'Habitación 101 Suite'),
+                                        '203' => array('url'=>'http://www.facebook.com/album.php?aid=26589&amp;id=117324945005401','alt'=>'Habitación 203 Doble'),
+                                        '204' => array('url'=>'http://www.facebook.com/album.php?aid=26591&amp;id=117324945005401','alt'=>'Habitación 204 Doble'));
+  
   private static $galerias = array('hotel' => array(array('caption' => 'Fachada Hotel Boutique Sutherland House.', 'foto' => 'fachada_hotel_sutherland_house01.jpg'),
                                              array('caption' => 'Hall Acceso y Recepción Hotel Boutique Sutherland House.', 'foto' => 'hotel_sutherland_house02.jpg'),
                                              array('caption' => 'Desayunador Hotel Boutique Sutherland House.', 'foto' => 'comedor_hotel_sutherland_house02.jpg'),
@@ -50,7 +60,16 @@ class Hotel {
                                              array('caption' => 'Lanchas del Muelle Prat para Paseos por la Bahía.', 'foto' => 'muelle_prat1_valparaiso.jpg'),
                                              array('caption' => 'Museo Naval aledaño al paseo 21 de Mayo.', 'foto' => 'museo_escuela_naval_valparaiso.jpg'),
                                              array('caption' => 'Plaza Sotomayor, Monumento a los Héroes del Combate Naval de Iquique.', 'foto' => 'plaza_sotomayor_valparaiso.jpg')),
-                            'desayuno' => array(array('caption' => '', 'foto' => ''),
+                            'desayuno' => array(array('caption' => 'Buffet servido en salón Mackay del Hotel Boutique Sutherland House.', 'foto' => 'Desayuno Buffet Hotel Boutique Sutherland House.jpg'),
+                                             array('caption' => 'Mesa ornamentada del Salón Mackay del Hotel Boutique Sutherland House.', 'foto' => 'Salon Mackay Hotel Sutherland House.jpg'),
+                                             array('caption' => 'Desayuno servido en terraza del Hotel Boutique Sutherland House.', 'foto' => 'Desayuno Terraza Hotel Boutique Sutherland House.jpg'),
+                                             array('caption' => 'Salón Mackay del Hotel Boutique Sutherland House.', 'foto' => 'Salon Mackay Hotel Sutherland House02.jpg'),
+                                             array('caption' => 'Presentación desayuno servido en terraza del Hotel Boutique Sutherland House.', 'foto' => 'Desayuno Terraza Hotel Boutique Sutherland House02.jpg'),
+                                             array('caption' => 'Salón Mackay del Hotel Boutique Sutherland House.', 'foto' => 'Salon Mackay Hotel Sutherland House03.jpg'),
+                                             array('caption' => '', 'foto' => ''),
+                                             array('caption' => '', 'foto' => ''),
+                                             array('caption' => '', 'foto' => '')),
+                            'servicio' => array(array('caption' => '', 'foto' => ''),
                                              array('caption' => '', 'foto' => ''),
                                              array('caption' => '', 'foto' => ''),
                                              array('caption' => '', 'foto' => ''),
@@ -91,27 +110,38 @@ class Hotel {
   {
     // replace non letter or digits by -
     $text = preg_replace('~[^\\pL\d]+~u', '-', $text);
-
     // trim
     $text = trim($text, '-');
-
     // transliterate
     if (function_exists('iconv'))
     {
       $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
     }
-
     // lowercase
     $text = strtolower($text);
-
     // remove unwanted characters
     $text = preg_replace('~[^-\w]+~', '', $text);
-
     if (empty($text))
     {
       return 'n-a';
     }
     return $text;
+  }
+  
+  static public function formatterChoiceInTd($widget, $inputs)
+  {
+    $rows = array();
+    sfContext::getInstance()->getConfiguration()->loadHelpers('UrlExt');
+    foreach ($inputs as $input)
+    {
+      $hab=strip_tags($input['label']);
+      $rows[] = $widget->renderContentTag('td',link_image_to('/uploads/habitacion/habitacion '.$hab.' Hotel Sutherland House Min.JPG', 
+                                                              self::$habitaciones[$hab]['url'], 
+                                                              array('size' => '60x40','alt' => self::$habitaciones[$hab]['alt']), 
+                                                              array('target' => 'blank', 'title' => __('Ver galería habitación %HAB%',array('%HAB%' => $hab)))).
+                                               $widget->renderTag('br').$input['label'].$widget->getOption('label_separator').$input['input'], array('align'=>'center'));
+    }
+    return !$rows ? '' : implode($widget->getOption('separator'), $rows);
   }
 }
 

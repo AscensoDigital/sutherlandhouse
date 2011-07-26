@@ -13,6 +13,7 @@ class languageActions extends sfActions
   public function executeChangeLanguage(sfWebRequest $request)
   {
     $this->getUser()->setCulture($request->getParameter('new_language'));
-    $this->redirect('@'.$request->getParameter('modulo').'_'.($request->getParameter('accion')=='index' ? 'homepage' : $request->getParameter('accion')));
+    $this->redirectIf('hotel'==$request->getParameter('modulo') && 'index'==$request->getParameter('accion'),'@hotel_homepage');
+    $this->redirect('@'.$request->getParameter('modulo').('index'==$request->getParameter('accion') ? '_'.$request->getParameter('accion') : ''));
   }
 }

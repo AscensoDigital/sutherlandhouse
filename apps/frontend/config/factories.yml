@@ -7,6 +7,15 @@ prod:
     param:
       level:   err
       loggers: ~
+  mailer:
+    param:
+      transport:
+        class: Swift_SmtpTransport
+        param:
+          host:       mail.sutherlandhouse.cl
+          port:       25
+          username:   reservas@sutherlandhouse.cl
+          password:   rshvalpo
 
 test:
   storage:
@@ -27,6 +36,13 @@ dev:
   mailer:
     param:
       delivery_strategy: none
+      transport:
+        class: Swift_SmtpTransport
+        param:
+          host:       mail.sutherlandhouse.cl
+          port:       25
+          username:   reservas@sutherlandhouse.cl
+          password:   rshvalpo
 
 all:
   routing:
