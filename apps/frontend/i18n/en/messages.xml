@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2011-07-26T00:34:11Z" product-name="messages">
+  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2011-07-27T15:46:19Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
@@ -28,23 +28,23 @@ Old Rectory &lt;strong&gt;Mackay School&lt;/strong&gt;, which became the &lt;str
       </trans-unit>
       <trans-unit id="6">
         <source>Vista Bahía Valparaíso desde Hotel Boutique Sutherland House.</source>
-        <target/>
+        <target>Bay View Valparaiso from Sutherland House Hotel Boutique.</target>
       </trans-unit>
       <trans-unit id="7">
         <source>Fachada Hotel Boutique Sutherland House.</source>
-        <target/>
+        <target>Building Hotel Boutique Sutherland House.</target>
       </trans-unit>
       <trans-unit id="8">
         <source>Vista Cerros de Valparaíso desde Hotel Boutique Sutherland House.</source>
-        <target/>
+        <target>Closed View of Valparaiso from Sutherland House Boutique Hotel.</target>
       </trans-unit>
       <trans-unit id="9">
         <source>Fachada Nocturna Hotel Boutique Sutherland House.</source>
-        <target/>
+        <target>Exterior Night Sutherland House Hotel Boutique.</target>
       </trans-unit>
       <trans-unit id="10">
         <source>Escalera Ingreso Hotel Boutique Sutherland House.</source>
-        <target/>
+        <target>Join Ladder Sutherland House Boutique Hotel.</target>
       </trans-unit>
       <trans-unit id="11">
         <source>Vista Recepción Hotel Boutique Sutherland House.</source>
@@ -128,7 +128,7 @@ Old Rectory &lt;strong&gt;Mackay School&lt;/strong&gt;, which became the &lt;str
       </trans-unit>
       <trans-unit id="31">
         <source>Cafetería</source>
-        <target/>
+        <target>Cafe</target>
       </trans-unit>
       <trans-unit id="32">
         <source>Paseos</source>
@@ -172,27 +172,27 @@ Old Rectory &lt;strong&gt;Mackay School&lt;/strong&gt;, which became the &lt;str
       </trans-unit>
       <trans-unit id="42">
         <source>Nuestro hotel cuenta con 9 habitaciones: todas cómodas y luminosas, con vista a la ciudad y la bahía,  distribuidas en 3 pisos.</source>
-        <target/>
+        <target>Our hotel has 9 rooms all comfortable and bright, overlooking the city and bay, spread over 3 floors.</target>
       </trans-unit>
       <trans-unit id="43">
         <source>Todas tienen teléfono, TV cable, secador de pelo, calefacción, cerradura electrónica, almohadas Memory Flex e incluyen desayuno Buffet o Americano en nuestro salón Mackay o terraza.</source>
-        <target/>
+        <target>All have telephone, cable TV, hairdryer, heating, electronic locks, pillows and include Flex Memory or American buffet breakfast in our Mackay lounge or terrace.</target>
       </trans-unit>
       <trans-unit id="44">
         <source>Adicionalmente incluimos gratuitamente traslado desde Terminal de Buses de Valparaíso al Hotel.</source>
-        <target/>
+        <target>It also includes free transfer from Valparaiso Bus Terminal to Hotel.</target>
       </trans-unit>
       <trans-unit id="45">
         <source>Los baños de nuestras habitaciones tienen un diseño con reminiscencias de los antiguos baños, constan de un mueble en pino Oregón, un vanitorio y una grifería que representan al lavatorio y la jarra que usaban antiguamente.</source>
-        <target/>
+        <target>The bathrooms in our rooms have a design reminiscent of the ancient baths, consisting of Oregon pine furniture, a vanity and sink faucets and representing the pitcher who used formerly.</target>
       </trans-unit>
       <trans-unit id="46">
         <source>Habitación 303 King Corner</source>
-        <target/>
+        <target>Room 303 King Corner</target>
       </trans-unit>
       <trans-unit id="47">
         <source>La &lt;b&gt;habitación 303 - King Corner&lt;/b&gt; cuenta con una vista de 260 grados desde el box windows de la habitación, donde se presencia una visión distinta que invita a quedarse en contemplación del anfiteatro que forman los cerros y la amplia bahía de Valparaíso.</source>
-        <target/>
+        <target>&lt;b&gt;Room 303 - King Corner&lt;/b&gt; has a 260 degrees view from the windows of the room box, where you present a different view that invites to stay in contemplation of the amphitheater formed by the hills and the broad Valparaiso bay.</target>
       </trans-unit>
       <trans-unit id="48">
         <source>Galería de la habitación</source>
@@ -208,71 +208,71 @@ Old Rectory &lt;strong&gt;Mackay School&lt;/strong&gt;, which became the &lt;str
       </trans-unit>
       <trans-unit id="52">
         <source>Habitación 201 Twin con terraza</source>
-        <target/>
+        <target>201 Twin Room with terrace</target>
       </trans-unit>
       <trans-unit id="53">
         <source>Habitación 301 King Panoramic</source>
-        <target/>
+        <target>301 King Room Panoramic</target>
       </trans-unit>
       <trans-unit id="54">
         <source>La &lt;b&gt;habitación 301 - King Panoramic&lt;/b&gt; es un espacio excepcional muy seductor, con un completo equipamiento interior que incluye frigo bar.
 Todo esto acompañado de una vista PANORÁMICA de Valparaíso que podrá gozar y compartir Ud y su pareja desde la propia cama.</source>
-        <target/>
+        <target>&lt;b&gt;Room 301 - King Panoramic&lt;/b&gt; is an exceptional seductive, with a complete interior equipment includes mini bar.
+All this coupled with a panoramic view of Valparaiso, where guests can enjoy and share you and your partner from the own bed.</target>
       </trans-unit>
       <trans-unit id="55">
         <source>La &lt;b&gt;habitación 302 - Suite Romantic&lt;/b&gt; es el espacio ideal para la seducción de una escapada romántica, noche de bodas o aniversario de matrimonio;
 desde la entrada se distingue su singular belleza y ese toque que invita a la intimidad, su box windows llama a contemplar la ciudad y a la conversación cercana.</source>
-        <target/>
+        <target>&lt;b&gt;Room 302 - Romantic Suite&lt;/b&gt; is the ideal venue for the seduction of a romantic getaway, wedding night or wedding anniversary;
+from the entrance stands the unique beauty and a touch that invites intimacy, its called windows box to contemplate the city and close conversation.</target>
       </trans-unit>
       <trans-unit id="56">
         <source>Habitación 302 Suite Romantic</source>
-        <target/>
+        <target>Romantic Suite Room 302</target>
       </trans-unit>
       <trans-unit id="57">
         <source>Habitación 304 Suite</source>
-        <target/>
+        <target>Suite Room 304</target>
       </trans-unit>
       <trans-unit id="58">
         <source>La &lt;b&gt;habitación 304 - Suite&lt;/b&gt; es un espacio ideal para el descanso y al acercarse a la ventana aparece en toda su dimensión la amplia bahía de Valparaíso
 hasta las dunas de Concon. Y en las noches de luna llena la bahía resplandece y la noche de fin de año nos permite una vista total del espectáculo pirotécnico.</source>
-        <target/>
+        <target>&lt;b&gt;Room 304 - Suite&lt;/b&gt; is an ideal place for rest and go to the window appears in all the dimensions of the wide bay of Valparaíso
+to the dunes of Concon. And the full moon shining and the bay last night of years allows us a full view of the fireworks.</target>
       </trans-unit>
       <trans-unit id="59">
         <source>En la &lt;b&gt;habitación 202 - Suite&lt;/b&gt; desde su puerta ya podemos ver que estámos en una de las habitaciones propias de esta casa que data del año 1874,
 su ventana de doble hoja nos presenta la ciudad, su bahía y sus cerros, pero también nos muestra la calides de las maderas originales de esta hermosa construcción.</source>
-        <target/>
+        <target>In &lt;b&gt;room 202 - Suite&lt;/b&gt; from your door and we can see that we own one of the rooms of this house dates from 1874,
+its double-paned windows presents the city, its bay and hills, but also shows the quality of the original timbers of this beautiful building.</target>
       </trans-unit>
       <trans-unit id="60">
         <source>Habitación 202 Suite</source>
-        <target/>
+        <target>Suite Room 202</target>
       </trans-unit>
       <trans-unit id="61">
         <source>Habitación 101 Suite</source>
-        <target/>
+        <target>Suite Room 101</target>
       </trans-unit>
       <trans-unit id="62">
         <source>La &lt;b&gt;Habitación 101 - Suite&lt;/b&gt; consta de doble puerta lo que favorece su intimidad. Es un espacio de techo muy alto, típico de los primeros pisos de estas
 casas de estilo inglés. Al acercarse a la ventana, nos encontramos con una vista sobre el eje de la Avenida Alemania y al fondo la bahía de Valparaíso.</source>
-        <target/>
+        <target>&lt;b&gt;Room 101 - Suite&lt;/b&gt; consists of double doors which promotes privacy. It is a high-ceilinged space, typical of the first floors of these
+English-style houses. Approaching the window, we have a view on the axis of the Avenida Germany and the bottom bay of Valparaíso.</target>
       </trans-unit>
       <trans-unit id="63">
         <source>La &lt;b&gt;habitación 203 - Doble&lt;/b&gt; presenta dos confortables camas de 1 1/2 plazas en un espacio que nos habla del antiguo esplendor de esta casona,
 permitió la implementación de un espacioso baño interior en que se cuidó todos los detalles para lograr un nivel de calidad.</source>
-        <target/>
+        <target>&lt;b&gt;Room 203 - Double&lt;/b&gt; has two comfortable beds 1 1 / 2 squares in a space that speaks of the former glory of this house,
+allowed the implementation of an interior spacious bathroom that took care of every detail to achieve a level of quality.</target>
       </trans-unit>
       <trans-unit id="64">
         <source>Habitación 203 Twin</source>
-        <target/>
+        <target>Room 203 Twin</target>
       </trans-unit>
       <trans-unit id="65">
         <source>Habitación 204 Twin</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="66">
-        <source>La &lt;b&gt;Habitación 204 - Doble&lt;/b&gt; se agrega a la construcción original de la casa; es un amplio y luminoso espacio con dos camas, desde su ventana
-se aprecian magnificas vista diurnas y nocturnas de la ciudad y la bahía. La gran ventaja es que en ella se puede agregar una tercera cama sin perjudicar el
-desplazamiento interior.</source>
-        <target/>
+        <target>Room 204 Twin</target>
       </trans-unit>
       <trans-unit id="67">
         <source>Valparaíso - Chile</source>
@@ -280,570 +280,537 @@ desplazamiento interior.</source>
       </trans-unit>
       <trans-unit id="68">
         <source>La &lt;b&gt;habitación 201 - Doble* con amplia Terraza&lt;/b&gt; es un espacio soñado: luminosa, amplia, con dos camas de calidad.</source>
-        <target/>
+        <target>&lt;b&gt;Room 201 - Double * with Terrace&lt;/b&gt; is a dream space, bright, spacious, with two quality bedding.</target>
       </trans-unit>
       <trans-unit id="69">
         <source>El plus está en su amplia terraza que mira a la bahía, los cerros y enfrente una hermosa postal de bosque verde, una imponente edificación de colegio y al fondo la cordillera
 de la costa y en dias despejados la majestuosa silueta del monte Aconcagua.</source>
-        <target/>
+        <target>The plus is its large terrace overlooking the bay, the hills and across a beautiful forest green postcard, an imposing building of the college and the mountain background
+the coast and on a clear day the majestic silhouette of Mount Aconcagua.</target>
       </trans-unit>
       <trans-unit id="70">
         <source>Mapa de Ubicación - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>Location Map - Hotel Boutique Sutherland House Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="71">
         <source>Hotel Boutique Sutherland House, Avenida Alemania 4966, Cerro Alegre, Valparaíso, Chile, ubicación google maps</source>
-        <target/>
+        <target>Sutherland House Boutique Hotel, Avenida Alemania 4966, Cerro Alegre, Valparaiso, Chile, google maps location</target>
       </trans-unit>
       <trans-unit id="72">
         <source>Mapa de ubicación por google maps del Hotel Boutique Sutherland House en la Avenida Alemania 4966, Cerro Alegre, Valparaíso, Chile.</source>
-        <target/>
+        <target>Map google maps location of Sutherland House Boutique Hotel in Avenida Alemania 4966, Cerro Alegre, Valparaiso, Chile.</target>
       </trans-unit>
       <trans-unit id="73">
         <source>Ver mapa más grande</source>
-        <target/>
+        <target>View Larger Map</target>
       </trans-unit>
       <trans-unit id="74">
         <source>Valparaíso Patrimonio de la Humanidad - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>Heritage Valparaiso - Hotel Boutique Sutherland House Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="75">
         <source>Valparaíso, Patrimonio de la Humanidad, Monumentos Nacionales, Puerto de mi amor, ascensores</source>
-        <target/>
+        <target>Valparaiso, Heritage, National Monuments, Port of my love, lifts</target>
       </trans-unit>
       <trans-unit id="76">
         <source>Descripción historica de Valparaíso y sus encantos.</source>
-        <target/>
+        <target>Historical overview of Valparaiso and its charms.</target>
       </trans-unit>
       <trans-unit id="77">
         <source>Con forma de anfiteatro, &lt;strong&gt;Valparaíso&lt;/strong&gt; mezcla el presente y el pasado, junto a una amplia y hermosa bahía, se rodea de una cadena de altos
 cerros, por la cual trepan hacia sus cumbres, calles, callejuelas, pasajes, escaleras y funiculares.</source>
-        <target/>
+        <target>With an amphitheater, &lt;strong&gt;Valparaiso&lt;/strong&gt; mix past and present, along with a wide and beautiful bay, surrounded by a chain of high
+hills, which climb to its summit, streets, alleys, passages, stairs and funicular.</target>
       </trans-unit>
       <trans-unit id="78">
         <source>Entre el pie de los cerros y el mar hay una angosta faja de calles, donde se ubica el comercio, los centros financieros, oficinas en antiguas residencias y modernos edificios.</source>
-        <target/>
+        <target>Between the foothills and the sea is a narrow strip of streets, site of trade, financial centers, offices in old houses and modern buildings.</target>
       </trans-unit>
       <trans-unit id="79">
         <source>Gran parte del borde marino es ocupado por el puerto: molos, muelles, espigón de atraque y patios de acopio de contenedores; pero también hay diversos lugares en los cuales es posible acceder al mar en playas, miradores y rocas.</source>
-        <target/>
+        <target>Much of the sea border is occupied by the port: Molos, docks, jetty berths and container storage yards, but there are also several places where you can access the sea beaches, lookouts and rock.</target>
       </trans-unit>
       <trans-unit id="80">
         <source>Siempre un paseo por Valparaíso es una agradable experiencia, ya que a su vida de ciudad portuaria le suma una inusitada arquitectura y un peculiar trazado de calles.</source>
-        <target/>
+        <target>Always a tour of Valparaiso is a pleasant experience, as a port city life adds an unusual architecture and an unusual layout of streets.</target>
       </trans-unit>
       <trans-unit id="81">
         <source>Emulando al arte, sobre una naturaleza agreste y escarpada se ha desplegado un ingenioso diseño urbano, que combina disposiciones prácticas y pintorescas que hacen de esta ciudad una de las más originales del mundo.</source>
-        <target/>
+        <target>Emulating the art on a rugged and steep nature has deployed a clever urban design that combines the practical and picturesque that make this city one of the most original in the world.</target>
       </trans-unit>
       <trans-unit id="82">
         <source>Como la mayoría de los puertos de la América hispana, Valparaíso carece de una acta de fundación y crece sin un orden determinado.</source>
-        <target/>
+        <target>Like most of the ports of Spanish America, Valparaíso lacks a record of founding and growing in no particular order.</target>
       </trans-unit>
       <trans-unit id="83">
         <source>Durante los veranos de los siglos XVI y XVII, los barcos venían desde el Callao a la bahía y la ciudad se llenaban de actividad, la que decaía el resto del año.</source>
-        <target/>
+        <target>During the summers of the XVI and XVII, the boats came from Callao to the bay and the city is filled with activity, which decayed the rest of the year.</target>
       </trans-unit>
       <trans-unit id="84">
         <source>La calidad de Puerto, “para el trato de estas tierras y la ciudad de Santiago”, fue oficializada por el conquistador de Chile, Pedro de Valdivia, en 1542.</source>
-        <target/>
+        <target>The quality of Port, "for the treatment of these lands and the city of Santiago," was made official by the conqueror of Chile, Pedro de Valdivia in 1542.</target>
       </trans-unit>
       <trans-unit id="85">
         <source>En 1599 se levantó una capilla en donde hoy está la Iglesia de La Matriz.</source>
-        <target/>
+        <target>In 1599 a chapel was built where today stands the Church of the Matrix.</target>
       </trans-unit>
       <trans-unit id="86">
         <source>Poco a poco se levantan viviendas, una iglesia y un fuerte en el Castillo de San José, del cerro Cordillera, sobre la actual calle Serrano.</source>
-        <target/>
+        <target>Slowly rise houses, a church and a fort on the Castle of San Jose, Cerro Cordillera, on the current Calle Serrano.</target>
       </trans-unit>
       <trans-unit id="87">
         <source>A partir de la Independencia, a inicios del siglo XIX, Chile y América se incorporan al comercio mundial.</source>
-        <target/>
+        <target>From Independence to the early nineteenth century, Chile and America join the world trade.</target>
       </trans-unit>
       <trans-unit id="88">
         <source>Valparaíso es un puerto estratégico para las rutas que a través del Cabo de Hornos vienen desde el Atlántico a las costas e islas del Pacífico; generándose el auge de la ciudad: en sus bodegas se guardaba la mercadería que posteriormente se reembarcaba a otros puertos del Pacífico y Oceanía.</source>
-        <target/>
+        <target>Valparaiso is a strategic port for routes around the Cape Horn come from the Atlantic to the shores and islands of the Pacific generated the boom in the city in its cellars kept the goods subsequently re-embarked to other ports in the Pacific and Oceania.</target>
       </trans-unit>
       <trans-unit id="89">
         <source>Ingleses, alemanes y franceses se instalan en Valparaíso a manejar su comercio de importación; trayendo también capital que desarrollaría la minería del cobre, la plata y el salitre, así como las grandes obras públicas de mediados del siglo XIX.</source>
-        <target/>
+        <target>English, German and French are installed in Valparaiso to handle their import trade, also brought capital to develop the mining of copper, silver and nitrates, as well as major public works of the mid-nineteenth century.</target>
       </trans-unit>
       <trans-unit id="90">
         <source>De esa forma, la ciudad se convierte en la principal plaza comercial y financiera de Chile, creándose los primeros bancos y la bolsa de valores; acogiendo a los miembros de una nueva clase social surgida de la riqueza minera, en grandes mansiones, donde algunas aún sobreviven.</source>
-        <target/>
+        <target>Thus, the city became the main financial and commercial center of Chile, creating the first banks and stock exchange members to host a new social class emerging from the mineral wealth, large houses, where some still survive.</target>
       </trans-unit>
       <trans-unit id="91">
         <source>En Chile, Valparaíso fue pionero en muchos ámbitos: los primeros tranvías, primer tendido eléctrico para luminarias públicas y domiciliarias, primeros teléfonos, primer tendido de gas de cañería.</source>
-        <target/>
+        <target>In Chile, Valparaiso was a pioneer in many areas: the first trams, the first electrical wiring for streetlights and home, first telephone, first laying of gas pipe.</target>
       </trans-unit>
       <trans-unit id="92">
         <source>Desde acá se inicia la construcción del ferrocarril a Santiago, la capital, la capital del país. Lo mismo con la red telefónica y telegráfica.</source>
-        <target/>
+        <target>From here begins the construction of the railroad to the capital Santiago, the capital. Same with the telephone and telegraph.</target>
       </trans-unit>
       <trans-unit id="93">
         <source>Entre 1914 y 1930 se dan situaciones que cambian la suerte del principal puerto del país.</source>
-        <target/>
+        <target>Between 1914 and 1930 there are situations that change the fate of the country's main port.</target>
       </trans-unit>
       <trans-unit id="94">
         <source>Se abre el canal de Panamá transformándolo en destino terminal y ya no de paso; las nuevas políticas gubernamentales de industrialización interna llevan a las casas matrices comerciales y financieras a mudarse a Santiago, más cerca del poder político.</source>
-        <target/>
+        <target>Opens transforming the Panama Canal on arrival terminal and no passing away, all new internal government policies of industrialization lead to the commercial and financial headquarters to move to Santiago, closer to the political power.</target>
       </trans-unit>
       <trans-unit id="95">
         <source>En los inicios del siglo XXI, Valparaíso es un centro comercial, administrativo, universitario y laboral de una vasta región, también conocida como Gran Valparaíso, que incluye además a las comunas de Viña del Mar, Con Cón, Quintero, Quilpué, Villa Alemana y Limache.</source>
-        <target/>
+        <target>At the beginning of XXI century, Valparaíso is a commercial, administrative, academic and labor of a vast region, also known as Gran Valparaíso, which also includes the towns of Viña del Mar, Con Con, Quintero, Quilpué, Villa Alemana and Limache.</target>
       </trans-unit>
       <trans-unit id="96">
         <source>Promoción Año Nuevo %year% en el Mar - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>Promoting New Year %year% in the Sea - Hotel Boutique Sutherland House Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="97">
         <source>promoción año nuevo en el mar valparaíso, fuegos articiales, juegos artificiales borde costero, año nuevo %year% hotel, reserva año nuevo %year%</source>
-        <target/>
+        <target>promoting new year at sea valparaiso, articiales fires, fireworks waterfront, new year %year% hotel booking new year %year%</target>
       </trans-unit>
       <trans-unit id="98">
         <source>Reserva tu habitación en el hotel boutique sutherland house para el programa de año nuevo en el mar %year% de valparaíso donde verás uno de los espectáculos pirotecnicos más espectaculares del mundo.</source>
-        <target/>
+        <target>Book your hotel room boutique sutherland house for New Year's program at sea %year% valparaiso where you will see one of the most spectacular fireworks displays in the world.</target>
       </trans-unit>
       <trans-unit id="99">
         <source>Año Nuevo %year% en Hotel Boutique Sutherland House&lt;br/&gt;3 días - 2 noches</source>
-        <target/>
+        <target>New Year %year% in Sutherland House Boutique Hotel&lt;br/&gt;3 days - 2 nights</target>
       </trans-unit>
       <trans-unit id="100">
         <source>Llegada 30 de diciembre -  Salida 1 de Enero</source>
-        <target/>
+        <target>Arrival December 30 - January 1 Output</target>
       </trans-unit>
       <trans-unit id="101">
         <source>de diciembre</source>
-        <target/>
+        <target>December</target>
       </trans-unit>
       <trans-unit id="102">
         <source>horas</source>
-        <target/>
+        <target>hours</target>
       </trans-unit>
       <trans-unit id="103">
         <source>Invitación a recorrer el sector patrimonial, incluyendo paseo por la bahía.</source>
-        <target/>
+        <target>Invitation to tour the heritage sector, including tour of the bay.</target>
       </trans-unit>
       <trans-unit id="104">
         <source>Cóctel de bienvenida.</source>
-        <target/>
+        <target>Welcome drink.</target>
       </trans-unit>
       <trans-unit id="105">
         <source>Desayuno buffet.</source>
-        <target/>
+        <target>Breakfast buffet.</target>
       </trans-unit>
       <trans-unit id="106">
         <source>Salad bar incluye aperitivos, buffet de ensalada y antipastos, trincho de pavo y degustación de vinos.</source>
-        <target/>
+        <target>Salad bar including appetizers, salad and antipasti buffet, carving turkey and wine tasting.</target>
       </trans-unit>
       <trans-unit id="107">
         <source>Atardecer en la terraza del hotel con música y sushi bar.</source>
-        <target/>
+        <target>Sunset on the terrace with music and sushi bar.</target>
       </trans-unit>
       <trans-unit id="108">
         <source>Cena buffet, variedad de entradas y platos de fondo, buffet de postres, vinos, cervezas y bebidas.</source>
-        <target/>
+        <target>Dinner buffet, variety of appetizers and entrees, dessert buffet, wines, beers and drinks.</target>
       </trans-unit>
       <trans-unit id="109">
         <source>Botella de Champaña en la habitación y copa de frutillas bañadas en chocolate.</source>
-        <target/>
+        <target>Bottle of Champagne in the room and a glass of chocolate dipped strawberries.</target>
       </trans-unit>
       <trans-unit id="110">
         <source>de Enero</source>
-        <target/>
+        <target>January</target>
       </trans-unit>
       <trans-unit id="111">
         <source>Desde 00.30 horas</source>
-        <target/>
+        <target>From 00.30 hours</target>
       </trans-unit>
       <trans-unit id="112">
         <source>Fiesta bailable con dj Salo, cotillón, bar abierto incluye whisky Jhonnie Walkers red label, champaña, ron Havana, vodka Stolichnaya, pisco Mistral, jugos, bebidas, cervezas y vinos.</source>
-        <target/>
+        <target>Dance party with Salo DJ, open bar includes Red Label whiskey Jhonnie Walkers, champagne, Havana Club rum, Stolichnaya vodka, pisco Mistral, juices, drinks, beers and wines.</target>
       </trans-unit>
       <trans-unit id="113">
         <source>Consomé y tapaditos.</source>
-        <target/>
+        <target>Broth and tapaditos.</target>
       </trans-unit>
       <trans-unit id="114">
         <source>Término de evento.</source>
-        <target/>
+        <target>End of event.</target>
       </trans-unit>
       <trans-unit id="115">
         <source>Brunch desayuno almuerzo.</source>
-        <target/>
+        <target>Breakfast Brunch Lunch.</target>
       </trans-unit>
       <trans-unit id="116">
         <source>Información y Reservas</source>
-        <target/>
+        <target>Information and Reservations</target>
       </trans-unit>
       <trans-unit id="117">
         <source>Fono</source>
-        <target/>
+        <target>phone</target>
       </trans-unit>
       <trans-unit id="118">
         <source>y Valores de Promoción</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="119">
-        <source>Habitación 303 - Suite King Corner</source>
-        <target/>
+        <target>and prices of promotion</target>
       </trans-unit>
       <trans-unit id="120">
         <source>RESERVADA</source>
-        <target/>
+        <target>RESERVED</target>
       </trans-unit>
       <trans-unit id="121">
         <source>Valor Promoción</source>
-        <target/>
+        <target>Value Promotion</target>
       </trans-unit>
       <trans-unit id="122">
         <source>Vista Nocturna Habitación</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="123">
-        <source>Habitación 201 Twin con Terraza</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="124">
-        <source>Habitación 201 - Doble con amplia Terraza</source>
-        <target/>
+        <target>Night View Room</target>
       </trans-unit>
       <trans-unit id="125">
         <source>Habitación 301 - Suite King Panoramic</source>
-        <target/>
+        <target>Room 301 - King Suite Panoramic</target>
       </trans-unit>
       <trans-unit id="126">
         <source>Habitación 302 - Suite Romantic</source>
-        <target/>
+        <target>Room 302 - Romantic Suite</target>
       </trans-unit>
       <trans-unit id="127">
         <source>Habitación 304 - Suite</source>
-        <target/>
+        <target>Room 304 - Suite</target>
       </trans-unit>
       <trans-unit id="128">
         <source>Habitación 202 - Suite</source>
-        <target/>
+        <target>Room 202 - Suite</target>
       </trans-unit>
       <trans-unit id="129">
         <source>Habitación 101 - Suite</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="130">
-        <source>Habitación 203 Doble</source>
-        <target/>
+        <target>Room 101 - Suite</target>
       </trans-unit>
       <trans-unit id="131">
         <source>Habitación 203 - Doble</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="132">
-        <source>Habitación 204 Doble</source>
-        <target/>
+        <target>Room 203 - Double</target>
       </trans-unit>
       <trans-unit id="133">
         <source>Habitación 204 - Doble</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="134">
-        <source>Vista Nocturna Habitación 204</source>
-        <target/>
+        <target>Room 204 - Double</target>
       </trans-unit>
       <trans-unit id="135">
         <source>Condiciones Generales</source>
-        <target/>
+        <target>Terms</target>
       </trans-unit>
       <trans-unit id="136">
         <source>Tarifa en Dólares referenciales y aplicable para extranjeros no residentes en Chile con Factura de Exportación. Tarifa sujeta
 a modificación sin previo aviso, dependiendo del tipo de cambio de cierre del mercado al momento de la reserva. Franquicia Tributaria (Exentos del pago de Impuesto 19% IVA).</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="137">
-        <source>Las tarifas en pesos chilenos incluyen IVA.</source>
-        <target/>
+        <target>Dollar reference rate, applicable to foreign residents in Chile to export invoices. Rates subject
+to change without notice, depending on the rate of foreclosure at the time of booking. Franchise Tax (Exempt from taxes 19% VAT).</target>
       </trans-unit>
       <trans-unit id="138">
         <source>Valor por habitación single o doble.</source>
-        <target/>
+        <target>Value for single or double room.</target>
       </trans-unit>
       <trans-unit id="139">
         <source>Horario de Check In desde las 15:00 hrs.</source>
-        <target/>
+        <target>Check in from 15:00 hrs.</target>
       </trans-unit>
       <trans-unit id="140">
         <source>Late Check Out, 16:00 hrs.</source>
-        <target/>
+        <target>Late Check Out, 16:00 hrs.</target>
       </trans-unit>
       <trans-unit id="141">
         <source>No incluye cama adicional.</source>
-        <target/>
+        <target>Does not include extra bed.</target>
       </trans-unit>
       <trans-unit id="142">
         <source>Reservas limitadas a 9 habitaciones.</source>
-        <target/>
+        <target>Reservations limited to 9 rooms.</target>
       </trans-unit>
       <trans-unit id="143">
         <source>No dispone de acceso para minusválidos.</source>
-        <target/>
+        <target>You do not have disabled access.</target>
       </trans-unit>
       <trans-unit id="144">
         <source>No se aceptan mascotas</source>
-        <target/>
+        <target>No pets</target>
       </trans-unit>
       <trans-unit id="145">
         <source>Las dependencias del hotel son para no fumadores, solo en las terrazas se permite fumar.</source>
-        <target/>
+        <target>Dependencies are non-smoking hotel, only on the terraces that allow smoking.</target>
       </trans-unit>
       <trans-unit id="146">
         <source>Forma de Pago</source>
-        <target/>
+        <target>Method of payment</target>
       </trans-unit>
       <trans-unit id="147">
         <source>Prepago del 50% al momento de la reserva mediante: pago efectivo, transferencia bancaria, tarjetas de crédito indicando su número y fecha de vencimiento.</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="148">
-        <source>Saldo se cancela en mesón de recepción del Hotel al momento del Check In.</source>
-        <target/>
+        <target>Prepayment of 50% when booking through: cash payment, bank transfer, credit cards indicating their number and expiration date.</target>
       </trans-unit>
       <trans-unit id="149">
         <source>Política de Cancelación</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="150">
-        <source>Cancelación de reservas hasta el &lt;b&gt;30 de Noviembre del %year%&lt;/b&gt;. Pasado ese plazo no habrá reintegros ni devoluciones.</source>
-        <target/>
+        <target>Cancellation Policy</target>
       </trans-unit>
       <trans-unit id="151">
         <source>Servicios - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>Services - Sutherland House Boutique Hotel Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="152">
         <source>Hotel Boutique Sutherland House, wifi, lavandería, tv cable, niñera</source>
-        <target/>
+        <target>Sutherland House Boutique Hotel, wifi, laundry, cable tv, nanny</target>
       </trans-unit>
       <trans-unit id="153">
         <source>Servicios</source>
-        <target/>
+        <target>Services</target>
       </trans-unit>
       <trans-unit id="154">
         <source>Quienes Somos - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>About Us - Sutherland House Boutique Hotel Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="155">
         <source>Hotel Boutique Sutherland House, Valparaíso, Claudio Corvalán Espinoza, Berta Aravena Contreras, Claudio Corvalán Aravena, Macarena Corvalán Aravena</source>
-        <target/>
+        <target>Sutherland House Hotel Boutique, Valparaiso, Claudio Corvalan Espinoza, Berta Aravena Contreras, Claudio Corvalan Aravena, Corvalan Aravena Macarena</target>
       </trans-unit>
       <trans-unit id="156">
         <source>Historia de los dueños del Hotel Boutique Sutherland House y su familia.</source>
-        <target/>
+        <target>History of the owners of Sutherland House Boutique Hotel and your family.</target>
       </trans-unit>
       <trans-unit id="157">
         <source>El nombre de este hotel boutique alude a George Sutherland, uno de los fundadores del Colegio Mackay, actualmente ubicado en Viña del Mar, quien fuera dueño del inmueble ubicado en el Cerro Alegre, sector con una importante tradición de actividad cultural y artística y que se ha constituido en un polo de desarrollo turístico, con una gran y variada oferta de establecimientos teatrales, gastronómicos, de hospedaje y de exposiciones y talleres artísticos, con una gran afluencia de visitantes extranjeros, provenientes de diversas partes del mundo.</source>
-        <target/>
+        <target>The name of this boutique hotel refers to George Sutherland, a founder of the Mackay School, currently located in Viña del Mar, a former owner of property located on Cerro Alegre, a sector with a strong tradition of cultural and artistic activity that has become a center of tourism development, with a wide and varied range of theatrical establishments, dining, lodging and art exhibitions and workshops, with a large influx of foreign visitors from around the world.</target>
       </trans-unit>
       <trans-unit id="158">
         <source>El “Proyecto Sutherland House” implicó la restauración del inmueble y su consiguiente transformación y habilitación para la función hotelera descrita, conservando el estilo arquitectónico de la construcción original; según la voluntad de los propietarios: Berta Aravena y Claudio Corvalán.</source>
-        <target/>
+        <target>The "Sutherland House Project" involved the restoration of the building and its subsequent transformation and empowerment for the hotel function described keeping the architectural style of the original building, according to the will of the owners, Berta and Claudio Corvalan Aravena.</target>
       </trans-unit>
       <trans-unit id="159">
         <source>Claudio es profesor de educación física y entrenador de atletismo, hijo de Claudio Corvalán Bone y María Isabel Espinoza Figueroa, tiene 2 hermanas y nació en Valparaíso en 1955.</source>
-        <target/>
+        <target>Claudius is a physical education teacher and track coach, son of Claudio Corvalan Espinoza Bone and Maria Isabel Figueroa, has 2 sisters and was born in Valparaiso in 1955.</target>
       </trans-unit>
       <trans-unit id="160">
         <source>Sus padres crearon y desarrollaron la empresa Créditos Patricia, entre 1958 y 1985, una pequeña multitienda que llegó a tener una cartera cercana a los 3 mil clientes, y que ocupaba las mismas dependencias que el hotel.</source>
-        <target/>
+        <target>His parents created and developed the company credits Patricia, between 1958 and 1985, a small multi-shop came to have a portfolio of close to 3 000 clients, and occupied the same premises as the hotel.</target>
       </trans-unit>
       <trans-unit id="161">
         <source>Berta es profesora de educación general básica, hija de Roberto Aravena y María Luisa Contreras, es la mayor de 7 hermanos y nació en San Felipe en 1957.</source>
-        <target/>
+        <target>Berta is basic general education teacher, daughter of Robert and Maria Luisa Contreras Aravena, is the oldest of 7 siblings and was born in San Felipe in 1957.</target>
       </trans-unit>
       <trans-unit id="162">
         <source>Sus padres se dedicaron al rubro agrícola en parcelas del sector de calle Herrera en el camino a Putaendo. Berta fue la primera mujer de su comunidad en cursar estudios superiores en la Universidad.</source>
-        <target/>
+        <target>His parents were devoted to agricultural area in plots sector Herrera street on the way to Putaendo. Berta was the first woman from her community to pursue higher education at the University.</target>
       </trans-unit>
       <trans-unit id="163">
         <source>Berta y Claudio se conocen hacia el final de sus estudios en la Universidad Católica de Valparaíso (UCV) y se casaron en 1981. Tienen 2 hijos: Macarena, fonoaudióloga de la Universidad de Valparaíso, y Claudio, ingeniero civil informático de la Universidad Santa María.</source>
-        <target/>
+        <target>Berta and Claudio are known by the end of his studies at the Catholic University of Valparaiso (UCV) and married in 1981. They have 2 children: Macarena, speech pathologist at the University of Valparaiso, and Claudio, a civil engineer from the University computer Santa Maria.</target>
       </trans-unit>
       <trans-unit id="164">
         <source>En esta nueva etapa de su vida, los Corvalán Aravena dan un giro hacia una opción empresarial, contando con el apoyo de toda su familia.  Además, han recibido el apoyo de dos importantes instituciones, como lo son CORFO y el Banco SantanderSantiago.</source>
-        <target/>
+        <target>In this new stage of life, Corvalan Aravena take a turn towards a business option, with the support of his family. They have also received support from two major institutions, such as CORFO and the Bank SantanderSantiago.</target>
       </trans-unit>
       <trans-unit id="165">
         <source>El inmueble de Av. Alemania 4966, Cerro Alegre, originalmente de 430 m2, ha sido transformado en un establecimiento de 9 dormitorios, todos con vista a la ciudad y la bahía. Se trata de un hotel boutique que ha sido creado pensando en los más altos estándares  internacionales.</source>
-        <target/>
+        <target>The building av Germany 4966, Cerro Alegre, originally of 430 m2, has been transformed into a setting of 9 bedrooms, all overlooking the city and bay. It is a boutique hotel that has been created just for the highest international standards.</target>
       </trans-unit>
       <trans-unit id="166">
         <source>Desayuno Buffet - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>Breakfast Buffet - Hotel Boutique Sutherland House Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="167">
         <source>desayuno buffet, Hotel Boutique Sutherland House, vista a la bahía</source>
-        <target/>
+        <target>buffet breakfast, Sutherland House Boutique Hotel, overlooking the bay</target>
       </trans-unit>
       <trans-unit id="168">
         <source>El desayuno Buffet del hotel boutique Sutherland House viene incluido en la tarifa, este puede servirse en nuestro salón Mackay o en la terraza del hotel.</source>
-        <target/>
+        <target>The boutique hotel breakfast buffet is included in Sutherland House rate, this can be served in our lounge Mackay or terrace.</target>
       </trans-unit>
       <trans-unit id="169">
         <source>Buffet</source>
-        <target/>
+        <target>buffet</target>
       </trans-unit>
       <trans-unit id="170">
         <source>Café</source>
-        <target/>
+        <target>coffee</target>
       </trans-unit>
       <trans-unit id="171">
         <source>Té e infusiones</source>
-        <target/>
+        <target>Tea and infusions</target>
       </trans-unit>
       <trans-unit id="172">
         <source>Leche entera y semi-descremada (sin lactosa)</source>
-        <target/>
+        <target>Whole milk and semi-skimmed milk (lactose free)</target>
       </trans-unit>
       <trans-unit id="173">
         <source>Jugos naturales</source>
-        <target/>
+        <target>Natural juices</target>
       </trans-unit>
       <trans-unit id="174">
         <source>Pan blanco e integral</source>
-        <target/>
+        <target>White and brown bread</target>
       </trans-unit>
       <trans-unit id="175">
         <source>Mantequilla</source>
-        <target/>
+        <target>Butter</target>
       </trans-unit>
       <trans-unit id="176">
         <source>Dulce</source>
-        <target/>
+        <target>Sweet</target>
       </trans-unit>
       <trans-unit id="177">
         <source>Mermeladas artesanales</source>
-        <target/>
+        <target>made jams</target>
       </trans-unit>
       <trans-unit id="178">
         <source>Ensalada de frutas</source>
-        <target/>
+        <target>Fruit Salad</target>
       </trans-unit>
       <trans-unit id="179">
         <source>Cereales (granola y avena)</source>
-        <target/>
+        <target>Cereal (granola, oats)</target>
       </trans-unit>
       <trans-unit id="180">
         <source>Frutos secos</source>
-        <target/>
+        <target>nuts</target>
       </trans-unit>
       <trans-unit id="181">
         <source>Frutas de la estación</source>
-        <target/>
+        <target>Seasonal fruit</target>
       </trans-unit>
       <trans-unit id="182">
         <source>Yogurt natural</source>
-        <target/>
+        <target>yogurt</target>
       </trans-unit>
       <trans-unit id="183">
         <source>Cheesecake</source>
-        <target/>
+        <target>Cheesecake</target>
       </trans-unit>
       <trans-unit id="184">
         <source>Tarteletas de frutas</source>
-        <target/>
+        <target>Fruit tartlets</target>
       </trans-unit>
       <trans-unit id="185">
         <source>Pastelitos</source>
-        <target/>
+        <target>Cakes</target>
       </trans-unit>
       <trans-unit id="186">
         <source>Miel</source>
-        <target/>
+        <target>honey</target>
       </trans-unit>
       <trans-unit id="187">
         <source>Azúcar blanca y rubia, sacarina</source>
-        <target/>
+        <target>Blonde white sugar, saccharin</target>
       </trans-unit>
       <trans-unit id="188">
         <source>Salado</source>
-        <target/>
+        <target>Salt</target>
       </trans-unit>
       <trans-unit id="189">
         <source>Jamón</source>
-        <target/>
+        <target>ham</target>
       </trans-unit>
       <trans-unit id="190">
         <source>Salame</source>
-        <target/>
+        <target>Salame</target>
       </trans-unit>
       <trans-unit id="191">
         <source>Queso</source>
-        <target/>
+        <target>cheese</target>
       </trans-unit>
       <trans-unit id="192">
         <source>Opciones</source>
-        <target/>
+        <target>Options</target>
       </trans-unit>
       <trans-unit id="193">
         <source>Panqueques + salsas</source>
-        <target/>
+        <target>Pancakes + sauces</target>
       </trans-unit>
       <trans-unit id="194">
         <source>Huevos revueltos</source>
-        <target/>
+        <target>scrambled eggs</target>
       </trans-unit>
       <trans-unit id="195">
         <source>Omelette</source>
-        <target/>
+        <target>Omelette</target>
       </trans-unit>
       <trans-unit id="196">
         <source>Noticias en la prensa - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>News in the press - Sutherland House Boutique Hotel Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="197">
         <source>noticias, prensa, Hotel Boutique Sutherland House, Valparaíso, hoteles, alojamiento, chile</source>
-        <target/>
+        <target>news, press, Sutherland House Hotel Boutique, Valparaiso, hotels, lodging, chile</target>
       </trans-unit>
       <trans-unit id="198">
         <source>Apariciones en prensa del Hotel Boutique Sutherland House.</source>
-        <target/>
+        <target>Press Appearances Sutherland House Boutique Hotel .</target>
       </trans-unit>
       <trans-unit id="199">
         <source>Vista de la bahía y de los cerros de Valparaíso en Sutherland House</source>
-        <target/>
+        <target>View of the bay and the hills of Valparaiso in Sutherland House</target>
       </trans-unit>
       <trans-unit id="200">
         <source>Conversar con Claudio Corvalán es como hojear una enciclopedia histórica, cultural, deportiva y turística.</source>
-        <target/>
+        <target>Talking to Claudio Corvalan is like leafing through an encyclopedia of historical, cultural, sports and tourism.</target>
       </trans-unit>
       <trans-unit id="201">
         <source>+ ver noticia</source>
-        <target/>
+        <target>+ See more</target>
       </trans-unit>
       <trans-unit id="202">
         <source>Inauguran Hotel Sutherland</source>
-        <target/>
+        <target>Inauguration Hotel Sutherland</target>
       </trans-unit>
       <trans-unit id="203">
         <source>Valparaíso - Corfo lo apoyó con subsidio de inversión a inmuebles de interés patrimonial.</source>
-        <target/>
+        <target>Valparaiso - Corfo supported him with a real estate investment subsidy of heritage.</target>
       </trans-unit>
       <trans-unit id="204">
         <source>+ ver fotos</source>
-        <target/>
+        <target>+ See photos</target>
       </trans-unit>
       <trans-unit id="205">
         <source>Nuevo emprendimiento en el cerro Alegre</source>
-        <target/>
+        <target>New venture at Cerro Alegre</target>
       </trans-unit>
       <trans-unit id="206">
         <source>Proyecto - "Casa George Sutherland", cuya inversión supera los 150 millones de pesos, estará operativa en enero del próximo año.</source>
-        <target/>
+        <target>Project - "George Sutherland House," with an investment exceeding 150 million pesos, will be operational in January next year.</target>
       </trans-unit>
       <trans-unit id="207">
         <source>Hoteles “boutique” piden igualdad en la diferencia</source>
-        <target/>
+        <target>"Boutique" equality in difference call</target>
       </trans-unit>
       <trans-unit id="208">
-        <source>Parámetros especiales para esta clase de emprendimientos plantean empresarios, autordades y Consetur.</source>
-        <target/>
+        <source>Parámetros especiales para esta clase de emprendimientos plantean empresarios, autoridades y Consetur.</source>
+        <target>Special parameters for this kind of business ventures arise, authorities and Consetur.</target>
       </trans-unit>
       <trans-unit id="209">
         <source>Profes porteños se la juegan con hotel</source>
@@ -855,646 +822,682 @@ a modificación sin previo aviso, dependiendo del tipo de cambio de cierre del m
       </trans-unit>
       <trans-unit id="211">
         <source>Hotel boutique en el Cerro Alegre de Valparaíso ofertará un servicio de calidad en casona restaurada</source>
-        <target/>
+        <target>Boutique hotel in the Cerro Alegre of Valparaiso will offer a quality service in restored mansion</target>
       </trans-unit>
       <trans-unit id="212">
         <source>El Hotel Boutique Casa George Sutherland aspira a transformarse en una oferta de alta calidad y atributos diferenciadores para la ciudad Patrimonio Cultural de la
 Humanidad. Próximo a su apertura, fue visitado por la Seremi de Economía, Carmen Gloria Godoy, el director regional de CORFO, Rodrigo Cárcamo y el director de Turismo
 del municipio porteño, Milos Miskovich.</source>
-        <target/>
+        <target>The Hotel Boutique Casa George Sutherland hopes to become a high quality and offer distinctive attributes to the city's Cultural Heritage
+Humanity. Near its opening, was visited by Seremi of Economics, Carmen Gloria Godoy, Regional Director of CORFO, Rodrigo Cárcamo and Tourism Director
+the municipality of Buenos Aires, Milos Miskovich.</target>
       </trans-unit>
       <trans-unit id="213">
         <source>Comentarios de Huespedes - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>Guest - Sutherland House Boutique Hotel Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="214">
         <source>comentarios huespedes, Hotel Boutique Sutherland House, Valparaíso</source>
-        <target/>
+        <target>Guest, Hotel Boutique Sutherland House, Valparaiso</target>
       </trans-unit>
       <trans-unit id="215">
         <source>Comentarios y críticas de nuestros huespedes sobre su estadía en el Hotel Boutique Sutherland House de Valparaíso.</source>
-        <target/>
+        <target>Comments and reviews from our guests about their stay at Hotel Boutique Sutherland House of Valparaiso.</target>
       </trans-unit>
       <trans-unit id="216">
         <source>Opina sobre</source>
-        <target/>
+        <target>Comment on</target>
       </trans-unit>
       <trans-unit id="217">
         <source>Hotel Boutique Sutherland House</source>
-        <target/>
+        <target>Sutherland House Boutique Hotel</target>
       </trans-unit>
       <trans-unit id="218">
         <source>Contamos con críticas sobre</source>
-        <target/>
+        <target>We criticism</target>
       </trans-unit>
       <trans-unit id="219">
         <source>en Valparaíso</source>
-        <target/>
+        <target>in Valparaiso</target>
       </trans-unit>
       <trans-unit id="220">
         <source>desayunos</source>
-        <target/>
+        <target>breakfast</target>
       </trans-unit>
       <trans-unit id="221">
         <source>servicios</source>
-        <target/>
+        <target>services</target>
       </trans-unit>
       <trans-unit id="222">
         <source>café &amp;amp; RestoBar</source>
-        <target/>
+        <target>cafe &amp;amp; RestoBar</target>
       </trans-unit>
       <trans-unit id="223">
         <source>Historia de Sutherland - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>History of Sutherland - Sutherland House Boutique Hotel Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="224">
         <source>Historia Sutherland House, The Mackay School, Hotel Boutique Sutherland House</source>
-        <target/>
+        <target>Sutherland House History, The Mackay School, Sutherland House Boutique Hotel</target>
       </trans-unit>
       <trans-unit id="225">
         <source>Se cuenta quien fue George Sutherland y por que se nombre el hotel así.</source>
-        <target/>
+        <target>There is George Sutherland who was to be appointed and the hotel as well.</target>
       </trans-unit>
       <trans-unit id="226">
         <source>El hotel Sutherland House debe su nombre a George Sutherland, quien llegó a Chile en 1861, desde el “Moray House Training College” de Edimburgo, Inglaterra,
 para colaborar con Peter Mackay en el “Artizan College”, en la tarea de educar a los hijos de las familias británicas que trabajaban en Valparaíso.</source>
-        <target/>
+        <target>Sutherland House Hotel is named after George Sutherland, who came to Chile in 1861, from the "Moray House Training College" in Edinburgh, England
+Peter Mackay to assist in the "Artizan College" in the task of educating the children of British families who worked in Valparaiso.</target>
       </trans-unit>
       <trans-unit id="227">
         <source>Con posterioridad, ambos educadores y el pintor Thomas Somerscales se separan por diferencias religiosas de ese colegio, iniciando en 1877 el “Mackay and Sutherland School”.</source>
-        <target/>
+        <target>Subsequently, both educators and the painter Thomas Somerscales are separated by religious differences of that school, beginning in 1877, "Mackay and Sutherland School."</target>
       </trans-unit>
       <trans-unit id="228">
         <source>La sociedad educacional de “Mackay &amp;amp; Sutherland” en el año 1882 compró al Banco de Valparaíso los terrenos donde se encuentra el actual Hotel Boutique Sutherland House.</source>
-        <target/>
+        <target>Educational society "Mackay &amp;amp; Sutherland" in 1882 bought the Bank of Valparaiso land where the present Hotel Boutique Sutherland House.</target>
       </trans-unit>
       <trans-unit id="229">
         <source>Este es una casona de típico estilo inglés, construida en 1870 la cual sirvió de Rectoría al establecimiento.</source>
-        <target/>
+        <target>This is a typical English style mansion, built in 1870 which served as rectory to the establishment.</target>
       </trans-unit>
       <trans-unit id="230">
         <source>En el año 1893, George Sutherland adquiere los derechos de la propiedad como único dueño.</source>
-        <target/>
+        <target>In 1893, George Sutherland acquired the rights to the property as sole owner.</target>
       </trans-unit>
       <trans-unit id="231">
         <source>A la muerte de Mackay; Sutherland y el nuevo profesor George Robertson deciden renombrar al colegio como “The Mackay English School”, como homenaje póstumo.</source>
-        <target/>
+        <target>On the death of Mackay, Sutherland and the new Professor George Robertson decided to rename the school as "The Mackay Español School" as a posthumous tribute.</target>
       </trans-unit>
       <trans-unit id="232">
         <source>Actualmente, a un costado del acceso principal a la sede de “The Mackay School” en Reñaca, Viña del Mar, se pueden observar los bustos de tres personalidades
 de gran importancia para el desarrollo de esa institución. Se trata de los profesores Peter Mackay, George Sutherland y George Robertson.</source>
-        <target/>
+        <target>Currently, beside the main entrance to the headquarters of "The Mackay School" in Reñaca, Viña del Mar, you can see the busts of three persons
+of great importance for the development of that institution. These are Professors Peter Mackay, George Sutherland and George Robertson.</target>
       </trans-unit>
       <trans-unit id="233">
         <source>Paseos por Valparaíso - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>Tours Valparaiso - Sutherland House Boutique Hotel Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="234">
         <source>paseos por valparaíso, bahía, miradores, sector patrimonial, barrio puerto</source>
-        <target/>
+        <target>valparaiso walks, bay, viewpoints, heritage industry, port district</target>
       </trans-unit>
       <trans-unit id="235">
         <source>Lista de paseos y recorridos de referencia para conocer valparaíso.</source>
-        <target/>
+        <target>List of walks and tours of reference to know Valparaiso.</target>
       </trans-unit>
       <trans-unit id="236">
         <source>Imperdibles para un día</source>
-        <target/>
+        <target>Captive for a day</target>
       </trans-unit>
       <trans-unit id="237">
         <source>Plaza Sotomayor, Cerros Alegre y Concepción</source>
-        <target/>
+        <target>Plaza Sotomayor, Cerros Alegre and Concepción</target>
       </trans-unit>
       <trans-unit id="238">
         <source>Los caminos para conocer una ciudad son infinitos.</source>
-        <target/>
+        <target>The roads to get to know a city are endless.</target>
       </trans-unit>
       <trans-unit id="239">
         <source>Si usted cuenta sólo con un día en Valparaíso, hay hitos, atractivos y rincones significativos de la ciudad que no puede perder.</source>
-        <target/>
+        <target>If you have only one day in Valparaiso, there are landmarks, attractions and places significant in the city that can not lose.</target>
       </trans-unit>
       <trans-unit id="240">
         <source>&lt;b&gt;La Plaza Sotomayor&lt;/b&gt;, escenario del devenir urbano de Valparaíso, espacio único que conecta los cerros y el mar.</source>
-        <target/>
+        <target>&lt;b&gt;Plaza Sotomayor&lt;/b&gt;, scene of urban evolution of Valparaiso, unique space that connects the mountains and the sea.</target>
       </trans-unit>
       <trans-unit id="241">
         <source>Gran explanada dura rodeada de edificios de valor patrimonial, con el Monumento a los Héroes de Iquique en un lugar destacado.</source>
-        <target/>
+        <target>Hard esplanade surrounded by heritage buildings, with the Monument to the Heroes of Iquique in a prominent place.</target>
       </trans-unit>
       <trans-unit id="242">
         <source>Al borde del marel Muelle Prat y las enormes grúas, el movimiento de los barcos y las lanchas de todos los tamaños y colores que ofrecen paseos por la bahía; junto al muelle una feria artesanal. Vale la pena detenerse unos momentos a respirar aires de mar y puerto.</source>
-        <target/>
+        <target>At the edge of marel Muelle Prat and the enormous cranes, the movement of ships and boats of all sizes and colors that offer tours of the bay near the dock a craft fair. It is worth pausing a moment to breathe air and sea port.</target>
       </trans-unit>
       <trans-unit id="243">
         <source>La plaza remata al otro extremo en el edificio de la Comandancia en Jefe de la Armada.</source>
-        <target/>
+        <target>The square at the other end finishes in the building of the Commander in Chief of the Navy.</target>
       </trans-unit>
       <trans-unit id="244">
         <source>En la vereda, a sus pies, una placa indica hasta dónde llegaba el mar antiguamente, testimonio de la gran empresa de ganarle terrenos para la ciudad.</source>
-        <target/>
+        <target>On the sidewalk at his feet, a plaque indicates how far the sea of old, testament to the great enterprise of land for the city beat.</target>
       </trans-unit>
       <trans-unit id="245">
         <source>Desde este punto se abre la opción de ir al Cerro Alegre, al fondo a la izquierda, o internarse por el plan.</source>
-        <target/>
+        <target>From this point opens the option to go to Cerro Alegre, on the far left or interned by the plan.</target>
       </trans-unit>
       <trans-unit id="246">
         <source>La elegancia de las viviendas de la colonia inglesa del siglo XIX en el &lt;b&gt;Cerro Alegre&lt;/b&gt; y su buen estado de conservación se perciben al salir del ascensor al Paseo Yugoslavo, hermoso mirador a una de las mejores vistas de la bahía.</source>
-        <target/>
+        <target>The elegance of the houses of the nineteenth-century English colony at &lt;b&gt;Cerro Alegre&lt;/b&gt; and its good state of preservation are seen leaving the elevator to ride Yugoslav beautiful view to one of the best views of the bay.</target>
       </trans-unit>
       <trans-unit id="247">
         <source>Destaca aquí el Palacio Baburizza con sus aires Art Nouveau y Museo de Bellas Artes, hoy en proceso de restauración patrimonial.</source>
-        <target/>
+        <target>Highlights here with their air Baburizza Palace Art Nouveau and Art Museum, now under restoration heritage.</target>
       </trans-unit>
       <trans-unit id="248">
         <source>Al costado de la plaza la escalera Apolo es una alternativa para volver al plan.</source>
-        <target/>
+        <target>Beside the square staircase Apollo is an alternative to return to the plan.</target>
       </trans-unit>
       <trans-unit id="249">
         <source>Pero bajar sin incursionar por los vericuetos de los cerros de Valparaíso es impensable.</source>
-        <target/>
+        <target>But not venture down the byways of the hills of Valparaiso is unthinkable.</target>
       </trans-unit>
       <trans-unit id="250">
         <source>Suba desde el fondo de la plaza por la estrecha calle Miramar.</source>
-        <target/>
+        <target>Rise from the bottom of the square a narrow street Miramar.</target>
       </trans-unit>
       <trans-unit id="251">
         <source>Se encontrará de frente con la Casa Proa y arriba las casas del Cerro Alegre cayendo a la quebrada, una de las postales más típicas de la arquitectura porteña.</source>
-        <target/>
+        <target>Found himself faced with the House and up Proa Cerro Alegre houses falling into the ravine, one of the most typical postal architecture in Buenos Aires.</target>
       </trans-unit>
       <trans-unit id="252">
         <source>Atravesando la calle cruce el arco del Pasaje Bavestrello.</source>
-        <target/>
+        <target>Across the street crossing arch Bavestrello Passage.</target>
       </trans-unit>
       <trans-unit id="253">
         <source>Baje por su larga escalinata cubierta y experimente la sensación de ir pasando "por dentro" de las casas.</source>
-        <target/>
+        <target>Walk down the long staircase deck and experience the sensation of going "inside" of the houses.</target>
       </trans-unit>
       <trans-unit id="254">
         <source>Siga bajando por las curvas de Álvaro Besa hasta el cruce con calle Urriola, otra esquina que muestra la arquitectura de Valparaíso en plenitud.</source>
-        <target/>
+        <target>Go down the curves of Alvaro Besa street to the junction with Urriola another corner that shows the architecture of Valparaiso to the full.</target>
       </trans-unit>
       <trans-unit id="255">
         <source>Al frente suyo una escalera y el Cerro Concepción, hacia la izquierda el Barrio Comercial en el plan.</source>
-        <target/>
+        <target>A ladder in front of you and Cerro Concepcion left the commercial district in plan.</target>
       </trans-unit>
       <trans-unit id="256">
         <source>Si decidió seguir por los cerros, suba por la larga escalera al &lt;b&gt;Cerro Concepción&lt;/b&gt;.</source>
-        <target/>
+        <target>If you proceeded through the hills, climb the long ladder to &lt;b&gt;Cerro Concepción&lt;/b&gt;.</target>
       </trans-unit>
       <trans-unit id="257">
         <source>Bordeando edificios antiguos de altos muros llegará al Pasaje Gálvez, que por sus vericuetos empedrados lleva a calle Papudo.</source>
-        <target/>
+        <target>Bordering old buildings with high walls Galvez came to the passage, which leads to their street paved byways Papudo.</target>
       </trans-unit>
       <trans-unit id="258">
         <source>Es el corazón de un barrio pequeño, muy bien conservado, con pequeños bares, hoteles y restaurantes, tiendas de diseño y artesanía, mezcla de modernidad y tradición.</source>
-        <target/>
+        <target>The heart of a small neighborhood, very well preserved, with small bars, hotels and restaurants, designer shops and crafts, a mixture of modernity and tradition.</target>
       </trans-unit>
       <trans-unit id="259">
         <source>Desde Papudo se accede al Paseo Gervasoni, otro importante y hermoso mirador de Valparaíso.</source>
-        <target/>
+        <target>From Papudo accessing the Paseo Gervasoni, other important and beautiful view of Valparaiso.</target>
       </trans-unit>
       <trans-unit id="260">
         <source>Aquí está la Casa Mirador de Lukas, dibujante que retrató el alma porteña en los años 60 y el Gran Hotel, lograda restauración de una enorme casona de fines del siglo XIX, como todas las del sector.</source>
-        <target/>
+        <target>Here is the Casa Mirador de Lukas, cartoonist who portrayed the soul of Buenos Aires in the 60's and the Grand Hotel, successful restoration of a huge mansion in the late nineteenth century, like all of the sector.</target>
       </trans-unit>
       <trans-unit id="261">
         <source>En el otro extremo del paseo está el Ascensor Concepción, el primero que se instaló en la ciudad, en 1883.</source>
-        <target/>
+        <target>At the other end of the ride is the Elevator Concepcion, who first settled in the city in 1883.</target>
       </trans-unit>
       <trans-unit id="262">
         <source>Si ya es hora de almorzar, tiene dos alternativas: comer en alguno de los buenos restaurantes de este cerro, varios con estupenda vista a la bahía o bien bajar al plan en el ascensor, a los animados cafés de la Plaza Aníbal Pinto.</source>
-        <target/>
+        <target>If it's lunchtime, you have two choices: eat at one of the good restaurants of this hill, many with great views of the bay or down to plan the lift, the lively cafes on the Plaza Aníbal Pinto.</target>
       </trans-unit>
       <trans-unit id="263">
         <source>Barrio Comercial, Cerros Bellavista y Florida, Almendral</source>
-        <target/>
+        <target>Commercial District, Cerro Bellavista and Florida, Almendral</target>
       </trans-unit>
       <trans-unit id="264">
         <source>Cuando vuelva al plan, llegará el histórico Barrio Comercial y Financiero de Valparaíso.</source>
-        <target/>
+        <target>When you return to the plan will reach the historic commercial and financial district of Valparaiso.</target>
       </trans-unit>
       <trans-unit id="265">
         <source>Avance media cuadra hacia la derecha y mire a sus espaldas otra perspectiva típica: las calles en crucero con el Edificio Edwards y en su torre el Reloj Turri, un símbolo de la ciudad.</source>
-        <target/>
+        <target>Forward half block to the right and look behind another perspective typical: cruise the streets in the Edwards Building and Turri Clock tower, a symbol of the city.</target>
       </trans-unit>
       <trans-unit id="266">
         <source>A poco andar, al valioso edificio del Diario El Mercurio de Valparaíso, la publicación más antigua del mundo en habla hispana, que funciona aquí desde 1901.</source>
-        <target/>
+        <target>A short walk to the valuable building of the newspaper El Mercurio de Valparaíso, the oldest publication of Spanish-speaking world, operating here since 1901.</target>
       </trans-unit>
       <trans-unit id="267">
         <source>En medio del ajetreo comercial y por angostas veredas, hay que alzar la vista para apreciar las antiguas construcciones que se suceden hasta la Plaza Aníbal Pinto, como el otrora famoso Hotel Royal.</source>
-        <target/>
+        <target>Amid the commercial hustle and narrow paths, you have to look up to see the old buildings that happen to Plaza Aníbal Pinto, formerly known as the Hotel Royal.</target>
       </trans-unit>
       <trans-unit id="268">
         <source>Ya en la plaza, el ex Hotel Dimmier, el ex Café Riquet, la Librería Ivens, la fuente con Neptuno, el Dios de las Aguas, dan el marco patrimonial a un espacio de mucha vida urbana.</source>
-        <target/>
+        <target>Already in the square, the former Hotel Dimmi, former Café Riquet, the Library Ivens, the source with Neptune, the God of Waters, given the context of property to an area of great urban life.</target>
       </trans-unit>
       <trans-unit id="269">
         <source>Aquí llega la calle Almirante Montt, que viene bajando desde los Cerros Alegre y Concepción, parte Cumming a los Cerros Cárcel y Panteón, remata la Plaza Bellavista, centro cívico de la ciudad.</source>
-        <target/>
+        <target>Here comes the Almirante Montt street, coming down from the Cerros Alegre and Concepción hills part Cumming Jail and the Pantheon, Piazza finishes Bellavista, the city's civic center.</target>
       </trans-unit>
       <trans-unit id="270">
         <source>Los cafés con sus mesas a la calle acogen al visitante para un momento de descanso y observación.</source>
-        <target/>
+        <target>The café where the streets welcome visitors for a moment of rest and observation.</target>
       </trans-unit>
       <trans-unit id="271">
         <source>A poco más de una cuadra por calle Condell, se llega a calle Bellavista.</source>
-        <target/>
+        <target>A little more than a block along Calle Condell, you get to Bellavista Street.</target>
       </trans-unit>
       <trans-unit id="272">
         <source>Hacia arriba, en una explanada, hay un paradero de buses y taxis colectivos.</source>
-        <target/>
+        <target>Up in a clearing, there is a bus stop and taxis.</target>
       </trans-unit>
       <trans-unit id="273">
         <source>Aborde el colectivo N° 39, que lo llevará por los Cerros Bellavista y Florida hasta La Sebastiana, casa en Valparaíso del célebre poeta Pablo Neruda.</source>
-        <target/>
+        <target>Board the No. 39 group, which will take you through the hills Bellavista and Florida to La Sebastiana, Valparaiso home of the famous poet Pablo Neruda.</target>
       </trans-unit>
       <trans-unit id="274">
         <source>Con una maravillosa vista a la bahía, ofrece visitas guiadas por los rincones e ingeniosas colecciones del poeta.</source>
-        <target/>
+        <target>With a wonderful view over the bay, offers guided tours around the corners and ingenious collection of the poet.</target>
       </trans-unit>
       <trans-unit id="275">
         <source>Cuenta con sala de exposiciones, tienda de libros y souvenir y café.</source>
-        <target/>
+        <target>It has an exhibition hall, bookstore and souvenir and coffee.</target>
       </trans-unit>
       <trans-unit id="276">
         <source>Tras la visita, sugerimos bajar a pie por calle Héctor Calvo hasta topar con la colorida construcción de madera que acoge a la Fundación Valparaíso, con sus tiendas de diseño y artesanía y restaurante.</source>
-        <target/>
+        <target>After the visit, we suggest walking down Hector Calvo street until you see the colorful wooden building which hosts the Valparaiso Foundation, with its designer shops and crafts and a restaurant.</target>
       </trans-unit>
       <trans-unit id="277">
         <source>En las cercanías el Museo a Cielo Abierto, murales de importantes artistas nacionales: Mario Carreño, Roberto Matta, Roser Bru, Nemesio Antúnez, Mario Toral, Gracia Barros, José Balmes, entre otros.</source>
-        <target/>
+        <target>Near Open Air Museum, murals of important artists: Mario Carreno, Roberto Matta, Roser Bru, Nemesio Antunez, Mario Toral, Gracia Barros, José Balmes, among others.</target>
       </trans-unit>
       <trans-unit id="278">
         <source>Puede seguir el trazado de los murales hasta el plan o bien bajar por el ascensor Espíritu Santo.</source>
-        <target/>
+        <target>You can follow the trail of the murals to the plan or the elevator down the Holy Spirit.</target>
       </trans-unit>
       <trans-unit id="279">
         <source>Se llega al llano más amplio de Valparaíso: el Almendral.</source>
-        <target/>
+        <target>It reaches the broadest level of Valparaiso: El Almendral.</target>
       </trans-unit>
       <trans-unit id="280">
         <source>Y por calle Huito o calle Edwards a la señorial  Plaza Victoria, donde porteños de todas las edades pasean y descansan bajo  grandes árboles.</source>
-        <target/>
+        <target>And Edwards street or street Huito the stately Victoria Square, where Buenos Aires of all ages walk and rest under big trees.</target>
       </trans-unit>
       <trans-unit id="281">
         <source>Al frente la Catedral de Valparaíso y por un costado de la misma una parada de trolebuses, los buses de motor eléctrico más antiguos del mundo en funcionamiento.</source>
-        <target/>
+        <target>Opposite the Cathedral of Valparaiso and the same side of a trolley stop, the electric motor buses world's oldest functioning.</target>
       </trans-unit>
       <trans-unit id="282">
         <source>Subir a uno de ellos es ir a otro tiempo, a la velocidad justa para observar la ciudad por sus ventanillas.</source>
-        <target/>
+        <target>Upload one of them is to go to another time, just fast enough to see the city through its windows.</target>
       </trans-unit>
       <trans-unit id="283">
         <source>La Casona del Hotel - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>The House Hotel - Boutique Hotel Sutherland House Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="284">
         <source>Hotel Boutique Sutherland House, Cerro Alegre Valparaíso, chile</source>
-        <target/>
+        <target>Sutherland House Boutique Hotel, Cerro Alegre Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="285">
         <source>Se cuenta la Historia de la Casona donde se implementó el Hotel Boutique Sutherland House junto con las bondades del Cerro Alegre de Valparaíso.</source>
-        <target/>
+        <target>It tells the story of the mansion where he implemented the Sutherland House Boutique Hotel with the benefits of Cerro Alegre of Valparaiso.</target>
       </trans-unit>
       <trans-unit id="286">
         <source>El &lt;strong&gt;Hotel Boutique Sutherland House&lt;/strong&gt; se encuentra aledaño a la zona típica de conservación histórica, en una casona cuya data de construcción es de 1870,
 con un estilo arquitectónico &lt;em&gt;vernáculo&lt;/em&gt;, en pleno &lt;em&gt;Cerro Alegre&lt;/em&gt;.</source>
-        <target/>
+        <target>&lt;strong&gt;Sutherland House Hotel Boutique&lt;/strong&gt; is adjacent to the typical area of ​​historic preservation, in a house whose construction dates are 1870,
+a &lt;em&gt;vernacular&lt;/em&gt; architectural style, in the &lt;em&gt;Cerro Alegre&lt;/em&gt;.</target>
       </trans-unit>
       <trans-unit id="287">
         <source>Este cerro es conocido por su valiosa tradición cultural y artística, con una gran y
 variada oferta de establecimientos gastronómicos, de hospedaje, exposiciones y talleres artísticos.</source>
-        <target/>
+        <target>This hill is known for its valuable cultural and artistic tradition, with a large and
+wide range of eateries, lodging, art exhibitions and workshops.</target>
       </trans-unit>
       <trans-unit id="288">
         <source>Lo cual permite una gran afluencia de visitantes nacionales y extranjeros.</source>
-        <target/>
+        <target>Allowing an influx of domestic and foreign visitors.</target>
       </trans-unit>
       <trans-unit id="289">
         <source>El inmueble está ligado a los inmigrantes europeos, especialmente ingleses, que se radicaron en el &lt;em&gt;Valparaíso del siglo XIX&lt;/em&gt;: ciudad puerto, pujante y cosmopolita.</source>
-        <target/>
+        <target>The building is linked to European immigrants, especially English, who settled in the &lt;em&gt;nineteenth century Valparaiso&lt;/em&gt;: port city, vibrant and cosmopolitan.</target>
       </trans-unit>
       <trans-unit id="290">
         <source>La propiedad formó parte de las instalaciones del &lt;em&gt;"The Mackay English School",&lt;/em&gt; en donde funcionó en sus inicios la Rectoría del Colegio.</source>
-        <target/>
+        <target>The property was part of the facilities of &lt;em&gt;"The Mackay Español School",&lt;/em&gt; where it worked in the beginning, the Dean of the College.</target>
       </trans-unit>
       <trans-unit id="291">
         <source>&lt;strong&gt;Ubicado en la Avenida Alemania&lt;/strong&gt;, ofrece en todas sus habitaciones una vista espectacular sobre la ciudad y la bahía de Valparaíso.</source>
-        <target/>
+        <target>&lt;strong&gt;Located on Avenida Alemania&lt;/strong&gt;, available in all rooms a spectacular view over the city and the bay of Valparaíso.</target>
       </trans-unit>
       <trans-unit id="292">
-        <source>Durante el 2009,
-se realizaron obras de habilitación para transformar el inmueble en un moderno establecimiento hotelero, conservando el estilo arquitectónico original y
+        <source>Durante el 2009, se realizaron obras de habilitación para transformar el inmueble en un moderno establecimiento hotelero, conservando el estilo arquitectónico original y
 preparándolo para ofrecer la mejor atención personalizada a sus futuros pasajeros.</source>
-        <target/>
+        <target>During 2009, enabling works were carried out to transform the building into a modern hotel, preserving the original architectural style and
+preparing to offer the best personalized attention to its future passengers.</target>
       </trans-unit>
       <trans-unit id="293">
         <source>Ver galería habitación %HAB%</source>
-        <target/>
+        <target>Gallery room %HAB%</target>
       </trans-unit>
       <trans-unit id="294">
         <source>Tarifa en Dólares referenciales y aplicable para extranjeros no residentes en Chile con Factura de Exportación. Tarifa sujeta
 a modificación sin previo aviso, dependiendo del tipo de cambio de cierre del mercado al momento de la reserva. Franquicia Tributaria (Exentos del pago de
 Impuesto 19% IVA).</source>
-        <target/>
+        <target>Dollar reference rate, applicable to foreign residents in Chile to export invoices. Rates subject
+to change without notice, depending on the rate of foreclosure at the time of booking. Franchise Tax (Exempt from paying Tax 19% VAT).</target>
       </trans-unit>
       <trans-unit id="295">
         <source>Las tarifas en pesos chilenos (CLP) incluyen IVA.</source>
-        <target/>
+        <target>Rates in Chilean pesos (CLP) include VAT.</target>
       </trans-unit>
       <trans-unit id="296">
         <source>Valor por habitación simple o doble.</source>
-        <target/>
+        <target>Value for single or double room.</target>
       </trans-unit>
       <trans-unit id="297">
         <source>Horario de Check Out hasta las 12:00 hrs.</source>
-        <target/>
+        <target>Check out time until 12:00 hrs.</target>
       </trans-unit>
       <trans-unit id="298">
         <source>Reservas limitadas a 9 habitaciones (capacidad máxima del Hotel).</source>
-        <target/>
+        <target>Reservations limited to 9 rooms (maximum capacity of the Hotel).</target>
       </trans-unit>
       <trans-unit id="299">
         <source>No se aceptan mascotas.</source>
-        <target/>
+        <target>No pets.</target>
       </trans-unit>
       <trans-unit id="300">
         <source>Prepago del 50% al momento de la reserva, mediante pago efectivo, transferencia bancaria, tarjetas de crédito indicando su número y fecha de vencimiento.</source>
-        <target/>
+        <target>Prepayment of 50% at time of booking by cash payment, bank transfer, credit cards indicating their number and expiration date.</target>
       </trans-unit>
       <trans-unit id="301">
         <source>Saldo se cancela en mesón de recepción del Hotel.</source>
-        <target/>
+        <target>Balance is canceled at the hotel reception desk.</target>
       </trans-unit>
       <trans-unit id="302">
         <source>Cancelación de reservas hasta con 48 horas de anticipación pasado ese plazo se cargará el valor del prepago realizado al momento de la reserva.</source>
-        <target/>
+        <target>Cancellation of reservations up to 48 hours in advance will be charged after that time the value of the prepayment at time of booking.</target>
       </trans-unit>
       <trans-unit id="303">
         <source>No habrá reintegros ni devoluciones.</source>
-        <target/>
+        <target>No refunds or returns.</target>
       </trans-unit>
       <trans-unit id="304">
         <source>Información y Contacto</source>
-        <target/>
+        <target>Contact Information</target>
       </trans-unit>
       <trans-unit id="305">
         <source>Reserva nuestras habitaciones - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>Reserve rooms - Boutique Hotel Sutherland House Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="306">
         <source>reservas, habitaciones, Hotel Boutique Sutherland House, Valparaíso, hoteles, alojamiento, chile</source>
-        <target/>
+        <target>reservations, rooms, Hotel Boutique Sutherland House, Valparaiso, hotels, lodging, chile</target>
       </trans-unit>
       <trans-unit id="307">
         <source>Consultar y/o Reservas</source>
-        <target/>
+        <target>View and/or Reserves</target>
       </trans-unit>
       <trans-unit id="308">
         <source>Estimado(a)</source>
-        <target/>
+        <target>Dear (a)</target>
       </trans-unit>
       <trans-unit id="309">
         <source>Su mail ha sido enviado con éxito, lo contactaremos lo antes posible.</source>
-        <target/>
+        <target>Your email has been sent, we will contact you asap.</target>
       </trans-unit>
       <trans-unit id="310">
         <source>Para mayor información contacte a los siguientes teléfonos</source>
-        <target/>
+        <target>For more information contact the following numbers</target>
       </trans-unit>
       <trans-unit id="311">
         <source>o al</source>
-        <target/>
+        <target>or</target>
       </trans-unit>
       <trans-unit id="312">
         <source>[0]Reserva nuestras habitaciones todas con vista al mar - Hotel Boutique Sutherland House Valparaíso, Chile 
      |(1,+Inf]Reserva nuestra habitación %hab% con vista al mar - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
+        <target>[0]Book rooms all with sea view - Hotel Boutique Sutherland House Valparaiso, Chile
+      |(1, + Inf]Reserve room%% our room with sea view - Hotel Boutique Sutherland House Valparaiso, Chile</target>
       </trans-unit>
       <trans-unit id="313">
         <source>reservas, habitaciones con vista al mar, Hotel Boutique Sutherland House, Valparaíso, hoteles, alojamiento, chile</source>
-        <target/>
+        <target>reservations, rooms with sea view, Hotel Boutique Sutherland House, Valparaiso, hotels, lodging, chile</target>
       </trans-unit>
       <trans-unit id="314">
         <source>Consulta y Reserva nuestras habitaciones, todas con vista a la bahía y los cerros de Valparaíso, en el Hotel Boutique Sutherland House del Cerro Alegre de Valparaíso.</source>
-        <target/>
+        <target>Check availability and book rooms, all overlooking the bay and the hills of Valparaiso, Boutique Hotel in Sutherland House of Cerro Alegre of Valparaiso.</target>
       </trans-unit>
       <trans-unit id="315">
-        <source>WIFI en Hotel y Habitaciones Gratis</source>
-        <target/>
+        <source>WIFI en Hotel y en Habitaciones Gratis</source>
+        <target>WIFI free</target>
       </trans-unit>
       <trans-unit id="316">
         <source>wifi gratis</source>
-        <target/>
+        <target>free wifi</target>
       </trans-unit>
       <trans-unit id="317">
         <source>WIFI libre en todas las areas.</source>
-        <target/>
+        <target>Free WIFI in all areas.</target>
       </trans-unit>
       <trans-unit id="318">
         <source>Servicio Camarera</source>
-        <target/>
+        <target>Maid service</target>
       </trans-unit>
       <trans-unit id="319">
         <source>servicio camarera</source>
-        <target/>
+        <target>maid service</target>
       </trans-unit>
       <trans-unit id="320">
         <source>Servicio de camarera.</source>
-        <target/>
+        <target>Maid service.</target>
       </trans-unit>
       <trans-unit id="321">
         <source>Servicio de Estacionamiento</source>
-        <target/>
+        <target>Parking Service</target>
       </trans-unit>
       <trans-unit id="322">
         <source>servicio estacionamiento</source>
-        <target/>
+        <target>parking service</target>
       </trans-unit>
       <trans-unit id="323">
         <source>Servicio de ballet parking.</source>
-        <target/>
+        <target>Service ballet parking.</target>
       </trans-unit>
       <trans-unit id="324">
         <source>Cafetería abierta al público</source>
-        <target/>
+        <target>Cafe open to the public</target>
       </trans-unit>
       <trans-unit id="325">
         <source>cafetería</source>
-        <target/>
+        <target>cafe</target>
       </trans-unit>
       <trans-unit id="326">
         <source>Cafetería.</source>
-        <target/>
+        <target>cafe</target>
       </trans-unit>
       <trans-unit id="327">
         <source>Welcome drink</source>
-        <target/>
+        <target>Welcome drink</target>
       </trans-unit>
       <trans-unit id="328">
         <source>welcome drink</source>
-        <target/>
+        <target>welcome drink</target>
       </trans-unit>
       <trans-unit id="329">
         <source>Welcome drink.</source>
-        <target/>
+        <target>Welcome drink.</target>
       </trans-unit>
       <trans-unit id="330">
         <source>Desayuno Buffet incluido</source>
-        <target/>
+        <target>Breakfast included</target>
       </trans-unit>
       <trans-unit id="331">
         <source>desayuno buffet</source>
-        <target/>
+        <target>buffet breakfast</target>
       </trans-unit>
       <trans-unit id="332">
         <source>Desayuno buffet o Americano.</source>
-        <target/>
+        <target>breakfast buffet Or American.</target>
       </trans-unit>
       <trans-unit id="333">
         <source>Secador de Pelo</source>
-        <target/>
+        <target>Hairdryer</target>
       </trans-unit>
       <trans-unit id="334">
         <source>secador de pelo</source>
-        <target/>
+        <target>hairdryer</target>
       </trans-unit>
       <trans-unit id="335">
         <source>Secador de pelo.</source>
-        <target/>
+        <target>Hairdryer</target>
       </trans-unit>
       <trans-unit id="336">
         <source>TV Cable</source>
-        <target/>
+        <target>Cable TV</target>
       </trans-unit>
       <trans-unit id="337">
         <source>tv cable</source>
-        <target/>
+        <target>Cable TV</target>
       </trans-unit>
       <trans-unit id="338">
         <source>Televisión por cable.</source>
-        <target/>
+        <target>Cable TV.</target>
       </trans-unit>
       <trans-unit id="339">
         <source>Amenities</source>
-        <target/>
+        <target>Amenities</target>
       </trans-unit>
       <trans-unit id="340">
         <source>amenities</source>
-        <target/>
+        <target>amenities</target>
       </trans-unit>
       <trans-unit id="341">
         <source>Amenities en las habitaciones.</source>
-        <target/>
+        <target>Amenities in the rooms.</target>
       </trans-unit>
       <trans-unit id="342">
         <source>Cerradura Electrica</source>
-        <target/>
+        <target>Electric lock</target>
       </trans-unit>
       <trans-unit id="343">
         <source>cerradura electrica</source>
-        <target/>
+        <target>electric lock</target>
       </trans-unit>
       <trans-unit id="344">
         <source>Cerradura Eléctrica.</source>
-        <target/>
+        <target>Electric lock.</target>
       </trans-unit>
       <trans-unit id="345">
         <source>Calefacción Central</source>
-        <target/>
+        <target>central heating</target>
       </trans-unit>
       <trans-unit id="346">
         <source>calefacción central</source>
-        <target/>
+        <target>central heating</target>
       </trans-unit>
       <trans-unit id="347">
         <source>Calefacción central.</source>
-        <target/>
+        <target>central heating.</target>
       </trans-unit>
       <trans-unit id="348">
         <source>Personal Bilingue</source>
-        <target/>
+        <target>Bilingual staff</target>
       </trans-unit>
       <trans-unit id="349">
         <source>personal bilingue</source>
-        <target/>
+        <target>Bilingual staff</target>
       </trans-unit>
       <trans-unit id="350">
         <source>Personal bilingüe inglés, portugués y español.</source>
-        <target/>
+        <target>Personal bilingual English, Portuguese and Spanish.</target>
       </trans-unit>
       <trans-unit id="351">
         <source>Impresora y escaner</source>
-        <target/>
+        <target>Printer and scanner</target>
       </trans-unit>
       <trans-unit id="352">
         <source>impresora y escaner</source>
-        <target/>
+        <target>printer and scanner</target>
       </trans-unit>
       <trans-unit id="353">
         <source>Impresora y escaner.</source>
-        <target/>
+        <target>Printer and scanner.</target>
       </trans-unit>
       <trans-unit id="354">
         <source>Citófono en habitación</source>
-        <target/>
+        <target>In-room intercom</target>
       </trans-unit>
       <trans-unit id="355">
         <source>citófono</source>
-        <target/>
+        <target>intercom</target>
       </trans-unit>
       <trans-unit id="356">
         <source>Citófonos en las habitaciones.</source>
-        <target/>
+        <target>Intercoms in the rooms.</target>
       </trans-unit>
       <trans-unit id="357">
         <source>Frigobar</source>
-        <target/>
+        <target>Frigobar</target>
       </trans-unit>
       <trans-unit id="358">
         <source>frigo bar</source>
-        <target/>
+        <target>frigo bar</target>
       </trans-unit>
       <trans-unit id="359">
         <source>Frigobar en suite Panoramic y Corner.</source>
-        <target/>
+        <target>minibar in suite Panoramic and Corner.</target>
       </trans-unit>
       <trans-unit id="360">
         <source>Asistencia turística</source>
-        <target/>
+        <target>tour assistance</target>
       </trans-unit>
       <trans-unit id="361">
         <source>asistencia turística</source>
-        <target/>
+        <target>tour assistance</target>
       </trans-unit>
       <trans-unit id="362">
         <source>Servicio de taxi y city tour a pedido.</source>
-        <target/>
+        <target>Taxi and city tour on request.</target>
       </trans-unit>
       <trans-unit id="363">
         <source>Directorio Español e Inglés</source>
-        <target/>
+        <target>Directory Spanish and English</target>
       </trans-unit>
       <trans-unit id="364">
         <source>directorio</source>
-        <target/>
+        <target>directory</target>
       </trans-unit>
       <trans-unit id="365">
         <source>Directorios en español e inglés.</source>
-        <target/>
+        <target>Directories in Spanish and English.</target>
       </trans-unit>
       <trans-unit id="366">
         <source>Cámaras de Seguridad</source>
-        <target/>
+        <target>Security Cameras</target>
       </trans-unit>
       <trans-unit id="367">
         <source>cámaras</source>
-        <target/>
+        <target>Cameras</target>
       </trans-unit>
       <trans-unit id="368">
         <source>Cámaras de seguridad interiores y exteriores.</source>
-        <target/>
+        <target>Security cameras inside and outside.</target>
+      </trans-unit>
+      <trans-unit id="369">
+        <source>La &lt;b&gt;Habitación 204 - Doble&lt;/b&gt; se agrega a la construcción original de la casa; es un amplio y luminoso espacio con dos camas, desde su ventana
+se aprecian magnificas vista diurnas y nocturnas de la ciudad y la bahía. La gran ventaja es que en ella se puede agregar una tercera cama sin perjudicar el
+desplazamiento interior.</source>
+        <target>&lt;b&gt;Room 204 - Double&lt;/b&gt; is added to the original construction of the house is a bright and spacious room with two beds, from his window
+magnificent view can be seen day and night in the city and bay. The great advantage is that it can add a third bed without damaging the
+internal displacement.</target>
+      </trans-unit>
+      <trans-unit id="370">
+        <source>Habitación 303 - Suite King Corner</source>
+        <target>Room 303 - King Corner Suite</target>
+      </trans-unit>
+      <trans-unit id="371">
+        <source>Habitación 201 - Suite King con Terraza</source>
+        <target>Room 201 - King Suite with Balcony</target>
+      </trans-unit>
+      <trans-unit id="372">
+        <source>Las tarifas en pesos chilenos incluyen IVA.</source>
+        <target>Rates in Chilean pesos include VAT.</target>
+      </trans-unit>
+      <trans-unit id="373">
+        <source>Saldo se cancela en mesón de recepción del Hotel al momento del Check out.</source>
+        <target>Balance is canceled at the hotel reception desk at check out.</target>
+      </trans-unit>
+      <trans-unit id="374">
+        <source>Cancelación de reservas hasta el 15 de Diciembre del %year%&lt;/b&gt;. Pasado ese plazo no habrá reintegros ni devoluciones.</source>
+        <target>Cancellation of bookings until &lt;b&gt;December 15 the %year%&lt;/b&gt;. After that time there will be no refunds or returns.</target>
       </trans-unit>
     </body>
   </file>
