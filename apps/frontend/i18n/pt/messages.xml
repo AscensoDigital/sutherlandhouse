@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="pt" datatype="plaintext" original="messages" date="2011-07-26T00:36:02Z" product-name="messages">
+  <file source-language="EN" target-language="pt" datatype="plaintext" original="messages" date="2011-08-20T20:09:10Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
@@ -198,17 +198,8 @@ Impuesto 19% IVA).</source>
         <source>o al</source>
         <target/>
       </trans-unit>
-      <trans-unit id="49">
-        <source>[0]Reserva nuestras habitaciones todas con vista al mar - Hotel Boutique Sutherland House Valparaíso, Chile 
-     |(1,+Inf]Reserva nuestra habitación %hab% con vista al mar - Hotel Boutique Sutherland House Valparaíso, Chile</source>
-        <target/>
-      </trans-unit>
       <trans-unit id="50">
         <source>reservas, habitaciones con vista al mar, Hotel Boutique Sutherland House, Valparaíso, hoteles, alojamiento, chile</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="51">
-        <source>Consulta y Reserva nuestras habitaciones, todas con vista a la bahía y los cerros de Valparaíso, en el Hotel Boutique Sutherland House del Cerro Alegre de Valparaíso.</source>
         <target/>
       </trans-unit>
       <trans-unit id="52">
@@ -549,14 +540,6 @@ desplazamiento interior.</source>
         <source>Vista Nocturna Habitación</source>
         <target/>
       </trans-unit>
-      <trans-unit id="134">
-        <source>Habitación 201 Twin con Terraza</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="135">
-        <source>Habitación 201 - Doble con amplia Terraza</source>
-        <target/>
-      </trans-unit>
       <trans-unit id="136">
         <source>Habitación 301 - Suite King Panoramic</source>
         <target/>
@@ -577,24 +560,12 @@ desplazamiento interior.</source>
         <source>Habitación 101 - Suite</source>
         <target/>
       </trans-unit>
-      <trans-unit id="141">
-        <source>Habitación 203 Doble</source>
-        <target/>
-      </trans-unit>
       <trans-unit id="142">
         <source>Habitación 203 - Doble</source>
         <target/>
       </trans-unit>
-      <trans-unit id="143">
-        <source>Habitación 204 Doble</source>
-        <target/>
-      </trans-unit>
       <trans-unit id="144">
         <source>Habitación 204 - Doble</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="145">
-        <source>Vista Nocturna Habitación 204</source>
         <target/>
       </trans-unit>
       <trans-unit id="146">
@@ -630,14 +601,6 @@ a modificación sin previo aviso, dependiendo del tipo de cambio de cierre del m
         <source>Prepago del 50% al momento de la reserva mediante: pago efectivo, transferencia bancaria, tarjetas de crédito indicando su número y fecha de vencimiento.</source>
         <target/>
       </trans-unit>
-      <trans-unit id="154">
-        <source>Saldo se cancela en mesón de recepción del Hotel al momento del Check In.</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="155">
-        <source>Cancelación de reservas hasta el &lt;b&gt;30 de Noviembre del %year%&lt;/b&gt;. Pasado ese plazo no habrá reintegros ni devoluciones.</source>
-        <target/>
-      </trans-unit>
       <trans-unit id="156">
         <source>Servicios - Hotel Boutique Sutherland House Valparaíso, Chile</source>
         <target/>
@@ -648,10 +611,6 @@ a modificación sin previo aviso, dependiendo del tipo de cambio de cierre del m
       </trans-unit>
       <trans-unit id="158">
         <source>Servicios</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="159">
-        <source>WIFI en Hotel y Habitaciones Gratis</source>
         <target/>
       </trans-unit>
       <trans-unit id="160">
@@ -1082,10 +1041,6 @@ a modificación sin previo aviso, dependiendo del tipo de cambio de cierre del m
         <source>Hoteles “boutique” piden igualdad en la diferencia</source>
         <target/>
       </trans-unit>
-      <trans-unit id="267">
-        <source>Parámetros especiales para esta clase de emprendimientos plantean empresarios, autordades y Consetur.</source>
-        <target/>
-      </trans-unit>
       <trans-unit id="268">
         <source>Profes porteños se la juegan con hotel</source>
         <target/>
@@ -1489,6 +1444,75 @@ Antigua rectoría del &lt;strong&gt;Colegio Mackay&lt;/strong&gt;, la cual se tr
       </trans-unit>
       <trans-unit id="366">
         <source>francés</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="367">
+        <source>Habitación 201 - Suite King con Terraza</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="368">
+        <source>Saldo se cancela en mesón de recepción del Hotel al momento del Check out.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="369">
+        <source>Cancelación de reservas hasta el &lt;b&gt;15 de Diciembre del %year%&lt;/b&gt;. Pasado ese plazo no habrá reintegros ni devoluciones.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="370">
+        <source>WIFI en Hotel y en Habitaciones Gratis</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="371">
+        <source>Parámetros especiales para esta clase de emprendimientos plantean empresarios, autoridades y Consetur.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="372">
+        <source>[0]Reserva nuestras habitaciones todas con vista al mar - Hotel Boutique Sutherland House Valparaíso, Chile|[1, +Inf] Reserva nuestra habitación %hab% con vista al mar - Hotel Boutique Sutherland House Valparaíso, Chile</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="373">
+        <source>Eventos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="374">
+        <source>A la carta</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="376">
+        <source>Cumpleaños</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="377">
+        <source>Reuniones</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="378">
+        <source>Exposiciones</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="379">
+        <source>Bar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="380">
+        <source>Restorant</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="381">
+        <source>Wifi</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="382">
+        <source>[0]Consulta y Reserva nuestras habitaciones, todas con vista a la bahía y los cerros de Valparaíso, en el Hotel Boutique Sutherland House del Cerro Alegre de Valparaíso.|[1, +Inf]Consulta y Reserva nuestra habitacion %hab%, 
+      con vista a la bahía y los cerros de Valparaíso, en el Hotel Boutique Sutherland House del Cerro Alegre de Valparaíso.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="383">
+        <source>After Office</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="384">
+        <source>Café &amp;amp; RestoBar</source>
         <target/>
       </trans-unit>
     </body>

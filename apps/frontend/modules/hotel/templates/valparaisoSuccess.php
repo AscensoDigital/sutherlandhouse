@@ -1,7 +1,7 @@
 <?php use_stylesheet('seccion.css') ?>
 <?php slot('title', __('Valparaíso Patrimonio de la Humanidad - Hotel Boutique Sutherland House Valparaíso, Chile'))?>
 <?php slot('keywords', __("Valparaíso, Patrimonio de la Humanidad, Monumentos Nacionales, Puerto de mi amor, ascensores"))?>
-<?php slot('description', __("Descripción historica de Valparaíso y sus encantos."))?>
+<?php slot('description', __("Descripción histórica de Valparaíso y sus encantos como los cerros alegre y concepción, el puerto, la plaza sotomayor y el paseo 21 de mayo."))?>
 <?php slot('galeria', get_partial('hotel/galeria',array('id' => 'valparaiso', 'title' => 'Valparaíso', 'imagenes' => $galeria)))?>
 <div id="columna1">
 <h2><?php echo __('Valparaíso') ?></h2>

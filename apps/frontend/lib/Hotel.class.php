@@ -6,7 +6,7 @@
  */
 class Hotel {
   private static $habitaciones = array ('303' => array('url'=>'http://www.facebook.com/album.php?aid=26817&amp;id=117324945005401','alt'=>'Habitación 303 King Corner'),
-                                        '201' => array('url'=>'http://www.facebook.com/album.php?aid=26570&amp;id=117324945005401','alt'=>'Habitación 201 Doble Terraza'),
+                                        '201' => array('url'=>'http://www.facebook.com/album.php?aid=26570&amp;id=117324945005401','alt'=>'Habitación 201 King Terraza'),
                                         '301' => array('url'=>'http://www.facebook.com/album.php?aid=26637&amp;id=117324945005401','alt'=>'Habitación 301 King Panoramic'),
                                         '302' => array('url'=>'http://www.facebook.com/album.php?aid=26639&amp;id=117324945005401','alt'=>'Habitación 302 Suite Romantic'),
                                         '304' => array('url'=>'http://www.facebook.com/album.php?aid=26831&amp;id=117324945005401','alt'=>'Habitación 304 Suite'),

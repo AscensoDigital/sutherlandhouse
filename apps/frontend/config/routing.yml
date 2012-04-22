@@ -17,79 +17,85 @@ localized_hotel_homepage:
     sf_culture: (?:es|fr|en)
 
 hotel_comentario:
-  url:   /:sf_culture/comentarios
+  url:   /:sf_culture/comentarios.php
   param: { module: hotel, action: comentario }
   requirements:
     sf_culture: (?:es|fr|en)
 
 hotel_desayuno:
-  url:   /:sf_culture/desayunos
+  url:   /:sf_culture/desayunos.php
   param: { module: hotel, action: desayuno }
   requirements:
     sf_culture: (?:es|fr|en)
 
 hotel_habitacion:
-  url:   /:sf_culture/habitaciones
+  url:   /:sf_culture/habitaciones.php
   param: { module: hotel, action: habitacion }
   requirements:
     sf_culture: (?:es|fr|en)
 
 hotel_historia:
-  url:   /:sf_culture/historia
+  url:   /:sf_culture/historia.php
   param: { module: hotel, action: historia }
   requirements:
     sf_culture: (?:es|fr|en)
 
 hotel_hotel:
-  url:   /:sf_culture/hotel
+  url:   /:sf_culture/hotel.php
   param: { module: hotel, action: hotel }
   requirements:
     sf_culture: (?:es|fr|en)    
         
 hotel_new_year:
-  url:   /:sf_culture/promocion_new_year
+  url:   /:sf_culture/promocion_new_year.php
   param: { module: hotel, action: newYear }
   requirements:
     sf_culture: (?:es|fr|en)
 
+hotel_new_year_old:
+  url:   /:sf_culture/newyear.php
+  param: { module: hotel, action: newYear }
+  requirements:
+    sf_culture: (?:es|fr|en)
+    
 hotel_noticia:
-  url:   /:sf_culture/noticias
+  url:   /:sf_culture/noticias.php
   param: { module: hotel, action: noticia }
   requirements:
     sf_culture: (?:es|fr|en)
 
 hotel_paseo:
-  url:   /:sf_culture/paseos
+  url:   /:sf_culture/paseos.php
   param: { module: hotel, action: paseo }
   requirements:
     sf_culture: (?:es|fr|en)
 
 hotel_quienes_somos:
-  url:   /:sf_culture/quienessomos
+  url:   /:sf_culture/quienessomos.php
   param: { module: hotel, action: quienesSomos }
   requirements:
     sf_culture: (?:es|fr|en)
 
 hotel_servicio:
-  url:   /:sf_culture/servicios
+  url:   /:sf_culture/servicios.php
   param: { module: hotel, action: servicio }
   requirements:
     sf_culture: (?:es|fr|en)
 
 hotel_ubicacion:
-  url:   /:sf_culture/ubicacion
+  url:   /:sf_culture/ubicacion.php
   param: { module: hotel, action: ubicacion }
   requirements:
     sf_culture: (?:es|fr|en)
 
 hotel_valparaiso:
-  url:   /:sf_culture/valparaiso
+  url:   /:sf_culture/valparaiso.php
   param: { module: hotel, action: valparaiso }
   requirements:
     sf_culture: (?:es|fr|en)
     
 reserva:
-  url:   /:sf_culture/reservas
+  url:   /:sf_culture/reservas.php
   param: { module: reserva, action: index }
   requirements:
     sf_culture: (?:es|fr|en)
@@ -99,11 +105,27 @@ reserva_gracias:
   param: { module: reserva, action: gracias }
   
 cafe:
+  url:   /caferestobar
+  param: { module: cafe, action: index }
+
+cafe2:
   url:   /caferestobar/
   param: { module: cafe, action: index }
   
+cafe3:
+  url:   /:sf_culture/cafeteria.php
+  param: { module: cafe, action: index }
+  requirements:
+    sf_culture: (?:es|fr|en)
+
+cafe4:
+  url:   /caferestobar/index.html
+  param: { module: cafe, action: index }
+  requirements:
+    sf_culture: (?:es|fr|en)
+    
 localized_cafe:
-  url:   /:sf_culture/caferestobar/
+  url:   /:sf_culture/caferestobar
   param: { module: cafe, action: index }
   requirements:
     sf_culture: (?:es|fr|en)

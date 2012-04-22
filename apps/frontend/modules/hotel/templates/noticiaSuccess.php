@@ -16,7 +16,7 @@
 <em><?php echo __('Proyecto - "Casa George Sutherland", cuya inversión supera los 150 millones de pesos, estará operativa en enero del próximo año.') ?></em><br/>
 <a href="http://www.mercuriovalpo.cl/prontus4_noticias/site/artic/20091209/pags/20091209000403.html" target="_blank"><?php echo __('+ ver noticia')?></a></li>
 <li><h3><?php echo __('Hoteles “boutique” piden igualdad en la diferencia')?></h3>
-<em><?php echo __('Parámetros especiales para esta clase de emprendimientos plantean empresarios, autordades y Consetur.')?></em><br/>
+<em><?php echo __('Parámetros especiales para esta clase de emprendimientos plantean empresarios, autoridades y Consetur.')?></em><br/>
 <a href="http://www.mercuriovalpo.cl/prontus4_noticias/site/artic/20091208/pags/20091208182002.html" target="_blank"><?php echo __('+ ver noticia')?></a></li>
 </ul>
 <iframe width="425" height="349" src="http://www.youtube.com/embed/Aw2h0NK8fyg" frameborder="0"></iframe><br/>

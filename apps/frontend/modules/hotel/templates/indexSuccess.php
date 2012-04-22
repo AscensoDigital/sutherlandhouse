@@ -1,5 +1,7 @@
 <?php use_stylesheet('index.css')?>
-<?php use_helper('UrlExt')?>
+<?php slot('title', __('Hotel Sutherland House - Hotel Boutique &amp; Café Valparaíso, Chile'))?>
+<?php slot('keywords', __("Hotel, Valparaíso, Hotel Boutique, Hotel Boutique Sutherland House, Reservas, hoteles, alojamiento, Paseos, Vista a la Bahía, Cafetería, Café"))?>
+<?php slot('description', __("El Hotel Boutique &amp; Café Sutherland House se encuentran aledaños a la zona típica de conservación histórica de Valparaíso, en una casona cuya data de construcción es de 1870, en pleno Cerro Alegre."))?>
 <div id="principal">
 <div id="superior">
 <div id="logo"><?php echo link_image_to('logo_vertical.png','@hotel_homepage',array('size' => '420x105', 'alt' => __("Logo Hotel Boutique Sutherland House")))?></div>
@@ -15,7 +17,10 @@ Antigua rectoría del <strong>Colegio Mackay</strong>, la cual se transformó en
 <?php echo upload_tag('cabecera/home/hotel_sutherland_house_06.jpg', array('size' => '885x390', 'alt' => __("Escalera Ingreso Hotel Boutique Sutherland House.")))?>
 <?php echo upload_tag('cabecera/home/hotel_sutherland_house_05.jpg', array('size' => '885x390', 'alt' => __("Vista Recepción Hotel Boutique Sutherland House.")))?>
 </div>
-<div id="pieweb"><ul>
+<div id="pieweb">
+<?php echo link_image_to('banner_new_year_2012_hotel_sutherland.jpg','@hotel_new_year', array('size' => '885x100', 'alt' => __("Año Nuevo %ANHO% en el mar de Valparaíso",array('%ANHO%' => date('Y')+1))), 
+                          array( 'title' => __("ver programa Año Nuevo en el Mar %ANHO% en Valparaíso",array('%ANHO%' => date('Y')+1))))?>
+<ul>
 <li class="ultimo"><?php echo link_image_to('logo_hotel_sutherland_house_chico.png','@hotel_hotel', array('size' => '35x28', 'alt' => __("Logo Hotel Boutique Sutherland House")))?></li>
 <li><?php echo link_to(__('Hotel'),'@hotel_hotel')?></li>
 <li><?php echo link_to(__('Habitaciones'),'@hotel_habitacion')?></li>

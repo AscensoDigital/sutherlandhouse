@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+		background-color:#fcf9dc;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size: 85%;
+		
+		}
+
+#principal{margin:auto;
+			width:950px;
+			}
+
+			
+#movie_down{ position:relative;
+			z-index:0;
+			margin-left:145px;} 
+
+#head {
+	width:950px;
+	height:394px;
+	background-image:url(/images/cafe/fondo_head2.png);
+	background-position:left;
+	background-repeat:no-repeat;	
+	float:left;
+	position:absolute;
+	z-index:1;
+	*margin-left:-147px;
+	
+	}
+
+#idioma {width:950px;
+		height:65px;
+	
+
+	
+}
+ul {margin:0;
+			padding:0;}
+
+#idioma p {width:200px;
+			float:left;
+			margin-left:665px;
+			color:#faf6d2;
+			font-size:12px;
+			margin-top:15px;
+			}
+
+#idioma ul {float:right;
+margin-right:15px;
+margin-top:15px;}
+
+#idioma li{
+	list-style-type: none;
+	float:left;
+	margin-left:5px;
+	
+			}
+#idioma img {border:none;}
+
+#logo {width:230px;
+		height:163px;
+		float:left;
+		margin-top:-32px;
+		margin-left:20px;}
+
+#logo img {border:none;}
+
+#menu {float:left;
+		width:677px;
+		height:80px;
+		margin-left:10px;
+		
+		
+		
+		}
+		
+		
+#menu ul {
+			margin:0;
+			padding:0;
+		 }
+#menu li {	list-style-type: none;
+float:left;}
+
+#menu li a{
+	background-image:url(/images/cafe/fondo_menu.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	padding-top:24px;	
+	height:43px;
+	width:91px;
+	float:left;
+	margin-left:5px;
+	text-align:center;
+	text-decoration:none;
+	color:#302525;	
+						
+		}
+		
+#menu a:hover {background-image:url(/images/cafe/fondo_menu_hover.png);
+				color:#faf6d2;}
+
+#menu li.uno a {
+	padding-top:17px;	
+	height:50px;
+	
+	}
+	
+#submenu {
+			float:left;
+			margin-left:110px;
+			width:588px;
+			height:20px;
+			background-color:#302525;}
+
+#submenu ul {margin:0;
+			padding:0;}
+		
+#submenu li {float:left;
+			list-style-type: none;
+			color:#faf6d2;}
+
+#submenu li a {margin-left:5px;
+	text-align:center;
+	text-decoration:none;
+	color:#faf6d2;}
+	
+#contenido {background-image:url(/images/cafe/fondo_fotos.png);
+height:103px;
+background-repeat:no-repeat;
+margin-left:42px;
+margin-top:3px;
+}
+
+#servicios {float:left;
+	width:200px;
+	height:75px;
+	}
+	
+#servicios img {border:none;}
+
+#servicios p {margin-top:5px;
+			padding:0;
+			text-align:center;
+			background-color:#302525;
+			color:#faf6d2;
+				}
+
+.icoespacio { margin-left:15px;}
+			
+
+#galeria {
+	float:right;
+	
+			width:640px;}
+#galeria p {text-align:center;
+			margin-top:2px;
+			margin-bottom:2px;
+			padding:0;}
+			
+#galeria img {border:none;}
+
+			
+
+
+
+
+#footer {height:35px;		
+		margin-top:20px;		
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #302525;}
+
+#footer ul{margin:0;
+			padding:0;
+			width:650px;
+			margin-left:170px;
+			margin-top:5px;}
+
+#footer li {
+	float:left;
+	list-style-type: none;}
+
+#footer a{ margin-left:5px;
+	text-align:center;
+	text-decoration:none;
+	color:#302525;
+	font-size:12px;}	
+	
+li.footerdos {
+				margin-left:70px;
+				}
+				
+#footer2 {}
+				
+#footer2 p{font-size:11px;
+			color:#333333;
+			margin-left:290px;}
+			
+			
+p.datos {margin-left:10px;
+			margin-top:-9px;
+			*margin-top:-15px;
+			}
+
+	
+		
+
+
+
+
+

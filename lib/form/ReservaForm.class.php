@@ -74,6 +74,7 @@ class ReservaForm extends sfForm {
         'información_adicional' => new sfValidatorString(array('max_length' => 255, 'required' => false)),
         'asunto' => new sfValidatorString(),
     ));
+    $this->disableLocalCSRFProtection();
   }
 }
 

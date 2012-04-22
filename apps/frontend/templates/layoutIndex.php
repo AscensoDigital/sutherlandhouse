@@ -3,10 +3,10 @@
 <head>
 <?php include_http_metas() ?>
 <?php include_metas() ?>
-<meta name="title" content="<?php echo __("Hotel Sutherland House - Hotel Boutique &amp; Café Valparaíso, Chile")?>"/>
-<meta name="description" content="<?php echo __("El Hotel Boutique &amp; Café Sutherland House se encuentran aledaños a la zona típica de conservación histórica de Valparaíso, en una casona cuya data de construcción es de 1870, en pleno Cerro Alegre.")?>"/>
-<meta name="keywords" content="<?php echo __("Hotel, Valparaíso, Hotel Boutique, Hotel Boutique Sutherland House, Reservas, hoteles, alojamiento, Paseos, Vista a la Bahía, Cafetería, Café")?>"/>
-<title><?php echo __("Hotel Sutherland House - Hotel Boutique &amp; Café Valparaíso, Chile")?></title>
+<title><?php if(!include_slot('title')): echo __('Hotel Sutherland House - Hotel Boutique &amp; Café Valparaíso, Chile');endif?></title>
+<?php if(has_slot('title')):?><meta name="title" content="<?php include_slot('title')?>"/><?php endif?>
+<?php if(has_slot('description')):?><meta name="description" content="<?php include_slot('description')?>"/><?php endif?>
+<?php if(has_slot('keywords')):?><meta name="keywords" content="<?php include_slot('keywords')?>"/><?php endif?>
 <link rel="shortcut icon" href="/favicon.ico"/>
 <?php include_stylesheets()?>
 </head>

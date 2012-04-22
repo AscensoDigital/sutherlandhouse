@@ -5,7 +5,7 @@
 <?php include_partial('hotel/hotel_submenu')?>
 <div id="columna1">
 <h2><?php echo __('Servicios') ?></h2>
-<?php echo image_tag('icon25_wifi_gratis.jpg', array('title' => __("WIFI en Hotel y Habitaciones Gratis"), 'alt' =>__("wifi gratis"), 'size' => '30x30'))?> <?php echo __('WIFI libre en todas las areas.')?><br/>
+<?php echo image_tag('icon25_wifi_gratis.jpg', array('title' => __("WIFI en Hotel y en Habitaciones Gratis"), 'alt' =>__("wifi gratis"), 'size' => '30x30'))?> <?php echo __('WIFI libre en todas las areas.')?><br/>
 <?php echo image_tag('icon25_mucama.jpg', array('title' => __("Servicio Camarera"), 'alt' =>__("servicio camarera"), 'size' => '30x30'))?> <?php echo __('Servicio de camarera.')?><br/>
 <?php echo image_tag('icon25_rentacar.jpg', array('title' => __("Servicio de Estacionamiento"), 'alt' =>__("servicio estacionamiento"), 'size' => '30x30'))?> <?php echo __('Servicio de ballet parking.')?><br/>
 <?php echo image_tag('icon25_cafeteria.jpg', array('title' => __("Cafetería abierta al público"), 'alt' =>__("cafetería"), 'size' => '30x30'))?> <?php echo __('Cafetería.')?><br/>

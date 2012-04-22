@@ -14,6 +14,6 @@ class languageActions extends sfActions
   {
     $this->getUser()->setCulture($request->getParameter('new_language'));
     $this->redirectIf('hotel'==$request->getParameter('modulo') && 'index'==$request->getParameter('accion'),'@hotel_homepage');
-    $this->redirect('@'.$request->getParameter('modulo').('index'==$request->getParameter('accion') ? '_'.$request->getParameter('accion') : ''));
+    $this->redirect('@'.$request->getParameter('modulo').('index'!=$request->getParameter('accion') ? '_'.sfInflector::underscore($request->getParameter('accion')) : ''));
   }
 }

@@ -5,7 +5,7 @@
 <?php slot('galeria', get_partial('hotel/galeria',array('id' => 'historia', 'title' => 'Historia', 'imagenes' => $galeria)))?>
 <div id="columna1">
 <h2><?php echo __('Historia') ?></h2>
-<p><?php echo __('El hotel Sutherland House debe su nombre a George Sutherland, quien llegó a Chile en 1861, desde el “Moray House Training College” de Edimburgo, Inglaterra,
+<p><?php echo __('El hotel Sutherland House debe su nombre a George Sutherland, quien llegó a Chile en 1861, desde el “Moray House Training College” de Edimburgo, Escocia,
 para colaborar con Peter Mackay en el “Artizan College”, en la tarea de educar a los hijos de las familias británicas que trabajaban en Valparaíso.') ?></p>
 <p><?php echo __('Con posterioridad, ambos educadores y el pintor Thomas Somerscales se separan por diferencias religiosas de ese colegio, iniciando en 1877 el “Mackay and Sutherland School”.') ?>
 <?php echo __('La sociedad educacional de “Mackay &amp; Sutherland” en el año 1882 compró al Banco de Valparaíso los terrenos donde se encuentra el actual Hotel Boutique Sutherland House.') ?></p>
