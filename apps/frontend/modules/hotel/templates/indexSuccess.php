@@ -41,3 +41,4 @@ Antigua rectoría del <strong>Colegio Mackay</strong>, la cual se transformó en
 <?php include_partial('hotel/footerContacto')?>
 </div>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'es-419'}</script>
+<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=651&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;year=2012"></script>

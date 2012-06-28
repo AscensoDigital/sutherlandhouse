@@ -22,7 +22,7 @@
 </ul></div>
 <div class="fb-like" data-href="http://www.facebook.com/hotel.sutherland.house" data-send="false" data-layout="button_count" data-width="196" data-show-faces="false"></div>
 <?php if($sf_params->get('module')!="reserva"):?>
-<script type="text/javascript" src="http://www.booking.com/general.html?tmpl=bookit;aid=330843;lang=<?php echo $sf_params->get('sf_culture')?>;hotel_id=289904;pb=1"></script><br/>
+<script type="text/javascript" src="http://www.booking.com/general.html?tmpl=bookit;aid=330843;lang=<?php echo $sf_params->get('sf_culture')?>;hotel_id=289904;pb=0"></script><br/>
 <?php echo link_image_to('reservas-es.jpg', '@reserva', array('alt' => __('Reservas'), 'title' => __('Reservas'), 'size' => '192x30'))?>
 <?php endif?>
 <?php echo link_image_to('mapa-es.jpg', '@hotel_ubicacion', array('alt' => __('Mapa'), 'title' => __('Mapa'), 'size' => '192x86'))?>
