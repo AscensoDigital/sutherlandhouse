@@ -3,4 +3,4 @@
 
 # default values
 all:
-  tarifa_new_year: false
+  tarifa_new_year: true

@@ -51,7 +51,7 @@ ul.thumbs li.selected a.thumb{background:#c2bc00;}
 #idioma li{float:left;margin-left:5px;list-style:none;}
 #inferior{float:left;text-align:justify;width:680px;margin-bottom:5px;}
 #info{float:right;width:192px;margin-right:15px;}
-#info img{border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-color:#e5e4a3;border-right-color:#e5e4a3;border-bottom-color:#e5e4a3;border-left-color:#e5e4a3;}
+#info img{border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-color:#e5e4a3;border-right-color:#e5e4a3;border-bottom-color:#e5e4a3;border-left-color:#e5e4a3;margin-top:10px;}
 #info a{margin-bottom:10px;padding-top:10px;}
 #info #b_availCheckIn{padding-right:0;}
 #logo{position:relative;z-index:3;margin-top:7px;float:left;margin-bottom:-40px;height:105px;}

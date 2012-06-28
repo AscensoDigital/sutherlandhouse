@@ -12,6 +12,7 @@
 </head>
 <body>
 <?php echo $sf_content ?>
-<?php include_javascripts() ?>  
+<?php include_javascripts() ?>
+<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=651&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;year=2012"></script>
 </body>
 </html>
