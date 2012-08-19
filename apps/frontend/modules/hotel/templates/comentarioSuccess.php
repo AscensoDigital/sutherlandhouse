@@ -5,17 +5,17 @@
 <?php slot('galeria', get_partial('hotel/galeria',array('id' => 'hotel', 'title' => 'Hotel', 'imagenes' => $galeria)))?>
 <div id="columna1">
 <h2><?php echo __('Comentarios') ?></h2>
-<div id="TA_cdswritereviewlg356" class="TA_cdswritereviewlg" style="margin:0 auto; width:241px;">
-<ul id="eZJaflG8" class="TA_links T4RzYi2Gtr">
-<li id="hIUBJySgCIN" class="ygGJMA2f"><?php echo __('Opina sobre') ?> <a href="http://www.tripadvisor.es/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso.html"><?php echo __('Hotel Boutique Sutherland House') ?></a></li>
+<div id="TA_selfserveprop217" class="TA_selfserveprop">
+<ul id="9lBjr7YIeXEb" class="TA_links IUlv2tc">
+<li id="nsBx2Ec4b" class="yqFlVFB4S"><?php echo __('Contamos con críticas sobre') ?> <a target="_blank" href="http://www.tripadvisor.es/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html"><?php echo __('Hotel Boutique Sutherland House') ?></a> <?php echo __('en Valparaíso') ?></li>
 </ul>
 </div>
-<script type="text/javascript" src="http://www.jscache.com/wejs?wtype=cdswritereviewlg&amp;uniq=356&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>"></script></div>
-<div id="columna2"><br/>
-<div id="TA_selfserveprop638" class="TA_selfserveprop" style="margin:0 auto; width:241px;">
-<ul id="gxw6N1wfTvg" class="TA_links m47udU">
-<li id="MHFgYRYv" class="HgOgyh8h"><?php echo __('Contamos con críticas sobre') ?> <a target="_blank" href="http://www.tripadvisor.es/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso.html"><?php echo __('Hotel Boutique Sutherland House') ?></a> <?php echo __('en Valparaíso') ?></li>
+<script src="http://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=217&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;rating=true&amp;nreviews=3&amp;writereviewlink=false&amp;popIdx=true&amp;iswide=true&amp;border=true"></script>
+
+<br>
+<div id="TA_ssnarrowcollectreview359" class="TA_ssnarrowcollectreview">
+<ul id="7Ji2sfonIn" class="TA_links 0OphWvfjhG0">
+<li id="EtqBmox" class="qnX3kF8o4v"><?php echo __('Escribe una opinión') ?> <a target="_blank" href="http://www.tripadvisor.es/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html">sobre Hotel Boutique Sutherland House</a></li>
 </ul>
 </div>
-<script type="text/javascript" src="http://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=638&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;rating=true&amp;nreviews=5&amp;writereviewlink=false&amp;popIdx=true&amp;iswide=false&amp;linkt=2"></script>
-</div>
+<script src="http://www.jscache.com/wejs?wtype=ssnarrowcollectreview&amp;uniq=359&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;border=true"></script>
