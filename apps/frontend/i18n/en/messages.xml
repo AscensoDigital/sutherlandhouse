@@ -407,12 +407,12 @@ hills, which climb to its summit, streets, alleys, passages, stairs and funicula
         <target>Book your hotel room boutique sutherland house for New Year's program at sea %year% valparaiso where you will see one of the most spectacular fireworks displays in the world.</target>
       </trans-unit>
       <trans-unit id="97">
-        <source>Año Nuevo %year% en Hotel Boutique Sutherland House&lt;br/&gt;3 días - 2 noches</source>
-        <target>New Year %year% in Sutherland House Boutique Hotel&lt;br/&gt;3 days - 2 nights</target>
+        <source>Año Nuevo %year% en Hotel Boutique Sutherland House&lt;br/&gt;4 días - 3 noches</source>
+        <target>New Year %year% in Sutherland House Boutique Hotel&lt;br/&gt;4 days - 3 nights</target>
       </trans-unit>
       <trans-unit id="98">
-        <source>Llegada 30 de diciembre -  Salida 1 de Enero</source>
-        <target>Arrival December 30 - January 1 Output</target>
+        <source>Llegada 29 de diciembre -  Salida 1 de Enero</source>
+        <target>Arrival December 29 - January 1 Output</target>
       </trans-unit>
       <trans-unit id="99">
         <source>de diciembre</source>
