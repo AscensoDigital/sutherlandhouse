@@ -50,6 +50,7 @@ class sfValidatorChoice extends sfValidatorBase
   protected function doClean($value)
   {
     $choices = $this->getChoices();
+
     if ($this->getOption('multiple'))
     {
       $value = $this->cleanMultiple($value, $choices);
