@@ -11,7 +11,7 @@
 </ul></div>
 <p>&nbsp;</p>
 <h2><?php echo __('Habitaciones') ?></h2>
-<p><?php echo __('Nuestro hotel cuenta con 9 habitaciones: todas cómodas y luminosas, con vista a la ciudad y la bahía,  distribuidas en 3 pisos.') ?> 
+<p><?php echo __('Nuestro hotel cuenta con 9 habitaciones: todas cómodas y luminosas, con vista a la ciudad y la bahía,  distribuidas en 3 pisos.') ?>
 <?php echo __('Todas tienen teléfono, TV cable, secador de pelo, calefacción, cerradura electrónica, almohadas Memory Flex e incluyen desayuno Buffet o Americano en nuestro salón Mackay o terraza.') ?></p>
 <p><?php echo __('Adicionalmente incluimos gratuitamente traslado desde Terminal de Buses de Valparaíso al Hotel.') ?></p>
 <p><?php echo __('Los baños de nuestras habitaciones tienen un diseño con reminiscencias de los antiguos baños, constan de un mueble en pino Oregón, un vanitorio y una grifería que representan al lavatorio y la jarra que usaban antiguamente.')?></p>
@@ -23,12 +23,12 @@
 <ul><li><a href="http://www.facebook.com/album.php?aid=26817&amp;id=117324945005401" target="blank" onclick="_gaq.push(['_trackEvent', 'Habitacion', 'Galeria', '303']);"><?php echo __('Galería de la habitación')?></a></li>
 <li><?php echo link_to(__('Consultar y/o Reservar'),'@reserva',array('query_string' => 'habitacion=303'))?></li>
 </ul></td></tr><tr>
-<td><a name="Habitacion201"></a><?php echo __('La <b>habitación 201 - Doble* con amplia Terraza</b> es un espacio soñado: luminosa, amplia, con dos camas de calidad.')?> 
+<td><a name="Habitacion201"></a><?php echo __('La <b>habitación 201 - King Terraza</b> es un espacio soñado: luminosa, amplia, con cama king de calidad.')?>
 <?php echo __('El plus está en su amplia terraza que mira a la bahía, los cerros y enfrente una hermosa postal de bosque verde, una imponente edificación de colegio y al fondo la cordillera
 de la costa y en dias despejados la majestuosa silueta del monte Aconcagua.') ?>
 <ul><li><a href="http://www.facebook.com/album.php?aid=26570&amp;id=117324945005401" target="blank" onclick="_gaq.push(['_trackEvent', 'Habitacion', 'Galeria', '201']);"><?php echo __('Galería de la habitación')?></a></li>
 <li><?php echo link_to(__('Consultar y/o Reservar'),'@reserva',array('query_string' => 'habitacion=201'))?></li>
-</ul>* <?php echo __('Desde 1 Octubre será habitación King.') ?></td>
+</ul></td>
 <td><?php echo upload_tag('habitacion/habitacion 201 Hotel Sutherland House.JPG', array('size' => '340x228', 'alt' => __('Habitación 201 Twin con terraza')))?></td>
 </tr><tr>
 <td><a name="Habitacion301"></a><?php echo upload_tag('habitacion/habitacion 301 Hotel Sutherland House.JPG', array('size' => '340x228', 'alt' => __('Habitación 301 King Panoramic')))?></td>
