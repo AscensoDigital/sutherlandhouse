@@ -18,9 +18,9 @@ Antigua rectoría del <strong>Colegio Mackay</strong>, la cual se transformó en
 <?php echo upload_tag('cabecera/home/hotel_sutherland_house_05.jpg', array('size' => '885x390', 'alt' => __("Vista Recepción Hotel Boutique Sutherland House.")))?>
 </div>
 <div id="pieweb">
-<div id="TA_certificateOfExcellence651" class="TA_certificateOfExcellence">
-<ul id="YOhCi2a3K" class="TA_links 60CbIyl">
-<li id="tRVG17zwj" class="FXLTGo"><a href=http://www.tripadvisor.es/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html>Hotel Boutique Sutherland House</a></li>
+<div id="TA_certificateOfExcellence831" class="TA_certificateOfExcellence">
+<ul id="Rwi0MZ1lDrxF" class="TA_links 8SdXyQf">
+<li id="729jRX" class="4inhLtNMboH"><a href="http://www.tripadvisor.es/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html">Hotel Boutique Sutherland House</a></li>
 </ul></div>
 <script type="text/javascript" src="http://www.booking.com/general.html?tmpl=bookit;aid=330843;lang=<?php echo $sf_params->get('sf_culture')?>;hotel_id=289904;pb=0"></script><br/>
 <?php echo link_image_to('banner_new_year_2013_hotel_sutherland.jpg','@hotel_new_year', array('size' => '885x100', 'alt' => __("Año Nuevo %ANHO% en el mar de Valparaíso",array('%ANHO%' => date('Y')+1))),
@@ -41,4 +41,4 @@ Antigua rectoría del <strong>Colegio Mackay</strong>, la cual se transformó en
 <?php include_partial('hotel/footerContacto')?>
 </div>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'es-419'}</script>
-<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=651&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;year=2012"></script>
+<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=831&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;year=2013"></script>

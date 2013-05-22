@@ -62,7 +62,7 @@
 .eq(prevIndex).fadeTo('fast',onMouseOutOpacity).end()
 .eq(nextIndex).fadeTo('fast',1.0);},onPageTransitionOut:function(callback){this.fadeTo('fast',0.0,callback);},onPageTransitionIn:function(){this.fadeTo('fast',1.0);}});function pageload(hash){if(hash){$.galleriffic.gotoImage(hash);}else{gallery.gotoIndex(0);}}
 $.historyInit(pageload,"advanced.html");$("a[rel='history']").live('click',function(e){if(e.button!=0)return true;var hash=this.href;hash=hash.replace(/^.*#/,'');$.historyLoad(hash);return false;});});</script>
-<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=651&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;year=2012"></script>
+<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=651&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;year=2013"></script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'es-419'}</script>
