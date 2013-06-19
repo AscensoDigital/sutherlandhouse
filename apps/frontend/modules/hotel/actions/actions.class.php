@@ -21,7 +21,7 @@ class hotelActions extends sfActions
     {
       if ($this->getUser()->isFirstRequest())
       {
-        $culture = $request->getPreferredCulture(array('es', 'en', 'fr'));
+        $culture = $request->getPreferredCulture(array('es', 'en', 'fr','de'));
         $this->getUser()->setCulture($culture);
         $this->getUser()->isFirstRequest(false);
       }
