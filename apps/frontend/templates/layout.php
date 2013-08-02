@@ -26,7 +26,7 @@
 <?php echo link_image_to('reservas-es.jpg', '@reserva', array('alt' => __('Reservas'), 'title' => __('Reservas'), 'size' => '192x30'))?>
 <?php endif?>
 <?php echo link_image_to('mapa-es.jpg', '@hotel_ubicacion', array('alt' => __('Mapa'), 'title' => __('Mapa'), 'size' => '192x86'))?>
-<?php echo link_image_to('new_year_2013_hotel_sutherland_house.jpg', '@hotel_new_year', array('alt' => __('New Year').' '.date('Y')+1, 'title' => __('New Year').' '.date('Y')+1, 'size' => '192x86'))?>
+<?php echo link_image_to('new_year_2014_hotel_sutherland_house.jpg', '@hotel_new_year', array('alt' => __('New Year').' '.date('Y')+1, 'title' => __('New Year').' '.date('Y')+1, 'size' => '192x86'))?>
 <?php echo link_image_to('logo_cafeteria_sutherland_house.png', '@cafe', array('alt' => __('Cafetería'), 'title' => __('Cafetería'), 'size' => '192x136'))?>
 </div>
 <div id="menusuperior">
