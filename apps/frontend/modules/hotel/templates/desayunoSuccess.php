@@ -18,15 +18,12 @@
 <ul>
 <li><?php echo __('Mermeladas artesanales')?></li>
 <li><?php echo __('Ensalada de frutas')?></li>
-<li><?php echo __('Cereales (granola y avena)')?></li>
+<li><?php echo __('Cereales y avena')?></li>
 <li><?php echo __('Frutos secos')?></li>
-<li><?php echo __('Frutas de la estación')?></li>
-<li><?php echo __('Yogurt natural')?></li>
-<li><?php echo __('Cheesecake')?></li>
+<li><?php echo __('Yogurt')?></li>
 <li><?php echo __('Tarteletas de frutas')?></li>
-<li><?php echo __('Pastelitos')?></li>
 <li><?php echo __('Miel')?></li>
-<li><?php echo __('Azúcar blanca y rubia, sacarina')?></li>
+<li><?php echo __('Azúcar y endulcorante')?></li>
 </ul>
 </div>
 <div id="columnaextra">
@@ -34,12 +31,11 @@
 <h3><?php echo __('Salado')?></h3>
 <ul>
 <li><?php echo __('Jamón')?></li>
-<li><?php echo __('Salame')?></li>
 <li><?php echo __('Queso')?></li>
+<li><?php echo __('Tomate')?></li>
 </ul>
 <h3><?php echo __('Opciones')?></h3>
 <ul>
-<li><?php echo __('Panqueques + salsas')?></li>
 <li><?php echo __('Huevos revueltos')?></li>
 <li><?php echo __('Omelette')?></li>
 </ul>

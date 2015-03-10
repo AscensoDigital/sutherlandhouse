@@ -3,7 +3,7 @@
 <head>
 <?php include_http_metas() ?>
 <?php include_metas() ?>
-<title><?php if(!include_slot('title')): echo __('Hotel Sutherland House - Hotel Boutique &amp; Café Valparaíso, Chile');endif?></title>
+<title><?php if(!include_slot('title')): echo __('Hotel Sutherland House - Hotel Boutique, Valparaíso, Chile');endif?></title>
 <?php if(has_slot('title')):?><meta name="title" content="<?php include_slot('title')?>"/><?php endif?>
 <?php if(has_slot('description')):?><meta name="description" content="<?php include_slot('description')?>"/><?php endif?>
 <?php if(has_slot('keywords')):?><meta name="keywords" content="<?php include_slot('keywords')?>"/><?php endif?>

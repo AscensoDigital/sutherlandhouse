@@ -75,7 +75,13 @@ hotel_quienes_somos:
   param: { module: hotel, action: quienesSomos }
   requirements:
     sf_culture: (?:es|fr|en)
-
+    
+hotel_faq:
+  url:   /:sf_culture/preguntasfrecuentes.php
+  param: { module: hotel, action: faq }
+  requirements:
+    sf_culture: (?:es|fr|en)
+    
 hotel_servicio:
   url:   /:sf_culture/servicios.php
   param: { module: hotel, action: servicio }

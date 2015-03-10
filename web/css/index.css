@@ -1,8 +1,10 @@
-@charset "utf-8";html, body{margin:0;padding:0;}
+@charset "utf-8";
+html, body{margin:0;padding:0;}
 body{text-align:center;font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;background-color:#fefce4;color:#444;font-size:75%;}
+img.distincion{position:relative;left:-382px;z-index:11;float:left;}
 #principal{margin:auto;width:900px;}
 #superior{height:100px;margin-top:7px;margin-bottom:-25px;margin-left:-8px;}
-#logo{position:relative;z-index:11;float:left;height:105px;}
+#logo{position:relative;z-index:12;float:left;height:105px;}
 #logo img{border:none;}
 #texto-superior{float:right;width:460px;text-align:right;font-style:italic;margin-right:10px;margin-top:10px;*margin-top:15px;}
 #idioma{float:right;color:#999999;margin-top:10px;*margin-top:15px;height:30px;margin-right:-50px;z-index:12;position:relative;}
@@ -18,6 +20,8 @@ body{text-align:center;font-family:"Lucida Grande", "Lucida Sans Unicode", Verda
 #pieweb ul{margin-left:25px;margin-top:8px;}
 #pieweb a{text-align:center;margin-right:8px;text-decoration:none;color:#181818;}
 #pieweb a:hover{color:#ABABAB;}
+#pieweb a#image-waze{float:right;margin-right:-10px;margin-top:14px;}
 #contactos{float:left;width:900px;margin-top:-20px;*margin-top:-10px;margin-bottom:5px;*margin-left:-40px;}
-#TA_certificateOfExcellence831{position: absolute;top:460px;z-index: 400;}
+#TA_certificateOfExcellence831{position: absolute;top:430px;z-index: 400;}
 #b_editDates{width: 80%;margin-left: 20%;}
+.paxer-widget-calendar {float:right;}

@@ -44,6 +44,11 @@ class hotelActions extends sfActions
    $this->galeria=Hotel::getGaleria('desayuno');
   }
   
+  public function executeFaq()
+  {
+    $this->galeria=Hotel::getGaleria('habitaciones');
+  }
+  
   public function executeHabitacion()
   {
     $this->galeria=Hotel::getGaleria('habitaciones');
@@ -81,7 +86,7 @@ class hotelActions extends sfActions
   
   public function executeServicio()
   {
-    $this->galeria=Hotel::getGaleria('servicio');
+    $this->galeria=Hotel::getGaleria('hotel');
   }
   
   public function executeUbicacion()

@@ -8,9 +8,8 @@
 <?php echo image_tag('icon25_wifi_gratis.jpg', array('title' => __("WIFI en Hotel y en Habitaciones Gratis"), 'alt' =>__("wifi gratis"), 'size' => '30x30'))?> <?php echo __('WIFI libre en todas las areas.')?><br/>
 <?php echo image_tag('icon25_mucama.jpg', array('title' => __("Servicio Camarera"), 'alt' =>__("servicio camarera"), 'size' => '30x30'))?> <?php echo __('Servicio de camarera.')?><br/>
 <?php echo image_tag('icon25_rentacar.jpg', array('title' => __("Servicio de Estacionamiento"), 'alt' =>__("servicio estacionamiento"), 'size' => '30x30'))?> <?php echo __('Servicio de ballet parking.')?><br/>
-<?php echo image_tag('icon25_cafeteria.jpg', array('title' => __("Cafetería abierta al público"), 'alt' =>__("cafetería"), 'size' => '30x30'))?> <?php echo __('Cafetería.')?><br/>
 <?php echo image_tag('icon25_bar.jpg', array('title' => __("Welcome drink"), 'alt' =>__("welcome drink"), 'size' => '30x30'))?> <?php echo __('Welcome drink.')?><br/>
-<?php echo image_tag('icon25_desayuno_buffet.jpg', array('title' => __("Desayuno Buffet incluido"), 'alt' =>__("desayuno buffet"), 'size' => '30x30'))?> <?php echo __('Desayuno buffet o Americano.')?><br/>
+<?php echo image_tag('icon25_desayuno_buffet.jpg', array('title' => __("Desayuno Buffet incluido"), 'alt' =>__("desayuno buffet"), 'size' => '30x30'))?> <?php echo __('Desayuno buffet.')?><br/>
 <?php echo image_tag('icon25_secador_pelo.jpg', array('title' => __("Secador de Pelo"), 'alt' =>__("secador de pelo"), 'size' => '30x30'))?> <?php echo __('Secador de pelo.')?><br/>
 <?php echo image_tag('icon25_tv_cable.jpg', array('title' => __("TV Cable"), 'alt' =>__("tv cable"), 'size' => '30x30'))?> <?php echo __('Televisión por cable.')?><br/>
 <?php echo image_tag('icon25.gif', array('title' => __("Amenities"), 'alt' =>__("amenities"), 'size' => '30x30'))?> <?php echo __('Amenities en las habitaciones.')?>
@@ -21,7 +20,6 @@
 <?php echo image_tag('icon25_personal_bilingue.jpg', array('title' => __("Personal Bilingue"), 'alt' =>__("personal bilingue"), 'size' => '30x30'))?> <?php echo __('Personal bilingüe inglés, portugués y español.')?><br/>
 <?php echo image_tag('icon25_fotocopias.jpg', array('title' => __("Impresora y escaner"), 'alt' =>__("impresora y escaner"), 'size' => '30x30'))?> <?php echo __('Impresora y escaner.')?><br/>
 <?php echo image_tag('icon25_telefono.jpg', array('title' => __("Citófono en habitación"), 'alt' =>__("citófono"), 'size' => '30x30'))?> <?php echo __('Citófonos en las habitaciones.')?><br/>
-<?php echo image_tag('icon25_frigobar.jpg', array('title' => __("Frigobar"), 'alt' =>__("frigo bar"), 'size' => '30x30'))?> <?php echo __('Frigobar en suite Panoramic y Corner.')?><br/>
 <?php echo image_tag('icon25_asistencia_turistica.jpg', array('title' => __("Asistencia turística"), 'alt' =>__("asistencia turística"), 'size' => '30x30'))?> <?php echo __('Servicio de taxi y city tour a pedido.')?><br/>
 <?php echo image_tag('icon25.gif', array('title' => __("Directorio Español e Inglés"), 'alt' =>__("directorio"), 'size' => '30x30'))?> <?php echo __('Directorios en español e inglés.')?><br/>
 <?php echo image_tag('icon25.gif', array('title' => __("Cámaras de Seguridad"), 'alt' =>__("cámaras"), 'size' => '30x30'))?> <?php echo __('Cámaras de seguridad interiores y exteriores.')?>
