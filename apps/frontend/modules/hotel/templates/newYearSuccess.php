@@ -6,39 +6,39 @@
 <h2><?php echo __('Programa año Nuevo %year% en Hotel Boutique Sutherland House<br/>', array('%year%' => date('Y')+1))?></h2>
 <!--<h3 style="color: red">ÚLTIMA HABITACIÓN</h3>-->
 <p><?php echo __('Programa uno incluye 2 noches y 3 días de alojamiento desde el 30 de Diciembre %year_old% hasta el 01 de Enero de %year_new% para 2 personas.', array('%year_old%' => date('Y'), '%year_new%' => date('Y')+1))?></p> - Desde $850.000 CLP
-<p><?php echo __('Programa dos incluye 1 noches y 2 días de alojamiento desde el 31 de Diciembre %year_old% hasta el 01 de Enero de %year_new% para 2 personas.', array('%year_old%' => date('Y'), '%year_new%' => date('Y')+1))?></p> - Desde $580.000 CLP
+<p><?php echo __('Programa dos incluye 1 noche y 2 días de alojamiento desde el 31 de Diciembre %year_old% hasta el 01 de Enero de %year_new% para 2 personas.', array('%year_old%' => date('Y'), '%year_new%' => date('Y')+1))?></p> - Desde $580.000 CLP
 <h3>30 <?php echo __('de diciembre')?>:</h3> Programa (1)
 <p><b>15.00 <?php echo __('horas')?>:</b> Check in.<br/>
 <b>18.15 <?php echo __('horas')?>:</b> <?php echo __('Caminata por sector patrimonial.')?><br/>
 <b>20.15 <?php echo __('horas')?>:</b> <?php echo __('Paseo en Lancha por la costa de Valparaíso.')?><br/>
-<b>21.15 <?php echo __('horas')?>:</b> Coctel de bienvenida<br/>
+<b>21.15 <?php echo __('horas')?>:</b> <?php echo __('Cóctel de bienvenida')?><br/>
 - <?php echo __('Sutherland Sour.')?><br/>
 - <?php echo __('Degustación de vinos.')?><br/>
     - <?php echo __('Bebidas.')?><br/>
-    - <?php echo __('Cerveza artesanal.')?>
+    - <?php echo __('Cerveza artesanal.')?><br/>
     - <?php echo __('Bocados fríos.')?><br/>
   - <?php echo __('Bocados caliente.')?><br/>
     - <?php echo __('Bocados dulces.')?></p>
-<h3>31 <?php echo __('de diciembre')?>:</h3> Programa (2) incluye Check in desde las 09.00 con desayuno incluido
+<h3>31 <?php echo __('de diciembre')?>:</h3> <?php echo __('Programa (2) incluye Check in desde las 09.00 con desayuno incluido.')?>
 <p><b>8.30 a 11.30:</b> <?php echo __('Desayuno buffet.')?><br/>
-  <b>21 <?php echo __('horas')?>:</b> <?php echo __('Cena "MAR y TIERRA"')?></p>
+  <b>21.00 <?php echo __('horas')?>:</b> <?php echo __('Cena "MAR y TIERRA"')?></p>
     <h4><?php echo __('BUFFET PRINCIPAL')?></h4>
-- <?php echo __('Filete de res en salsa de setas')?><br/>
-- <?php echo __('Albacora en salsa de mariscos')?><br/>
-- <?php echo __('Pavo en salsa de mostaza')?><br/>
+- <?php echo __('Filete de res en salsa de Setas')?><br/>
+- <?php echo __('Albacora en salsa de Mariscos')?><br/>
+- <?php echo __('Pavo en salsa de Mostaza')?><br/>
 <h4><?php echo __('BUFFET GUARNICIONES')?></h4>
-- <?php echo __('Risoto funghi')?><br/>
-- <?php echo __('Trí de pastas en salsas')?><br/>
-- <?php echo __('Gratín de papas y champiñones')?><br/>
+- <?php echo __('Risotto Funghi')?><br/>
+- <?php echo __('Trío de pastas en salsas')?><br/>
+- <?php echo __('Gratín de Papas y Champiñones')?><br/>
 <h4><?php echo __('BUFFET DE POSTRES')?></h4><br/>
 <p><b>23.00 <?php echo __('horas')?>:</b> <?php echo __('Botella de espumante en la habitación.')?></p>
 <h3>1 <?php echo __('de Enero')?></h3>
 <p><b><?php echo __('Desde 00.30 horas')?>:</b> <?php echo __('Fiesta, DJ, cotillón y bar abierto.')?><br/>
   <b>03.00 <?php echo __('horas')?>:</b> <?php echo __('Consomé y tapaditos.')?><br/>
   <b>04.30 <?php echo __('horas')?>:</b> <?php echo __('Cierre.')?></p>
-<p><b>"<?php echo __('Sorteo de una noche de alojamiento para un fin de semana en habitación con terraza.')?>."</p>
-<p><b>09.00 a 13.00:</b><?php echo __('Brunch (desayuno/almuerzo).')?><br/>
-<b>16.30 <?php echo __('horas')?>:</b> Check out.</p>
+<p><b>"<?php echo __('Sorteo de una noche de alojamiento para un fin de semana en habitación con terraza')?>."</b></p>
+<p><b>09.00 a 13.00:</b> <?php echo __('Brunch (desayuno / almuerzo).')?><br/>
+<b>16.30 <?php echo __('horas')?>:</b>  <?php echo __('Check out.')?></p>
     <h2><?php echo __('Condiciones Generales')?></h2>
     <ul>
         <li>Solo para nacionales: El plan (1) Contempla los días 30, 31 de diciembre y 1 de enero, mientras que el plan (2) es a partir del día 31 de diciembre, con la opción de early check in, incluyendo desayuno el mismo día.</li>
@@ -52,6 +52,7 @@
         <li><?php echo __('No dispone de acceso para minusválidos.') ?></li>
         <li><?php echo __('No se aceptan mascotas')?></li>
         <li><?php echo __('Las dependencias del hotel son para no fumadores, solo en las terrazas se permite fumar.') ?></li>
+        <li>Cupos limitados de estacionamientos, consultar y solicitar al momento de reservar.</li>
     </ul>
     <h2><?php echo __('Forma de Pago') ?></h2>
     <ul>
@@ -76,7 +77,7 @@
         <tr><td>304</td><td>Suite</td><td>1.700</td><td>900.000</td><td>630.000</td></tr>
         </tbody>
     </table>
-    <p>Consultar por disponibilidad de cama adicional, con una tarifa de USD 75O.</p>
+    <p>Consultar por disponibilidad de cama adicional, con una tarifa de USD 75O; para pasajeros nacionales cambio de dolar del día.</p>
 
 <h2><?php echo __('Habitaciones')?></h2>
 <table id="habitacion">
