@@ -19,4 +19,7 @@ Options +FollowSymLinks +ExecCGI
 
   # no, so we redirect to our front web controller
   RewriteRule ^(.*)$ index.php [QSA,L]
+
+  RewriteCond %{SERVER_PORT} !^443$
+  RewriteRule .? https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 </IfModule>

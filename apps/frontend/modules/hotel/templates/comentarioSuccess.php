@@ -5,17 +5,20 @@
 <?php slot('galeria', get_partial('hotel/galeria',array('id' => 'hotel', 'title' => 'Hotel', 'imagenes' => $galeria)))?>
 <div id="columna1">
 <h2><?php echo __('Comentarios') ?></h2>
-<div id="TA_selfserveprop217" class="TA_selfserveprop">
-<ul id="9lBjr7YIeXEb" class="TA_links IUlv2tc">
-<li id="nsBx2Ec4b" class="yqFlVFB4S"><?php echo __('Contamos con críticas sobre') ?> <a target="_blank" href="http://www.tripadvisor.es/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html"><?php echo __('Hotel Boutique Sutherland House') ?></a> <?php echo __('en Valparaíso') ?></li>
-</ul>
+<div id="TA_selfserveprop219" class="TA_selfserveprop">
+    <ul id="YmMovxag3v6R" class="TA_links rnNkxWfCdJ9">
+        <li id="bEmb1XD2ldpx" class="znN4bY5Qv">
+            <a target="_blank" href="https://www.tripadvisor.es/"><img src="https://www.tripadvisor.es/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>
+        </li>
+    </ul>
 </div>
-<script src="http://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=217&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;rating=true&amp;nreviews=3&amp;writereviewlink=false&amp;popIdx=true&amp;iswide=true&amp;border=true"></script>
-
+<script src="https://www.tripadvisor.com/WidgetEmbed-selfserveprop?amp;locationId=1957998&amp;writereviewlink=false&amp;rating=true&amp;border=true&amp;uniq=219&amp;iswide=false&amp;popIdx=true&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;nreviews=5&amp;display_version=2"></script>
 <br>
-<div id="TA_ssnarrowcollectreview359" class="TA_ssnarrowcollectreview">
-<ul id="7Ji2sfonIn" class="TA_links 0OphWvfjhG0">
-<li id="EtqBmox" class="qnX3kF8o4v"><?php echo __('Escribe una opinión') ?> <a target="_blank" href="http://www.tripadvisor.es/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html">sobre Hotel Boutique Sutherland House</a></li>
-</ul>
-</div>
-<script src="http://www.jscache.com/wejs?wtype=ssnarrowcollectreview&amp;uniq=359&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;border=true"></script>
+    <div id="TA_sswidecollectreview785" class="TA_sswidecollectreview">
+        <ul id="SvaUxiMZ" class="TA_links 2iOPrTBIsQ">
+            <li id="piRq4HpR" class="Q6phT1gdz">
+                <a target="_blank" href="https://www.tripadvisor.es/"><img src="https://www.tripadvisor.es/img/cdsi/img2/branding/150_logo-16124-2.png" alt="TripAdvisor"/></a>
+            </li>
+        </ul>
+    </div>
+    <script src="https://www.tripadvisor.com/WidgetEmbed-sswidecollectreview?amp;locationId=1957998&amp;border=true&amp;uniq=785&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;display_version=2"></script>
