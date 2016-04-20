@@ -30,8 +30,9 @@ Antigua rectoría del <strong>Colegio Mackay</strong>, la cual se transformó en
 <a id="image-waze" href="waze://?q=Hotel+Sutherland+House" target="_blank"><?php echo image_tag('waze-hotel-sutherland-house.jpg')?></a>
 <div class="paxer-widget-calendar"></div>
 <!-- <script type="text/javascript" src="http://www.booking.com/general.html?tmpl=bookit;aid=330843;lang=<?php echo $sf_params->get('sf_culture')?>;hotel_id=289904;pb=0"></script><br/> -->
-<?php echo link_image_to('banner_new_year_2016_hotel_sutherland.jpg','@hotel_new_year', array('size' => '885x100', 'alt' => __("Año Nuevo %ANHO% en el mar de Valparaíso",array('%ANHO%' => date('Y')+1))),
+<?php link_image_to('banner_new_year_2016_hotel_sutherland.jpg','@hotel_new_year', array('size' => '885x100', 'alt' => __("Año Nuevo %ANHO% en el mar de Valparaíso",array('%ANHO%' => date('Y')+1))),
                           array( 'title' => __("ver programa Año Nuevo en el Mar %ANHO% en Valparaíso",array('%ANHO%' => date('Y')+1))))?>
+<?php echo image_tag('ofertas-temporada-baja-2016.png')?>
 <ul>
 <li class="ultimo"><?php echo link_image_to('logo_hotel_sutherland_house_chico.png','@hotel_hotel', array('size' => '35x28', 'alt' => __("Logo Hotel Boutique Sutherland House")))?></li>
 <li><?php echo link_to(__('Hotel'),'@hotel_hotel')?></li>
