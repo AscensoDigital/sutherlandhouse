@@ -19,14 +19,13 @@ Antigua rectoría del <strong>Colegio Mackay</strong>, la cual se transformó en
 <?php echo upload_tag('cabecera/home/hotel_sutherland_house_05.jpg', array('size' => '885x390', 'alt' => __("Vista Recepción Hotel Boutique Sutherland House.")))?>
 </div>
 <div id="pieweb">
-  <div id="TA_certificateOfExcellence992" class="TA_certificateOfExcellence">
-    <ul id="JgKFCmsls" class="TA_links omhS7IedPO">
-      <li id="EnS4Agtr" class="81qQbjC">
-        <a target="_blank" href="https://www.tripadvisor.es/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html"><img src="https://www.tripadvisor.es/img/cdsi/img2/awards/CoE2015_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+  <div id="TA_certificateOfExcellence363" class="TA_certificateOfExcellence">
+    <ul id="2FaLRz8" class="TA_links Wt4LRQ6e5KHh">
+      <li id="crdgyz" class="xicJyYQ7Xbhs">
+        <a target="_blank" href="https://www.tripadvisor.es/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html"><img src="https://www.tripadvisor.es/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
       </li>
     </ul>
   </div>
-
 <a id="image-waze" href="waze://?q=Hotel+Sutherland+House" target="_blank"><?php echo image_tag('waze-hotel-sutherland-house.jpg')?></a>
 <div class="paxer-widget-calendar"></div>
 <!-- <script type="text/javascript" src="http://www.booking.com/general.html?tmpl=bookit;aid=330843;lang=<?php echo $sf_params->get('sf_culture')?>;hotel_id=289904;pb=0"></script><br/> -->
@@ -48,7 +47,7 @@ Antigua rectoría del <strong>Colegio Mackay</strong>, la cual se transformó en
 <?php include_partial('hotel/footerContacto')?>
 </div>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'es-419'}</script>
-<script src="https://www.tripadvisor.es/WidgetEmbed-certificateOfExcellence?year=2015&locationId=1957998&display_version=2&uniq=992&lang=<?php echo $sf_params->get('sf_culture')?>"></script>
+<script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=363&amp;locationId=1957998&amp;lang=<?php echo $sf_params->get('sf_culture')?>&amp;year=2016&amp;display_version=2"></script>
 <script type='text/javascript'>
   var paxer = {};
   paxer.secret = 'JFL9VF';
