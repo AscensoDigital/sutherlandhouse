@@ -67,14 +67,14 @@
         <thead><tr><th>Habitación</th><th>Características</th><th>Valor USD</th><th>Valor CLP Plan (1)</th><th>Valor CLP Plan (2)</th></tr></thead>
         <tbody>
         <tr><td>101</td><td>Suite</td><?php if(false):?><td colspan="3">Reservada</td><?php else: ?><td>1.700</td><td>900.000</td><td>630.000</td><?php endif?></tr>
-        <tr><td>201</td><td>Suite King con Terraza</td><?php if(false):?><td colspan="3">Reservada</td><?php else: ?><td>1.830</td><td>980.000</td><td>680.000</td><?php endif?></tr>
-        <tr><td>202</td><td>Suite</td><?php if(false):?><td colspan="3">Reservada</td><?php else: ?><td>1.700</td><td>900.000</td><td>630.000</td><?php endif?></tr>
+        <tr><td>201</td><td>Suite King con Terraza</td><?php if(true):?><td colspan="3">Reservada</td><?php else: ?><td>1.830</td><td>980.000</td><td>680.000</td><?php endif?></tr>
+        <tr><td>202</td><td>Suite</td><?php if(true):?><td colspan="3">Reservada</td><?php else: ?><td>1.700</td><td>900.000</td><td>630.000</td><?php endif?></tr>
         <tr><td>203</td><td>Suite (Con opción a doble)</td><?php if(false):?><td colspan="3">Reservada</td><?php else: ?><td>1.700</td><td>850.000</td><td>580.000</td><?php endif?></tr>
-        <tr><td>204</td><td>Doble</td><?php if(false):?><td colspan="3">Reservada</td><?php else: ?><td>1.700</td><td>850.000</td><td>580.000</td><?php endif?></tr>
+        <tr><td>204</td><td>Doble</td><?php if(true):?><td colspan="3">Reservada</td><?php else: ?><td>1.700</td><td>850.000</td><td>580.000</td><?php endif?></tr>
         <tr><td>301</td><td>Suite King</td><?php if(false):?><td colspan="3">Reservada</td><?php else: ?><td>1.830</td><td>980.000</td><td>680.000</td><?php endif?></tr>
-        <tr><td>302</td><td>Suite</td><?php if(false):?><td colspan="3">Reservada</td><?php else: ?><td>1.830</td><td>980.000</td><td>680.000</td><?php endif?></tr>
+        <tr><td>302</td><td>Suite</td><?php if(true):?><td colspan="3">Reservada</td><?php else: ?><td>1.830</td><td>980.000</td><td>680.000</td><?php endif?></tr>
         <tr><td>303</td><td>Suite King corner</td><?php if(false):?><td colspan="3">Reservada</td><?php else: ?><td>1.830</td><td>980.000</td><td>680.000</td><?php endif?></tr>
-        <tr><td>304</td><td>Suite</td><?php if(false):?><td colspan="3">Reservada</td><?php else: ?><td>1.700</td><td>900.000</td><td>630.000</td><?php endif?></tr>
+        <tr><td>304</td><td>Suite</td><?php if(true):?><td colspan="3">Reservada</td><?php else: ?><td>1.700</td><td>900.000</td><td>630.000</td><?php endif?></tr>
         </tbody>
     </table>
     <p>Consultar por disponibilidad de cama adicional, con una tarifa de USD 75O; para pasajeros nacionales cambio de dolar del día.</p>
