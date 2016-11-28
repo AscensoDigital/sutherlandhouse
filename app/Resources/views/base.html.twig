@@ -1,13 +1,81 @@
+{% spaceless %}
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% block title %}{% endblock title %} - {% block subtitle %}{% endblock subtitle %} - Hotel Sutherland House - Hotel Boutique - Valparaíso</title>
+        <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap-theme.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/vendor/font-awesome.min.css') }}">
+        {% block stylesheets %}
+            {% stylesheets
+                'css/main.css'
+                filter='scssphp' output='css/compiled/index.css' %}
+            <link href="{{ asset_url }}" rel="stylesheet" type="text/css"/>
+            {% endstylesheets %}
+        {% endblock stylesheets %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        <div id="wrap">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ts-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="clean-link" href="{{ path('homepage') }}">
+                        <img id="logo" src="{{ asset('images/hotel-sutherland-house-logo-horizontal.png') }}" alt="Logo Hotel Sutherland House Valparaíso"/>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse navbar-ex1-collapse" id="ts-navbar-collapse">
+                    <div id="nav-contact" class="col-sm-5 col-md-6 col-lg-7 pull-right text-right">
+                        <div id="google_translate_element" class="navbar-form pull-right"></div>
+                        <span class="navbar-text pull-right"><i class="fa fa-phone"></i> +56 32 3196 798</span>
+                        <span class="navbar-text pull-right"><i class="fa fa-map-marker"></i> Avenida Alemania 4966, Cerro Alegre, Valparaíso</span>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right col-">
+                        {{ include('includes/menu-principal.html.twig') }}
+                        <li>&nbsp;</li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="main" class="container-fluid">
+            {% block body %}{% endblock body %}
+            </div>
+        </div>
+        <footer id="footer" class="panel-footer panel-primary">
+            <div class="row">
+
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        {% block javascripts %}
+            {% javascripts
+            'js/vendor/bootstrap.min.js'
+            filter='?jsqueeze' output='js/compiled/base.js' %}
+            <script src="{{ asset_url }}" type="text/javascript"></script>
+            {% endjavascripts %}
+        {% endblock %}
+        {% if app.environment=='prod' %}
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                ga('create', 'UA-16729802-1', 'auto');
+                ga('send', 'pageview');
+            </script>
+        {% endif %}
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,da,de,en,fr,hr,it,ja,ko,no,pt,ru,sk,sv,zh-TW', multilanguagePage: true, gaTrack: true, gaId: 'UA-16729802-1'}, 'google_translate_element');
+            }
+        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </body>
 </html>
+{% endspaceless %}
