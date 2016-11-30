@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Cocur\Slugify\Slugify;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -32,9 +33,9 @@ class Promocion
     /**
      * @var string
      *
-     * @ORM\Column(name="route", type="string", length=255, nullable=true)
+     * @ORM\Column(name="template", type="string", length=255, nullable=true)
      */
-    protected $route;
+    protected $template;
 
     /**
      * @var \DateTime
@@ -79,6 +80,13 @@ class Promocion
     protected $updatedAt;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="slug", type="string", length=255, nullable=false, unique=true)
+     */
+    protected $slug;
+
+    /**
      * @var Usuario
      *
      * @ORM\ManyToOne(targetEntity="Usuario")
@@ -89,6 +97,11 @@ class Promocion
     protected $modificador;
 
 
+
+    public function __toString()
+    {
+        return $this->getNombre();
+    }
 
     /**
      * Get id
@@ -110,7 +123,8 @@ class Promocion
     public function setNombre($nombre)
     {
         $this->nombre = $nombre;
-
+        $slugify= new Slugify();
+        $this->setSlug($slugify->slugify($nombre));
         return $this;
     }
 
@@ -122,30 +136,6 @@ class Promocion
     public function getNombre()
     {
         return $this->nombre;
-    }
-
-    /**
-     * Set route
-     *
-     * @param string $route
-     *
-     * @return Promocion
-     */
-    public function setRoute($route)
-    {
-        $this->route = $route;
-
-        return $this;
-    }
-
-    /**
-     * Get route
-     *
-     * @return string
-     */
-    public function getRoute()
-    {
-        return $this->route;
     }
 
     /**
@@ -295,11 +285,11 @@ class Promocion
     /**
      * Set modificador
      *
-     * @param \AppBundle\Entity\Usuario $modificador
+     * @param Usuario $modificador
      *
      * @return Promocion
      */
-    public function setModificador(\AppBundle\Entity\Usuario $modificador = null)
+    public function setModificador(Usuario $modificador = null)
     {
         $this->modificador = $modificador;
 
@@ -309,10 +299,58 @@ class Promocion
     /**
      * Get modificador
      *
-     * @return \AppBundle\Entity\Usuario
+     * @return Usuario
      */
     public function getModificador()
     {
         return $this->modificador;
+    }
+
+    /**
+     * Set template
+     *
+     * @param string $template
+     *
+     * @return Promocion
+     */
+    public function setTemplate($template)
+    {
+        $this->template = $template;
+
+        return $this;
+    }
+
+    /**
+     * Get template
+     *
+     * @return string
+     */
+    public function getTemplate()
+    {
+        return $this->template;
+    }
+
+    /**
+     * Set slug
+     *
+     * @param string $slug
+     *
+     * @return Promocion
+     */
+    public function setSlug($slug)
+    {
+        $this->slug = $slug;
+
+        return $this;
+    }
+
+    /**
+     * Get slug
+     *
+     * @return string
+     */
+    public function getSlug()
+    {
+        return $this->slug;
     }
 }

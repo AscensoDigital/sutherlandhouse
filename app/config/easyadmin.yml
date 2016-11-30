@@ -1,0 +1,53 @@
+easy_admin:
+    entities:
+        CarouselTipo:
+            class: AppBundle\Entity\CarouselTipo
+        Habitacion:
+            class: AppBundle\Entity\Habitacion
+        HabitacionTipo:
+            class: AppBundle\Entity\HabitacionTipo
+        PageCarousel:
+            class: AppBundle\Entity\PageCarousel
+            list:
+                fields:
+                    - id
+                    - { property: 'url', type: 'image', base_path: %app.path.carousel_images% }
+                    - pagina
+                    - orden
+                    - activo
+                    - titulo
+                    - captionText
+                    - promocion
+                    - link
+            show:
+                fields:
+                    - id
+                    - { property: 'url', type: 'image', base_path: %app.path.carousel_images% }
+                    - pagina
+                    - orden
+                    - activo
+                    - titulo
+                    - captionText
+                    - promocion
+                    - link
+                    - modificador
+                    - updatedAt
+            form:
+                fields:
+                    - pagina
+                    - carouselTipo
+                    - orden
+                    - activo
+                    - titulo
+                    - { property: 'imageFile', type: 'vich_image' }
+                    - { property: 'captionText', type: 'text', label: 'Descripción'}
+                    - link
+                    - promocion
+        Promocion:
+            class: AppBundle\Entity\Promocion
+        PromocionXHabitacion:
+            class: AppBundle\Entity\PromocionXHabitacion
+        Tarifa:
+            class: AppBundle\Entity\Tarifa
+        Temporada:
+            class: AppBundle\Entity\Temporada

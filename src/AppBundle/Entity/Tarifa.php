@@ -88,6 +88,10 @@ class Tarifa
     protected $modificador;
 
 
+    public function __toString()
+    {
+        return $this->getTemporada().' - '.$this->getHabitacionTipo();
+    }
 
     /**
      * Get id
@@ -222,11 +226,11 @@ class Tarifa
     /**
      * Set temporada
      *
-     * @param \AppBundle\Entity\Temporada $temporada
+     * @param Temporada $temporada
      *
      * @return Tarifa
      */
-    public function setTemporada(\AppBundle\Entity\Temporada $temporada = null)
+    public function setTemporada(Temporada $temporada = null)
     {
         $this->temporada = $temporada;
 
@@ -236,7 +240,7 @@ class Tarifa
     /**
      * Get temporada
      *
-     * @return \AppBundle\Entity\Temporada
+     * @return Temporada
      */
     public function getTemporada()
     {
@@ -246,11 +250,11 @@ class Tarifa
     /**
      * Set habitacionTipo
      *
-     * @param \AppBundle\Entity\HabitacionTipo $habitacionTipo
+     * @param HabitacionTipo $habitacionTipo
      *
      * @return Tarifa
      */
-    public function setHabitacionTipo(\AppBundle\Entity\HabitacionTipo $habitacionTipo = null)
+    public function setHabitacionTipo(HabitacionTipo $habitacionTipo = null)
     {
         $this->habitacionTipo = $habitacionTipo;
 
@@ -260,7 +264,7 @@ class Tarifa
     /**
      * Get habitacionTipo
      *
-     * @return \AppBundle\Entity\HabitacionTipo
+     * @return HabitacionTipo
      */
     public function getHabitacionTipo()
     {
@@ -270,11 +274,11 @@ class Tarifa
     /**
      * Set modificador
      *
-     * @param \AppBundle\Entity\Usuario $modificador
+     * @param Usuario $modificador
      *
      * @return Tarifa
      */
-    public function setModificador(\AppBundle\Entity\Usuario $modificador = null)
+    public function setModificador(Usuario $modificador = null)
     {
         $this->modificador = $modificador;
 
@@ -284,7 +288,7 @@ class Tarifa
     /**
      * Get modificador
      *
-     * @return \AppBundle\Entity\Usuario
+     * @return Usuario
      */
     public function getModificador()
     {

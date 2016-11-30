@@ -1,0 +1,30 @@
+<div id="carousel-{{ pagina }}" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+    {% for pc in pcs %}
+        <li data-target="#carousel-{{ pagina }}" data-slide-to="{{ loop.index0 }}" {%  if loop.first %}class="active"{% endif %}></li>
+    {% endfor %}
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        {% for pc in pcs %}
+        <div class="item {%  if loop.first %}active{% endif %}">
+            {{ include('hotel/' ~ pc.carouselTipo.template) }}
+            <div class="carousel-caption">
+                {{ pc.captionText }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-{{ pagina }}" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-{{ pagina }}" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+    </a>
+</div>

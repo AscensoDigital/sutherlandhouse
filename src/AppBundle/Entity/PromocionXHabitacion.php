@@ -79,6 +79,11 @@ class PromocionXHabitacion
 
 
 
+    public function __toString()
+    {
+        return $this->getPromocion().' - '.$this->getHabitacion();
+    }
+
     /**
      * Get id
      *
@@ -212,11 +217,11 @@ class PromocionXHabitacion
     /**
      * Set promocion
      *
-     * @param \AppBundle\Entity\Promocion $promocion
+     * @param Promocion $promocion
      *
      * @return PromocionXHabitacion
      */
-    public function setPromocion(\AppBundle\Entity\Promocion $promocion = null)
+    public function setPromocion(Promocion $promocion = null)
     {
         $this->promocion = $promocion;
 
@@ -226,7 +231,7 @@ class PromocionXHabitacion
     /**
      * Get promocion
      *
-     * @return \AppBundle\Entity\Promocion
+     * @return Promocion
      */
     public function getPromocion()
     {
@@ -236,11 +241,11 @@ class PromocionXHabitacion
     /**
      * Set habitacion
      *
-     * @param \AppBundle\Entity\Habitacion $habitacion
+     * @param Habitacion $habitacion
      *
      * @return PromocionXHabitacion
      */
-    public function setHabitacion(\AppBundle\Entity\Habitacion $habitacion = null)
+    public function setHabitacion(Habitacion $habitacion = null)
     {
         $this->habitacion = $habitacion;
 
@@ -250,7 +255,7 @@ class PromocionXHabitacion
     /**
      * Get habitacion
      *
-     * @return \AppBundle\Entity\Habitacion
+     * @return Habitacion
      */
     public function getHabitacion()
     {

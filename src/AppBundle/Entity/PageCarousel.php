@@ -3,15 +3,20 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\HttpFoundation\File\File;
+use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 /**
  * PageCarousel
  *
  * @ORM\Table(name="page_carousel", indexes={@ORM\Index(name="IDX_9D484020CB88BB42", columns={"carousel_tipo_id"}), @ORM\Index(name="IDX_9D484020B1E453D4", columns={"promocion_id"}), @ORM\Index(name="IDX_9D4840204C7F0C30", columns={"modificador_id"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\PageCarouselRepository")
+ * @Vich\Uploadable
  */
 class PageCarousel
 {
+    const PORTADA = 'portada';
+
     /**
      * @var integer
      *
@@ -65,6 +70,20 @@ class PageCarousel
     protected $updatedAt;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="titulo", type="string", length=150, nullable=true)
+     */
+    protected $titulo;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="link", type="string", length=255, nullable=true)
+     */
+    protected $link;
+
+    /**
      * @var CarouselTipo
      *
      * @ORM\ManyToOne(targetEntity="CarouselTipo")
@@ -94,7 +113,29 @@ class PageCarousel
      */
     protected $modificador;
 
+    /**
+     * @Vich\UploadableField(mapping="carousel_images", fileNameProperty="url")
+     * @var File
+     */
+    private $imageFile;
 
+
+
+    public function __toString()
+    {
+        return $this->getPagina().' | '.$this->getTitulo();
+    }
+
+    public function hasLink() {
+        return !is_null($this->getLink()) || $this->hasPromocionPage();
+    }
+
+    public function hasPromocionPage(){
+        if(is_null($this->getPromocion())) {
+            return false;
+        }
+        return !is_null($this->getPromocion()->getTemplate());
+    }
 
     /**
      * Get id
@@ -253,11 +294,11 @@ class PageCarousel
     /**
      * Set carouselTipo
      *
-     * @param \AppBundle\Entity\CarouselTipo $carouselTipo
+     * @param CarouselTipo $carouselTipo
      *
      * @return PageCarousel
      */
-    public function setCarouselTipo(\AppBundle\Entity\CarouselTipo $carouselTipo = null)
+    public function setCarouselTipo(CarouselTipo $carouselTipo = null)
     {
         $this->carouselTipo = $carouselTipo;
 
@@ -267,7 +308,7 @@ class PageCarousel
     /**
      * Get carouselTipo
      *
-     * @return \AppBundle\Entity\CarouselTipo
+     * @return CarouselTipo
      */
     public function getCarouselTipo()
     {
@@ -277,11 +318,11 @@ class PageCarousel
     /**
      * Set promocion
      *
-     * @param \AppBundle\Entity\Promocion $promocion
+     * @param Promocion $promocion
      *
      * @return PageCarousel
      */
-    public function setPromocion(\AppBundle\Entity\Promocion $promocion = null)
+    public function setPromocion(Promocion $promocion = null)
     {
         $this->promocion = $promocion;
 
@@ -291,7 +332,7 @@ class PageCarousel
     /**
      * Get promocion
      *
-     * @return \AppBundle\Entity\Promocion
+     * @return Promocion
      */
     public function getPromocion()
     {
@@ -301,11 +342,11 @@ class PageCarousel
     /**
      * Set modificador
      *
-     * @param \AppBundle\Entity\Usuario $modificador
+     * @param Usuario $modificador
      *
      * @return PageCarousel
      */
-    public function setModificador(\AppBundle\Entity\Usuario $modificador = null)
+    public function setModificador(Usuario $modificador = null)
     {
         $this->modificador = $modificador;
 
@@ -315,10 +356,69 @@ class PageCarousel
     /**
      * Get modificador
      *
-     * @return \AppBundle\Entity\Usuario
+     * @return Usuario
      */
     public function getModificador()
     {
         return $this->modificador;
     }
+
+    /**
+     * Set titulo
+     *
+     * @param string $titulo
+     *
+     * @return PageCarousel
+     */
+    public function setTitulo($titulo)
+    {
+        $this->titulo = $titulo;
+
+        return $this;
+    }
+
+    /**
+     * Get titulo
+     *
+     * @return string
+     */
+    public function getTitulo()
+    {
+        return $this->titulo;
+    }
+
+    /**
+     * Set link
+     *
+     * @param string $link
+     *
+     * @return PageCarousel
+     */
+    public function setLink($link)
+    {
+        $this->link = $link;
+
+        return $this;
+    }
+
+    /**
+     * Get link
+     *
+     * @return string
+     */
+    public function getLink()
+    {
+        return $this->link;
+    }
+
+    public function setImageFile(File $image = null)
+    {
+        $this->imageFile = $image;
+    }
+
+    public function getImageFile()
+    {
+        return $this->imageFile;
+    }
+
 }

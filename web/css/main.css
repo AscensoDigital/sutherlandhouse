@@ -1,31 +1,9 @@
 body{
-    padding-top: 110px;
+    padding-top: 0;
     height: 100%;
     min-height: 100%;
     margin-bottom: 0px;
     position: relative;
-}
-
-html {
-    height: 100%;
-}
-
-#wrap {
-    min-height: 100%;
-}
-#main {
-    overflow: auto;
-    padding-bottom: 70px;
-}
-
-/* Altura en px del footer */
-#footer {
-    position: relative;
-    margin-top: -70px; /* altura en px del footer con valor negativo */
-    height: 70px; /* Altura del Footer en px*/
-    clear: both;
-    background-color: #fff;
-    text-align: center;
 }
 /*Opera Fix*/
 body:before {
@@ -37,13 +15,45 @@ body:before {
     /* Efecto Negativo para OPERA*/
 }
 
+html {
+    height: 100%;
+}
+
+#carousel-portada .item, .item img {
+    max-height: 700px;
+    min-height: 250px;
+}
+
+
+
+/* Altura en px del footer */
+#footer {
+    position: relative;
+    margin-top: -70px; /* altura en px del footer con valor negativo */
+    height: 70px; /* Altura del Footer en px*/
+    clear: both;
+    background-color: #fff;
+    text-align: center;
+}
+
 #logo {
     position: relative;
     z-index: 12;
     top: 25px;
 }
 
-#carousel-homepage .item{
-    max-height: 700px;
-    min-height: 250px;
+#main {
+    overflow: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 70px;
+}
+
+
+#nav-header {
+    margin-bottom: 0;
+}
+
+#wrap {
+    min-height: 100%;
 }

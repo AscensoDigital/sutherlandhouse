@@ -46,6 +46,11 @@ class Usuario extends BaseUser
 
 
 
+    public function __toString()
+    {
+        return $this->getUsername();
+    }
+
     /**
      * Set nombres
      *

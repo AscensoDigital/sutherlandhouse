@@ -40,6 +40,10 @@ class Habitacion
     protected $habitacionTipo;
 
 
+    public function __toString()
+    {
+        return $this->getHabitacionTipo().' '.$this->getNombre();
+    }
 
     /**
      * Get id
@@ -78,11 +82,11 @@ class Habitacion
     /**
      * Set habitacionTipo
      *
-     * @param \AppBundle\Entity\HabitacionTipo $habitacionTipo
+     * @param HabitacionTipo $habitacionTipo
      *
      * @return Habitacion
      */
-    public function setHabitacionTipo(\AppBundle\Entity\HabitacionTipo $habitacionTipo = null)
+    public function setHabitacionTipo(HabitacionTipo $habitacionTipo = null)
     {
         $this->habitacionTipo = $habitacionTipo;
 
@@ -92,7 +96,7 @@ class Habitacion
     /**
      * Get habitacionTipo
      *
-     * @return \AppBundle\Entity\HabitacionTipo
+     * @return HabitacionTipo
      */
     public function getHabitacionTipo()
     {

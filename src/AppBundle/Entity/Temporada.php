@@ -44,7 +44,7 @@ class Temporada
     protected $updatedAt;
 
     /**
-     * @var \Usuario
+     * @var Usuario
      *
      * @ORM\ManyToOne(targetEntity="Usuario")
      * @ORM\JoinColumns({
@@ -54,6 +54,10 @@ class Temporada
     protected $modificador;
 
 
+    public function __toString()
+    {
+        return $this->getNombre();
+    }
 
     /**
      * Get id

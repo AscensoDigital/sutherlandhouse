@@ -54,7 +54,7 @@
         <part>id</part>
     </key>
 </table>
-    <table x="1013" y="153" name="PAGE_CAROUSEL">
+    <table x="1061" y="153" name="PAGE_CAROUSEL">
         <row name="id" null="1" autoincrement="1">
             <datatype>INTEGER</datatype>
             <default>NULL</default></row>
@@ -88,11 +88,17 @@
             <datatype>INTEGER</datatype>
             <default>NULL</default><relation table="USUARIO" row="id" />
         </row>
+        <row name="titulo" null="1" autoincrement="0">
+            <datatype>VARCHAR(150)</datatype>
+            <default>NULL</default></row>
+        <row name="link" null="1" autoincrement="0">
+            <datatype>VARCHAR(255)</datatype>
+            <default>NULL</default></row>
         <key type="PRIMARY" name="">
             <part>id</part>
         </key>
     </table>
-    <table x="1319" y="195" name="CAROUSEL_TIPO">
+    <table x="1373" y="199" name="CAROUSEL_TIPO">
         <row name="id" null="1" autoincrement="1">
             <datatype>INTEGER</datatype>
             <default>NULL</default></row>
@@ -199,7 +205,7 @@
         <row name="nombre" null="0" autoincrement="0">
             <datatype>VARCHAR(255)</datatype>
         </row>
-        <row name="route" null="1" autoincrement="0">
+        <row name="template" null="1" autoincrement="0">
             <datatype>VARCHAR(255)</datatype>
             <default>NULL</default></row>
         <row name="fecha_inicio" null="1" autoincrement="0">
@@ -224,8 +230,14 @@
         <row name="updated_at" null="1" autoincrement="0">
             <datatype>DATETIME</datatype>
             <default>NULL</default></row>
+        <row name="slug" null="1" autoincrement="0">
+            <datatype>VARCHAR(255)</datatype>
+            <default>NULL</default></row>
         <key type="PRIMARY" name="">
             <part>id</part>
+        </key>
+        <key type="UNIQUE" name="">
+            <part>slug</part>
         </key>
     </table>
     <table x="1043" y="702" name="PROMOCION_x_HABITACION">

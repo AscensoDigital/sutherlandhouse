@@ -30,6 +30,10 @@ class HabitacionTipo
     protected $nombre;
 
 
+    public function __toString()
+    {
+        return $this->getNombre();
+    }
 
     /**
      * Get id
