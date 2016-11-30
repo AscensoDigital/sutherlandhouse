@@ -19,7 +19,7 @@ html {
     height: 100%;
 }
 
-#carousel-portada .item, .item img {
+#carousel-portada .item {
     max-height: 700px;
     min-height: 250px;
 }
@@ -56,4 +56,8 @@ html {
 
 #wrap {
     min-height: 100%;
+}
+
+.item img {
+    min-height: 250px;
 }
