@@ -73,6 +73,25 @@
             <script src="{{ asset_url }}" type="text/javascript"></script>
             {% endjavascripts %}
         {% endblock %}
+        <script type='text/javascript'>
+            var paxer = {};
+            paxer.secret = 'JFL9VF';
+            paxer.widgetType = 'BOTH';
+            paxer.triggerButton = '';  // Coloque aquí el id del botón o link de reservas de su sitio web
+            paxer.widgetTheme = 'custom';
+            paxer.widgetOrientation = 'horizontal';
+            paxer.widgetColors = {"colorHeader1":"#c2bc00","colorHeader2":"#3b3a3a","colorBody1":"#f4f4f4","colorBody2":"#666666"};
+            paxer.paxerLang = ''; // Opcional: indique el código del idioma en el que desea ver el widget. Si no se especifica, establece el idioma principal del hotel. Idiomas soportados: es, en
+
+            (function() {
+                var paxerScript = document.createElement('script');
+                paxerScript.type = 'text/javascript';
+                paxerScript.async = true;
+                paxerScript.src = 'https://paxer.com/lib/widget/paxer-booking.js?v='+ (new Date().getTime());
+                var hscr = document.getElementsByTagName('head')[0];
+                hscr.appendChild(paxerScript);
+            })();
+        </script>
         {% if app.environment=='prod' %}
             <script>
                 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
