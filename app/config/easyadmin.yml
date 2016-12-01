@@ -45,9 +45,92 @@ easy_admin:
                     - promocion
         Promocion:
             class: AppBundle\Entity\Promocion
+            list:
+                fields:
+                    - id
+                    - nombre
+                    - slug
+                    - fechaInicio
+                    - fechaTermino
+                    - portada
+                    - template
+                    - opcion1Nombre
+                    - opcion2Nombre
+            show:
+                fields:
+                    - id
+                    - nombre
+                    - slug
+                    - fechaInicio
+                    - fechaTermino
+                    - portada
+                    - template
+                    - opcion1Nombre
+                    - opcion2Nombre
+                    - modificador
+                    - updatedAt
+            form:
+                fields:
+                    - nombre
+                    - fechaInicio
+                    - fechaTermino
+                    - portada
+                    - template
+                    - opcion1Nombre
+                    - opcion2Nombre
         PromocionXHabitacion:
             class: AppBundle\Entity\PromocionXHabitacion
+            list:
+                fields:
+                    - id
+                    - promocion
+                    - habitacion
+                    - vendida
+                    - pesoOpcion1
+                    - pesoOpcion2
+                    - dolarOpcion1
+                    - dolarOpcion2
+            show:
+                fields:
+                    - id
+                    - promocion
+                    - habitacion
+                    - vendida
+                    - pesoOpcion1
+                    - pesoOpcion2
+                    - dolarOpcion1
+                    - dolarOpcion2
+            form:
+                fields:
+                    - promocion
+                    - habitacion
+                    - vendida
+                    - pesoOpcion1
+                    - pesoOpcion2
+                    - dolarOpcion1
+                    - dolarOpcion2
         Tarifa:
             class: AppBundle\Entity\Tarifa
+            list:
+                fields:
+                    - id
+                    - temporada
+                    - habitacionTipo
+                    - pesoSemana
+                    - pesoFinde
+                    - dolarSemana
+                    - dolarFinde
+            form:
+                fields:
+                    - temporada
+                    - habitacionTipo
+                    - pesoSemana
+                    - pesoFinde
+                    - dolarSemana
+                    - dolarFinde
         Temporada:
             class: AppBundle\Entity\Temporada
+            form:
+                fields:
+                    - nombre
+                    - activa
