@@ -35,6 +35,21 @@
                 </a>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-2">
+                <script>
+                    (function() {
+                        var randomId = Math.floor(Math.random() * 100000);
+                        var targetElemId = 'bcom_rwidget_' + randomId;
+                        document.write('<div id="' + targetElemId + '" style="display:inline-block;"></div>');
+                        var script   = document.createElement('script');
+                        script.type  = 'text/javascript';
+                        script.async = true;
+                        script.src   = 'http://www.booking.com/review_widget/cl/sutherland-house.es.html?tmpl=review_widget/review_widget&wid=' + targetElemId + '&wtype=box_big&hotel_id=289904&widget_language=es';
+                        var node     = document.getElementsByTagName('script')[0];
+                        node.parentNode.insertBefore(script, node);
+                    }());
+                </script>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2">
                 <div id="TA_certificateOfExcellence591" class="TA_certificateOfExcellence">
                     <ul id="EGbGhG" class="TA_links Cg9BTk01WJ">
                         <li id="j5DVWel" class="Anpdea7U5pL">
@@ -82,5 +97,4 @@
     <script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=306&amp;locationId=1957998&amp;lang=es_CL&amp;year=2014&amp;display_version=2"></script>
     <script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=589&amp;locationId=1957998&amp;lang=es_CL&amp;year=2013&amp;display_version=2"></script>
     <script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=233&amp;locationId=1957998&amp;lang=es_CL&amp;year=2012&amp;display_version=2"></script>
-
 {% endblock %}
