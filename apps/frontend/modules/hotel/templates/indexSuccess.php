@@ -28,7 +28,7 @@ Antigua rectoría del <strong>Colegio Mackay</strong>, la cual se transformó en
   </div>
 <a id="image-waze" href="waze://?q=Hotel+Sutherland+House" target="_blank"><?php echo image_tag('waze-hotel-sutherland-house.jpg')?></a>
 <div class="paxer-widget-calendar"></div>
-<?php echo link_image_to('banner_new_year_2016_hotel_sutherland.jpg','@hotel_new_year', array('size' => '885x100', 'alt' => __("Año Nuevo %ANHO% en el mar de Valparaíso",array('%ANHO%' => date('Y')+1))),
+<?php echo link_image_to('banner_new_year_2018_hotel_sutherland.jpg','@hotel_new_year', array('size' => '885x100', 'alt' => __("Año Nuevo %ANHO% en el mar de Valparaíso",array('%ANHO%' => date('Y')+1))),
                           array( 'title' => __("ver programa Año Nuevo en el Mar %ANHO% en Valparaíso",array('%ANHO%' => date('Y')+1))))?>
 <?php image_tag('ofertas-temporada-baja-2016.png')?>
 <ul>
