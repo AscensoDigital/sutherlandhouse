@@ -15,7 +15,7 @@
 <a name="inicio"></a>
 <div id="logo"><?php echo link_image_to('logo_vertical.png','@hotel_homepage', array('alt' => __('Logo Hotel Boutique Sutherland House'), 'size' => '420x105'))?></div>
 <div id="idioma"><?php include_partial('language/language')?></div>
-<?php echo link_image_to('sustentable.png', 'http://www.chilesustentable.travel/', array('alt' => __('Sello sustentabilidad'), 'title' => __('Sello sustentabilidad'), 'size' => '192x86'))?>
+<?php link_image_to('sustentable.png', 'http://www.chilesustentable.travel/', array('alt' => __('Sello sustentabilidad'), 'title' => __('Sello sustentabilidad'), 'size' => '192x86'))?>
 <?php include_slot('galeria')?>
   <div id="info">
     <div id="TA_certificateOfExcellence363" class="TA_certificateOfExcellence">

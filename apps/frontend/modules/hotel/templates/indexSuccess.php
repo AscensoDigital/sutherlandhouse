@@ -9,7 +9,7 @@
 Antigua rectoría del <strong>Colegio Mackay</strong>, la cual se transformó en el <strong>Hotel Boutique Sutherland House</strong>.'); ?></div>
 <div id="idioma"><?php include_partial('language/language')?></div>
 </div>
-    <?php echo image_tag('distincion-turismo-sustentable.png', array('class' => 'distincion')) ?>
+    <?php image_tag('distincion-turismo-sustentable.png', array('class' => 'distincion')) ?>
 <div id="slideshow">
 <?php echo upload_tag('cabecera/home/hotel_sutherland_house_01.jpg', array('size' => '885x390', 'class' => 'active', 'alt' => __("Vista Bahía Valparaíso desde Hotel Boutique Sutherland House.")))?>
 <?php echo upload_tag('cabecera/home/hotel_sutherland_house_00.jpg', array('size' => '885x390', 'alt' => __("Fachada Hotel Boutique Sutherland House.")))?>
