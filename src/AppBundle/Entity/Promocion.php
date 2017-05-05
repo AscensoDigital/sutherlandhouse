@@ -9,7 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Promocion
  *
  * @ORM\Table(name="promocion", indexes={@ORM\Index(name="IDX_CD312F74C7F0C30", columns={"modificador_id"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\PromocionRepository")
  */
 class Promocion
 {
@@ -87,6 +87,20 @@ class Promocion
     protected $slug;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="url", type="string", length=255, nullable=true)
+     */
+    protected $url;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha", type="date", nullable=true)
+     */
+    protected $fecha;
+
+    /**
      * @var Usuario
      *
      * @ORM\ManyToOne(targetEntity="Usuario")
@@ -101,6 +115,10 @@ class Promocion
     public function __toString()
     {
         return $this->getNombre();
+    }
+
+    public function hasPromocionPage(){
+        return !is_null($this->getTemplate());
     }
 
     /**
@@ -352,5 +370,53 @@ class Promocion
     public function getSlug()
     {
         return $this->slug;
+    }
+
+    /**
+     * Set url
+     *
+     * @param string $url
+     *
+     * @return Promocion
+     */
+    public function setUrl($url)
+    {
+        $this->url = $url;
+
+        return $this;
+    }
+
+    /**
+     * Get url
+     *
+     * @return string
+     */
+    public function getUrl()
+    {
+        return $this->url;
+    }
+
+    /**
+     * Set fecha
+     *
+     * @param \DateTime $fecha
+     *
+     * @return Promocion
+     */
+    public function setFecha($fecha)
+    {
+        $this->fecha = $fecha;
+
+        return $this;
+    }
+
+    /**
+     * Get fecha
+     *
+     * @return \DateTime
+     */
+    public function getFecha()
+    {
+        return $this->fecha;
     }
 }

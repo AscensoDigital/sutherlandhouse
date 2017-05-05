@@ -2,12 +2,10 @@
 
 namespace AppBundle\Controller;
 
-use AppBundle\Entity\PageCarousel;
 use AppBundle\Entity\Promocion;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\Request;
 
 class HotelController extends Controller
 {
@@ -32,6 +30,16 @@ class HotelController extends Controller
      * @ParamConverter("promocion", class="AppBundle:Promocion")
      */
     public function promocionAction(Promocion $promocion){
-       return $this->render();
+       return $this->render($promocion->getTemplate(),['promocion' => $promocion]);
+    }
+
+    public function promocionListAction(){
+        $em= $this->getDoctrine()->getManager();
+        $proms=$em->getRepository('AppBundle:Promocion')->doSelectActivos();
+        return $this->render('hotel/promocionList.html.twig', ['proms' => $proms, 'urlBase' => '']);
+    }
+
+    public function tarifaAction() {
+
     }
 }
