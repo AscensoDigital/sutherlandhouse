@@ -134,7 +134,7 @@ class PageCarousel
         if(is_null($this->getPromocion())) {
             return false;
         }
-        return !is_null($this->getPromocion()->getTemplate());
+        return $this->getPromocion()->hasPromocionPage();
     }
 
     /**
