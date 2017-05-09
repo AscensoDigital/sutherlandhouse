@@ -72,9 +72,11 @@ easy_admin:
             form:
                 fields:
                     - nombre
+                    - fecha
                     - fechaInicio
                     - fechaTermino
                     - portada
+                    - { property: 'imageFile', type: 'vich_image' }
                     - template
                     - opcion1Nombre
                     - opcion2Nombre
