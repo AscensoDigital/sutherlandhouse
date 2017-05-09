@@ -17,6 +17,7 @@ class PageCarousel
 {
     const PORTADA = 'portada';
     const TARIFA = 'tarifa';
+    const FAQ = 'faq';
 
     /**
      * @var integer

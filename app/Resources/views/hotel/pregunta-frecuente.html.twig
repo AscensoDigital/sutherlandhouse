@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block subtitle %}Tarifas y Promociones{% endblock %}
+
+{% block body %}
+    {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::FAQ')})) }}
+    {{ include('includes/reserva-paxer.html.twig') }}
+    <div class="container">
+        <div class="row text-center">
+            <h1><i class="fa fa-question-circle-o"></i> Hotel Sutherland - Preguntas Frecuentes</h1>
+        </div>
+        <div class="panel-group" id="accordion" role="tablist">
+            {% for faq in faqs %}
+            <div class="panel panel-info">
+                <div class="panel-heading" role="tab" id="heading{{ faq.id }}">
+                    <h2 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ faq.id }}" aria-expanded="true" aria-controls="collapse{{ faq.id }}">
+                            {{ faq.pregunta }}
+                        </a>
+                    </h2>
+                </div>
+                <div id="collapse{{ faq.id }}" class="panel-collapse collapse{% if loop.first %} in{% endif %}" role="tabpanel" aria-labelledby="heading{{ faq.id }}">
+                    <div class="panel-body">
+                        {{ faq.respuesta }}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

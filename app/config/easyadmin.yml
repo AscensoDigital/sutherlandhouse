@@ -1,48 +1,5 @@
 easy_admin:
     entities:
-        CarouselTipo:
-            class: AppBundle\Entity\CarouselTipo
-        Habitacion:
-            class: AppBundle\Entity\Habitacion
-        HabitacionTipo:
-            class: AppBundle\Entity\HabitacionTipo
-        PageCarousel:
-            class: AppBundle\Entity\PageCarousel
-            list:
-                fields:
-                    - id
-                    - { property: 'url', type: 'image', base_path: %app.path.carousel_images% }
-                    - pagina
-                    - orden
-                    - activo
-                    - titulo
-                    - captionText
-                    - promocion
-                    - link
-            show:
-                fields:
-                    - id
-                    - { property: 'url', type: 'image', base_path: %app.path.carousel_images% }
-                    - pagina
-                    - orden
-                    - activo
-                    - titulo
-                    - captionText
-                    - promocion
-                    - link
-                    - modificador
-                    - updatedAt
-            form:
-                fields:
-                    - pagina
-                    - carouselTipo
-                    - orden
-                    - activo
-                    - titulo
-                    - { property: 'imageFile', type: 'vich_image' }
-                    - { property: 'captionText', type: 'text', label: 'Descripción'}
-                    - link
-                    - promocion
         Promocion:
             class: AppBundle\Entity\Promocion
             list:
@@ -80,6 +37,68 @@ easy_admin:
                     - template
                     - opcion1Nombre
                     - opcion2Nombre
+        PageCarousel:
+            class: AppBundle\Entity\PageCarousel
+            list:
+                fields:
+                    - id
+                    - { property: 'url', type: 'image', base_path: %app.path.carousel_images% }
+                    - pagina
+                    - orden
+                    - activo
+                    - titulo
+                    - captionText
+                    - promocion
+                    - link
+            show:
+                fields:
+                    - id
+                    - { property: 'url', type: 'image', base_path: %app.path.carousel_images% }
+                    - pagina
+                    - orden
+                    - activo
+                    - titulo
+                    - captionText
+                    - promocion
+                    - link
+                    - modificador
+                    - updatedAt
+            form:
+                fields:
+                    - pagina
+                    - carouselTipo
+                    - orden
+                    - activo
+                    - titulo
+                    - { property: 'imageFile', type: 'vich_image' }
+                    - { property: 'captionText', type: 'text', label: 'Descripción'}
+                    - link
+                    - promocion
+        Tarifa:
+            class: AppBundle\Entity\Tarifa
+            list:
+                fields:
+                    - id
+                    - temporada
+                    - habitacionTipo
+                    - pesoSemana
+                    - pesoFinde
+                    - dolarSemana
+                    - dolarFinde
+            form:
+                fields:
+                    - temporada
+                    - habitacionTipo
+                    - pesoSemana
+                    - pesoFinde
+                    - dolarSemana
+                    - dolarFinde
+        Temporada:
+            class: AppBundle\Entity\Temporada
+            form:
+                fields:
+                    - nombre
+                    - activa
         PromocionXHabitacion:
             class: AppBundle\Entity\PromocionXHabitacion
             list:
@@ -111,28 +130,21 @@ easy_admin:
                     - pesoOpcion2
                     - dolarOpcion1
                     - dolarOpcion2
-        Tarifa:
-            class: AppBundle\Entity\Tarifa
+        Faq:
+            class: AppBundle\Entity\Faq
             list:
                 fields:
-                    - id
-                    - temporada
-                    - habitacionTipo
-                    - pesoSemana
-                    - pesoFinde
-                    - dolarSemana
-                    - dolarFinde
+                    - orden
+                    - pregunta
+                    - respuesta
             form:
                 fields:
-                    - temporada
-                    - habitacionTipo
-                    - pesoSemana
-                    - pesoFinde
-                    - dolarSemana
-                    - dolarFinde
-        Temporada:
-            class: AppBundle\Entity\Temporada
-            form:
-                fields:
-                    - nombre
-                    - activa
+                    - orden
+                    - pregunta
+                    - respuesta
+        CarouselTipo:
+            class: AppBundle\Entity\CarouselTipo
+        Habitacion:
+            class: AppBundle\Entity\Habitacion
+        HabitacionTipo:
+            class: AppBundle\Entity\HabitacionTipo

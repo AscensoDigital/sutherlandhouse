@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- SQL XML created by WWW SQL Designer, https://github.com/ondras/wwwsqldesigner/ -->
-<!-- Active URL: http://localhost/sqldesigner/ -->
+<!-- Active URL: http://localhost/wwwsqldesigner/ -->
 <sql>
     <datatypes db="postgresql">
         <group label="Numeric" color="rgb(238,238,170)">
@@ -273,6 +273,27 @@
         <row name="dolar_opcion_2" null="1" autoincrement="0">
             <datatype>INTEGER</datatype>
             <default>NULL</default></row>
+        <key type="PRIMARY" name="">
+            <part>id</part>
+        </key>
+    </table>
+    <table x="442" y="348" name="Faq">
+        <row name="id" null="1" autoincrement="1">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <row name="orden" null="0" autoincrement="0">
+            <datatype>INTEGER</datatype>
+        </row>
+        <row name="pregunta" null="1" autoincrement="0">
+            <datatype>MEDIUMTEXT</datatype>
+            <default>NULL</default></row>
+        <row name="respuesta" null="1" autoincrement="0">
+            <datatype>MEDIUMTEXT</datatype>
+            <default>NULL</default></row>
+        <row name="modificador_id" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default><relation table="USUARIO" row="id" />
+        </row>
         <key type="PRIMARY" name="">
             <part>id</part>
         </key>

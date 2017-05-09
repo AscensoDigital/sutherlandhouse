@@ -10,6 +10,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class HotelController extends Controller
 {
     /**
+     * @return \Symfony\Component\HttpFoundation\Response
      * @Route("/", name="homepage")
      */
     public function indexAction()
@@ -21,6 +22,16 @@ class HotelController extends Controller
         $em= $this->getDoctrine()->getManager();
         $pcs=$em->getRepository('AppBundle:PageCarousel')->findByPagina($pagina);
         return $this->render('hotel/carousel.html.twig',['pagina' => $pagina, 'pcs' => $pcs, 'urlBase' => $this->getParameter('app.path.carousel_images')]);
+    }
+
+    /**
+     * @return \Symfony\Component\HttpFoundation\Response
+     * @Route("/preguntas-frecuentes", name="hotel_faq")
+     */
+    public function faqAction() {
+        $em= $this->getDoctrine()->getManager();
+        $faqs=$em->getRepository('AppBundle:Faq')->doSelectSort();
+        return $this->render('hotel/pregunta-frecuente.html.twig', ['faqs' => $faqs]);
     }
 
     /**
