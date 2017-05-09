@@ -5,7 +5,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{% block title %}{% endblock title %} - {% block subtitle %}{% endblock subtitle %} - Hotel Sutherland House - Hotel Boutique - Valparaíso</title>
+        <title>Hotel Valparaíso - {% block title %}Sutherland House{% endblock title %} - {% block subtitle %}Hotel Boutique{% endblock subtitle %}</title>
         <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap-theme.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/vendor/font-awesome.min.css') }}">
@@ -22,14 +22,13 @@
         <div id="wrap">
             <nav id="nav-header" class="navbar navbar-default navbar-static-top" role="navigation">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ts-navbar-collapse">
+                    <button type="button" class="navbar-toggle collapsed text-center" data-toggle="collapse" data-target="#ts-navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                        <i class="fa fa-navicon"></i><br>
+                        <span class="small">Menu</span>
                     </button>
                     <a class="clean-link" href="{{ path('homepage') }}">
-                        <img id="logo" class="img-responsive" src="{{ asset('images/hotel-sutherland-house-logo-horizontal.png') }}" alt="Logo Hotel Sutherland House Valparaíso"/>
+                        <img id="logo" class="img-responsive" src="{{ asset('images/hotel-sutherland-house-logo-horizontal.png') }}" alt="Hotel Boutique Sutherland House Valparaíso Logo"/>
                     </a>
                 </div>
                 <div class="collapse navbar-collapse navbar-ex1-collapse" id="ts-navbar-collapse">
@@ -48,19 +47,20 @@
             {% block body %}{% endblock body %}
             </div>
         </div>
-        <footer id="footer" class="panel-footer panel-primary">
+        <footer id="footer" class="panel-footer panel-success">
             <div class="row">
                 <div class="col-md-4 text-left">
-                    <img src="{{ asset('images/ddsecure_140x40_orange.png') }}" alt="Hotel Sutherland House Secure">
+                    <img src="{{ asset('images/ddsecure_140x40_orange.png') }}" alt="Hotel Boutique Sutherland House Secure">
                 </div>
                 <div class="col-md-4 text-center">
                     <a href="waze://?q=Hotel+Sutherland+House"><i class="fa fa-map-marker"></i> Avenida Alemania 4966, Cerro Alegre, Valparaíso, Chile</a><br>
                     <span><i class="fa fa-phone"></i> +56 32 3196 798</span> - <a href="mailto:contacto@sutherlandhouse.cl?subject=%5BWEB%5D+Contacto"><i class="fa fa-envelope-open-o"></i> contacto<i class="fa fa-at"></i>sutherlandhouse.cl</a>
                 </div>
                 <div class="col-md-4 text-right">
-                    <a href="https://www.facebook.com/hotel.sutherland.house/" target="_blank"><i class="fa fa-2x fa-facebook-official"></i></a>&nbsp;
-                    <a href="https://www.tripadvisor.cl/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html" target="_blank"><i class="fa fa-2x fa-tripadvisor"></i></a>&nbsp;
-                    <a href="https://plus.google.com/+SutherlandhouseCl" target="_blank"><i class="fa fa-2x fa-google-plus-square"></i></a>
+                    <a href="https://www.facebook.com/hotel.sutherland.house/" title="Hotel Valparaiso Sutherland House Facebook" target="_blank"><i class="fa fa-2x fa-facebook-official"></i></a>&nbsp;
+                    <a href="https://www.tripadvisor.cl/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html" title="Hotel Valparaiso Sutherland House Tripadvisor" target="_blank"><i class="fa fa-2x fa-tripadvisor"></i></a>&nbsp;
+                    <a href="https://www.instagram.com/hotelsutherlandhouse/" title="Hotel Valparaiso Sutherland House Instagram" target="_blank"><i class="fa fa-2x fa-instagram"></i></a>
+                    <a href="https://plus.google.com/+SutherlandhouseCl" title="Hotel Valparaiso Sutherland House Google+" target="_blank"><i class="fa fa-2x fa-google-plus-square"></i></a>
                 </div>
 
             </div>
