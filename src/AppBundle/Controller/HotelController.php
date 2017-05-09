@@ -45,7 +45,13 @@ class HotelController extends Controller
         return $this->render('hotel/promocionList.html.twig', ['proms' => $proms, 'urlBase' => $this->getParameter('app.path.promocion_images')]);
     }
 
+    /**
+     * @return \Symfony\Component\HttpFoundation\Response
+     * @Route("/tarifas-promociones", name="hotel_tarifa")
+     */
     public function tarifaAction() {
-
+        $em= $this->getDoctrine()->getManager();
+        $tmps= $em->getRepository('AppBundle:Temporada')->doSelectByActiva();
+        return $this->render('hotel/tarifa.html.twig', ['tmps' => $tmps]);
     }
 }

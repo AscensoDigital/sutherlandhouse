@@ -3,12 +3,13 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * Temporada
  *
  * @ORM\Table(name="temporada", indexes={@ORM\Index(name="IDX_9A6BDEBD4C7F0C30", columns={"modificador_id"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\TemporadaRepository")
  */
 class Temporada
 {
@@ -53,6 +54,20 @@ class Temporada
      */
     protected $modificador;
 
+    /**
+     * @var \Doctrine\Common\Collections\ArrayCollection()
+     * @ORM\OneToMany(targetEntity="Tarifa", mappedBy="temporada", cascade={"persist"} )
+     */
+    protected $tarifas;
+
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->tarifas = new ArrayCollection();
+    }
 
     public function __toString()
     {
@@ -144,11 +159,11 @@ class Temporada
     /**
      * Set modificador
      *
-     * @param \AppBundle\Entity\Usuario $modificador
+     * @param Usuario $modificador
      *
      * @return Temporada
      */
-    public function setModificador(\AppBundle\Entity\Usuario $modificador = null)
+    public function setModificador(Usuario $modificador = null)
     {
         $this->modificador = $modificador;
 
@@ -158,10 +173,44 @@ class Temporada
     /**
      * Get modificador
      *
-     * @return \AppBundle\Entity\Usuario
+     * @return Usuario
      */
     public function getModificador()
     {
         return $this->modificador;
+    }
+
+    /**
+     * Add tarifa
+     *
+     * @param Tarifa $tarifa
+     *
+     * @return Temporada
+     */
+    public function addTarifa(Tarifa $tarifa)
+    {
+        $this->tarifas[] = $tarifa;
+
+        return $this;
+    }
+
+    /**
+     * Remove tarifa
+     *
+     * @param Tarifa $tarifa
+     */
+    public function removeTarifa(Tarifa $tarifa)
+    {
+        $this->tarifas->removeElement($tarifa);
+    }
+
+    /**
+     * Get tarifas
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getTarifas()
+    {
+        return $this->tarifas;
     }
 }

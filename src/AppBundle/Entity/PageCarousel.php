@@ -16,6 +16,7 @@ use Vich\UploaderBundle\Mapping\Annotation as Vich;
 class PageCarousel
 {
     const PORTADA = 'portada';
+    const TARIFA = 'tarifa';
 
     /**
      * @var integer
