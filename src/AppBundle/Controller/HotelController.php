@@ -36,7 +36,13 @@ class HotelController extends Controller
     public function promocionListAction(){
         $em= $this->getDoctrine()->getManager();
         $proms=$em->getRepository('AppBundle:Promocion')->doSelectActivos();
-        return $this->render('hotel/promocionList.html.twig', ['proms' => $proms, 'urlBase' => '']);
+        return $this->render('hotel/promocionList.html.twig', ['proms' => $proms, 'urlBase' => $this->getParameter('app.path.promocion_images')]);
+    }
+
+    public function promocionPortadaAction(){
+        $em= $this->getDoctrine()->getManager();
+        $proms=$em->getRepository('AppBundle:Promocion')->doSelectPortada();
+        return $this->render('hotel/promocionList.html.twig', ['proms' => $proms, 'urlBase' => $this->getParameter('app.path.promocion_images')]);
     }
 
     public function tarifaAction() {

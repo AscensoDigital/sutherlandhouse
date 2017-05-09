@@ -9,6 +9,7 @@ imports:
 parameters:
     locale: es
     app.path.carousel_images: /uploads/images/carousels
+    app.path.promocion_images: /uploads/images/promociones
 
 framework:
     #esi:             ~
@@ -93,4 +94,7 @@ vich_uploader:
     mappings:
         carousel_images:
             uri_prefix:         %app.path.carousel_images%
-            upload_destination: %kernel.root_dir%/../web/uploads/images/carousels
+            upload_destination: %kernel.root_dir%/../web/%app.path.carousel_images%
+        promocion_images:
+            uri_prefix:         %app.path.promocion_images%
+            upload_destination: %kernel.root_dir%/../web/%app.path.promocion_images%

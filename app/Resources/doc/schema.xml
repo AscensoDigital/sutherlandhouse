@@ -198,7 +198,7 @@
             <part>habitacion_tipo_id</part>
         </key>
     </table>
-    <table x="1344" y="391" name="PROMOCION">
+    <table x="1391" y="381" name="PROMOCION">
         <row name="id" null="1" autoincrement="1">
             <datatype>INTEGER</datatype>
             <default>NULL</default></row>
@@ -232,6 +232,12 @@
             <default>NULL</default></row>
         <row name="slug" null="1" autoincrement="0">
             <datatype>VARCHAR(255)</datatype>
+            <default>NULL</default></row>
+        <row name="url" null="1" autoincrement="0">
+            <datatype>VARCHAR(255)</datatype>
+            <default>NULL</default></row>
+        <row name="fecha" null="1" autoincrement="0">
+            <datatype>DATE</datatype>
             <default>NULL</default></row>
         <key type="PRIMARY" name="">
             <part>id</part>

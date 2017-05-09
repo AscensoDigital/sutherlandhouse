@@ -18,9 +18,17 @@ class PromocionRepository extends EntityRepository
             ->getQuery()->getResult();
     }
 
+    public function doSelectPortada(){
+        return $this->getQueryBuilderActivos()
+            ->andWhere('pr.portada=:enPortada')
+            ->setParameter(':enPortada','true')
+            ->getQuery()->getResult();
+    }
+
     public function getQueryBuilderActivos(){
         return $this->createQueryBuilder('pr')
-            ->where('pr.fecha_inicio<=NOW')
-            ->andWhere('pr.fecha_termino>NOW');
+            ->where('pr.fechaInicio<=:now')
+            ->andWhere('pr.fechaTermino>:now')
+            ->setParameter(':now','now');
     }
 }

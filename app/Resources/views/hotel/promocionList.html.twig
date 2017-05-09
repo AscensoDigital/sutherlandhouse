@@ -1,12 +1,11 @@
-<div class="panel panel-default col-md-6">
-    <div class="panel-heading"><h4><i class="fa fa-tags"></i> Promociones</h4></div>
-    <div class="panel-body text-center">
-        {% for pr in proms %}
-        <div>
-            <h5>{{ pr.nombre }}</h5>
-            {% if pr.hasPromocionPage %}<a href="{{ path('hotel_promocion', {'slug' : pr.slug}) }}">
-                <img src="{{ asset('images/hotel-sutherland-house-banner-new-year.jpg') }}" class="img-responsive">
-            </a>
-        </div>
+{% if proms | length %}
+    <h2><i class="fa fa-tags"></i> Promociones</h2>
+    {% for pr in proms %}
+    <div>
+        <h3>{{ pr.nombre }}</h3>
+        {% if pr.hasPromocionPage %}<a href="{{ path('hotel_promocion', {'slug' : pr.slug}) }}">{% endif %}
+            <img class="img-responsive center-block" src="{{ asset(urlBase ~ '/' ~ pr.url) }}" alt="{{ pr.nombre | title }}">
+        {% if pr.hasPromocionPage %}</a>{% endif %}
     </div>
-</div>
+    {% endfor %}
+{% endif %}

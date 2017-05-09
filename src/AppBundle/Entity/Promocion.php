@@ -4,12 +4,15 @@ namespace AppBundle\Entity;
 
 use Cocur\Slugify\Slugify;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\HttpFoundation\File\File;
+use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 /**
  * Promocion
  *
  * @ORM\Table(name="promocion", indexes={@ORM\Index(name="IDX_CD312F74C7F0C30", columns={"modificador_id"})})
  * @ORM\Entity(repositoryClass="AppBundle\Repository\PromocionRepository")
+ * @Vich\Uploadable
  */
 class Promocion
 {
@@ -110,6 +113,11 @@ class Promocion
      */
     protected $modificador;
 
+    /**
+     * @Vich\UploadableField(mapping="promocion_images", fileNameProperty="url")
+     * @var File
+     */
+    private $imageFile;
 
 
     public function __toString()
@@ -418,5 +426,23 @@ class Promocion
     public function getFecha()
     {
         return $this->fecha;
+    }
+
+    /**
+     * @param File $imageFile
+     * @return Promocion
+     */
+    public function setImageFile($imageFile)
+    {
+        $this->imageFile = $imageFile;
+        return $this;
+    }
+
+    /**
+     * @return File
+     */
+    public function getImageFile()
+    {
+        return $this->imageFile;
     }
 }
