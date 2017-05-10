@@ -60,7 +60,7 @@ class Tarifa
     /**
      * @var Temporada
      *
-     * @ORM\ManyToOne(targetEntity="Temporada")
+     * @ORM\ManyToOne(targetEntity="Temporada", inversedBy="tarifas")
      * @ORM\JoinColumns({
      *   @ORM\JoinColumn(name="temporada_id", referencedColumnName="id")
      * })
