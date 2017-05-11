@@ -1,6 +1,8 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+    {% set pagina = pagina is defined ? pagina : '' %}
+    {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : pagina})) }}
     {{ include('includes/_reserva-paxer.html.twig') }}
 
 <div class="container">

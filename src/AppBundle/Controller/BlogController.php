@@ -77,7 +77,7 @@ class BlogController extends Controller
             dump($post, $this->get('security.token_storage')->getToken()->getUser(), new \DateTime());
         }
 
-        return $this->render('blog/post_show.html.twig', ['post' => $post]);
+        return $this->render('blog/post_show.html.twig', ['post' => $post, 'pagina' => $post->getSlug()]);
     }
 
     /**
