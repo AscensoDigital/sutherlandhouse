@@ -5,6 +5,12 @@
 
 {% block titulo_pagina%}Hotel Sutherland - Blog{% endblock %}
 
+{% block keywords %}
+    {% for tag in post.tags %}{% if not loop.first %}, {% endif %}{{ tag }}{% endfor %}
+{% endblock %}
+
+{% block descripcion %}{{ post.summary|md2html|striptags }}{% endblock %}
+
 {% block main %}
     <h2>{{ post.title }}</h2>
 
