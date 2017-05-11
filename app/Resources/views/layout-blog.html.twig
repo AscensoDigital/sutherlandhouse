@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {{ include('includes/_reserva-paxer.html.twig') }}
+
+<div class="container">
+    <div class="row">
+        <h1>Hotel Sutherland - Blog</h1>
+    </div>
+    <div class="row">
+        <div id="main" class="col-sm-9">
+            {{ include('includes/_flash_messages.html.twig') }}
+
+            {% block main %}{% endblock %}
+        </div>
+        <div id="sidebar" class="col-sm-3">
+            {% block sidebar %}{% endblock %}
+        </div>
+    </div>
+</div>
+{% endblock %}

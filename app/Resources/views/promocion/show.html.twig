@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ parent() }} Promociones{% endblock %}
+{% block subtitle %}{{ promocion.nombre }}{% endblock %}
+
+{% block body %}
+    {{ include('includes/_reserva-paxer.html.twig') }}
+    <div class="container">
+        <div class="row text-center">
+            <h1>Hotel Sutherland - {{ promocion.nombre }}</h1>
+        </div>
+        <div class="row text-right">
+            <div class="fb-like" data-href="{{ url('hotel_promocion', {'slug' : promocion.slug}) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+        </div>
+        <img class="img-responsive center-block" src="{{ asset(urlBase ~ '/' ~ promocion.url) }}" alt="{{ promocion.nombre | title }}">
+
+        <h3><i class="fa fa-comments"></i> Comentarios Promoción</h3>
+        <div class="text-center">
+            <div class="fb-comments" data-href="{{ url('hotel_promocion', {'slug' : promocion.slug}) }}" data-numposts="10" data-order-by="reverse_time"></div>
+        </div>
+    </div>
+{% endblock %}

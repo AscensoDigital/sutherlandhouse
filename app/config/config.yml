@@ -10,6 +10,7 @@ parameters:
     locale: es
     app.path.carousel_images: /uploads/images/carousels
     app.path.promocion_images: /uploads/images/promociones
+    app.notifications.email_sender: reservas@hotelsutherland.cl
 
 framework:
     #esi:             ~

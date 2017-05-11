@@ -2,8 +2,6 @@
 
 namespace AppBundle\Controller;
 
-use AppBundle\Entity\Promocion;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
@@ -26,34 +24,20 @@ class HotelController extends Controller
 
     /**
      * @return \Symfony\Component\HttpFoundation\Response
+     * @Route("/comentarios", name="hotel_comentario")
+     */
+    public function comentarioAction() {
+        return $this->render('hotel/comentario.html.twig');
+    }
+
+    /**
+     * @return \Symfony\Component\HttpFoundation\Response
      * @Route("/preguntas-frecuentes", name="hotel_faq")
      */
     public function faqAction() {
         $em= $this->getDoctrine()->getManager();
         $faqs=$em->getRepository('AppBundle:Faq')->doSelectSort();
         return $this->render('hotel/pregunta-frecuente.html.twig', ['faqs' => $faqs]);
-    }
-
-    /**
-     * @param Promocion $promocion
-     * @return \Symfony\Component\HttpFoundation\Response
-     * @Route("/promocion/{slug}", name="hotel_promocion")
-     * @ParamConverter("promocion", class="AppBundle:Promocion")
-     */
-    public function promocionAction(Promocion $promocion){
-       return $this->render($promocion->getTemplate(),['promocion' => $promocion]);
-    }
-
-    public function promocionListAction(){
-        $em= $this->getDoctrine()->getManager();
-        $proms=$em->getRepository('AppBundle:Promocion')->doSelectActivos();
-        return $this->render('hotel/promocionList.html.twig', ['proms' => $proms, 'urlBase' => $this->getParameter('app.path.promocion_images')]);
-    }
-
-    public function promocionPortadaAction(){
-        $em= $this->getDoctrine()->getManager();
-        $proms=$em->getRepository('AppBundle:Promocion')->doSelectPortada();
-        return $this->render('hotel/promocionList.html.twig', ['proms' => $proms, 'urlBase' => $this->getParameter('app.path.promocion_images')]);
     }
 
     /**

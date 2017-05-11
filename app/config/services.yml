@@ -7,3 +7,62 @@ services:
 #    service_name:
 #        class: AppBundle\Directory\ClassName
 #        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+
+# First we define some basic services to make these utilities available in
+    # the entire application
+    slugger:
+        class: AppBundle\Utils\Slugger
+
+    markdown:
+        class: AppBundle\Utils\Markdown
+
+    # These are the Twig extensions that create new filters and functions for
+    # using them in the templates
+    app.twig.app_extension:
+        public:    false
+        class:     AppBundle\Twig\AppExtension
+        arguments: ['@markdown']
+        tags:
+            - { name: twig.extension }
+
+    app.twig.intl_extension:
+        public: false
+        class:  Twig_Extensions_Extension_Intl
+        tags:
+            - { name: twig.extension }
+
+    # Defining a form type as a service is only required when the form type
+    # needs to use some other services, such as the entity manager.
+    # See https://symfony.com/doc/current/best_practices/forms.html
+    app.form.type.tagsinput:
+        class: AppBundle\Form\Type\TagsInputType
+        arguments: ['@doctrine.orm.entity_manager']
+        tags:
+            - { name: form.type }
+
+
+    app.comment_notification:
+        class: AppBundle\EventListener\CommentNotificationListener
+        arguments: ['@mailer', '@router', '@translator', '%app.notifications.email_sender%']
+        # The "method" attribute of this tag is optional and defaults to "on + camelCasedEventName"
+        # If the event is "comment.created" the method executed by default is "onCommentCreated()".
+        tags:
+            - { name: kernel.event_listener, event: comment.created, method: onCommentCreated }
+
+    # Event subscribers are similar to event listeners but they don't need service tags.
+    # Instead, the PHP class of the event subscriber includes a method that returns
+    # the list of events listened by that class.
+    # See https://symfony.com/doc/current/event_dispatcher.html#creating-an-event-subscriber
+    app.requirements_subscriber:
+        class: AppBundle\EventListener\CheckRequirementsSubscriber
+        arguments: ['@doctrine.orm.entity_manager']
+        tags:
+            - { name: kernel.event_subscriber }
+
+    # To inject the voter into the security layer, you must declare it as a service and tag it with security.voter.
+    # See https://symfony.com/doc/current/security/voters.html#configuring-the-voter
+    app.post_voter:
+        class: AppBundle\Security\PostVoter
+        public: false
+        tags:
+            - { name: security.voter }

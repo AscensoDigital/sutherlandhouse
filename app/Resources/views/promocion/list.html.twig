@@ -1,0 +1,17 @@
+{% if proms | length %}
+    <h2><i class="fa fa-tags"></i> Promociones</h2>
+    {% for pr in proms %}
+    <div>
+        <h3>{{ pr.nombre }}</h3>
+        <div class="fb-compartir">
+            <div class="fb-like" data-href="{{ url('hotel_promocion', {'slug' : pr.slug}) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+        </div>
+            {% if pr.hasPromocionPage %}<a href="{{ path('hotel_promocion', {'slug' : pr.slug}) }}">{% endif %}
+            <img class="img-responsive center-block" src="{{ asset(urlBase ~ '/' ~ pr.url) }}" alt="{{ pr.nombre | title }}">
+        {% if pr.hasPromocionPage %}</a>{% endif %}
+        <div class="text-center">
+            <div class="fb-comments" data-href="{{ url('hotel_promocion', {'slug' : pr.slug}) }}" data-numposts="5" data-order-by="reverse_time"></div>
+        </div>
+    </div>
+    {% endfor %}
+{% endif %}

@@ -3,7 +3,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use FOS\UserBundle\Model\User as BaseUser;
+use FOS\UserBundle\Model\User as FOSUBUser;
 
 /**
  * Usuario
@@ -11,7 +11,7 @@ use FOS\UserBundle\Model\User as BaseUser;
  * @ORM\Table(name="usuario")
  * @ORM\Entity
  */
-class Usuario extends BaseUser
+class Usuario extends FOSUBUser
 {
     /**
      * @var integer
@@ -26,24 +26,9 @@ class Usuario extends BaseUser
     /**
      * @var string
      *
-     * @ORM\Column(name="nombres", type="string", length=100, nullable=true)
+     * @ORM\Column(type="string")
      */
-    protected $nombres;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="apellido_paterno", type="string", length=50, nullable=true)
-     */
-    protected $apellidoPaterno;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="apellido_materno", type="string", length=50, nullable=true)
-     */
-    protected $apellidoMaterno;
-
+    protected $fullName;
 
 
     public function __toString()
@@ -52,74 +37,15 @@ class Usuario extends BaseUser
     }
 
     /**
-     * Set nombres
-     *
-     * @param string $nombres
-     *
-     * @return Usuario
+     * @param string $fullName
      */
-    public function setNombres($nombres)
+    public function setFullName($fullName)
     {
-        $this->nombres = $nombres;
-
-        return $this;
+        $this->fullName = $fullName;
     }
 
-    /**
-     * Get nombres
-     *
-     * @return string
-     */
-    public function getNombres()
+    public function getFullName()
     {
-        return $this->nombres;
-    }
-
-    /**
-     * Set apellidoPaterno
-     *
-     * @param string $apellidoPaterno
-     *
-     * @return Usuario
-     */
-    public function setApellidoPaterno($apellidoPaterno)
-    {
-        $this->apellidoPaterno = $apellidoPaterno;
-
-        return $this;
-    }
-
-    /**
-     * Get apellidoPaterno
-     *
-     * @return string
-     */
-    public function getApellidoPaterno()
-    {
-        return $this->apellidoPaterno;
-    }
-
-    /**
-     * Set apellidoMaterno
-     *
-     * @param string $apellidoMaterno
-     *
-     * @return Usuario
-     */
-    public function setApellidoMaterno($apellidoMaterno)
-    {
-        $this->apellidoMaterno = $apellidoMaterno;
-
-        return $this;
-    }
-
-    /**
-     * Get apellidoMaterno
-     *
-     * @return string
-     */
-    public function getApellidoMaterno()
-    {
-        return $this->apellidoMaterno;
+        return $this->fullName;
     }
 }

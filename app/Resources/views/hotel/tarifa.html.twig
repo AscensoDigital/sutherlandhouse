@@ -4,7 +4,7 @@
 
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::TARIFA')})) }}
-    {{ include('includes/reserva-paxer.html.twig') }}
+    {{ include('includes/_reserva-paxer.html.twig') }}
     <div class="container">
         <div class="row text-center">
             <h1>Hotel Sutherland - Tarifas y Promociones</h1>
@@ -49,7 +49,7 @@
         {% endfor %}
         <div class="row">
             <div class="col-xs-12">
-                {{ render(controller('AppBundle:Hotel:promocionList')) }}
+                {{ render(controller('AppBundle:Promocion:promocionList')) }}
             </div>
         </div>
     </div>

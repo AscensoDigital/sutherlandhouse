@@ -21,6 +21,7 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
+    <div id="fb-root"></div>
         <div id="wrap">
             <nav id="nav-header" class="navbar navbar-default navbar-static-top" role="navigation">
                 <div class="navbar-header">
@@ -39,8 +40,10 @@
                         <span class="navbar-text pull-right"><i class="fa fa-phone"></i> +56 32 3196 798</span>
                         <span class="navbar-text pull-right"><i class="fa fa-envelope-open-o"></i> contacto<i class="fa fa-at"></i>sutherlandhouse.cl</span>
                     </div>
-                    <ul class="nav navbar-nav navbar-right col-">
-                        {{ include('includes/menu-principal.html.twig') }}
+                    <ul class="nav navbar-nav navbar-right">
+                        {% block header_navigation_links %}
+                        {{ include('includes/_menu-principal.html.twig') }}
+                        {% endblock %}
                         <li>&nbsp;</li>
                     </ul>
                 </div>
@@ -49,7 +52,7 @@
             {% block body %}{% endblock body %}
             </div>
         </div>
-        <footer id="footer" class="panel-footer panel-success">
+        <footer id="footer" class="panel-footer panel-default">
             <div class="row">
                 <div class="col-xs-12 col-sm-3 text-center">
                     <img src="{{ asset('images/ddsecure_140x40_orange.png') }}" alt="Hotel Boutique Sutherland House Secure">
@@ -104,6 +107,13 @@
                 ga('send', 'pageview');
             </script>
         {% endif %}
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9&appId=1780016575641912";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <script type="text/javascript">
             function googleTranslateElementInit() {
                 new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,da,de,en,fr,hr,it,ja,ko,no,pt,ru,sk,sv,zh-TW', multilanguagePage: true, gaTrack: true, gaId: 'UA-16729802-1'}, 'google_translate_element');

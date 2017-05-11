@@ -1,13 +1,13 @@
 {% extends 'base.html.twig' %}
 
-{% block subtitle %}Tarifas y Promociones{% endblock %}
+{% block subtitle %}Preguntas Frecuentes{% endblock %}
 
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::FAQ')})) }}
-    {{ include('includes/reserva-paxer.html.twig') }}
+    {{ include('includes/_reserva-paxer.html.twig') }}
     <div class="container">
         <div class="row text-center">
-            <h1><i class="fa fa-question-circle-o"></i> Hotel Sutherland - Preguntas Frecuentes</h1>
+            <h1>Hotel Sutherland - Preguntas Frecuentes</h1>
         </div>
         <div class="panel-group" id="accordion" role="tablist">
             {% for faq in faqs %}
