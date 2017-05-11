@@ -1,7 +1,9 @@
-{% extends 'layout-blog.html.twig' %}
+{% extends 'layout-2-column.html.twig' %}
 
 {% block title %}{{ parent() }} Blog{% endblock %}
 {% block subtitle %}{{ post.title }}{% endblock %}
+
+{% block titulo_pagina%}Hotel Sutherland - Blog{% endblock %}
 
 {% block main %}
     <h2>{{ post.title }}</h2>

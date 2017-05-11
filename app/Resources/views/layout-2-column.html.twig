@@ -5,10 +5,10 @@
 
 <div class="container">
     <div class="row">
-        <h1>Hotel Sutherland - Blog</h1>
+        <h1>{% block titulo_pagina %}{% endblock %}</h1>
     </div>
     <div class="row">
-        <div id="main" class="col-sm-9">
+        <div id="contenido" class="col-sm-9">
             {{ include('includes/_flash_messages.html.twig') }}
 
             {% block main %}{% endblock %}
