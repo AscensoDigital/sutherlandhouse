@@ -73,6 +73,11 @@
                 <i class="fa fa-edit" aria-hidden="true"></i> Editar artículo
             </a>
         </div>
+        <br>
     {% endif %}
     {{ include('blog/_rss.html.twig') }}
+    <br>
+    <div class="row">
+        <a class="btn btn-lg btn-info btn-block" href="{{ path('blog_index') }}"><i class="fa fa-list-alt"></i> Volver al Listado</a>
+    </div>
 {% endblock %}
