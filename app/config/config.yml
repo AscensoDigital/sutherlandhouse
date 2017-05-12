@@ -35,12 +35,15 @@ framework:
         save_path:   "%kernel.root_dir%/../var/sessions/%kernel.environment%"
     fragments:       ~
     http_method_override: true
-    assets: ~
+    assets:
+        version: "v=1"
 
 # Twig Configuration
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    form_themes:
+        - 'fields.html.twig'
 
 # Doctrine Configuration
 doctrine:
@@ -90,6 +93,11 @@ fos_user:
     from_email:
         address: "%mailer_user%"
         sender_name: "%mailer_user%"
+    registration:
+        form:
+            type: AppBundle\Form\RegistrationType
+        confirmation:
+            enabled: false
 
 vich_uploader:
     db_driver: orm
@@ -100,3 +108,6 @@ vich_uploader:
         promocion_images:
             uri_prefix:         %app.path.promocion_images%
             upload_destination: %kernel.root_dir%/../web/%app.path.promocion_images%
+
+ad_component:
+    bootstrap_layout: 'vertical'

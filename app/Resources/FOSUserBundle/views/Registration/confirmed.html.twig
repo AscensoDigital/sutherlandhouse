@@ -1,0 +1,21 @@
+{% extends "@FOSUser/layout.html.twig" %}
+
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block fos_user_content %}
+<div class="container">
+    <div class="row text-center">
+        <h1>Hotel Sutherland - Fin Registro</h1>
+    </div>
+    <div class="row">
+        <div class="col-sm-5 center-block" style="float: none;">
+            <div class="alert alert-success text-center">
+                <p>Felicidades {{ user.username }}, tu cuenta está ahora confirmada.</p>
+            {% if targetUrl %}
+                <p><a class="btn btn-large btn-primary" href="{{ targetUrl }}"><i class="fa fa-forward"></i> Volver a la página original</a></p>
+            {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock fos_user_content %}
