@@ -1,3 +1,4 @@
+{% if post is not null %}
 <article class="post">
     <h4>
         <a href="{{ path('blog_post', {slug: post.slug}) }}">
@@ -12,3 +13,4 @@
         Leer Tema
     </a>
 </article>
+{% endif %}
