@@ -42,6 +42,13 @@ class HotelController extends Controller
 
     /**
      * @return \Symfony\Component\HttpFoundation\Response
+     * @Route("/reserve-ahora", name="hotel_reserve")
+     */
+    public function reservarAction() {
+        return $this->render('hotel/reserva.html.twig');
+    }
+    /**
+     * @return \Symfony\Component\HttpFoundation\Response
      * @Route("/tarifas-promociones", name="hotel_tarifa")
      */
     public function tarifaAction() {
