@@ -31,14 +31,18 @@
                         <span class="small">Menu</span>
                     </button>
                     <a class="clean-link" href="{{ path('homepage') }}">
-                        <img id="logo" class="img-responsive" src="{{ asset('images/hotel-sutherland-house-logo-horizontal.png') }}" alt="Hotel Boutique Sutherland House Valparaíso Logo"/>
+                        <img id="logo" class="img-responsive" src="{{ asset('images/hotel-sutherland-house-logo-grande.png') }}" alt="Hotel Boutique Sutherland House Valparaíso Logo"/>
                     </a>
+                    <span id="isotipo" class="navbar-toggle">
+                        <img class="img-responsive" src="{{ asset('images/hotel-sutherland-house-isotipo-grande.png') }}" alt="Hotel Boutique Sutherland House Valparaíso Logo"/>
+                    </span>
                 </div>
                 <div class="collapse navbar-collapse navbar-ex1-collapse" id="ts-navbar-collapse">
-                    <div id="nav-contact" class="col-sm-5 col-md-6 col-lg-7 pull-right text-right">
+                    <div id="nav-contact" class="col-sm-9 col-md-10 pull-right text-right">
                         <div id="google_translate_element" class="navbar-form pull-right"></div>
                         <span class="navbar-text pull-right"><i class="fa fa-phone"></i> +56 32 3196 798</span>
                         <span class="navbar-text pull-right"><i class="fa fa-envelope-open-o"></i> contacto<i class="fa fa-at"></i>sutherlandhouse.cl</span>
+                        <span class="navbar-text pull-right"><i class="fa fa-map-marker"></i> Avenida Alemania 4966 - Cerro Alegre</span>
                     </div>
                     <ul class="nav navbar-nav navbar-right">
                         {% block header_navigation_links %}

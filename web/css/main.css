@@ -19,8 +19,8 @@ html {
     height: 100%;
 }
 
-#carousel-portada .item {
-    max-height: 700px;
+#carousel .item {
+    max-height: 500px;
     min-height: 250px;
 }
 
@@ -36,10 +36,20 @@ html {
     text-align: center;
 }
 
+#isotipo {
+    float: none;
+    border: none;
+}
+#isotipo img {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
 #logo {
     position: relative;
     z-index: 12;
     top: 15px;
+    display: inline-block;
 }
 
 #main {
