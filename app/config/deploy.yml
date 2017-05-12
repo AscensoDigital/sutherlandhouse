@@ -1,0 +1,24 @@
+deploy:
+    hotel:
+        rsync-options: '-azC --force --delete --progress -h --checksum'
+        host: 190.153.232.203
+        dir: /var/local/hotel
+        user: root
+        port: 22
+        timeout: 600 # Connection timeout in seconds. 0 for no timeout.
+        post_deploy_operations:
+            - bin/console cache:clear --env=prod
+            - bin/console assets:install --env=prod --symlink
+            - bin/console assetic:dump --env=prod
+
+    hotel_his:
+        rsync-options: '-azC --force --delete --progress -h --checksum'
+        host: 192.168.0.214
+        dir: /var/local/hotel
+        user: root
+        port: 22
+        timeout: 600 # Connection timeout in seconds. 0 for no timeout.
+        post_deploy_operations:
+            - bin/console cache:clear --env=prod
+            - bin/console assets:install --env=prod --symlink
+            - bin/console assetic:dump --env=prod

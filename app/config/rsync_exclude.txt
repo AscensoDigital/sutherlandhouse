@@ -1,0 +1,28 @@
+# IDEs files
+.buildpath
+.project
+.settings
+nbproject
+.idea
+
+# VCS files
+.gitignore
+.travis.yml
+
+/app/config/*_dev.yml
+/app/config/parameters.yml
+/var/logs/*
+/var/cache/*
+/var/sessions/*
+web/bundles/*
+web/js/compiled/*.js
+web/js/fos_js_routes.js
+web/css/compiled/*.css
+web/*_dev*
+web/config.php
+web/*.html
+web/uploads/*
+# vendor
+old
+doc
+bhe

@@ -23,6 +23,7 @@ class AppKernel extends Kernel
             new FOS\UserBundle\FOSUserBundle(),
             new Vich\UploaderBundle\VichUploaderBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+            new Hpatoio\DeployBundle\DeployBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
