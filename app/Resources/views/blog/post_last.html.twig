@@ -1,0 +1,14 @@
+<article class="post">
+    <h4>
+        <a href="{{ path('blog_post', {slug: post.slug}) }}">
+            {{ post.title }}
+        </a>
+    </h4>
+    <p class="post-metadata">
+        <span class="metadata"><i class="fa fa-calendar"></i> {{ post.publishedAt | localizeddate('long', 'medium', null, 'UTC') }}</span>
+    </p>
+    {{ post.summary|md2html }}
+    <a class="btn btn-sm btn-default btn-block" href="{{ path('blog_post', {slug: post.slug}) }}">
+        Leer Tema
+    </a>
+</article>

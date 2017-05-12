@@ -29,6 +29,12 @@ use Pagerfanta\Pagerfanta;
  */
 class PostRepository extends EntityRepository
 {
+    public function findLast(){
+        return $this->getQueryBuilderFindLatest()
+            ->setMaxResults(1)
+            ->getQuery()->getOneOrNullResult();
+    }
+
     /**
      * @param int $page
      *
@@ -36,15 +42,18 @@ class PostRepository extends EntityRepository
      */
     public function findLatest($page = 1)
     {
-        $query = $this->createQueryBuilder('p')
+        $query = $this->getQueryBuilderFindLatest()->getQuery();
+
+        return $this->createPaginator($query, $page);
+    }
+
+    private function getQueryBuilderFindLatest() {
+        return $this->createQueryBuilder('p')
             ->addSelect('t')
             ->leftJoin('p.tags','t')
             ->where('p.publishedAt <= :now')
             ->orderBy('p.publishedAt','DESC')
-            ->setParameter(':now', new \DateTime())
-            ->getQuery();
-
-        return $this->createPaginator($query, $page);
+            ->setParameter(':now', new \DateTime());
     }
 
     private function createPaginator(Query $query, $page)

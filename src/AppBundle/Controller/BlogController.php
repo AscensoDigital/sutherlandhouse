@@ -56,6 +56,11 @@ class BlogController extends Controller
         return $this->render('blog/index.'.$_format.'.twig', ['posts' => $posts]);
     }
 
+    public function postLastAction() {
+        $post = $this->getDoctrine()->getRepository(Post::class)->findLast();
+        return $this->render('blog/post_last.html.twig',[ 'post'  => $post]);
+    }
+
     /**
      * @Route("/posts/{slug}", name="blog_post")
      * @Method("GET")
