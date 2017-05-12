@@ -44,7 +44,8 @@
         "doctrine/doctrine-fixtures-bundle": "^2.2",
         "erusev/parsedown": "^1.5",
         "ezyang/htmlpurifier": "^4.7",
-        "white-october/pagerfanta-bundle": "^1.0"
+        "white-october/pagerfanta-bundle": "^1.0",
+        "hpatoio/deploy-bundle": "~1.5"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
