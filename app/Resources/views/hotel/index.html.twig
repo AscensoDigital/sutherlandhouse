@@ -20,16 +20,16 @@
                 {{ render(controller('AppBundle:Promocion:promocionPortada')) }}
             </div>
         </div>
-        <div class="row">
+        <div class="row celeste">
             <div class="col-xs-12 col-sm-6 col-md-4">
-                <h2><i class="fa fa-bed"></i> Habitaciones</h2>
+                <h2 class="text-center"><i class="fa fa-bed"></i> Habitaciones</h2>
                 <p>Las 9 habitaciones del Hotel Sutherland House cuentan con ventanas grandes con vistas a la bahía de Valparaíso y tienen TV LCD por cable, teléfono y baño privado
                     con secador de cabello.
                 </p>
                 <p class="text-right"><a><i class="fa fa-plus-circle"></i> Habitaciones</a></p>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-                <h2><i class="fa fa-bell"></i> Servicios</h2>
+                <h2 class="text-center"><i class="fa fa-bell"></i> Servicios</h2>
                 <div class="col-xs-12 col-sm-6 text-center"><i class="fa fa-2x fa-coffee"></i><br>Desayuno Buffet</div>
                 <div class="col-xs-12 col-sm-6 text-center"><i class="fa fa-2x fa-car"></i><br>Estacionamiento Gratis</div>
                 <div class="col-xs-12 col-sm-6 text-center"><i class="fa fa-2x fa-glass"></i><br>Trago Bienvenida</div>
@@ -41,72 +41,68 @@
                 <div class="col-xs-12 col-sm-6 text-center"><i class="fa fa-2x fa-tree"></i><br>Jardin y Terraza</div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-                <h2><i class="fa fa-rss"></i> Blog</h2>
+                <h2 class="text-center"><i class="fa fa-rss"></i> Blog</h2>
                 {{ render(controller('AppBundle:Blog:postLast')) }}
                 <p class="text-right"><a href="{{ path('blog_index') }}"><i class="fa fa-plus-circle"></i> Temas</a></p>
             </div>
         </div>
         <br>
-        <div class="panel panel-default col-xs-12 col-sm-6">
-           <div class="panel-heading"><h3><i class="fa fa-star"></i> Reconocimientos</h3></div>
-            <div class="panel-body">
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <div id="TA_certificateOfExcellence47" class="TA_certificateOfExcellence">
-                        <ul id="sVzwZb" class="TA_links cuSnkJtAtzRJ">
-                            <li id="1aYn2n" class="IlTwe9O7s">
-                                <a target="_blank" href="https://www.tripadvisor.cl/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html"><img src="https://www.tripadvisor.cl/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
-                            </li>
-                        </ul>
-                    </div>
+        <div class="col-xs-12 col-sm-6">
+            <h2><i class="fa fa-star"></i> Reconocimientos</h2>
+            <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div id="TA_certificateOfExcellence47" class="TA_certificateOfExcellence">
+                    <ul id="sVzwZb" class="TA_links cuSnkJtAtzRJ">
+                        <li id="1aYn2n" class="IlTwe9O7s">
+                            <a target="_blank" href="https://www.tripadvisor.cl/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html"><img src="https://www.tripadvisor.cl/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <div id="TA_certificateOfExcellence591" class="TA_certificateOfExcellence">
-                        <ul id="EGbGhG" class="TA_links Cg9BTk01WJ">
-                            <li id="j5DVWel" class="Anpdea7U5pL">
-                                <a target="_blank" href="https://www.tripadvisor.cl/"><img src="https://www.tripadvisor.cl/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
-                            </li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div id="TA_certificateOfExcellence591" class="TA_certificateOfExcellence">
+                    <ul id="EGbGhG" class="TA_links Cg9BTk01WJ">
+                        <li id="j5DVWel" class="Anpdea7U5pL">
+                            <a target="_blank" href="https://www.tripadvisor.cl/"><img src="https://www.tripadvisor.cl/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <div id="TA_certificateOfExcellence306" class="TA_certificateOfExcellence">
-                        <ul id="O0H6M6DB5LS6" class="TA_links AK7ZT03OWej2">
-                            <li id="rBGLgKJwm7" class="Fm5OKRn5Ox">
-                                <a target="_blank" href="https://www.tripadvisor.cl/"><img src="https://www.tripadvisor.cl/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
-                            </li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div id="TA_certificateOfExcellence306" class="TA_certificateOfExcellence">
+                    <ul id="O0H6M6DB5LS6" class="TA_links AK7ZT03OWej2">
+                        <li id="rBGLgKJwm7" class="Fm5OKRn5Ox">
+                            <a target="_blank" href="https://www.tripadvisor.cl/"><img src="https://www.tripadvisor.cl/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <div id="TA_certificateOfExcellence589" class="TA_certificateOfExcellence">
-                        <ul id="pYEZKMHG" class="TA_links XBXzvK">
-                            <li id="W6UO0D9cLah" class="2hEH0F">
-                                <a target="_blank" href="https://www.tripadvisor.cl/"><img src="https://www.tripadvisor.cl/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
-                            </li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div id="TA_certificateOfExcellence589" class="TA_certificateOfExcellence">
+                    <ul id="pYEZKMHG" class="TA_links XBXzvK">
+                        <li id="W6UO0D9cLah" class="2hEH0F">
+                            <a target="_blank" href="https://www.tripadvisor.cl/"><img src="https://www.tripadvisor.cl/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <div id="TA_certificateOfExcellence233" class="TA_certificateOfExcellence">
-                        <ul id="2YDyNA4uD" class="TA_links U0Y4aOG">
-                            <li id="Ofiii2" class="1AOFHCC">
-                                <a target="_blank" href="https://www.tripadvisor.cl/"><img src="https://www.tripadvisor.cl/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
-                            </li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div id="TA_certificateOfExcellence233" class="TA_certificateOfExcellence">
+                    <ul id="2YDyNA4uD" class="TA_links U0Y4aOG">
+                        <li id="Ofiii2" class="1AOFHCC">
+                            <a target="_blank" href="https://www.tripadvisor.cl/"><img src="https://www.tripadvisor.cl/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4" style="padding: 0 10px 10px 25px">
-                    <a href="http://www.booking.com/hotel/cl/sutherland-house.es.html" target="_blank">
-                        <img height="150" width="150" src="{{ asset('images/hotel-sutherland-house-award-winner-2015.jpg') }}" alt="Hotel Sutherland House Booking Award Winner 2015">
-                    </a>
-                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4" style="padding: 0 10px 10px 25px">
+                <a href="http://www.booking.com/hotel/cl/sutherland-house.es.html" target="_blank">
+                    <img height="150" width="150" src="{{ asset('images/hotel-sutherland-house-award-winner-2015.jpg') }}" alt="Hotel Sutherland House Booking Award Winner 2015">
+                </a>
             </div>
         </div>
-        <div class="panel panel-default col-xs-12 col-sm-6">
-           <div class="panel-heading"><h3><i class="fa fa-map-marker"></i> Ubicación</h3></div>
-            <div class="panel-body">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.3427749703183!2d-71.63513068417424!3d-33.04744148432914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e13009c6be3f%3A0xe9c628e49254401!2sHotel+Boutique+Sutherland+House!5e0!3m2!1ses!2ses!4v1494277479380" width="100%" height="455" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+        <div class="col-xs-12 col-sm-6">
+            <h2><i class="fa fa-map-marker"></i> Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.3427749703183!2d-71.63513068417424!3d-33.04744148432914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e13009c6be3f%3A0xe9c628e49254401!2sHotel+Boutique+Sutherland+House!5e0!3m2!1ses!2ses!4v1494277479380" width="100%" height="455" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
 

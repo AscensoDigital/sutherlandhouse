@@ -89,6 +89,10 @@ html {
     margin-right: auto;
 }
 
+.celeste {
+    border-radius: 45px;
+    background-color: #f2f7ff;
+}
 /* Common Blog page elements
    ------------------------------------------------------------------------- */
 .post-metadata {
