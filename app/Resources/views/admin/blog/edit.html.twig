@@ -1,13 +1,11 @@
 {% extends 'admin/layout.html.twig' %}
 
-{% block body_id 'admin_post_edit' %}
-
 {% block main %}
-    <h1>{{ 'title.edit_post'|trans({'%id%': post.id}) }}</h1>
+    <h1>Editar artículo #{{ post.id }}</h1>
 
     {{ include('admin/blog/_form.html.twig', {
         form: form,
-        button_label: 'action.save'|trans,
+        button_label: 'Guardar cambios',
         include_back_to_home_link: true,
     }, with_context = false) }}
 {% endblock %}
@@ -15,7 +13,7 @@
 {% block sidebar %}
     <div class="section">
         <a href="{{ path('admin_post_show', {id: post.id}) }}" class="btn btn-lg btn-block btn-success">
-            <i class="fa fa-eye" aria-hidden="true"></i> {{ 'action.show_post'|trans }}
+            <i class="fa fa-eye" aria-hidden="true"></i> Mostrar artículo
         </a>
     </div>
 

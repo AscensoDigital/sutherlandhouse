@@ -1,9 +1,7 @@
 {% extends 'admin/layout.html.twig' %}
 
-{% block body_id 'admin_post_new' %}
-
 {% block main %}
-    <h1>{{ 'title.post_new'|trans }}</h1>
+    <h1>Nuevo artículo</h1>
 
     {{ form_start(form) }}
         {{ form_row(form.title) }}
@@ -12,15 +10,10 @@
         {{ form_row(form.publishedAt) }}
         {{ form_row(form.tags) }}
 
-        <input type="submit" value="{{ 'label.create_post'|trans }}" class="btn btn-primary" />
-        {{ form_widget(form.saveAndCreateNew, {label: 'label.save_and_create_new', attr: {class: 'btn btn-primary'}}) }}
+        <input type="submit" value="Crear artículo" class="btn btn-primary" />
+        {{ form_widget(form.saveAndCreateNew, {label: 'Guardar artículo y crear otro', attr: {class: 'btn btn-primary'}}) }}
         <a href="{{ path('admin_post_index') }}" class="btn btn-link">
-            {{ 'action.back_to_list'|trans }}
+            Volver al listado de artículos
         </a>
     {{ form_end(form) }}
-{% endblock %}
-
-{% block sidebar %}
-    {{ parent() }}
-
 {% endblock %}

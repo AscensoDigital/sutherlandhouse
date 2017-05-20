@@ -5,17 +5,17 @@
    showing how powerful, yet easy to use, is Twig's inheritance mechanism.
    See https://symfony.com/doc/current/book/templating.html#template-inheritance-and-layouts
 #}
-{% extends 'base.html.twig' %}
+{% extends 'layout-2-column.html.twig' %}
 
 {% block header_navigation_links %}
     <li>
         <a href="{{ path('admin_post_index') }}">
-            <i class="fa fa-list-alt" aria-hidden="true"></i> {{ 'menu.post_list'|trans }}
+            <i class="fa fa-list-alt" aria-hidden="true"></i> Listado de artículos
         </a>
     </li>
     <li>
         <a href="{{ path('blog_index') }}">
-            <i class="fa fa-home" aria-hidden="true"></i> {{ 'menu.back_to_blog'|trans }}
+            <i class="fa fa-rss" aria-hidden="true"></i> Volver al blog
         </a>
     </li>
 {% endblock %}

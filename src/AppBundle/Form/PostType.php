@@ -45,20 +45,20 @@ class PostType extends AbstractType
         $builder
             ->add('title', null, [
                 'attr' => ['autofocus' => true],
-                'label' => 'label.title',
+                'label' => 'Título',
             ])
             ->add('summary', TextareaType::class, [
-                'label' => 'label.summary',
+                'label' => 'Resumen',
             ])
             ->add('content', null, [
                 'attr' => ['rows' => 20],
-                'label' => 'label.content',
+                'label' => 'Contenido',
             ])
             ->add('publishedAt', DateTimePickerType::class, [
-                'label' => 'label.published_at',
+                'label' => 'Publicado el',
             ])
             ->add('tags', TagsInputType::class, [
-                'label' => 'label.tags',
+                'label' => 'Etiquetas',
                 'required' => false,
             ])
         ;

@@ -1,7 +1,5 @@
 {% extends 'admin/layout.html.twig' %}
 
-{% block body_id 'admin_post_show' %}
-
 {% block main %}
     <h1>{{ post.title }}</h1>
 
@@ -11,7 +9,7 @@
     </p>
 
     <div class="well">
-        <p class="m-b-0"><strong>{{ 'label.summary'|trans }}</strong>: {{ post.summary }}</p>
+        <p class="m-b-0"><strong>Resumen</strong>: {{ post.summary }}</p>
     </div>
 
     {{ post.content|md2html }}
@@ -22,7 +20,7 @@
 {% block sidebar %}
     <div class="section">
         <a href="{{ path('admin_post_edit', {id: post.id}) }}" class="btn btn-lg btn-block btn-success">
-            <i class="fa fa-edit" aria-hidden="true"></i> {{ 'action.edit_contents'|trans }}
+            <i class="fa fa-edit" aria-hidden="true"></i> Editar contenidos
         </a>
     </div>
 

@@ -29,7 +29,7 @@ use Symfony\Component\HttpFoundation\Request;
  *
  * See http://knpbundles.com/keyword/admin
  *
- * @Route("/BlogAdmin/post")
+ * @Route("/BlogAdmin")
  * @Security("has_role('ROLE_ADMIN')")
  *
  * @author Ryan Weaver <weaverryan@gmail.com>
@@ -96,7 +96,7 @@ class BlogController extends Controller
             // actions. They are deleted automatically from the session as soon
             // as they are accessed.
             // See https://symfony.com/doc/current/book/controller.html#flash-messages
-            $this->addFlash('success', 'post.created_successfully');
+            $this->addFlash('success', '¡Artículo creado con éxito!');
 
             if ($form->get('saveAndCreateNew')->isClicked()) {
                 return $this->redirectToRoute('admin_post_new');
@@ -121,7 +121,7 @@ class BlogController extends Controller
     {
         // This security check can also be performed
         // using an annotation: @Security("is_granted('show', post)")
-        $this->denyAccessUnlessGranted('show', $post, 'Posts can only be shown to their authors.');
+        $this->denyAccessUnlessGranted('show', $post, 'Artículos sólo se pueden mostrar a sus autores.');
 
         return $this->render('admin/blog/show.html.twig', [
             'post' => $post,
@@ -136,7 +136,7 @@ class BlogController extends Controller
      */
     public function editAction(Post $post, Request $request)
     {
-        $this->denyAccessUnlessGranted('edit', $post, 'Posts can only be edited by their authors.');
+        $this->denyAccessUnlessGranted('edit', $post, 'Artículo sólo se puede editar por su autor.');
 
         $entityManager = $this->getDoctrine()->getManager();
 
@@ -148,7 +148,7 @@ class BlogController extends Controller
             $post->setSlug($this->get('slugger')->slugify($post->getTitle()));
             $entityManager->flush();
 
-            $this->addFlash('success', 'post.updated_successfully');
+            $this->addFlash('success', '¡Artículo actualizado con éxito!');
 
             return $this->redirectToRoute('admin_post_edit', ['id' => $post->getId()]);
         }
@@ -185,7 +185,7 @@ class BlogController extends Controller
         $entityManager->remove($post);
         $entityManager->flush();
 
-        $this->addFlash('success', 'post.deleted_successfully');
+        $this->addFlash('success', '¡Artículo eliminado con éxito!');
 
         return $this->redirectToRoute('admin_post_index');
     }
