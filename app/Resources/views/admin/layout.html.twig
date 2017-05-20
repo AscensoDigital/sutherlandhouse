@@ -19,3 +19,24 @@
         </a>
     </li>
 {% endblock %}
+
+{% block stylesheets %}
+
+    {{ parent() }}
+
+    <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap-datetimepicker.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendor/highlight-solarized-light.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap-tagsinput.css') }}">
+
+{% endblock %}
+
+{% block javascripts %}
+
+    {{ parent() }}
+    <script src="{{ asset('js/vendor/moment.min.js') }}"></script>
+    <script src="{{ asset('js/vendor/highlight.pack.js') }}"></script>
+    <script src="{{ asset('js/vendor/bootstrap-datetimepicker.min.js') }}"></script>
+    <script src="{{ asset('js/vendor/bootstrap-tagsinput.min.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+
+{% endblock %}
