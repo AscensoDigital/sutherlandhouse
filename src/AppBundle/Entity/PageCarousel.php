@@ -5,6 +5,7 @@ namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\HttpFoundation\File\File;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * PageCarousel
@@ -33,6 +34,7 @@ class PageCarousel
      * @var string
      *
      * @ORM\Column(name="pagina", type="string", length=100, nullable=true)
+     * @Assert\NotBlank()
      */
     protected $pagina;
 
@@ -40,6 +42,7 @@ class PageCarousel
      * @var integer
      *
      * @ORM\Column(name="orden", type="integer", nullable=false)
+     * @Assert\NotBlank()
      */
     protected $orden;
 
@@ -92,6 +95,7 @@ class PageCarousel
      * @ORM\JoinColumns({
      *   @ORM\JoinColumn(name="carousel_tipo_id", referencedColumnName="id")
      * })
+     * @Assert\NotBlank()
      */
     protected $carouselTipo;
 
