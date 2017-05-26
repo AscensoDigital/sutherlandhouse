@@ -26,7 +26,7 @@
                 <p>Las 9 habitaciones del Hotel Sutherland House cuentan con ventanas grandes con vistas a la bahía de Valparaíso y tienen TV LCD por cable, teléfono y baño privado
                     con secador de cabello.
                 </p>
-                <p class="text-right"><a><i class="fa fa-plus-circle"></i> Habitaciones</a></p>
+                <p class="text-right"><a class="btn btn-primary" href="{{ path('hotel_habitacion_list') }}"><i class="fa fa-plus-circle"></i> Habitaciones</a></p>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <h2 class="text-center"><i class="fa fa-bell"></i> Servicios</h2>
@@ -43,7 +43,7 @@
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <h2 class="text-center"><i class="fa fa-rss"></i> Blog</h2>
                 {{ render(controller('AppBundle:Blog:postLast')) }}
-                <p class="text-right"><a href="{{ path('blog_index') }}"><i class="fa fa-plus-circle"></i> Temas</a></p>
+                <p class="text-right"><br><a class="btn btn-primary" href="{{ path('blog_index') }}"><i class="fa fa-plus-circle"></i> Temas</a></p>
             </div>
         </div>
         <br>
@@ -102,7 +102,7 @@
         </div>
         <div class="col-xs-12 col-sm-6">
             <h2><i class="fa fa-map-marker"></i> Ubicación</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.3427749703183!2d-71.63513068417424!3d-33.04744148432914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e13009c6be3f%3A0xe9c628e49254401!2sHotel+Boutique+Sutherland+House!5e0!3m2!1ses!2ses!4v1494277479380" width="100%" height="455" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJP77GCTDhiZYRAUQlSY5inA4&key=AIzaSyCgvilLo1uM_Fo5HvYtizPr5MaAJZAkUEE&zoom=18" allowfullscreen></iframe>
         </div>
     </div>
 
