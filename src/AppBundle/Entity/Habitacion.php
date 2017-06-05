@@ -39,6 +39,16 @@ class Habitacion
      */
     protected $habitacionTipo;
 
+    /**
+     * @var Galeria
+     *
+     * @ORM\ManyToOne(targetEntity="Galeria")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="galeria_id", referencedColumnName="id")
+     * })
+     */
+    protected $galeria;
+
 
     public function __toString()
     {
@@ -101,5 +111,29 @@ class Habitacion
     public function getHabitacionTipo()
     {
         return $this->habitacionTipo;
+    }
+
+    /**
+     * Set galeria
+     *
+     * @param \AppBundle\Entity\Galeria $galeria
+     *
+     * @return Habitacion
+     */
+    public function setGaleria(\AppBundle\Entity\Galeria $galeria = null)
+    {
+        $this->galeria = $galeria;
+
+        return $this;
+    }
+
+    /**
+     * Get galeria
+     *
+     * @return \AppBundle\Entity\Galeria
+     */
+    public function getGaleria()
+    {
+        return $this->galeria;
     }
 }

@@ -42,6 +42,15 @@ class HotelController extends Controller
 
     /**
      * @return \Symfony\Component\HttpFoundation\Response
+     * @Route("/habitaciones", name="hotel_habitacion_list")
+     */
+    public function habitacionListAction() {
+        $ths=$this->getDoctrine()->getRepository('AppBundle:HabitacionTipo')->findAll();
+        return $this->render('hotel/habitacion-list.html.twig',['habitaciones' => $ths, 'urlBase' => $this->getParameter('app.path.habitacion_tipo_images')]);
+    }
+
+    /**
+     * @return \Symfony\Component\HttpFoundation\Response
      * @Route("/reserve-ahora", name="hotel_reserve")
      */
     public function reservarAction() {

@@ -149,3 +149,20 @@ easy_admin:
             class: AppBundle\Entity\Habitacion
         HabitacionTipo:
             class: AppBundle\Entity\HabitacionTipo
+            list:
+                fields:
+                    - id
+                    - { property: 'url', type: 'image', base_path: %app.path.habitacion_tipo_images% }
+                    - nombre
+            form:
+                fields:
+                    - nombre
+                    - orden
+                    - descripcion
+                    - { property: 'imageFile', type: 'vich_image' }
+                    - galeria
+
+        Galeria:
+            class: AppBundle\Entity\Galeria
+        GaleriaItem:
+            class: AppBundle\Entity\GaleriaItem

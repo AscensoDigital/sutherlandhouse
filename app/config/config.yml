@@ -11,6 +11,9 @@ parameters:
     locale: es
     app.path.carousel_images: /uploads/images/carousels
     app.path.promocion_images: /uploads/images/promociones
+    app.path.habitacion_images: /uploads/images/habitaciones
+    app.path.habitacion_tipo_images: /uploads/images/habitaciones/tipo
+    app.path.galeria_images: /uploads/images/galerias
     app.notifications.email_sender: reservas@hotelsutherland.cl
 
 framework:
@@ -108,6 +111,15 @@ vich_uploader:
         promocion_images:
             uri_prefix:         %app.path.promocion_images%
             upload_destination: %kernel.root_dir%/../web/%app.path.promocion_images%
+        habitacion_tipo_images:
+            uri_prefix:   %app.path.habitacion_tipo_images%
+            upload_destination: %kernel.root_dir%/../web/%app.path.habitacion_tipo_images%
+        habitacion_images:
+            uri_prefix:   %app.path.habitacion_images%
+            upload_destination: %kernel.root_dir%/../web/%app.path.habitacion_images%
+        galeria_images:
+            uri_prefix:   %app.path.galeria_images%
+            upload_destination: %kernel.root_dir%/../web/%app.path.galeria_images%
 
 ad_component:
     bootstrap_layout: 'vertical'
