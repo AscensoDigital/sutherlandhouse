@@ -1,3 +1,3 @@
 {% if pc.hasLink %}<a href="{% if pc.hasPromocionPage %}{{ path('hotel_promocion', {'slug' : pc.promocion.slug }) }}{% else %}{{ pc.link }}{% endif %}">{% endif %}
-    <img class="img-responsive" src="{{ asset(urlBase ~ '/' ~ pc.url) }}" alt="{{ pc.titulo | title }}">
+    <img class="img-responsive" src="{{ asset(urlBase ~ '/' ~ pc.url) }}" alt="{{ pc.titulo | title }} Hotel Boutique Sutherland House Valparaíso">
 {% if pc.hasLink %}</a>{% endif %}
