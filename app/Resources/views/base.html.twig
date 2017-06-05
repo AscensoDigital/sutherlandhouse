@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hotel Valparaíso - {% block title %}Sutherland House{% endblock title %} - {% block subtitle %}Hotel Boutique{% endblock subtitle %}</title>
-        <meta name="keywords" content="{% block keywords %}hotel valparaíso, hotel boutique, hotel boutique valparaíso, hotel v region, hotel viña del mar, valparaiso chile{% endblock %}"/>
+        <meta name="keywords" content="hotel valparaíso, hotel boutique, hotel boutique valparaíso, {% block keywords %}hotel v region, hotel viña del mar, valparaiso chile{% endblock %}"/>
         <meta name="description" content="{% block descripcion %}Hotel Valparaíso Sutherland House, con una vista panorámica unica de la Bahía de Valparaíso, desde el cerro alegre.{% endblock %}"/>
         <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap-theme.min.css') }}">
@@ -62,8 +62,8 @@
                     <img src="{{ asset('images/ddsecure_140x40_orange.png') }}" alt="Hotel Boutique Sutherland House Secure">
                 </div>
                 <div class="col-xs-12 col-sm-6 text-center">
-                    <a href="waze://?q=Hotel+Sutherland+House"><i class="fa fa-map-marker"></i> Avenida Alemania 4966, Cerro Alegre, Valparaíso, Chile</a><br>
-                    <span><i class="fa fa-phone"></i> +56 32 3196 798</span> - <a href="mailto:contacto@sutherlandhouse.cl?subject=%5BWEB%5D+Contacto"><i class="fa fa-envelope-open-o"></i> contacto<i class="fa fa-at"></i>sutherlandhouse.cl</a>
+                    <a href="waze://?q=Hotel+Sutherland+House" title="Waze Hotel Boutique Sutherland House"><i class="fa fa-map-marker"></i> Avenida Alemania 4966, Cerro Alegre, Valparaíso, Chile</a><br>
+                    <a href="tel://+56323196798" title="Teléfono Hotel Boutique Sutherland House"><i class="fa fa-phone"></i> +56 32 3196 798</a> - <a href="mailto:contacto@sutherlandhouse.cl?subject=%5BWEB%5D+Contacto" title="Contacto Hotel Boutique Sutherland House"><i class="fa fa-envelope-open-o"></i> contacto<i class="fa fa-at"></i>sutherlandhouse.cl</a>
                 </div>
                 <div class="col-xs-12 col-sm-3 text-center">
                     <a href="https://www.facebook.com/hotel.sutherland.house/" title="Hotel Valparaíso Sutherland House Facebook" target="_blank"><i class="fa fa-2x fa-facebook-official"></i></a>&nbsp;
