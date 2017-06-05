@@ -119,6 +119,19 @@
         <row name="nombre" null="0" autoincrement="0">
             <datatype>VARCHAR(200)</datatype>
         </row>
+        <row name="descripcion" null="1" autoincrement="0">
+            <datatype>MEDIUMTEXT</datatype>
+            <default>NULL</default></row>
+        <row name="url" null="1" autoincrement="0">
+            <datatype>VARCHAR(255)</datatype>
+            <default>NULL</default></row>
+        <row name="galeria_id" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default><relation table="GALERIA" row="id" />
+        </row>
+        <row name="orden" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
         <key type="PRIMARY" name="">
             <part>id</part>
         </key>
@@ -133,6 +146,10 @@
         <row name="habitacion_tipo_id" null="0" autoincrement="0">
             <datatype>INTEGER</datatype>
             <relation table="HABITACION_TIPO" row="id" />
+        </row>
+        <row name="galeria_id" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default><relation table="GALERIA" row="id" />
         </row>
         <key type="PRIMARY" name="">
             <part>id</part>
@@ -277,25 +294,37 @@
             <part>id</part>
         </key>
     </table>
-    <table x="442" y="348" name="Faq">
+    <table x="365" y="1061" name="GALERIA">
         <row name="id" null="1" autoincrement="1">
             <datatype>INTEGER</datatype>
             <default>NULL</default></row>
-        <row name="orden" null="0" autoincrement="0">
-            <datatype>INTEGER</datatype>
-        </row>
-        <row name="pregunta" null="1" autoincrement="0">
-            <datatype>MEDIUMTEXT</datatype>
+        <row name="nombre" null="1" autoincrement="0">
+            <datatype>VARCHAR(255)</datatype>
             <default>NULL</default></row>
-        <row name="respuesta" null="1" autoincrement="0">
-            <datatype>MEDIUMTEXT</datatype>
-            <default>NULL</default></row>
-        <row name="modificador_id" null="1" autoincrement="0">
-            <datatype>INTEGER</datatype>
-            <default>NULL</default><relation table="USUARIO" row="id" />
-        </row>
         <key type="PRIMARY" name="">
             <part>id</part>
+        </key>
+    </table>
+    <table x="1013" y="1051" name="GALERIA_ITEM">
+        <row name="id" null="1" autoincrement="1">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <key type="PRIMARY" name="">
+            <part>id</part>
+        </key>
+    </table>
+    <table x="629" y="1054" name="GALERIA_x_GALERIA_ITEM">
+        <row name="galeria_id" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default><relation table="GALERIA" row="id" />
+        </row>
+        <row name="galeria_item_id" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default><relation table="GALERIA_ITEM" row="id" />
+        </row>
+        <key type="PRIMARY" name="">
+            <part>galeria_id</part>
+            <part>galeria_item_id</part>
         </key>
     </table>
 </sql>
