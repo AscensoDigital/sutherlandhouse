@@ -13,7 +13,8 @@
         <div class="item {%  if loop.first %}active{% endif %}">
             {{ include('hotel/' ~ pc.carouselTipo.template) }}
             <div class="carousel-caption">
-                {{ pc.captionText }}
+                <h3>{{ pc.titulo }}</h3>
+                <p>{{ pc.captionText }}</p>
             </div>
         </div>
         {% endfor %}
