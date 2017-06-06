@@ -20,6 +20,8 @@ class PageCarousel
     const TARIFA = 'tarifa';
     const FAQ = 'faq';
     const HABITACION = 'habitacion';
+    const VALPARAISO = 'valparaiso';
+    const QUIENES_SOMOS = 'quienes-somos';
 
     /**
      * @var integer

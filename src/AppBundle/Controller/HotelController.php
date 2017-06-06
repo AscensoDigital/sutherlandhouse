@@ -62,6 +62,14 @@ class HotelController extends Controller
 
     /**
      * @return \Symfony\Component\HttpFoundation\Response
+     * @Route("/quienes-somos", name="hotel_quienes_somos")
+     */
+    public function quienesSomosAction() {
+        return $this->render('hotel/quienes-somos.html.twig');
+    }
+
+    /**
+     * @return \Symfony\Component\HttpFoundation\Response
      * @Route("/reserve-ahora", name="hotel_reserve")
      */
     public function reservarAction() {
@@ -75,5 +83,13 @@ class HotelController extends Controller
         $em= $this->getDoctrine()->getManager();
         $tmps= $em->getRepository('AppBundle:Temporada')->doSelectByActiva();
         return $this->render('hotel/tarifa.html.twig', ['tmps' => $tmps]);
+    }
+
+    /**
+     * @return \Symfony\Component\HttpFoundation\Response
+     * @Route("/valparaiso", name="hotel_valparaiso")
+     */
+    public function valparaisoAction() {
+        return $this->render('hotel/valparaiso.html.twig');
     }
 }
