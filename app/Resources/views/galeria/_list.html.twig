@@ -2,7 +2,7 @@
     {% if (loop.index0 % 3) == 0 %}<div class="row">{% endif %}
     <article class="col-xs-12 col-sm-6 col-md-4" style="height: 300px;">
         <img class="img-responsive img-thumbnail galeria" data-galeria-id="{{ galeria.id }}" src="{{ asset(urlBase ~ '/' ~ galeria.url) }}" alt="{{ galeria.nombre | title }} Hotel Boutique Sutherland House Valparaíso">
-        <h2>{{ galeria.nombre | title }}</h2>
+        <h3>{{ galeria.nombre | title }}</h3>
     </article>
     {% if (loop.index % 3) == 0 || loop.last %}</div>{% endif %}
 {% endfor %}
