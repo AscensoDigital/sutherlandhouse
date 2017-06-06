@@ -154,6 +154,7 @@ easy_admin:
                     - id
                     - { property: 'url', type: 'image', base_path: %app.path.habitacion_tipo_images% }
                     - nombre
+                    - galeria
             form:
                 fields:
                     - nombre
@@ -164,5 +165,34 @@ easy_admin:
 
         Galeria:
             class: AppBundle\Entity\Galeria
+            list:
+                fields:
+                    - id
+                    - nombre
+                    - portada
+                    - { property: 'url', type: 'image', base_path: %app.path.galeria_muestra_images% }
+                    - galeriaItem
+            form:
+                fields:
+                    - nombre
+                    - portada
+                    - { property: 'imageFile', type: 'vich_image', label: 'Imagen Muestra' }
         GaleriaItem:
             class: AppBundle\Entity\GaleriaItem
+            list:
+                fields:
+                    - id
+                    - tipo
+                    - titulo
+                    - galeria
+                    - referencia
+                    - url
+                    - urlMiniatura
+            form:
+                fields:
+                    - { property: 'tipo', type: 'choice', type_options: {'choices' : {"imagen" : "imagen", "video" : "video", "youtube" : "youtube", "vimeo" : "vimeo"}}}
+                    - titulo
+                    - { property: 'referencia', help: 'Id de video de youtube o vimeo'}
+                    - { property: 'imageFile', type: 'vich_image', label: 'Imagen o Video' }
+                    - { property: 'imageFileMin', type: 'vich_image', label: 'Miniatura' }
+                    - galeria

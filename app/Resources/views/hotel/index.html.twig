@@ -47,6 +47,13 @@
             </div>
         </div>
         <br>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2><i class="fa fa-picture-o"></i> Galerías de Imagenes y Videos</h2>
+            </div>
+        </div>
+        {{ include('galeria/_list.html.twig') }}
+        <br>
         <div class="col-xs-12 col-sm-6">
             <h2><i class="fa fa-star"></i> Reconocimientos</h2>
             <div class="col-xs-12 col-sm-6 col-lg-4">
@@ -110,10 +117,19 @@
 
 {% block javascripts %}
     {{ parent() }}
+    <script src="{{ asset('js/jquery.blueimp-gallery.min.js') }}"></script>
+    <script>
+        {{ render(controller('AppBundle:Galeria:init',{ 'galerias_id': ids })) }}
+    </script>
     <script src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=432&amp;locationId=1957998&amp;lang=es_CL&amp;rating=true&amp;nreviews=5&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=false&amp;border=false&amp;display_version=2"></script>
     <script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=47&amp;locationId=1957998&amp;lang=es_CL&amp;year=2016&amp;display_version=2"></script>
     <script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=591&amp;locationId=1957998&amp;lang=es_CL&amp;year=2015&amp;display_version=2"></script>
     <script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=306&amp;locationId=1957998&amp;lang=es_CL&amp;year=2014&amp;display_version=2"></script>
     <script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=589&amp;locationId=1957998&amp;lang=es_CL&amp;year=2013&amp;display_version=2"></script>
     <script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=233&amp;locationId=1957998&amp;lang=es_CL&amp;year=2012&amp;display_version=2"></script>
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('css/blueimp-gallery.min.css') }}">
 {% endblock %}

@@ -8,13 +8,17 @@
 
 namespace AppBundle\Entity;
 
+use Cocur\Slugify\Slugify;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\HttpFoundation\File\File;
+use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 /**
  * Class Galeria
  * @package AppBundle\Entity
  * @ORM\Table(name="galeria")
  * @ORM\Entity
+ * @Vich\Uploadable
  */
 class Galeria
 {
@@ -36,17 +40,37 @@ class Galeria
     protected $nombre;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="slug", type="string", length=200, nullable=false)
+     */
+    protected $slug;
+
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="url", type="string", length=255, nullable=true)
+     */
+    protected $url;
+
+    /**
+     * @var boolean
+     *
+     * @ORM\Column(name="portada", type="boolean", nullable=false)
+     */
+    protected $portada = false;
+
+    /**
+     * @Vich\UploadableField(mapping="galeria_muestra_images", fileNameProperty="url")
+     * @var File
+     */
+    private $imageFile;
+
+    /**
      * @var \Doctrine\Common\Collections\Collection
      *
-     * @ORM\ManyToMany(targetEntity="AppBundle\Entity\GaleriaItem", inversedBy="galeria")
-     * @ORM\JoinTable(name="galeria_x_galeria_item",
-     *   joinColumns={
-     *     @ORM\JoinColumn(name="galeria_id", referencedColumnName="id")
-     *   },
-     *   inverseJoinColumns={
-     *     @ORM\JoinColumn(name="galeria_item_id", referencedColumnName="id")
-     *   }
-     * )
+     * @ORM\ManyToMany(targetEntity="GaleriaItem", mappedBy="galeria", cascade={"persist"})
      */
     protected $galeriaItem;
 
@@ -85,7 +109,8 @@ class Galeria
     public function setNombre($nombre)
     {
         $this->nombre = $nombre;
-
+        $slugify= new Slugify();
+        $this->setSlug($slugify->slugify($nombre));
         return $this;
     }
 
@@ -131,5 +156,95 @@ class Galeria
     public function getGaleriaItem()
     {
         return $this->galeriaItem;
+    }
+
+    /**
+     * Set slug
+     *
+     * @param string $slug
+     *
+     * @return Galeria
+     */
+    public function setSlug($slug)
+    {
+        $this->slug = $slug;
+
+        return $this;
+    }
+
+    /**
+     * Get slug
+     *
+     * @return string
+     */
+    public function getSlug()
+    {
+        return $this->slug;
+    }
+
+    /**
+     * Set url
+     *
+     * @param string $url
+     *
+     * @return Galeria
+     */
+    public function setUrl($url)
+    {
+        $this->url = $url;
+
+        return $this;
+    }
+
+    /**
+     * Get url
+     *
+     * @return string
+     */
+    public function getUrl()
+    {
+        return $this->url;
+    }
+
+    /**
+     * @param mixed $imageFile
+     * @return Galeria
+     */
+    public function setImageFile($imageFile)
+    {
+        $this->imageFile = $imageFile;
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImageFile()
+    {
+        return $this->imageFile;
+    }
+
+    /**
+     * Set portada
+     *
+     * @param boolean $portada
+     *
+     * @return Galeria
+     */
+    public function setPortada($portada)
+    {
+        $this->portada = $portada;
+
+        return $this;
+    }
+
+    /**
+     * Get portada
+     *
+     * @return boolean
+     */
+    public function getPortada()
+    {
+        return $this->portada;
     }
 }

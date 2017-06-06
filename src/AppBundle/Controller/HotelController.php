@@ -13,7 +13,12 @@ class HotelController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('hotel/index.html.twig');
+        $galerias=$this->getDoctrine()->getRepository('AppBundle:Galeria')->findBy(['portada' => true],['nombre' => 'ASC']);
+        $ids=array();
+        foreach ($galerias as $galeria){
+            $ids[]=$galeria->getId();
+        }
+        return $this->render('hotel/index.html.twig', ['galerias' => $galerias, 'ids' => $ids, 'urlBase' => $this->getParameter('app.path.galeria_muestra_images')]);
     }
 
     public function carouselAction($pagina) {
@@ -46,7 +51,13 @@ class HotelController extends Controller
      */
     public function habitacionListAction() {
         $ths=$this->getDoctrine()->getRepository('AppBundle:HabitacionTipo')->findAll();
-        return $this->render('hotel/habitacion-list.html.twig',['habitaciones' => $ths, 'urlBase' => $this->getParameter('app.path.habitacion_tipo_images')]);
+        $galerias=array();
+        foreach ($ths as $th) {
+            if($th->getGaleria()){
+                $galerias[]=$th->getGaleria()->getId();
+            }
+        }
+        return $this->render('hotel/habitacion-list.html.twig',['habitaciones' => $ths, 'urlBase' => $this->getParameter('app.path.habitacion_tipo_images'), 'galerias' => $galerias]);
     }
 
     /**

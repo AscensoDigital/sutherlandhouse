@@ -298,9 +298,18 @@
         <row name="id" null="1" autoincrement="1">
             <datatype>INTEGER</datatype>
             <default>NULL</default></row>
-        <row name="nombre" null="1" autoincrement="0">
+        <row name="nombre" null="0" autoincrement="0">
+            <datatype>VARCHAR(200)</datatype>
+        </row>
+        <row name="slug" null="0" autoincrement="0">
+            <datatype>VARCHAR(200)</datatype>
+        </row>
+        <row name="url" null="1" autoincrement="0">
             <datatype>VARCHAR(255)</datatype>
             <default>NULL</default></row>
+        <row name="portada" null="0" autoincrement="0">
+            <datatype>bit</datatype>
+            <default>false</default></row>
         <key type="PRIMARY" name="">
             <part>id</part>
         </key>
@@ -308,6 +317,24 @@
     <table x="1013" y="1051" name="GALERIA_ITEM">
         <row name="id" null="1" autoincrement="1">
             <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <row name="tipo" null="0" autoincrement="0">
+            <datatype>VARCHAR(50)</datatype>
+        </row>
+        <row name="titulo" null="0" autoincrement="0">
+            <datatype>VARCHAR(255)</datatype>
+        </row>
+        <row name="url" null="1" autoincrement="0">
+            <datatype>VARCHAR(255)</datatype>
+            <default>NULL</default></row>
+        <row name="url_miniatura" null="1" autoincrement="0">
+            <datatype>VARCHAR(255)</datatype>
+            <default>NULL</default></row>
+        <row name="referencia" null="1" autoincrement="0">
+            <datatype>VARCHAR(50)</datatype>
+            <default>NULL</default></row>
+        <row name="mime_type" null="1" autoincrement="0">
+            <datatype>VARCHAR(100)</datatype>
             <default>NULL</default></row>
         <key type="PRIMARY" name="">
             <part>id</part>

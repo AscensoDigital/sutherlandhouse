@@ -1,0 +1,11 @@
+var galerias={ {%- for galeria in galerias %}
+        "galeria_{{ galeria.id }}" : [ {% for item in galeria.galeriaItem %}
+                {%- if not loop.first %},{% endif %}{{ include('galeria/_item-'~ item.tipo ~'.json.twig') }}
+            {% endfor -%}]{%- if not loop.last %},{% endif %}
+    {%- endfor -%}
+    };
+
+$('.galeria').on('click',function(){
+    var galeria_id='galeria_' + $(this).data('galeria-id');
+    var gallery = blueimp.Gallery(galerias[galeria_id]);
+});

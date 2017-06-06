@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Galerías de Imagen y Video{% endblock %}
+
+{% block body %}
+    {{ include('includes/_reserva-paxer.html.twig') }}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1>Hotel Sutherland - Galerías de Imagen y Video</h1>
+            </div>
+        </div>
+        {{ include('galeria/_list.html.twig') }}
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('js/jquery.blueimp-gallery.min.js') }}"></script>
+    <script>
+        {{ render(controller('AppBundle:Galeria:init',{ 'galerias_id': ids })) }}
+    </script>
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('css/blueimp-gallery.min.css') }}">
+{% endblock %}

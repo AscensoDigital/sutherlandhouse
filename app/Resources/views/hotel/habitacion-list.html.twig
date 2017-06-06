@@ -6,26 +6,40 @@
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::HABITACION')})) }}
 
     {{ include('includes/_reserva-paxer.html.twig') }}
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12 text-center">
-            <h1>Hotel Sutherland - Habitaciones</h1>
-            <p>Nuestro hotel cuenta con 9 habitaciones: todas cómodas y luminosas, con vista a la bahía y cerros de Valparaíso.
-                Todas tienen teléfono, TV cable, secador de pelo, calefacción, cerradura electrónica, almohadas Memory Flex e incluyen desayuno Buffet o Americano en nuestro salón Mackay o terraza.</p>
-            <p>Los baños de nuestras habitaciones tienen un diseño con reminiscencias de los antiguos baños, constan de un mueble en pino Oregón, un vanitorio y una grifería que representan al lavatorio y la jarra que usaba antiguamente.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1>Hotel Sutherland - Habitaciones</h1>
+                <p>Nuestro hotel cuenta con 9 habitaciones: todas cómodas y luminosas, con vista a la bahía y cerros de Valparaíso.
+                    Todas tienen teléfono, TV cable, secador de pelo, calefacción, cerradura electrónica, almohadas Memory Flex e incluyen desayuno Buffet o Americano en nuestro salón Mackay o terraza.</p>
+                <p>Los baños de nuestras habitaciones tienen un diseño con reminiscencias de los antiguos baños, constan de un mueble en pino Oregón, un vanitorio y una grifería que representan al lavatorio y la jarra que usaba antiguamente.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for hab in habitaciones %}
+            <article class="col-xs-12 col-sm-6 col-md-4">
+                {% if hab.url is not null %}
+                    <img class="img-responsive img-thumbnail {% if hab.galeria %}galeria{% endif %}" {% if hab.galeria %}data-galeria-id="{{ hab.galeria.id }}"{% endif %} src="{{ asset(urlBase ~ '/' ~ hab.url) }}" alt="{{ hab.nombre | title }} Hotel Boutique Sutherland House Valparaíso">
+                {% endif %}
+                <h2>{{ hab.nombre | title }}</h2>
+                <p>{{ hab.descripcion }}</p>
+            </article>
+            {% endfor %}
         </div>
     </div>
+    {{ include('galeria/_galeria.html.twig') }}
+{% endblock %}
 
-    <div class="row">
-        {% for hab in habitaciones %}
-        <article class="col-xs-12 col-sm-6 col-md-4">
-            {% if hab.url is not null %}
-                <img class="img-responsive" src="{{ asset(urlBase ~ '/' ~ hab.url) }}" alt="{{ hab.nombre | title }} Hotel Boutique Sutherland House Valparaíso">
-            {% endif %}
-            <h2>{{ hab.nombre | title }}</h2>
-            <p>{{ hab.descripcion }}</p>
-        </article>
-        {% endfor %}
-    </div>
-</div>
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('js/jquery.blueimp-gallery.min.js') }}"></script>
+    <script>
+        {{ render(controller('AppBundle:Galeria:init',{ 'galerias_id': galerias })) }}
+    </script>
+{% endblock %}
+
+{% block stylesheets %}
+ {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('css/blueimp-gallery.min.css') }}">
 {% endblock %}
