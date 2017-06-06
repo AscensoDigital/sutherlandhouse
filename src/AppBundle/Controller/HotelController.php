@@ -13,7 +13,7 @@ class HotelController extends Controller
      */
     public function indexAction()
     {
-        $galerias=$this->getDoctrine()->getRepository('AppBundle:Galeria')->findBy(['portada' => true],['nombre' => 'ASC']);
+        $galerias=$this->getDoctrine()->getRepository('AppBundle:Galeria')->findBy(['portada' => true],['id' => 'ASC']);
         $ids=array();
         foreach ($galerias as $galeria){
             $ids[]=$galeria->getId();
