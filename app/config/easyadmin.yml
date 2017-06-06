@@ -71,7 +71,7 @@ easy_admin:
                     - orden
                     - activo
                     - titulo
-                    - { property: 'imageFile', type: 'vich_image' }
+                    - { property: 'imageFile', type: 'vich_image', help: 'Dimensiones: 4032 x 2400' }
                     - { property: 'captionText', type: 'text', label: 'Descripción'}
                     - link
                     - promocion
