@@ -7,13 +7,18 @@ parameters:
     database_name:     sutherla_hotel
     database_user:     sutherla_user
     database_password: pg_user_4966
+    #database_user:     hotelsutherland
+    #database_password: ho.2010
+
     # You should uncomment this if you want use pdo_sqlite
     # database_path: "%kernel.root_dir%/data.db3"
 
     mailer_transport:  smtp
     mailer_host:       127.0.0.1
-    mailer_user:       ~
-    mailer_password:   ~
+    mailer_user:       contacto@hotelsutherland.cl
+    mailer_password:   co.2017
 
     # A secret key that's used to generate certain security-related tokens
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    secret:            b4b14f763bb19bc6a177121d641b15ea
+
+    app_scheme: https

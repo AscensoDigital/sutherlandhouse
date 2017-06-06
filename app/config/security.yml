@@ -23,9 +23,9 @@ security:
             anonymous:    true
 
     access_control:
-        - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
-        - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
-        - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
-        - { path: ^/EasyAdmin/, role: ROLE_ADMIN }
-        - { path: ^/BlogAdmin/, role: ROLE_ADMIN }
+        - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: "%app_scheme%" }
+        - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: "%app_scheme%" }
+        - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: "%app_scheme%" }
+        - { path: ^/EasyAdmin/, role: ROLE_ADMIN, requires_channel: "%app_scheme%" }
+        - { path: ^/BlogAdmin/, role: ROLE_ADMIN, requires_channel: "%app_scheme%" }
 
