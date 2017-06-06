@@ -1,5 +1,7 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}Habitaciones{% endblock %}
+
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::HABITACION')})) }}
 

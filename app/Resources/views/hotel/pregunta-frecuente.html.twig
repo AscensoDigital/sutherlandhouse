@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block subtitle %}Preguntas Frecuentes{% endblock %}
+{% block title %}Preguntas Frecuentes{% endblock %}
 
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::FAQ')})) }}

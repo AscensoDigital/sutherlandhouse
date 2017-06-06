@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block subtitle %}Tarifas y Promociones{% endblock %}
+{% block title %}Tarifas y Promociones{% endblock %}
 
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::TARIFA')})) }}
