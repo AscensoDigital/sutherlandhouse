@@ -47,13 +47,14 @@
             </div>
         </div>
         <br>
-        <div class="row">
-            <div class="col-xs-12 text-center">
-                <h2><i class="fa fa-picture-o"></i> Galerías de Imagenes y Videos</h2>
+        {% if galerias | length %}
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h2><i class="fa fa-picture-o"></i> Galerías de Imágenes y Videos</h2>
+                </div>
             </div>
-        </div>
-        {{ include('galeria/_list.html.twig') }}
-        <br>
+            {{ include('galeria/_list.html.twig') }}
+        {% endif %}
         <div class="col-xs-12 col-sm-6">
             <h2><i class="fa fa-star"></i> Reconocimientos</h2>
             <div class="col-xs-12 col-sm-6 col-lg-4">
