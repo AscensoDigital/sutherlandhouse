@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Valparaíso{% endblock %}
+{% block title %}Valparaíso Patrimonio de la Humanidad{% endblock %}
 
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::VALPARAISO')})) }}
