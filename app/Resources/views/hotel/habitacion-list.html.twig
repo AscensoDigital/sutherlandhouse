@@ -23,7 +23,7 @@
                     <img class="img-responsive img-thumbnail {% if hab.galeria %}galeria{% endif %}" {% if hab.galeria %}data-galeria-id="{{ hab.galeria.id }}"{% endif %} src="{{ asset(urlBase ~ '/' ~ hab.url) }}" alt="{{ hab.nombre | title }} Hotel Boutique Sutherland House Valparaíso">
                 {% endif %}
                 <h2>{{ hab.nombre | title }}</h2>
-                <p>{{ hab.descripcion }}</p>
+                <p class="text-justify">{{ hab.descripcion }}</p>
             </article>
             {% endfor %}
         </div>
