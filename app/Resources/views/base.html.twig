@@ -8,9 +8,9 @@
         <title>{% block title %}Hotel Valparaíso{% endblock title %} - {% block subtitle %}Sutherland House - Hotel Boutique{% endblock subtitle %}</title>
         <meta name="keywords" content="hotel valparaíso, hotel boutique, hotel boutique valparaíso, {% block keywords %}hotel v region, hotel viña del mar, valparaiso chile{% endblock %}"/>
         <meta name="description" content="{% block descripcion %}Hotel Valparaíso Sutherland House, con una vista panorámica unica de la Bahía de Valparaíso, desde el cerro alegre.{% endblock %}"/>
-        <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap-theme.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/vendor/font-awesome.min.css') }}">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         {% block stylesheets %}
             {% stylesheets
                 'css/main.css'
@@ -19,6 +19,7 @@
             {% endstylesheets %}
         {% endblock stylesheets %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <script src="https://use.fontawesome.com/eaf6b9fa2f.js"></script>
     </head>
     <body>
         <div id="fb-root"></div>
@@ -78,13 +79,8 @@
             </div>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        {% block javascripts %}
-            {% javascripts
-            'js/vendor/bootstrap.min.js'
-            filter='?jsqueeze' output='js/compiled/base.js' %}
-            <script src="{{ asset_url }}" type="text/javascript"></script>
-            {% endjavascripts %}
-        {% endblock %}
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        {% block javascripts %}{% endblock %}
         <script type='text/javascript'>
             var paxer = {};
             paxer.secret = 'JFL9VF';
