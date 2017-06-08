@@ -62,6 +62,13 @@ class Galeria
     protected $portada = false;
 
     /**
+     * @var integer
+     *
+     * @ORM\Column(name="prioridad", type="integer", nullable=true)
+     */
+    protected $prioridad;
+
+    /**
      * @Vich\UploadableField(mapping="galeria_muestra_images", fileNameProperty="url")
      * @var File
      */
@@ -246,5 +253,29 @@ class Galeria
     public function getPortada()
     {
         return $this->portada;
+    }
+
+    /**
+     * Set prioridad
+     *
+     * @param integer $prioridad
+     *
+     * @return Galeria
+     */
+    public function setPrioridad($prioridad)
+    {
+        $this->prioridad = $prioridad;
+
+        return $this;
+    }
+
+    /**
+     * Get prioridad
+     *
+     * @return integer
+     */
+    public function getPrioridad()
+    {
+        return $this->prioridad;
     }
 }

@@ -169,12 +169,14 @@ easy_admin:
                 fields:
                     - id
                     - nombre
+                    - prioridad
                     - portada
                     - { property: 'url', type: 'image', base_path: %app.path.galeria_muestra_images% }
                     - galeriaItem
             form:
                 fields:
                     - nombre
+                    - prioridad
                     - portada
                     - { property: 'imageFile', type: 'vich_image', label: 'Imagen Muestra' }
         GaleriaItem:

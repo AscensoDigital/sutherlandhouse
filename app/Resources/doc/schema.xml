@@ -310,6 +310,9 @@
         <row name="portada" null="0" autoincrement="0">
             <datatype>bit</datatype>
             <default>false</default></row>
+        <row name="prioridad" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
         <key type="PRIMARY" name="">
             <part>id</part>
         </key>
@@ -352,6 +355,43 @@
         <key type="PRIMARY" name="">
             <part>galeria_id</part>
             <part>galeria_item_id</part>
+        </key>
+    </table>
+    <table x="471" y="207" name="OPINION">
+        <row name="id" null="1" autoincrement="1">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <row name="valorizacion" null="0" autoincrement="0">
+            <datatype>INTEGER</datatype>
+        </row>
+        <row name="opinion" null="0" autoincrement="0">
+            <datatype>MEDIUMTEXT</datatype>
+        </row>
+        <row name="lo_mejor" null="1" autoincrement="0">
+            <datatype>MEDIUMTEXT</datatype>
+            <default>NULL</default></row>
+        <row name="por_mejorar" null="1" autoincrement="0">
+            <datatype>MEDIUMTEXT</datatype>
+            <default>NULL</default></row>
+        <row name="fecha" null="0" autoincrement="0">
+            <datatype>DATE</datatype>
+        </row>
+        <row name="usuario_id" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default><relation table="USUARIO" row="id" />
+        </row>
+        <row name="respuesta" null="1" autoincrement="0">
+            <datatype>MEDIUMTEXT</datatype>
+            <default>NULL</default></row>
+        <row name="fecha_respuesta" null="1" autoincrement="0">
+            <datatype>DATE</datatype>
+            <default>NULL</default></row>
+        <row name="usuario_respuesta_id" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default><relation table="USUARIO" row="id" />
+        </row>
+        <key type="PRIMARY" name="">
+            <part>id</part>
         </key>
     </table>
 </sql>

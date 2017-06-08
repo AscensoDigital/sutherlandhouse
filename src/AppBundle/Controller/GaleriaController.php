@@ -12,7 +12,7 @@ class GaleriaController extends Controller
      * @Route("/galerias", name="galeria_index")
      */
     public function indexAction() {
-        $galerias=$this->getDoctrine()->getRepository('AppBundle:Galeria')->findBy([],['nombre' => 'ASC']);
+        $galerias=$this->getDoctrine()->getRepository('AppBundle:Galeria')->findBy([],['prioridad' => 'ASC']);
         $ids=array();
         foreach ($galerias as $galeria){
             $ids[]=$galeria->getId();
