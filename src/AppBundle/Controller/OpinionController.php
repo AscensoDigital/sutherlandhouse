@@ -68,6 +68,6 @@ class OpinionController extends Controller
      * @Route("/opinion/show/{id}", name="opinion_show")
      */
     public function showAction(Opinion $opinion) {
-        return $this->render();
+        return $this->render('opinion/show.html.twig',['opinion' => $opinion]);
     }
 }

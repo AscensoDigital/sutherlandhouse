@@ -1,0 +1,16 @@
+{% extends 'layout-2-column.html.twig' %}
+
+{% block title %}Opiniones de Pasajeros{% endblock %}
+{% block subtitle %}{{ opinion.opinion }}{% endblock %}
+
+{% block titulo_pagina %}Hotel Sutherland - Opinión de Pasajero{% endblock %}
+
+{% block main %}
+    {{ include(':opinion:_show.html.twig') }}
+{% endblock %}
+
+{% block sidebar %}
+    <div class="row">
+        <a class="btn btn-lg btn-info btn-block" href="{{ path('opinion_index') }}"><i class="fa fa-list-alt"></i> Volver al Listado</a>
+    </div>
+{% endblock %}
