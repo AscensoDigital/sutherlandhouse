@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="text-danger">Se ha producido un error al publicar tu opinión.</h1>
+
+    <div class="well">
+        <h2>Ingresa tu opinión</h2>
+        {{ include('opinion/_opinion_form.html.twig') }}
+    </div>
+{% endblock %}

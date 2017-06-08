@@ -1,0 +1,36 @@
+<article class="opinion">
+    <h3>
+        <span><i class="fa fa-user-circle"></i> {{ opinion.usuario.nombre }}</span>
+        <small class="pull-right"><i class="fa fa-calendar"></i> {{ opinion.fecha| localizeddate('long', 'none', null, 'UTC') }}</small>
+    </h3>
+    <p><span class="fb-like" data-href="{{ url('opinion_show', {'id' : opinion.id}) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="false"></span></p>
+    <div class="opinion popover bottom col-xs-12">
+        <div class="arrow"></div>
+        <h3 class="popover-title">
+            <span class="rating">{% for i in 1..5 %}<i class="fa {{ opinion.valorizacion >= i ? 'fa-star' : 'fa-star-o' }}"></i>{% endfor %} </span>
+            &nbsp;<span>{{ opinion }}</span>
+        </h3>
+        <div class="popover-content">
+            <ul class="list-group">
+                {% if opinion.loMejor is not null  %}
+                <li class="list-group-item list-group-item-success">
+                    <div class="col-xs-1"><i class="fa fa-thumbs-o-up"></i></div>
+                    <div class="xol-xs-11">{{ opinion.loMejor }}</div>
+                </li>
+                {% endif %}
+                {% if opinion.porMejorar is not null  %}
+                <li class="list-group-item">
+                    <div class="col-xs-1"><i class="fa fa-thumbs-o-down"></i></div>
+                    <div class="xol-xs-11">{{ opinion.porMejorar }}</div>
+                </li>
+                {% endif %}
+                {% if opinion.respuesta is not null %}
+                <li class="list-group-item list-group-item-info">
+                    <h5>Respuesta del Hotel <span class="text-sm">{{ opinion.fechaRespuesta | localizeddate('long', 'none', null, 'UTC') }}</span></h5>
+                    <div class="col-xs-12">{{ opinion.respuesta }}</div>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</article>

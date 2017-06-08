@@ -94,6 +94,12 @@ html {
     min-height: 250px;
 }
 
+.opinion {
+    display: block;
+    position: relative;
+    max-width: 100%;
+}
+
 .paxer-widget-calendar {
     margin-left: auto;
     margin-right: auto;

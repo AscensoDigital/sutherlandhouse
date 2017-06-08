@@ -29,14 +29,6 @@ class HotelController extends Controller
 
     /**
      * @return \Symfony\Component\HttpFoundation\Response
-     * @Route("/comentarios", name="hotel_comentario")
-     */
-    public function comentarioAction() {
-        return $this->render('hotel/comentario.html.twig');
-    }
-
-    /**
-     * @return \Symfony\Component\HttpFoundation\Response
      * @Route("/preguntas-frecuentes", name="hotel_faq")
      */
     public function faqAction() {

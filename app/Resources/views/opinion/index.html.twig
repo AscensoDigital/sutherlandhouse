@@ -4,7 +4,26 @@
 {% block titulo_pagina %}Hotel Sutherland - Opiniones{% endblock %}
 
 {% block main %}
-
+    <div  class="well">
+        <h2><i class="fa fa-edit"></i> Ingresa tu opinión</h2>
+        {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+            {{ render(controller('AppBundle:Opinion:form')) }}
+        {% else %}
+            <p>
+                <a class="btn btn-success" href="{{ path('fos_user_security_login') }}">
+                    <i class="fa fa-sign-in" aria-hidden="true"></i> Iniciar Sesión
+                </a>
+                para publicar una opinión.
+            </p>
+        {% endif %}
+    </div>
+<br>
+    <h2><i class="fa fa-commenting"></i> Opiniones de pasajeros</h2>
+    {% for opinion in opiniones %}
+        {{ include(':opinion:_show.html.twig') }}
+    {% else %}
+        <div class="alert alert-info">Aún no hay opiniones de pasajeros publicadas.</div>
+    {% endfor %}
 {% endblock %}
 
 {% block sidebar %}
@@ -25,4 +44,17 @@
         </ul>
     </div>
     <script src="https://www.jscache.com/wejs?wtype=cdswritereviewlg&amp;uniq=435&amp;locationId=1957998&amp;lang=es&amp;lang=es&amp;display_version=2"></script>
+{% endblock %}
+
+{% block javascripts %}
+    {% javascripts
+    'bundles/adcomponent/js/ad_component.jq.rating.js'
+    filter='?jsqueeze' output='js/compiled/opinion.js' %}
+    <script src="{{ asset_url }}" type="text/javascript"></script>
+    {% endjavascripts %}
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('bundles/adcomponent/css/ad_component.css') }}">
 {% endblock %}
