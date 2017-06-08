@@ -96,6 +96,22 @@ class Galeria
         $this->galeriaItem = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
+
+    public function countGaleriaItem() {
+        return $this->getGaleriaItem()->count();
+    }
+
+    public function getStrCantidadElementos() {
+        switch ($this->countGaleriaItem()) {
+            case 0:
+                return 'vacia';
+            case 1;
+                return '1 elemento';
+            default:
+                return $this->countGaleriaItem().' elementos';
+        }
+    }
+
     /**
      * Get id
      *
