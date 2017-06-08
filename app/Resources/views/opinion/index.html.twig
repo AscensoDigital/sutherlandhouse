@@ -47,14 +47,9 @@
 {% endblock %}
 
 {% block javascripts %}
-    {% javascripts
-    'bundles/adcomponent/js/ad_component.jq.rating.js'
-    filter='?jsqueeze' output='js/compiled/opinion.js' %}
-    <script src="{{ asset_url }}" type="text/javascript"></script>
-    {% endjavascripts %}
+    <script src="{{ asset('bundles/adcomponent/js/ad_component.jq.rating.js') }}" type="text/javascript"></script>
 {% endblock %}
 
 {% block stylesheets %}
-    {{ parent() }}
     <link rel="stylesheet" href="{{ asset('bundles/adcomponent/css/ad_component.css') }}">
 {% endblock %}
