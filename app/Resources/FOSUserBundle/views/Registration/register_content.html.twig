@@ -13,7 +13,7 @@
                 <button class="btn btn-primary btn-block" type="submit"><i class="fa fa-save"></i> Registrarme</button>
             </div>
             <div class="form-group">
-                {% set path_cancel = app.request.get('referer') ? app.request.get('referer') : 'fos_user_security_login' %}
+                {% set path_cancel = app.request.get('referer') ? app.request.get('referer') : path('fos_user_security_login') %}
                 <a class="btn btn-danger" href="{{ path_cancel }}"><i class="fa fa-times"></i> Cancelar</a>
             </div>
         {{ form_end(form) }}
