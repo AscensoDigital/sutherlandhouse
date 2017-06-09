@@ -6,13 +6,15 @@
     </div>
     <div class="row">
         <div class="col-sm-5 center-block" style="float: none;">
-        {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+            {% set path = path('fos_user_registration_register') ~ (app.request.get('referer') ? '?referer=' ~ app.request.get('referer') : '') %}
+        {{ form_start(form, {'method': 'post', 'action': path, 'attr': {'class': 'fos_user_registration_register'}}) }}
             {{ form_widget(form) }}
             <div class="form-group">
                 <button class="btn btn-primary btn-block" type="submit"><i class="fa fa-save"></i> Registrarme</button>
             </div>
             <div class="form-group">
-                <a class="btn btn-danger" href="{{ path('fos_user_security_login') }}"><i class="fa fa-times"></i> Cancelar</a>
+                {% set path_cancel = app.request.get('referer') ? app.request.get('referer') : 'fos_user_security_login' %}
+                <a class="btn btn-danger" href="{{ path_cancel }}"><i class="fa fa-times"></i> Cancelar</a>
             </div>
         {{ form_end(form) }}
         </div>

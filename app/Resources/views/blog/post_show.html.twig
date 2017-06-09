@@ -35,7 +35,9 @@
             {{ render(controller('AppBundle:Blog:commentForm', {'id': post.id})) }}
         {% else %}
             <p>
-                <a class="btn btn-success" href="{{ path('fos_user_security_login') }}">
+                <a class="btn btn-primary" href="{{ path('fos_user_registration_register') }}?referer={{ path('blog_post', {'slug' => post.slug}) }}">
+                    <i class="fa fa-user-plus" aria-hidden="true"></i> Registrarse
+                </a> o <a class="btn btn-success" href="{{ path('fos_user_security_login') }}?referer={{ path('blog_post', {'slug' => post.slug}) }}">
                     <i class="fa fa-sign-in" aria-hidden="true"></i> Iniciar Sesión
                 </a>
                 para publicar un comentario

@@ -1,17 +1,20 @@
 {% trans_default_domain 'FOSUserBundle' %}
 
-{% if error %}
-    <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
-{% endif %}
 <div class="container">
     <div class="row text-center">
         <h1>Hotel Sutherland - Inicio de Sesión</h1>
     </div>
     <div class="row">
         <div class="col-sm-5 center-block" style="float: none;">
+            {% if error %}
+                <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+            {% endif %}
             <form action="{{ path("fos_user_security_check") }}" method="post">
                 {% if csrf_token %}
                     <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+                {% endif %}
+                {% if app.request.get('referer') %}
+                    <input type="hidden" name="_target_path" value="{{ app.request.get('referer') }}" />
                 {% endif %}
                 <fieldset>
                     <div class="form-group">
