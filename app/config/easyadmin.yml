@@ -186,10 +186,10 @@ easy_admin:
                     - id
                     - tipo
                     - titulo
+                    - { property: 'urlMiniatura', type: 'image', base_path: %app.path.galeria_miniatura_images% }
                     - galeria
                     - referencia
                     - url
-                    - urlMiniatura
             form:
                 fields:
                     - { property: 'tipo', type: 'choice', type_options: {'choices' : {"imagen" : "imagen", "video" : "video", "youtube" : "youtube", "vimeo" : "vimeo"}}}
