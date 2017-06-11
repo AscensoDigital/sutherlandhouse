@@ -22,6 +22,7 @@ class PageCarousel
     const HABITACION = 'habitacion';
     const VALPARAISO = 'valparaiso';
     const QUIENES_SOMOS = 'quienes-somos';
+    const SUSTENTABILIDAD = 'sustentabilidad';
 
     /**
      * @var integer

@@ -29,6 +29,14 @@ class HotelController extends Controller
 
     /**
      * @return \Symfony\Component\HttpFoundation\Response
+     * @Route("/eco-amigable", name="hotel_eco")
+     */
+    public function ecoAmigableAction() {
+        return $this->render('hotel/eco_amigable.html.twig');
+    }
+
+    /**
+     * @return \Symfony\Component\HttpFoundation\Response
      * @Route("/preguntas-frecuentes", name="hotel_faq")
      */
     public function faqAction() {

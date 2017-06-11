@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Eco Amigable{% endblock %}
+
+{% block body %}
+    {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::SUSTENTABILIDAD')})) }}
+    {{ include('includes/_reserva-paxer.html.twig') }}
+    <div class="container">
+        <div class="row text-center">
+            <h1>Hotel Sutherland - Política Sustentabilidad</h1>
+        </div>
+        <article class="row text-justify">
+            <p>Desde sus inicios nuestro hotel ha procurado ser un lugar amigable con el medio ambiente, considerando siempre medidas para mitigar la eventual contaminación ambiental producida por el normal funcionamiento del establecimiento. Todos nuestros colaboradores habitan en la misma comuna, pues promovemos la empleabilidad local; fomentamos el consumo de productos locales y apoyamos el comercio justo, favoreciendo el crecimiento y bienestar económico de la comunidad que nos rodea.
+                Dentro de nuestros principios se destacan:</p>
+            <ul class="fa-ul">
+                <li><i class="fa-li fa fa-leaf"></i> Generar frecuentes capacitaciones para mejorar y potenciar el clima laboral y el trabajo en equipo en ámbitos sustentables: medio ambiental, socio-culturales, prevención de riesgos e higiene y seguridad.</li>
+                <li><i class="fa-li fa fa-leaf"></i> Priorizar productores locales y apoyar a los proveedores sustentables.</li>
+                <li><i class="fa-li fa fa-leaf"></i> Adherir a los 10 principios establecidos por la Organización Mundial del Comercio Justo.</li>
+                <li><i class="fa-li fa fa-leaf"></i> Colaborar con las iniciativas para mantener la ciudad como destino turístico, cuidando el patrimonio histórico cultural.</li>
+                <li><i class="fa-li fa fa-leaf"></i> Rechazar la explotación de las personas, especialmente de niños y adolescentes.</li>
+                <li><i class="fa-li fa fa-leaf"></i> Cuidar el entorno ambiental, la utilización del agua, planificación de ampliaciones y operación en general, además procuramos identificar las especies nativas de plantas para información de nuestros huéspedes.</li>
+                <li><i class="fa-li fa fa-leaf"></i> Reducir desechos y cuidar que el agua utilizada sea devuelta a las alcantarillas en condiciones normales.</li>
+                <li><i class="fa-li fa fa-leaf"></i> Procurar que las nuevas instalaciones siempre tengan iluminación de bajo consumo energético.</li>
+                <li><i class="fa-li fa fa-leaf"></i> Recoger mediante una encuesta de satisfacción las opiniones de nuestros huéspedes, las que nos ayudan a mejorar de manera continua.</li>
+                <li><i class="fa-li fa fa-leaf"></i> Orientar a nuestros trabajadores y huéspedes a utilizar la energía disponible de forma adecuada y consciente, buscando minimizar costos y mitigar el daño medioambiental.</li>
+                <li><i class="fa-li fa fa-leaf"></i> Incluir siempre como eje de nuestro sistema de gestión el cumplimiento de nuestra política de sustentabilidad.</li>
+            </ul>
+        </article>
+    </div>
+{% endblock %}
