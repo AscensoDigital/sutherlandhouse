@@ -3,6 +3,7 @@
 namespace AppBundle\Entity;
 
 use Cocur\Slugify\Slugify;
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\HttpFoundation\File\File;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
@@ -104,6 +105,13 @@ class Promocion
     protected $fecha;
 
     /**
+     * @var integer
+     *
+     * @ORM\Column(name="cama_adicional", type="integer", nullable=true)
+     */
+    protected $camaAdicional;
+
+    /**
      * @var Usuario
      *
      * @ORM\ManyToOne(targetEntity="Usuario")
@@ -112,6 +120,17 @@ class Promocion
      * })
      */
     protected $modificador;
+
+    /**
+     * @var Comment[]|ArrayCollection
+     *
+     * @ORM\OneToMany(
+     *      targetEntity="AppBundle\Entity\PromocionXHabitacion",
+     *      mappedBy="promocion"
+     * )
+     * @ORM\OrderBy({"habitacion": "ASC"})
+     */
+    protected $promocionXHabitacions;
 
     /**
      * @Vich\UploadableField(mapping="promocion_images", fileNameProperty="url")
@@ -127,6 +146,18 @@ class Promocion
 
     public function hasPromocionPage(){
         return !is_null($this->getTemplate());
+    }
+
+    public function hasOpcion2(){
+        return !(is_null($this->getOpcion2Nombre()) || $this->getOpcion2Nombre()=="");
+    }
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->promocionXHabitacions = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
     /**
@@ -444,5 +475,64 @@ class Promocion
     public function getImageFile()
     {
         return $this->imageFile;
+    }
+
+
+    /**
+     * Add promocionXHabitacion
+     *
+     * @param \AppBundle\Entity\PromocionXHabitacion $promocionXHabitacion
+     *
+     * @return Promocion
+     */
+    public function addPromocionXHabitacion(\AppBundle\Entity\PromocionXHabitacion $promocionXHabitacion)
+    {
+        $this->promocionXHabitacions[] = $promocionXHabitacion;
+
+        return $this;
+    }
+
+    /**
+     * Remove promocionXHabitacion
+     *
+     * @param \AppBundle\Entity\PromocionXHabitacion $promocionXHabitacion
+     */
+    public function removePromocionXHabitacion(\AppBundle\Entity\PromocionXHabitacion $promocionXHabitacion)
+    {
+        $this->promocionXHabitacions->removeElement($promocionXHabitacion);
+    }
+
+    /**
+     * Get promocionXHabitacions
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getPromocionXHabitacions()
+    {
+        return $this->promocionXHabitacions;
+    }
+
+    /**
+     * Set camaAdicional
+     *
+     * @param integer $camaAdicional
+     *
+     * @return Promocion
+     */
+    public function setCamaAdicional($camaAdicional)
+    {
+        $this->camaAdicional = $camaAdicional;
+
+        return $this;
+    }
+
+    /**
+     * Get camaAdicional
+     *
+     * @return integer
+     */
+    public function getCamaAdicional()
+    {
+        return $this->camaAdicional;
     }
 }

@@ -30,6 +30,13 @@ class Habitacion
     protected $nombre;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="caracteristica", type="string", length=255, nullable=true)
+     */
+    protected $caracteristica;
+
+    /**
      * @var HabitacionTipo
      *
      * @ORM\ManyToOne(targetEntity="HabitacionTipo")
@@ -135,5 +142,29 @@ class Habitacion
     public function getGaleria()
     {
         return $this->galeria;
+    }
+
+    /**
+     * Set caracteristica
+     *
+     * @param string $caracteristica
+     *
+     * @return Habitacion
+     */
+    public function setCaracteristica($caracteristica)
+    {
+        $this->caracteristica = $caracteristica;
+
+        return $this;
+    }
+
+    /**
+     * Get caracteristica
+     *
+     * @return string
+     */
+    public function getCaracteristica()
+    {
+        return $this->caracteristica;
     }
 }

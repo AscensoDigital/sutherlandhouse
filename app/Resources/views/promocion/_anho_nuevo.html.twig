@@ -1,0 +1,106 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Promociones - Sutherland House{% endblock %}
+{% block subtitle %}{{ promocion.nombre }}{% endblock %}
+
+{% block keywords %}promoción año nuevo en el mar valparaíso, fuegos articiales, juegos artificiales borde costero, año nuevo {{ "now" | date('Y') + 1 }} hotel, reserva año nuevo {{ "now" | date('Y') + 1 }}{% endblock %}
+
+{% block descripcion %}Reserva tu habitación en el hotel boutique sutherland house para el programa de año nuevo en el mar {{ "now" | date('Y') + 1 }} de valparaíso donde verás uno de los espectáculos pirotecnicos más espectaculares del mundo.{% endblock %}
+
+{% block body %}
+    {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : promocion.slug })) }}
+    {{ include('includes/_reserva-paxer.html.twig') }}
+    <div class="container">
+        <div class="row text-center">
+            <h1>Programa {{ promocion.nombre }} en Hotel Boutique Sutherland House</h1>
+        </div>
+        <div class="row text-right">
+            <div class="fb-like" data-href="{{ url('hotel_promocion', {'slug' : promocion.slug}) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+        </div>
+
+        <h3>30 de diciembre:</h3>
+        <ul class="list-group">
+            <li class="list-group-item"><b>15.00 horas:</b> Check in.</li>
+            <li class="list-group-item"><b>18.15 horas:</b> Caminata por sector patrimonial.</li>
+            <li class="list-group-item"><b>20.15 horas:</b> Paseo en Lancha por la costa de Valparaíso.</li>
+            <li class="list-group-item"><b>21.15 horas:</b> Cóctel de bienvenida.
+                <ul>
+                    <li>Variedad de sours.</li>
+                    <li>Degustación de vinos.</li>
+                    <li>Bebidas.</li>
+                    <li>Cervezas artesanales.</li>
+                    <li>Bocados fríos.</li>
+                    <li>Bocados caliente.</li>
+                    <li>Bocados dulces.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>31 de diciembre:</h3>
+        <ul class="list-group">
+            <li class="list-group-item"><b>8.30 a 11.30:</b> Desayuno buffet.</li>
+            <li class="list-group-item"><b>21.00 horas:</b> Cena "MAR y TIERRA"
+                <h4>BUFFET PRINCIPAL</h4>
+                <ul>
+                    <li>Filete de res en salsa de Setas.</li>
+                    <li>Albacora en salsa de Mariscos.</li>
+                    <li>Pavo en salsa de Mostaza.</li>
+                </ul>
+                <h4>BUFFET GUARNICIONES</h4>
+                <ul>
+                    <li>Risotto Funghi.</li>
+                    <li>Trío de pastas en salsas.</li>
+                    <li>Gratín de Papas y Champiñones.</li>
+                </ul>
+                <h4>BUFFET DE POSTRES</h4>
+            </li>
+            <li class="list-group-item"><b>23.00 horas:</b> Botella de espumante en la habitación.</li>
+        </ul>
+
+        <h3>1 de Enero</h3>
+        <ul class="list-group">
+            <li class="list-group-item"><b>Desde 00.30 horas:</b> Fiesta, DJ, cotillón y bar abierto.</li>
+            <li class="list-group-item"><b>03.00 horas:</b> Consomé y tapaditos.</li>
+            <li class="list-group-item"><b>04.30 horas:</b> Cierre.</li>
+            <li class="list-group-item list-group-item-info">Sorteo de una noche de alojamiento para un fin de semana en habitación con terraza.</li>
+            <li class="list-group-item"><b>09.00 a 13.00:</b> Brunch (desayuno / almuerzo).</li>
+            <li class="list-group-item"><b>16.30 horas:</b> Check out.</li>
+        </ul>
+
+        <h2>Condiciones Generales</h2>
+        <ul>
+            <!-- <li>Solo para nacionales: El plan (1) Contempla los días 30, 31 de diciembre y 1 de enero, mientras que el plan (2) es a partir del día 31 de diciembre, con la opción de early check in, incluyendo desayuno el mismo día.</li>-->
+            <li>Tarifa en Dólares aplicable solo para extranjeros no residentes en Chile.</li>
+            <li>Las tarifas en pesos chilenos incluyen IVA.</li>
+            <li>Tarifa por habitación single o doble.</li>
+            <li>Horario de Check In desde las 15:00 hrs.</li>
+            <li>Late Check Out, 16:00 hrs.</li>
+            <li>No incluye cama adicional.</li>
+            <li>Reservas limitadas a 9 habitaciones.</li>
+            <li>No dispone de acceso para minusválidos.</li>
+            <li>No se aceptan mascotas.</li>
+            <li>Las dependencias del hotel son para no fumadores, solo en las terrazas se permite fumar.</li>
+            <li>Un Estacionamiento disponible por cada habitación</li>
+        </ul>
+
+        <h2>Forma de Pago</h2>
+        <ul>
+            <li>Prepago del 60% al momento de la reserva mediante pago en efectivo, transferencia electrónica bancaria equivalente a pesos chilenos o cargo tarjeta de crédito.</li>
+            <li>Saldo se cancela al 15 de diciembre del {{ "now" | date('Y') }}.</li>
+        </ul>
+
+
+        <h2>Política de Cancelación</h2>
+        <p>Cancelación de reservas hasta el <b>31 de Octubre del {{ "now" | date('Y') }}</b>. Pasado ese plazo no habrá reintegros ni devoluciones.</p>
+
+
+        {% if promocion.promocionXHabitacions | length %}
+            {{ include('promocion/_habitacion_valor.html.twig') }}
+        {% endif %}
+
+        <h2><i class="fa fa-comments"></i> Comentarios Promoción</h2>
+        <div class="text-center">
+            <div class="fb-comments" data-href="{{ url('hotel_promocion', {'slug' : promocion.slug}) }}" data-numposts="10" data-order-by="reverse_time"></div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,42 @@
+<h2><i class="fa fa-dollar"></i> Tarifas por Habitación</h2>
+
+<table class="table table-striped">
+    <thead>
+    <tr class="bg-info">
+        <td rowspan="2">Habitación</td>
+        <td rowspan="2">Característica</td>
+        <td colspan="2">{{ promocion.opcion1Nombre }}</td>
+        {% if promocion.hasOpcion2 %}<td colspan="2">{{ promocion.opcion2Nombre }}</td>{% endif %}
+    </tr>
+    <tr class="bg-info">
+        <td>Tarifa CLP</td>
+        <td>Tarifa USD</td>
+        {% if promocion.hasOpcion2 %}
+            <td>Tarifa CLP</td>
+            <td>Tarifa USD</td>
+        {% endif %}
+    </tr>
+    </thead>
+    <tbody>
+    {% for prxh in promocion.promocionXHabitacions %}
+    <tr>
+        <td>{{ prxh.habitacion.nombre }}</td>
+        <td>{{ prxh.habitacion.caracteristica }}</td>
+        {% if prxh.vendida %}
+            <td colspan="{{ promocion.hasOpcion2 ? 4 : 2 }}">Reservada</td>
+        {% else %}
+            <td>{% if prxh.pesoOpcion1 %}$ {{ prxh.pesoOpcion1 | number_format(0, ',', '.') }}{% else %}--{% endif %}</td>
+            <td>{% if prxh.dolarOpcion1 %}USD {{ prxh.dolarOpcion1 | number_format(0, ',', '.') }}{% else %}--{% endif %}</td>
+            {% if promocion.hasOpcion2 %}
+                <td>{% if prxh.pesoOpcion2 %}$ {{ prxh.pesoOpcion2 | number_format(0, ',', '.') }}{% else %}--{% endif %}</td>
+                <td>{% if prxh.dolarOpcion2 %}USD {{ prxh.dolarOpcion2 | number_format(0, ',', '.') }}{% else %}--{% endif %}</td>
+            {% endif %}
+        {% endif %}
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{% if promocion.camaAdicional %}
+<div class="well">Consultar por disponibilidad de cama adicional, con una tarifa de USD {{ promocion.camaAdicional }}; para pasajeros nacionales cambio de dolar del día.</div>
+{% endif %}
