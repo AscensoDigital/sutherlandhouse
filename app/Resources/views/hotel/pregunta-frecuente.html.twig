@@ -9,6 +9,8 @@
         <div class="row text-center">
             <h1>Hotel Sutherland - Preguntas Frecuentes</h1>
         </div>
+        {{ include('includes/_flash_messages.html.twig') }}
+
         <div class="panel-group" id="accordion" role="tablist">
             {% for faq in faqs %}
             <div class="panel panel-info">
@@ -26,6 +28,11 @@
                 </div>
             </div>
             {% endfor %}
+        </div>
+
+        <div class="well">
+            <h3><i class="fa fa-send"></i> Realizar Otra Pregunta</h3>
+            {{ render(controller('AppBundle:Hotel:contactoForm', { 'origen' : path('hotel_faq') })) }}
         </div>
     </div>
 {% endblock %}

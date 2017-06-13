@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contacto{% endblock %}
+
+{% block body %}
+    <div class="row">
+        <iframe width="100%" height="500" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJP77GCTDhiZYRAUQlSY5inA4&key=AIzaSyCgvilLo1uM_Fo5HvYtizPr5MaAJZAkUEE&zoom=18" allowfullscreen></iframe>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1>Hotel Sutherland - Contacto</h1>
+            </div>
+        </div>
+        <div class="well">
+            {{ include('hotel/_contacto_form.html.twig') }}
+        </div>
+    </div>
+{% endblock %}

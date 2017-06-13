@@ -15,8 +15,8 @@ class OpinionType extends AbstractType
     {
         $builder->add('valorizacion', RatingType::class, ['label' => false])
             ->add('opinion', TextareaType::class, ['label' => 'Opinión' ])
-            ->add('loMejor', TextareaType::class, ['attr' => ['rows' => 8] ])
-            ->add('porMejorar', TextareaType::class, ['attr' => ['rows' => 8] ]);
+            ->add('loMejor', TextareaType::class, ['attr' => ['rows' => 8], 'required' => false])
+            ->add('porMejorar', TextareaType::class, ['attr' => ['rows' => 8], 'required' => false ]);
     }
 
     public function configureOptions(OptionsResolver $resolver)

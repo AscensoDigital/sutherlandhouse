@@ -1,0 +1,10 @@
+<ul>
+    <li><b>Origen</b>: {{ contacto.origen }}</li>
+    <li><b>Hora Contacto</b>: {{ contacto.updatedAt | localizeddate('long','medium', null,'UTC') }}</li>
+    <li><b>Nombre</b>: {{ contacto.fullName }}</li>
+    <li><b>Email</b>: {{ contacto.email }}</li>
+    <li><b>Teléfono</b>: {{ contacto.telefono }}</li>
+    <li><b>País</b>: {{ contacto.pais }}</li>
+    <li><b>Asunto</b>: {{ contacto.asunto }}</li>
+    <li><b>Mensaje</b>: {{ contacto.mensaje }}</li>
+</ul>

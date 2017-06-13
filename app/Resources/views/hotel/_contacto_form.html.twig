@@ -1,0 +1,20 @@
+{{ form_start(form, {method: 'POST', action: path('hotel_contacto')}) }}
+{{ form_errors(form) }}
+<div class="row">
+    <div class="col-sm-6">{{ form_row(form.nombre) }}</div>
+    <div class="col-sm-6">{{ form_row(form.apellidos) }}</div>
+</div>
+<div class="row">
+    <div class="col-sm-6">{{ form_row(form.email.first)}}</div>
+    <div class="col-sm-6">{{ form_row(form.email.second)}}</div>
+</div>
+<div class="row">
+    <div class="col-sm-6">{{ form_row(form.telefono) }}</div>
+    <div class="col-sm-6">{{ form_row(form.pais) }}</div>
+</div>
+{{ form_row(form.asunto) }}
+{{ form_row(form.mensaje) }}
+<div class="form-group text-right">
+    <button class="btn btn-primary" type="submit"><i class="fa fa-send"></i> Enviar Consulta</button>
+</div>
+{{ form_end(form) }}

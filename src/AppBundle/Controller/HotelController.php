@@ -2,8 +2,11 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\Contacto;
+use AppBundle\Form\ContactoType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Request;
 
 class HotelController extends Controller
 {
@@ -25,6 +28,62 @@ class HotelController extends Controller
         $em= $this->getDoctrine()->getManager();
         $pcs=$em->getRepository('AppBundle:PageCarousel')->findByPagina($pagina);
         return $this->render('hotel/carousel.html.twig',['pagina' => $pagina, 'pcs' => $pcs, 'urlBase' => $this->getParameter('app.path.carousel_images')]);
+    }
+
+    /**
+     * @param Request $request
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response
+     *
+     * @Route("/contacto", name="hotel_contacto")
+     */
+    public function contactoAction(Request $request)
+    {
+        $contacto = new Contacto();
+
+        $form = $this->createForm(ContactoType::class, $contacto);
+
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $entityManager = $this->getDoctrine()->getManager();
+            $entityManager->persist($contacto);
+            $entityManager->flush();
+            $mailer=$this->get('mailer');
+            $message = new \Swift_Message('Contacto Web - '.$contacto->getAsunto());
+            $message->setFrom('web@hotelsutherland.cl')
+                ->setTo('reservas@hotelsutherland.cl')
+                ->setBody(
+                    $this->renderView(
+                    // app/Resources/views/Emails/registration.html.twig
+                        'emails/contacto.html.twig',
+                        array('contacto' => $contacto)
+                    ),
+                    'text/html'
+                );
+            $mailer->send($message);
+            $this->addFlash('success','Se registro correctamente tu consulta. Nos contactaremos a la brevedad posible.');
+            if($contacto->getOrigen()) {
+                return $this->redirect($contacto->getOrigen());
+            }
+
+            return $this->redirectToRoute('hotel_contacto');
+        }
+
+        return $this->render('hotel/contacto.html.twig', [
+            'form' => $form->createView(),
+        ]);
+    }
+
+    public function contactoFormAction($origen)
+    {
+        $contacto = new Contacto();
+        $contacto->setOrigen($origen);
+
+        $form = $this->createForm(ContactoType::class,$contacto);
+
+        return $this->render('hotel/_contacto_form.html.twig', [
+            'form' => $form->createView(),
+        ]);
     }
 
     /**

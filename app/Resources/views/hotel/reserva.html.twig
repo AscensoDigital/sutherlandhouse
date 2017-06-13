@@ -7,29 +7,20 @@
         <div class="row text-center">
             <h1>Hotel Sutherland - Reserva en línea</h1>
         </div>
+        {{ include('includes/_flash_messages.html.twig') }}
         <div class="panel panel-primary">
             <div class="panel-heading"><i class="fa fa-calendar-plus-o"></i> Reserve Ahora en linea</div>
             <div class="panel-body">
                 <div class="paxer-widget-calendar"></div>
             </div>
         </div>
-        <div class="panel panel-info">
-            <div class="panel-heading">Si desea preguntar algo</div>
-            <div class="panel-body">
-                <p>Se puede contactar al centro de reservas todos los días</p>
-                <p>Línea directa para reservar:</p>
-                <div class="col-xs-12 col-sm-6">
-                    <a class="btn btn-block btn-primary" href="tel://+56323196798">+56 32 3196 798</a>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                    <a class="btn btn-block btn-success" href="mailto:reservas@hotelsutherland.cl?subject=%5BWEB%5D+Reserva">reservas@hotelsutherland.cl</a>
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">O llena el siguiente formulario</div>
-            <div class="panel-body">
 
+        {{ include('includes/_contacto.html.twig') }}
+
+        <div class="panel panel-default">
+            <div class="panel-heading">O llena y envia el siguiente formulario</div>
+            <div class="panel-body">
+                {{ render(controller('AppBundle:Hotel:contactoForm',{'origen' : path('hotel_reserve')})) }}
             </div>
         </div>
 

@@ -12,11 +12,17 @@
         <div class="row text-right">
             <div class="fb-like" data-href="{{ url('hotel_promocion', {'slug' : promocion.slug}) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
         </div>
+        {{ include('includes/_flash_messages.html.twig') }}
+
         <img class="img-responsive center-block" src="{{ asset(urlBase ~ '/' ~ promocion.url) }}" alt="{{ promocion.nombre | title }}">
         {% if promocion.promocionXHabitacions | length %}
             {{ include('promocion/_habitacion_valor.html.twig') }}
         {% endif %}
-        <h2><i class="fa fa-comments"></i> Comentarios Promoción</h2>
+
+        <h3><i class="fa fa-send"></i> Consultas y Reservas</h3>
+        {{ render(controller('AppBundle:Hotel:contactoForm', {'origen': url('hotel_promocion', {'slug' : promocion.slug })})) }}
+
+        <h3><i class="fa fa-comments"></i> Comentarios Promoción</h3>
         <div class="text-center">
             <div class="fb-comments" data-href="{{ url('hotel_promocion', {'slug' : promocion.slug}) }}" data-numposts="10" data-order-by="reverse_time"></div>
         </div>

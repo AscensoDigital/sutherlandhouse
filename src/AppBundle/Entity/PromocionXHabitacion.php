@@ -60,7 +60,7 @@ class PromocionXHabitacion
     /**
      * @var Promocion
      *
-     * @ORM\ManyToOne(targetEntity="Promocion")
+     * @ORM\ManyToOne(targetEntity="Promocion", inversedBy="promocionXHabitacions")
      * @ORM\JoinColumns({
      *   @ORM\JoinColumn(name="promocion_id", referencedColumnName="id")
      * })
