@@ -53,7 +53,7 @@ class OpinionController extends Controller
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->persist($opinion);
             $entityManager->flush();
-
+            $this->addFlash('success','Se registro correctamente tu opinión, muchas gracias ésta nos permite seguir mejorando nuestro servicio.');
             return $this->redirectToRoute('opinion_index');
         }
 
