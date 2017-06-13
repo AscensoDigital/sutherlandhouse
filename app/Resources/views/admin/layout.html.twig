@@ -20,6 +20,10 @@
     </li>
 {% endblock %}
 
+{% block meta %}
+    <meta name="robots" content="noindex">
+{% endblock %}
+
 {% block stylesheets %}
     <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap-datetimepicker.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/vendor/highlight-solarized-light.css') }}">
