@@ -28,7 +28,7 @@ label.required:after {
     content: ' *';
 }
 
-#carousel .item {
+.carousel .item {
     max-height: 500px;
     min-height: 250px;
 }
