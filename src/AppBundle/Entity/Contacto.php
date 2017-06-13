@@ -9,6 +9,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Intl\Intl;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
@@ -98,6 +99,13 @@ class Contacto
 
     public function getFullName(){
         return implode(' ',[$this->getNombre(),$this->getApellidos()]);
+    }
+
+    public function getPaisNombre(){
+        if(!$this->getPais()){
+            return null;
+        }
+        return Intl::getRegionBundle()->getCountryName($this->getPais());
     }
 
     /**

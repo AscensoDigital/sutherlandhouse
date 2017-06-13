@@ -1,6 +1,35 @@
 easy_admin:
     site_name: 'Hotel Sutherland'
     entities:
+        Contacto:
+            class: AppBundle\Entity\Contacto
+            list:
+                fields:
+                    - id
+                    - updatedAt
+                    - fullName
+                    - paisNombre
+                    - email
+                    - telefono
+                    - asunto
+                    - mensaje
+                actions: ["-edit","-delete","show"]
+        Opinion:
+            class: AppBundle\Entity\Opinion
+            list:
+                fields:
+                    - id
+                    - valorizacion
+                    - usuario
+                    - fecha
+                    - opinion
+                    - loMejor
+                    - porMejorar
+                    - respuesta
+                actions: ["-delete","show"]
+            form:
+                fields:
+                    - respuesta
         Promocion:
             class: AppBundle\Entity\Promocion
             list:
