@@ -129,6 +129,14 @@ class HotelController extends Controller
 
     /**
      * @return \Symfony\Component\HttpFoundation\Response
+     * @Route("/paseos", name="hotel_paseos")
+     */
+    public function paseosAction() {
+        return $this->render('hotel/paseos.html.twig');
+    }
+
+    /**
+     * @return \Symfony\Component\HttpFoundation\Response
      * @Route("/reserve-ahora", name="hotel_reserve")
      */
     public function reservarAction() {
