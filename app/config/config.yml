@@ -41,7 +41,7 @@ framework:
     fragments:       ~
     http_method_override: true
     assets:
-        version: "v=4"
+        version: "v=5"
 
 # Twig Configuration
 twig:
@@ -78,9 +78,11 @@ swiftmailer:
     host:      "%mailer_host%"
     username:  "%mailer_user%"
     password:  "%mailer_password%"
-    port: 465
-    encryption: ssl
+    port:     465
+    encryption: tls
+    auth_mode: login
     spool:     { type: memory }
+    delivery_addresses: ['chiko6669@gmail.com']
 
 # Assetic Configuration
 assetic:
@@ -110,26 +112,26 @@ vich_uploader:
     db_driver: orm
     mappings:
         carousel_images:
-            uri_prefix:         %app.path.carousel_images%
-            upload_destination: %kernel.root_dir%/../web/%app.path.carousel_images%
+            uri_prefix:         "%app.path.carousel_images%"
+            upload_destination: "%kernel.root_dir%/../web/%app.path.carousel_images%"
         promocion_images:
-            uri_prefix:         %app.path.promocion_images%
-            upload_destination: %kernel.root_dir%/../web/%app.path.promocion_images%
+            uri_prefix:         "%app.path.promocion_images%"
+            upload_destination: "%kernel.root_dir%/../web/%app.path.promocion_images%"
         habitacion_tipo_images:
-            uri_prefix:   %app.path.habitacion_tipo_images%
-            upload_destination: %kernel.root_dir%/../web/%app.path.habitacion_tipo_images%
+            uri_prefix:   "%app.path.habitacion_tipo_images%"
+            upload_destination: "%kernel.root_dir%/../web/%app.path.habitacion_tipo_images%"
         habitacion_images:
-            uri_prefix:   %app.path.habitacion_images%
-            upload_destination: %kernel.root_dir%/../web/%app.path.habitacion_images%
+            uri_prefix:   "%app.path.habitacion_images%"
+            upload_destination: "%kernel.root_dir%/../web/%app.path.habitacion_images%"
         galeria_images:
-            uri_prefix:   %app.path.galeria_images%
-            upload_destination: %kernel.root_dir%/../web/%app.path.galeria_images%
+            uri_prefix:   "%app.path.galeria_images%"
+            upload_destination: "%kernel.root_dir%/../web/%app.path.galeria_images%"
         galeria_miniatura_images:
-            uri_prefix:   %app.path.galeria_miniatura_images%
-            upload_destination: %kernel.root_dir%/../web/%app.path.galeria_miniatura_images%
+            uri_prefix:   "%app.path.galeria_miniatura_images%"
+            upload_destination: "%kernel.root_dir%/../web/%app.path.galeria_miniatura_images%"
         galeria_muestra_images:
-            uri_prefix:   %app.path.galeria_muestra_images%
-            upload_destination: %kernel.root_dir%/../web/%app.path.galeria_muestra_images%
+            uri_prefix:   "%app.path.galeria_muestra_images%"
+            upload_destination: "%kernel.root_dir%/../web/%app.path.galeria_muestra_images%"
 
 ad_component:
     bootstrap_layout: 'vertical'
