@@ -20,6 +20,9 @@ DirectoryIndex app.php
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
+    RewriteCond %{HTTP_HOST} ^www.hotelsutherland.cl [NC]
+    RewriteRule (.*) https://hotelsutherland.cl/$1 [R=301,L,QSA]
+
     # Determine the RewriteBase automatically and set it as environment variable.
     # If you are using Apache aliases to do mass virtual hosting or installed the
     # project in a subdirectory, the base path will be prepended to allow proper
