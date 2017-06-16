@@ -18,7 +18,15 @@
         <script src="https://use.fontawesome.com/eaf6b9fa2f.js"></script>
     </head>
     <body>
-        <div id="fb-root"></div>
+    <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9&appId={% if app.environment=='prod' %}781510838688948{% else %}781511508688881{% endif %}";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
         <div id="wrap">
             <nav id="nav-header" class="navbar navbar-default navbar-static-top" role="navigation">
                 <div class="navbar-header">
@@ -66,10 +74,7 @@
                     <a href="tel://+56323196798" title="Teléfono Hotel Boutique Sutherland House"><i class="fa fa-phone"></i> +56 32 3196 798</a> - <a href="mailto:contacto@sutherlandhouse.cl?subject=%5BWEB%5D+Contacto" title="Contacto Hotel Boutique Sutherland House"><i class="fa fa-envelope-open-o"></i> contacto<i class="fa fa-at"></i>sutherlandhouse.cl</a>
                 </div>
                 <div class="col-xs-12 col-sm-3 text-center">
-                    <a href="https://www.facebook.com/hotel.sutherland.house/" title="Hotel Valparaíso Sutherland House Facebook" target="_blank"><i class="fa fa-2x fa-facebook-official"></i></a>&nbsp;
-                    <a href="https://www.tripadvisor.cl/Hotel_Review-g294306-d1957998-Reviews-Hotel_Boutique_Sutherland_House-Valparaiso_Valparaiso_Region.html" title="Hotel Valparaíso Sutherland House Tripadvisor" target="_blank"><i class="fa fa-2x fa-tripadvisor"></i></a>&nbsp;
-                    <a href="https://www.instagram.com/hotelsutherlandhouse/" title="Hotel Valparaíso Sutherland House Instagram" target="_blank"><i class="fa fa-2x fa-instagram"></i></a>&nbsp;
-                    <a href="https://plus.google.com/+SutherlandhouseCl" title="Hotel Valparaíso Sutherland House Google+" target="_blank"><i class="fa fa-2x fa-google-plus-square"></i></a>
+                    {{ include('includes/_redes-sociales.html.twig') }}
                 </div>
 
             </div>
@@ -95,15 +100,6 @@
                 var hscr = document.getElementsByTagName('head')[0];
                 hscr.appendChild(paxerScript);
             })();
-        </script>
-        <script type="text/javascript">
-            (function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9&appId={% if app.environment=='prod' %}781510838688948{% else %}781511508688881{% endif %}";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
         </script>
         <script type="text/javascript">
             function googleTranslateElementInit() {
