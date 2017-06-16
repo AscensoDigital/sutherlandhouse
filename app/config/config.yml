@@ -41,7 +41,7 @@ framework:
     fragments:       ~
     http_method_override: true
     assets:
-        version: "v=6"
+        version: "v=7"
 
 # Twig Configuration
 twig:
