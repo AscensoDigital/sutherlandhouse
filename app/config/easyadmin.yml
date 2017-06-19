@@ -48,11 +48,14 @@ easy_admin:
                     - opcion1Nombre
                     - opcion2Nombre
                     - camaAdicional
+                    - pesoMinimo
+                    - pesoMaximo
             show:
                 fields:
                     - id
                     - nombre
                     - slug
+                    - fecha
                     - fechaInicio
                     - fechaTermino
                     - portada
@@ -60,6 +63,8 @@ easy_admin:
                     - opcion1Nombre
                     - opcion2Nombre
                     - camaAdicional
+                    - pesoMinimo
+                    - pesoMaximo
                     - modificador
                     - updatedAt
             form:
@@ -74,6 +79,8 @@ easy_admin:
                     - opcion1Nombre
                     - opcion2Nombre
                     - { property: 'camaAdicional', help: 'Valor en USD' }
+                    - pesoMinimo
+                    - pesoMaximo
         PageCarousel:
             class: AppBundle\Entity\PageCarousel
             list:

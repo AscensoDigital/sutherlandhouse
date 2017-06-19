@@ -104,3 +104,49 @@
         </div>
     </div>
 {% endblock %}
+
+{% block javascripts %}
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "location": {
+            {{ include('datos_estructurados/_hotel.ld+json.twig') }},
+            "priceRange": "CLP$ {{ promocion.pesoMinimo }} - CLP$ {{ promocion.pesoMaximo }}"
+        },
+        "name": "{{ promocion.nombre }} Hotel Sutherland Valparaíso",
+        "description": "Programa de año nuevo en el mar {{ "now" | date('Y') + 1 }} de valparaíso donde verás uno de los espectáculos pirotecnicos más espectaculares del mundo.",
+        "startDate": "{{ "now" | date('Y') }}-12-30T15:00",
+        "endDate": "{{ "now" | date('Y') + 1  }}-01-01T16:30",
+        "image": "https://hotelsutherland.cl{{ asset(urlBase ~ '/' ~ promocion.url) }}",
+        "performer": {
+            {{ include('datos_estructurados/_owner.ld+json.twig') }}
+        },
+        "offers": [
+          {% for prxh in promocion.promocionXHabitacions %}
+            {% if prxh.pesoOpcion1 %}
+              {
+                "@type": "Offer",
+                "category": "Habitación {{ prxh.habitacion.nombre }}",
+                "price": "{{ prxh.pesoOpcion1 }}",
+                "priceCurrency": "CLP",
+                "availability": "{{ prxh.vendida ? 'SoldOut' : 'InStock' }}",
+                "url": "{{ url('hotel_promocion', {'slug' : promocion.slug}) }}",
+                "validFrom": "{{ promocion.fechaInicio | date('Y-m-d') }}"
+              },
+            {% endif %}
+          {% if prxh.dolarOpcion1 %}
+            {
+              "@type": "Offer",
+              "category": "Habitación {{ prxh.habitacion.nombre }}",
+              "price": "{{ prxh.dolarOpcion1 }}",
+              "priceCurrency": "USD",
+              "availability": "{{ prxh.vendida ? 'SoldOut' : 'InStock' }}",
+              "url": "{{ url('hotel_promocion', {'slug' : promocion.slug}) }}",
+              "validFrom": "{{ promocion.fechaInicio | date('Y-m-d') }}"
+            }{% endif %}{% if not loop.last %},{% endif %}
+          {% endfor %}
+        ]
+    }
+</script>
+{% endblock %}

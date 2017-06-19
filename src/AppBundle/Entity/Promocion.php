@@ -112,6 +112,20 @@ class Promocion
     protected $camaAdicional;
 
     /**
+     * @var integer
+     *
+     * @ORM\Column(name="peso_minimo", type="integer", nullable=true)
+     */
+    protected $pesoMinimo;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="peso_maximo", type="integer", nullable=true)
+     */
+    protected $pesoMaximo;
+
+    /**
      * @var Usuario
      *
      * @ORM\ManyToOne(targetEntity="Usuario")
@@ -534,5 +548,53 @@ class Promocion
     public function getCamaAdicional()
     {
         return $this->camaAdicional;
+    }
+
+    /**
+     * Set pesoMinimo
+     *
+     * @param integer $pesoMinimo
+     *
+     * @return Promocion
+     */
+    public function setPesoMinimo($pesoMinimo)
+    {
+        $this->pesoMinimo = $pesoMinimo;
+
+        return $this;
+    }
+
+    /**
+     * Get pesoMinimo
+     *
+     * @return integer
+     */
+    public function getPesoMinimo()
+    {
+        return $this->pesoMinimo;
+    }
+
+    /**
+     * Set pesoMaximo
+     *
+     * @param integer $pesoMaximo
+     *
+     * @return Promocion
+     */
+    public function setPesoMaximo($pesoMaximo)
+    {
+        $this->pesoMaximo = $pesoMaximo;
+
+        return $this;
+    }
+
+    /**
+     * Get pesoMaximo
+     *
+     * @return integer
+     */
+    public function getPesoMaximo()
+    {
+        return $this->pesoMaximo;
     }
 }
