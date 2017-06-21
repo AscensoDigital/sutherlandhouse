@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\HttpFoundation\File\File;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
@@ -56,6 +57,13 @@ class HabitacionTipo
     protected $orden;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="cama_tipo", type="string", length=100, nullable=true)
+     */
+    protected $camaTipo;
+
+    /**
      * @var Galeria
      *
      * @ORM\ManyToOne(targetEntity="Galeria")
@@ -64,6 +72,17 @@ class HabitacionTipo
      * })
      */
     protected $galeria;
+
+    /**
+     * @var Habitacion[]|ArrayCollection
+     *
+     * @ORM\OneToMany(
+     *      targetEntity="Habitacion",
+     *      mappedBy="habitacionTipo"
+     * )
+     * @ORM\OrderBy({"nombre": "ASC"})
+     */
+    protected $habitaciones;
 
     /**
      * @Vich\UploadableField(mapping="habitacion_tipo_images", fileNameProperty="url")
@@ -77,6 +96,15 @@ class HabitacionTipo
         return $this->getNombre();
     }
 
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->habitaciones = new ArrayCollection();
+    }
+    
     /**
      * Get id
      *
@@ -215,5 +243,63 @@ class HabitacionTipo
     public function getImageFile()
     {
         return $this->imageFile;
+    }
+
+    /**
+     * Set camaTipo
+     *
+     * @param string $camaTipo
+     *
+     * @return HabitacionTipo
+     */
+    public function setCamaTipo($camaTipo)
+    {
+        $this->camaTipo = $camaTipo;
+
+        return $this;
+    }
+
+    /**
+     * Get camaTipo
+     *
+     * @return string
+     */
+    public function getCamaTipo()
+    {
+        return $this->camaTipo;
+    }
+
+    /**
+     * Add habitacione
+     *
+     * @param Habitacion $habitacione
+     *
+     * @return HabitacionTipo
+     */
+    public function addHabitacione(Habitacion $habitacione)
+    {
+        $this->habitaciones[] = $habitacione;
+
+        return $this;
+    }
+
+    /**
+     * Remove habitacione
+     *
+     * @param Habitacion $habitacione
+     */
+    public function removeHabitacione(Habitacion $habitacione)
+    {
+        $this->habitaciones->removeElement($habitacione);
+    }
+
+    /**
+     * Get habitaciones
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getHabitaciones()
+    {
+        return $this->habitaciones;
     }
 }

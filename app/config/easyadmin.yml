@@ -114,7 +114,7 @@ easy_admin:
                     - orden
                     - activo
                     - titulo
-                    - { property: 'imageFile', type: 'vich_image', help: 'Dimensiones: 4032 x 2400' }
+                    - { property: 'imageFile', type: 'vich_image', help: 'Dimensiones: 1920 x >500' }
                     - { property: 'captionText', type: 'text', label: 'Descripción'}
                     - link
                     - promocion
@@ -190,6 +190,22 @@ easy_admin:
             class: AppBundle\Entity\CarouselTipo
         Habitacion:
             class: AppBundle\Entity\Habitacion
+            list:
+                fields:
+                    - id
+                    - { property: 'url', type: 'image', base_path: %app.path.habitacion_images% }
+                    - nombre
+                    - caracteristica
+                    - habitacionTipo
+                    - galeria
+            form:
+                fields:
+                    - habitacionTipo
+                    - nombre
+                    - descripcion
+                    - caracteristica
+                    - { property: 'imageFile', type: 'vich_image' }
+                    - galeria
         HabitacionTipo:
             class: AppBundle\Entity\HabitacionTipo
             list:
@@ -198,11 +214,13 @@ easy_admin:
                     - { property: 'url', type: 'image', base_path: %app.path.habitacion_tipo_images% }
                     - nombre
                     - galeria
+                    - camaTipo
             form:
                 fields:
                     - nombre
                     - orden
                     - descripcion
+                    - camaTipo
                     - { property: 'imageFile', type: 'vich_image' }
                     - galeria
 

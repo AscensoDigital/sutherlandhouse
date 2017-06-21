@@ -112,7 +112,7 @@
             <part>id</part>
         </key>
     </table>
-    <table x="334" y="839" name="HABITACION_TIPO">
+    <table x="263" y="830" name="HABITACION_TIPO">
         <row name="id" null="1" autoincrement="1">
             <datatype>INTEGER</datatype>
             <default>NULL</default></row>
@@ -131,6 +131,9 @@
         </row>
         <row name="orden" null="1" autoincrement="0">
             <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <row name="cama_tipo" null="1" autoincrement="0">
+            <datatype>VARCHAR(100)</datatype>
             <default>NULL</default></row>
         <key type="PRIMARY" name="">
             <part>id</part>
@@ -151,6 +154,15 @@
             <datatype>INTEGER</datatype>
             <default>NULL</default><relation table="GALERIA" row="id" />
         </row>
+        <row name="caracteristica" null="1" autoincrement="0">
+            <datatype>VARCHAR(255)</datatype>
+            <default>NULL</default></row>
+        <row name="descripcion" null="1" autoincrement="0">
+            <datatype>MEDIUMTEXT</datatype>
+            <default>NULL</default></row>
+        <row name="url" null="1" autoincrement="0">
+            <datatype>VARCHAR(255)</datatype>
+            <default>NULL</default></row>
         <key type="PRIMARY" name="">
             <part>id</part>
         </key>
@@ -256,6 +268,15 @@
         <row name="fecha" null="1" autoincrement="0">
             <datatype>DATE</datatype>
             <default>NULL</default></row>
+        <row name="cama_adicional" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <row name="peso_minimo" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <row name="peso_maximo" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
         <key type="PRIMARY" name="">
             <part>id</part>
         </key>
@@ -343,7 +364,7 @@
             <part>id</part>
         </key>
     </table>
-    <table x="629" y="1054" name="GALERIA_x_GALERIA_ITEM">
+    <table x="634" y="1173" name="GALERIA_x_GALERIA_ITEM">
         <row name="galeria_id" null="1" autoincrement="0">
             <datatype>INTEGER</datatype>
             <default>NULL</default><relation table="GALERIA" row="id" />

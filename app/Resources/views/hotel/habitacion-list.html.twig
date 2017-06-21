@@ -39,6 +39,19 @@
     <script>
         {{ render(controller('AppBundle:Galeria:init',{ 'galerias_id': galerias })) }}
     </script>
+    {% for hab in habitaciones %}
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "HotelRoom",
+      "name": "{{ hab.nombre }}",
+      "description": "{{ hab.descripcion }}",
+      "bed": "{{ hab.camaTipo }}",
+      "numberOfRooms": "{{ hab.habitaciones | length }}",
+      "photo": "https://hotelsutherland.cl{{ asset(urlBase ~ '/' ~ hab.url) }}"
+    }
+    </script>
+    {% endfor %}
 {% endblock %}
 
 {% block stylesheets %}
