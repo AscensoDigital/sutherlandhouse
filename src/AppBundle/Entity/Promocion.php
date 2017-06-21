@@ -136,10 +136,10 @@ class Promocion
     protected $modificador;
 
     /**
-     * @var Comment[]|ArrayCollection
+     * @var PromocionXHabitacion[]|ArrayCollection
      *
      * @ORM\OneToMany(
-     *      targetEntity="AppBundle\Entity\PromocionXHabitacion",
+     *      targetEntity="PromocionXHabitacion",
      *      mappedBy="promocion"
      * )
      * @ORM\OrderBy({"habitacion": "ASC"})
