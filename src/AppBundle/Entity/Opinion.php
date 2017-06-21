@@ -15,7 +15,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  * Class Opinion
  * @package AppBundle\Entity
  * @ORM\Table(name="opinion")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\OpinionRepository")
  */
 class Opinion
 {
@@ -99,6 +99,30 @@ class Opinion
      */
     protected $usuarioRespuesta;
 
+    /**
+     * @var Habitacion
+     *
+     * @ORM\ManyToOne(targetEntity="Habitacion")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="habitacion_id", referencedColumnName="id")
+     * })
+     */
+    protected $habitacion;
+
+
+    public function getDescripcion(){
+        $ret='';
+        if($this->getLoMejor()){
+            $ret.='Lo Mejor: '.$this->getLoMejor();
+            if($this->getPorMejorar()){
+                $ret.=' - ';
+            }
+        }
+        if($this->getPorMejorar()){
+            $ret.='Por Mejorar: '.$this->getPorMejorar();
+        }
+        return $ret;
+    }
 
     public function __toString()
     {
@@ -329,5 +353,29 @@ class Opinion
     public function getUsuarioRespuesta()
     {
         return $this->usuarioRespuesta;
+    }
+
+    /**
+     * Set habitacion
+     *
+     * @param \AppBundle\Entity\Habitacion $habitacion
+     *
+     * @return Opinion
+     */
+    public function setHabitacion(\AppBundle\Entity\Habitacion $habitacion = null)
+    {
+        $this->habitacion = $habitacion;
+
+        return $this;
+    }
+
+    /**
+     * Get habitacion
+     *
+     * @return \AppBundle\Entity\Habitacion
+     */
+    public function getHabitacion()
+    {
+        return $this->habitacion;
     }
 }

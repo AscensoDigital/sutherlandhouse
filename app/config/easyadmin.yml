@@ -24,6 +24,7 @@ easy_admin:
                     - valorizacion
                     - usuario
                     - fecha
+                    - habitacion.nombre
                     - opinion
                     - loMejor
                     - porMejorar

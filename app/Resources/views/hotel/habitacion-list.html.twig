@@ -39,19 +39,25 @@
     <script>
         {{ render(controller('AppBundle:Galeria:init',{ 'galerias_id': galerias })) }}
     </script>
-    {% for hab in habitaciones %}
     <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
-      "@type": "HotelRoom",
-      "name": "{{ hab.nombre }}",
-      "description": "{{ hab.descripcion }}",
-      "bed": "{{ hab.camaTipo }}",
-      "numberOfRooms": "{{ hab.habitaciones | length }}",
-      "photo": "https://hotelsutherland.cl{{ asset(urlBase ~ '/' ~ hab.url) }}"
+        "@context": "http://schema.org",
+        {{ include('datos_estructurados/_hotel.ld+json.twig') }},
+        "priceRange" : "$95000 - $120000",
+        "containsPlace" : [
+        {% for hab in habitaciones %}
+            {
+              "@type": "HotelRoom",
+              "name": "{{ hab.nombre }}",
+              "description": "{{ hab.descripcion }}",
+              "bed": "{{ hab.camaTipo }}",
+              "numberOfRooms": "{{ hab.habitaciones | length }}",
+              "photo": "https://hotelsutherland.cl{{ asset(urlBase ~ '/' ~ hab.url) }}"
+            }{% if not loop.last %},{% endif %}
+        {% endfor %}
+        ]
     }
     </script>
-    {% endfor %}
 {% endblock %}
 
 {% block stylesheets %}

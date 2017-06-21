@@ -50,6 +50,36 @@
 
 {% block javascripts %}
     <script src="{{ asset('bundles/adcomponent/js/ad_component.jq.rating.js') }}" type="text/javascript"></script>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        {{ include('datos_estructurados/_hotel.ld+json.twig') }},
+        "priceRange" : "$95000 - $120000"{% if opiniones | length %},
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "{{ valorizacionPromedio }}",
+            "reviewCount": "{{ opiniones | length }}"
+          },
+        "review" : [
+        {% for opinion in opiniones %}
+            {
+              "@type": "Review",
+              "author": "{{ opinion.usuario.fullName }}",
+              "datePublished": "{{ opinion.fecha | date('Y-m-d') }}",
+              "name": "{{ opinion.opinion }}",
+              "description": "{{ opinion.descripcion }}",
+              "reviewRating": {
+                "@type": "Rating",
+                "bestRating": "5",
+                "ratingValue": "{{ opinion.valorizacion }}",
+                "worstRating": "1"
+              }
+            }{% if not loop.last %},{% endif %}
+        {% endfor %}
+        ]
+        {% endif %}
+    }
+    </script>
 {% endblock %}
 
 {% block stylesheets %}

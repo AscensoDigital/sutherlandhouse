@@ -21,7 +21,8 @@ class OpinionController extends Controller
     public function indexAction()
     {
         $opiniones=$this->getDoctrine()->getRepository(Opinion::class)->findBy([],['fecha' => 'DESC']);
-        return $this->render('opinion/index.html.twig', ['opiniones' => $opiniones]);
+        $valorizacionPromedio=$this->getDoctrine()->getRepository(Opinion::class)->getValorizacionPromedio();
+        return $this->render('opinion/index.html.twig', ['opiniones' => $opiniones, 'valorizacionPromedio' => $valorizacionPromedio]);
     }
 
 

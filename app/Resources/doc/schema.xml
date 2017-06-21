@@ -112,7 +112,7 @@
             <part>id</part>
         </key>
     </table>
-    <table x="263" y="830" name="HABITACION_TIPO">
+    <table x="66" y="839" name="HABITACION_TIPO">
         <row name="id" null="1" autoincrement="1">
             <datatype>INTEGER</datatype>
             <default>NULL</default></row>
@@ -139,7 +139,7 @@
             <part>id</part>
         </key>
     </table>
-    <table x="716" y="838" name="HABITACION">
+    <table x="530" y="819" name="HABITACION">
         <row name="id" null="1" autoincrement="1">
             <datatype>INTEGER</datatype>
             <default>NULL</default></row>
@@ -188,7 +188,7 @@
             <part>id</part>
         </key>
     </table>
-    <table x="591" y="580" name="TARIFA">
+    <table x="752" y="581" name="TARIFA">
         <row name="id" null="1" autoincrement="1">
             <datatype>INTEGER</datatype>
             <default>NULL</default></row>
@@ -284,7 +284,7 @@
             <part>slug</part>
         </key>
     </table>
-    <table x="1043" y="702" name="PROMOCION_x_HABITACION">
+    <table x="995" y="758" name="PROMOCION_x_HABITACION">
         <row name="id" null="1" autoincrement="1">
             <datatype>INTEGER</datatype>
             <default>NULL</default></row>
@@ -410,6 +410,10 @@
         <row name="usuario_respuesta_id" null="1" autoincrement="0">
             <datatype>INTEGER</datatype>
             <default>NULL</default><relation table="USUARIO" row="id" />
+        </row>
+        <row name="habitacion_id" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default><relation table="HABITACION" row="id" />
         </row>
         <key type="PRIMARY" name="">
             <part>id</part>
