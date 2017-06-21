@@ -2,6 +2,8 @@
 
 {% block title %}Tarifas y Promociones{% endblock %}
 
+{% block descripcion %}Tarifas y promociones del Hotel Boutique Sutherland House de Valparaíso{% endblock %}
+
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::TARIFA')})) }}
     {{ include('includes/_reserva-paxer.html.twig') }}

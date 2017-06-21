@@ -2,6 +2,8 @@
 
 {% block title %}Habitaciones{% endblock %}
 
+{% block descripcion %}El Hotel Boutique Sutherland House cuenta con 9 habitaciones, todas cómodas y luminosas; con vista a la bahía y cerros de Valparaíso{% endblock %}
+
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::HABITACION')})) }}
 

@@ -2,6 +2,8 @@
 
 {% block title %}Eco Amigable{% endblock %}
 
+{% block descripcion %}Política de sustentabilidad del Hotel Boutique Sutherland House de valparaíso{% endblock %}
+
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::SUSTENTABILIDAD')})) }}
     {{ include('includes/_reserva-paxer.html.twig') }}

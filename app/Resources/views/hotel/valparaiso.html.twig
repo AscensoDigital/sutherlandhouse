@@ -2,6 +2,8 @@
 
 {% block title %}Valparaíso Patrimonio de la Humanidad{% endblock %}
 
+{% block descripcion %}Descripción histórica de Valparaíso y sus encantos como los cerros alegre y concepción, el puerto, la plaza sotomayor y el paseo 21 de mayo.{% endblock %}
+
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::VALPARAISO')})) }}
     {{ include('includes/_reserva-paxer.html.twig') }}

@@ -2,6 +2,8 @@
 
 {% block title %}Imperdibles para un día{% endblock %}
 
+{% block descripcion %}Lista de paseos y recorridos de referencia para conocer valparaíso.{% endblock %}
+
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::PASEOS')})) }}
     {{ include('includes/_reserva-paxer.html.twig') }}
