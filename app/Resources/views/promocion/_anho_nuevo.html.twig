@@ -9,7 +9,7 @@
 
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : promocion.slug })) }}
-    {{ include('includes/_reserva-paxer.html.twig') }}
+    {{ include('includes/_reserva-paxer.html.twig', {'noShow' : true }) }}
     <div class="container">
         <div class="row text-center">
             <h1>{{ promocion.nombre }} en Hotel Boutique Sutherland House</h1>
