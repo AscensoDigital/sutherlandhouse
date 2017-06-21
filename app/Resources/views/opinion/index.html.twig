@@ -57,7 +57,9 @@
         "priceRange" : "$95000 - $120000"{% if opiniones | length %},
         "aggregateRating": {
             "@type": "AggregateRating",
+            "bestRating": "5",
             "ratingValue": "{{ valorizacionPromedio }}",
+            "worstRating": "1",
             "reviewCount": "{{ opiniones | length }}"
           },
         "review" : [
