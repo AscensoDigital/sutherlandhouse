@@ -16,6 +16,7 @@ class OpinionController extends Controller
     /**
      * @return \Symfony\Component\HttpFoundation\Response
      * @Route("/opinion", name="opinion_index")
+     * @Route("/comentarios", name="comentario_index")
      */
     public function indexAction()
     {
