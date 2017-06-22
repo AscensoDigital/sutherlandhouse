@@ -17,7 +17,7 @@ use Vich\UploaderBundle\Mapping\Annotation as Vich;
  * Class Galeria
  * @package AppBundle\Entity
  * @ORM\Table(name="galeria")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\GaleriaRepository")
  * @Vich\Uploadable
  */
 class Galeria

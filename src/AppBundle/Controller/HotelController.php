@@ -3,6 +3,7 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Contacto;
+use AppBundle\Entity\Galeria;
 use AppBundle\Form\ContactoType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -16,8 +17,9 @@ class HotelController extends Controller
      */
     public function indexAction()
     {
-        $galerias=$this->getDoctrine()->getRepository('AppBundle:Galeria')->findBy(['portada' => true],['prioridad' => 'ASC']);
+        $galerias=$this->getDoctrine()->getRepository('AppBundle:Galeria')->findByPortada();
         $ids=array();
+        /** @var Galeria $galeria */
         foreach ($galerias as $galeria){
             $ids[]=$galeria->getId();
         }
