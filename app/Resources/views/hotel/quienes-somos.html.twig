@@ -2,6 +2,8 @@
 
 {% block title %}Quienes Somos{% endblock %}
 
+{% block descripcion %}Historia de los dueños del Hotel Boutique Sutherland House de Valparaíso, su familia y de la casona.{% endblock %}
+
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::QUIENES_SOMOS')})) }}
     {{ include('includes/_reserva-paxer.html.twig') }}

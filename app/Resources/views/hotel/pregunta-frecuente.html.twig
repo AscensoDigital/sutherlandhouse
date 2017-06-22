@@ -2,6 +2,8 @@
 
 {% block title %}Preguntas Frecuentes{% endblock %}
 
+{% block descripcion%}Preguntas frecuentes sobre el hospedaje en el Hotel Boutique Sutherland House de Valparaíso{% endblock %}
+
 {% block body %}
     {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::FAQ')})) }}
     {{ include('includes/_reserva-paxer.html.twig') }}
