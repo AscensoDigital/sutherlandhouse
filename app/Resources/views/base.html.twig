@@ -9,7 +9,6 @@
         <meta name="keywords" content="hotel valparaíso, hotel boutique, hotel boutique valparaíso, {% block keywords %}hotel v region, hotel viña del mar, valparaiso chile{% endblock %}"/>
         <meta name="description" content="{% block descripcion %}Hotel Valparaíso Sutherland House, con una vista panorámica unica de la Bahía de Valparaíso, desde el cerro alegre.{% endblock %}"/>
         {% block meta %}{% endblock %}
-        <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css"/>
@@ -41,14 +40,20 @@
                         <i class="fa fa-navicon"></i><br>
                         <span class="small">Menu</span>
                     </button>
-                    <!--<div class="collapse navbar-collapse navbar-ex1-collapse pull-right" >-->
-                        <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="ts-navbar-collapse">
-                            {% block header_navigation_links %}
+                    <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+                        {% block header_navigation_links %}
+                            {{ include('includes/_menu-principal.html.twig') }}
+                        {% endblock %}
+                        <li>&nbsp;</li>
+                    </ul>
+                    <div class="hidden-md hidden-lg">
+                        <div id="ts-navbar-collapse" class="collapse navbar-collapse navbar-ex1-collapse pull-right">
+                            <ul class="nav navbar-nav navbar-right">
                                 {{ include('includes/_menu-principal.html.twig') }}
-                            {% endblock %}
-                            <li>&nbsp;</li>
-                        </ul>
-                    <!--</div>-->
+                                <li>&nbsp;</li>
+                            </ul>
+                        </div>
+                    </div>
                     <a class="clean-link" href="{{ path('homepage') }}">
                         <img id="logo" class="img-responsive" src="{{ asset('images/hotel-sutherland-house-logo-grande.png') }}" alt="Hotel Boutique Sutherland House Valparaíso Logo"/>
                     </a>
