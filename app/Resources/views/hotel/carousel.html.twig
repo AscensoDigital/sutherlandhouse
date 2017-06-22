@@ -12,10 +12,10 @@
         {% for pc in pcs %}
         <div class="item {%  if loop.first %}active{% endif %}">
             {{ include('hotel/' ~ pc.carouselTipo.template) }}
-            <div class="carousel-caption">
+            <!--<div class="carousel-caption">
                 <h3>{{ pc.titulo }}</h3>
                 <p>{{ pc.captionText }}</p>
-            </div>
+            </div>-->
         </div>
         {% endfor %}
     </div>
