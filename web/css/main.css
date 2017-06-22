@@ -38,8 +38,6 @@ label.required:after {
     min-height: 250px;
 }
 
-
-
 /* Altura en px del footer */
 #footer {
     position: relative;
@@ -48,6 +46,10 @@ label.required:after {
     clear: both;
     background-color: #fff;
     text-align: center;
+}
+
+#google_translate_element {
+    width: 200px;
 }
 
 #isotipo {
