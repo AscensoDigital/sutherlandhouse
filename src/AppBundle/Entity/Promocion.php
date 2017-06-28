@@ -126,6 +126,13 @@ class Promocion
     protected $pesoMaximo;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="descripcion", type="text", nullable=true)
+     */
+    protected $descripcion;
+
+    /**
      * @var Usuario
      *
      * @ORM\ManyToOne(targetEntity="Usuario")
@@ -596,5 +603,29 @@ class Promocion
     public function getPesoMaximo()
     {
         return $this->pesoMaximo;
+    }
+
+    /**
+     * Set descripcion
+     *
+     * @param string $descripcion
+     *
+     * @return Promocion
+     */
+    public function setDescripcion($descripcion)
+    {
+        $this->descripcion = $descripcion;
+
+        return $this;
+    }
+
+    /**
+     * Get descripcion
+     *
+     * @return string
+     */
+    public function getDescripcion()
+    {
+        return $this->descripcion;
     }
 }
