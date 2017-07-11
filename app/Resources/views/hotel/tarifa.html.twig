@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Tarifas y Promociones{% endblock %}
+{% block title %}Promociones y Tarifas{% endblock %}
 
 {% block descripcion %}Tarifas y promociones del Hotel Boutique Sutherland House de Valparaíso{% endblock %}
 
@@ -9,9 +9,15 @@
     {{ include('includes/_reserva-paxer.html.twig') }}
     <div class="container">
         <div class="row text-center">
-            <h1>Hotel Sutherland - Tarifas y Promociones</h1>
+            <h1>Hotel Sutherland - Promociones y Tarifas</h1>
         </div>
         {{ include('includes/_flash_messages.html.twig') }}
+
+        <div class="row">
+            <div class="col-xs-12">
+                {{ render(controller('AppBundle:Promocion:promocionList')) }}
+            </div>
+        </div>
 
         <h2><i class="fa fa-dollar"></i> Tarifas</h2>
         {% for tmp in tmps %}
@@ -53,12 +59,6 @@
         {% endfor %}
 
         {{ include(':includes:_condiciones_pago.html.twig') }}
-
-        <div class="row">
-            <div class="col-xs-12">
-                {{ render(controller('AppBundle:Promocion:promocionList')) }}
-            </div>
-        </div>
 
         {{ include('includes/_contacto.html.twig') }}
 
