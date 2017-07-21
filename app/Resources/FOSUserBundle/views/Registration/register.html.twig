@@ -1,0 +1,9 @@
+{% extends "@FOSUser/layout.html.twig" %}
+
+{% block fos_user_content %}
+{% include "@FOSUser/Registration/register_content.html.twig" %}
+{% endblock fos_user_content %}
+
+{% block title %}Registro para {{ app.request.get('referer') == '/opinion' ? 'opinar' : 'comentar' }}{% endblock %}
+
+{% block descripcion %}Regístrate para poder {% if app.request.get('referer') == '/opinion' %}opinar sobre{% else %}comentar sobre los temas de{% endif %} el Hotel Boutique Sutherland House{% endblock %}

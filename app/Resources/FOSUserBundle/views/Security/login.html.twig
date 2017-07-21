@@ -1,7 +1,9 @@
 {% extends "@FOSUser/layout.html.twig" %}
 
-{% block subtitle %}Inicio de Sesion{% endblock %}
+{% block subtitle %}Inicio de Sesión para {{ app.request.get('referer') == '/opinion' ? 'opinar' : 'comentar' }}{% endblock %}
 
 {% block fos_user_content %}
     {{ include('@FOSUser/Security/login_content.html.twig') }}
 {% endblock fos_user_content %}
+
+{% block descripcion %}Iniciar sesión para {% if app.request.get('referer') == '/opinion' %}opinar sobre{% else %}comentar sobre los temas de{% endif %} el Hotel Boutique Sutherland House{% endblock %}
