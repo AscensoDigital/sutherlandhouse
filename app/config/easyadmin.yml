@@ -262,3 +262,5 @@ easy_admin:
                     - { property: 'imageFile', type: 'vich_image', label: 'Imagen o Video' }
                     - { property: 'imageFileMin', type: 'vich_image', label: 'Miniatura' }
                     - galeria
+        Usuario:
+            class: AppBundle\Entity\Usuario
