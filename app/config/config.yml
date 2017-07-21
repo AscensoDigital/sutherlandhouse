@@ -77,7 +77,7 @@ swiftmailer:
     transport: "%mailer_transport%"
     username:  "%mailer_user%"
     password:  "%mailer_password%"
-    delivery_addresses: ['chiko6669@gmail.com']
+    delivery_addresses: ['chiko6669@gmail.com', 'reservas@hotelsutherland.cl']
 
 # Assetic Configuration
 assetic:

@@ -52,8 +52,9 @@ class HotelController extends Controller
             $entityManager->flush();
             $mailer=$this->get('mailer');
             $message = new \Swift_Message('Contacto Web - '.$contacto->getAsunto());
-            $message->setFrom('web@hotelsutherland.cl')
-                ->setTo('reservas@hotelsutherland.cl')
+            $message->setFrom($this->getParameter('mailer_user'))
+                ->addTo('reservas@hotelsutherland.cl')
+                ->addCc($contacto->getEmail())
                 ->setBody(
                     $this->renderView(
                     // app/Resources/views/Emails/registration.html.twig
