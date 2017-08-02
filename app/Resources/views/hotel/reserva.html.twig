@@ -5,6 +5,7 @@
 {% block descripcion %}Reserve ahora en Hotel Boutique Sutherland House de Valparaíso para disfrutar plenamente su descanso.{% endblock %}
 
 {% block body %}
+    {{ render(controller('AppBundle:Hotel:carousel', {'pagina' : constant('AppBundle\\Entity\\PageCarousel::RESERVA')})) }}
     {{ include('includes/_reserva-paxer.html.twig', {'noShow' : true }) }}
     <div class="container">
         <div class="row text-center">

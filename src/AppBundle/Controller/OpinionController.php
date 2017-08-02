@@ -22,7 +22,7 @@ class OpinionController extends Controller
     {
         $opiniones=$this->getDoctrine()->getRepository(Opinion::class)->findBy([],['fecha' => 'DESC']);
         $valorizacionPromedio=$this->getDoctrine()->getRepository(Opinion::class)->getValorizacionPromedio();
-        return $this->render('opinion/index.html.twig', ['opiniones' => $opiniones, 'valorizacionPromedio' => $valorizacionPromedio]);
+        return $this->render('opinion/index.html.twig', ['pagina'=> 'opinion', 'opiniones' => $opiniones, 'valorizacionPromedio' => $valorizacionPromedio]);
     }
 
 

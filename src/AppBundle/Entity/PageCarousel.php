@@ -24,6 +24,7 @@ class PageCarousel
     const QUIENES_SOMOS = 'quienes-somos';
     const SUSTENTABILIDAD = 'sustentabilidad';
     const PASEOS = 'paseos';
+    const RESERVA = 'reserva';
 
     /**
      * @var integer
