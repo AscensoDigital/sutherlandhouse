@@ -6,13 +6,11 @@
         <div class="fb-compartir">
             <div class="fb-like" data-href="{{ url('hotel_promocion', {'slug' : pr.slug}) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
         </div>
-            {% if pr.hasPromocionPage %}<a href="{{ path('hotel_promocion', {'slug' : pr.slug}) }}" title="{{ pr.nombre | title }} Hotel Boutique Sutherland House Valparaíso">{% endif %}
+        <a href="{{ path('hotel_promocion', {'slug' : pr.slug}) }}" title="{{ pr.nombre | title }} Hotel Boutique Sutherland House Valparaíso">
             <img class="img-responsive center-block" src="{{ asset(urlBase ~ '/' ~ pr.url) }}" alt="{{ pr.nombre | title }}">
-        {% if pr.hasPromocionPage %}</a>{% endif %}
-        <div class="text-center">
-            <div class="fb-comments" data-href="{{ url('hotel_promocion', {'slug' : pr.slug}) }}" data-numposts="5" data-order-by="reverse_time"></div>
-        </div>
+        </a>
     </div>
     {% endfor %}
+    <br>
     <p class="text-right"><a class="btn btn-sm btn-primary" href="{{ path('hotel_tarifa') }}" title="Tarifas y Promociones Hotel Boutique Sutherland House Valparaíso"><i class="fa fa-plus-circle"></i> Tarifas y Promociones</a></p>
 {% endif %}
