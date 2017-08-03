@@ -9,6 +9,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Intl\Intl;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
@@ -79,6 +80,59 @@ class Opinion
      */
     protected $fechaRespuesta;
 
+
+    /**
+     * @var integer
+     * @ORM\Column(name="valor_personal", type="integer", nullable=true)
+     */
+    protected $valorPersonal;
+
+    /**
+     * @var integer
+     * @ORM\Column(name="valor_habitacion", type="integer", nullable=true)
+     */
+    protected $valorHabitacion;
+
+    /**
+     * @var integer
+     * @ORM\Column(name="valor_descanso", type="integer", nullable=true)
+     */
+    protected $valorDescanso;
+
+    /**
+     * @var integer
+     * @ORM\Column(name="valor_desayuno", type="integer", nullable=true)
+     */
+    protected $valorDesayuno;
+
+    /**
+     * @var integer
+     * @ORM\Column(name="valor_limpieza", type="integer", nullable=true)
+     */
+    protected $valorLimpieza;
+
+    /**
+     * @var integer
+     * @ORM\Column(name="valor_insta_serv", type="integer", nullable=true)
+     */
+    protected $valorInstaServ;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="pais", type="string", length=5, nullable=false)
+     * @Assert\NotBlank()
+     */
+    protected $pais;
+
+    /**
+     * @var string
+     * @ORM\Column(name="nombre", type="string", length=50, nullable=false)
+     * @Assert\NotBlank()
+     */
+    protected $nombre;
+
+
     /**
      * @var Usuario
      *
@@ -109,7 +163,6 @@ class Opinion
      */
     protected $habitacion;
 
-
     public function getDescripcion(){
         $ret='';
         if($this->getLoMejor()){
@@ -122,6 +175,13 @@ class Opinion
             $ret.='Por Mejorar: '.$this->getPorMejorar();
         }
         return $ret;
+    }
+
+    public function getPaisNombre(){
+        if(!$this->getPais()){
+            return null;
+        }
+        return Intl::getRegionBundle()->getCountryName($this->getPais());
     }
 
     public function __toString()
@@ -317,7 +377,7 @@ class Opinion
     public function setUsuario(\AppBundle\Entity\Usuario $usuario = null)
     {
         $this->usuario = $usuario;
-
+        $this->setNombre($usuario->getNombre());
         return $this;
     }
 
@@ -377,5 +437,197 @@ class Opinion
     public function getHabitacion()
     {
         return $this->habitacion;
+    }
+
+    /**
+     * Set valorPersonal
+     *
+     * @param integer $valorPersonal
+     *
+     * @return Opinion
+     */
+    public function setValorPersonal($valorPersonal)
+    {
+        $this->valorPersonal = $valorPersonal;
+
+        return $this;
+    }
+
+    /**
+     * Get valorPersonal
+     *
+     * @return integer
+     */
+    public function getValorPersonal()
+    {
+        return $this->valorPersonal;
+    }
+
+    /**
+     * Set valorHabitacion
+     *
+     * @param integer $valorHabitacion
+     *
+     * @return Opinion
+     */
+    public function setValorHabitacion($valorHabitacion)
+    {
+        $this->valorHabitacion = $valorHabitacion;
+
+        return $this;
+    }
+
+    /**
+     * Get valorHabitacion
+     *
+     * @return integer
+     */
+    public function getValorHabitacion()
+    {
+        return $this->valorHabitacion;
+    }
+
+    /**
+     * Set valorDescanso
+     *
+     * @param integer $valorDescanso
+     *
+     * @return Opinion
+     */
+    public function setValorDescanso($valorDescanso)
+    {
+        $this->valorDescanso = $valorDescanso;
+
+        return $this;
+    }
+
+    /**
+     * Get valorDescanso
+     *
+     * @return integer
+     */
+    public function getValorDescanso()
+    {
+        return $this->valorDescanso;
+    }
+
+    /**
+     * Set valorDesayuno
+     *
+     * @param integer $valorDesayuno
+     *
+     * @return Opinion
+     */
+    public function setValorDesayuno($valorDesayuno)
+    {
+        $this->valorDesayuno = $valorDesayuno;
+
+        return $this;
+    }
+
+    /**
+     * Get valorDesayuno
+     *
+     * @return integer
+     */
+    public function getValorDesayuno()
+    {
+        return $this->valorDesayuno;
+    }
+
+    /**
+     * Set valorLimpieza
+     *
+     * @param integer $valorLimpieza
+     *
+     * @return Opinion
+     */
+    public function setValorLimpieza($valorLimpieza)
+    {
+        $this->valorLimpieza = $valorLimpieza;
+
+        return $this;
+    }
+
+    /**
+     * Get valorLimpieza
+     *
+     * @return integer
+     */
+    public function getValorLimpieza()
+    {
+        return $this->valorLimpieza;
+    }
+
+    /**
+     * Set valorInstaServ
+     *
+     * @param integer $valorInstaServ
+     *
+     * @return Opinion
+     */
+    public function setValorInstaServ($valorInstaServ)
+    {
+        $this->valorInstaServ = $valorInstaServ;
+
+        return $this;
+    }
+
+    /**
+     * Get valorInstaServ
+     *
+     * @return integer
+     */
+    public function getValorInstaServ()
+    {
+        return $this->valorInstaServ;
+    }
+
+    /**
+     * Set pais
+     *
+     * @param string $pais
+     *
+     * @return Opinion
+     */
+    public function setPais($pais)
+    {
+        $this->pais = $pais;
+
+        return $this;
+    }
+
+    /**
+     * Get pais
+     *
+     * @return string
+     */
+    public function getPais()
+    {
+        return $this->pais;
+    }
+
+    /**
+     * Set nombre
+     *
+     * @param string $nombre
+     *
+     * @return Opinion
+     */
+    public function setNombre($nombre)
+    {
+        $this->nombre = $nombre;
+
+        return $this;
+    }
+
+    /**
+     * Get nombre
+     *
+     * @return string
+     */
+    public function getNombre()
+    {
+        return $this->nombre;
     }
 }

@@ -3,6 +3,7 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Opinion;
+use AppBundle\Form\OpinionExpressType;
 use AppBundle\Form\OpinionType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -75,5 +76,30 @@ class OpinionController extends Controller
      */
     public function showAction(Opinion $opinion) {
         return $this->render('opinion/show.html.twig',['opinion' => $opinion]);
+    }
+
+    /**
+     * @param Request $request
+     *
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response
+     * @Route("/opinion-express", name="opinion_express")
+     */
+    public function opinionExpressAction(Request $request) {
+        $opinion = new Opinion();
+        $opinion->setFecha(new \DateTime());
+
+        $form = $this->createForm(OpinionExpressType::class, $opinion);
+
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $entityManager = $this->getDoctrine()->getManager();
+            $entityManager->persist($opinion);
+            $entityManager->flush();
+            $this->addFlash('success','Se registro correctamente tu opinión, muchas gracias ésta nos permite seguir mejorando nuestro servicio.');
+            return $this->redirectToRoute('opinion_express');
+        }
+
+        return $this->render('opinion/opinion_express.html.twig', ['form' => $form->createView()]);
     }
 }

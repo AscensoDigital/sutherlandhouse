@@ -1,6 +1,6 @@
 <article class="opinion clearfix">
     <h3 class="clearfix">
-        <i class="fa fa-user-circle"></i> {{ opinion.usuario.nombre }}
+        <i class="fa fa-user-circle"></i> {{ opinion.nombre }} <small>- {{ opinion.paisNombre }}</small>
         <small class="pull-right">
             <i class="fa fa-calendar"></i> {{ opinion.fecha| localizeddate('long', 'none', null, 'UTC') }}
         </small>
@@ -9,13 +9,20 @@
     <div class="opinion popover bottom col-xs-12">
         <div class="arrow"></div>
         <h3 class="popover-title">
-            <span class="rating">{% for i in 1..5 %}<i class="fa {{ opinion.valorizacion >= i ? 'fa-star' : 'fa-star-o' }}"></i>{% endfor %} </span>
-            &nbsp;<span>{{ opinion }}</span>
+            {{ include('opinion/_show_rating.html.twig', {'rating' : opinion.valorizacion}) }} - <i>"{{ opinion }}"</i>
         </h3>
         <div class="popover-content">
             {% if opinion.habitacion %}
                 <p><i class="fa fa-bed"></i> Se hospedó en <b>{{ opinion.habitacion }}</b>.</p>
             {% endif %}
+            <div class="row">
+                {% if opinion.valorPersonal %}<div class="col-sm-6 col-md-4">Personal: {{ include('opinion/_show_rating.html.twig', {'rating' : opinion.valorPersonal}) }}</div>{% endif %}
+                {% if opinion.valorHabitacion %}<div class="col-sm-6 col-md-4">Habitacion: {{ include('opinion/_show_rating.html.twig', {'rating' : opinion.valorHabitacion}) }}</div>{% endif %}
+                {% if opinion.valorDescanso %}<div class="col-sm-6 col-md-4">Calidad Descanso: {{ include('opinion/_show_rating.html.twig', {'rating' : opinion.valorDescanso}) }}</div>{% endif %}
+                {% if opinion.valorDesayuno %}<div class="col-sm-6 col-md-4">Desayuno: {{ include('opinion/_show_rating.html.twig', {'rating' : opinion.valorDesayuno}) }}</div>{% endif %}
+                {% if opinion.valorLimpieza %}<div class="col-sm-6 col-md-4">Limpieza: {{ include('opinion/_show_rating.html.twig', {'rating' : opinion.valorLimpieza}) }}</div>{% endif %}
+                {% if opinion.valorInstaServ %}<div class="col-sm-6 col-md-4">Instalaciones/Servicio: {{ include('opinion/_show_rating.html.twig', {'rating' : opinion.valorInstaServ}) }}</div>{% endif %}
+            </div>
             <ul class="list-group">
                 {% if opinion.loMejor is not null  %}
                 <li class="list-group-item list-group-item-success">

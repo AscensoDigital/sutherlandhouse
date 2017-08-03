@@ -265,8 +265,8 @@
         <row name="url" null="1" autoincrement="0">
             <datatype>VARCHAR(255)</datatype>
             <default>NULL</default></row>
-        <row name="fecha" null="1" autoincrement="0">
-            <datatype>DATE</datatype>
+        <row name="orden" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
             <default>NULL</default></row>
         <row name="cama_adicional" null="1" autoincrement="0">
             <datatype>INTEGER</datatype>
@@ -280,6 +280,9 @@
         <row name="descripcion" null="1" autoincrement="0">
             <datatype>MEDIUMTEXT</datatype>
             <default>NULL</default></row>
+        <row name="orientacion" null="1" autoincrement="0">
+            <datatype>bit</datatype>
+            <default>true</default></row>
         <key type="PRIMARY" name="">
             <part>id</part>
         </key>
@@ -381,7 +384,7 @@
             <part>galeria_item_id</part>
         </key>
     </table>
-    <table x="471" y="207" name="OPINION">
+    <table x="369" y="144" name="OPINION">
         <row name="id" null="1" autoincrement="1">
             <datatype>INTEGER</datatype>
             <default>NULL</default></row>
@@ -418,6 +421,27 @@
             <datatype>INTEGER</datatype>
             <default>NULL</default><relation table="HABITACION" row="id" />
         </row>
+        <row name="valor_personal" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <row name="valor_habitacion" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <row name="valor_descanso" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <row name="valor_desayuno" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <row name="valor_limpieza" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <row name="valor_insta_serv" null="1" autoincrement="0">
+            <datatype>INTEGER</datatype>
+            <default>NULL</default></row>
+        <row name="pais" null="1" autoincrement="0">
+            <datatype>VARCHAR(5)</datatype>
+            <default>NULL</default></row>
         <key type="PRIMARY" name="">
             <part>id</part>
         </key>

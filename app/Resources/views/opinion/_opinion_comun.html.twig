@@ -1,0 +1,17 @@
+<h3>Evaluaciones</h3>
+{{ form_row(form.valorizacion) }}
+<div class="row">
+    <div class="col-md-4">{{ form_label(form.valorPersonal) }}<div>{{ form_widget(form.valorPersonal) }}</div></div>
+    <div class="col-md-4">{{ form_label(form.valorHabitacion) }}<div>{{ form_widget(form.valorHabitacion) }}</div></div>
+    <div class="col-md-4">{{ form_label(form.valorDescanso) }}<div>{{ form_widget(form.valorDescanso) }}</div></div>
+</div>
+<div class="row">
+    <div class="col-md-4">{{ form_label(form.valorDesayuno) }}<div>{{ form_widget(form.valorDesayuno) }}</div></div>
+    <div class="col-md-4">{{ form_label(form.valorLimpieza) }}<div>{{ form_widget(form.valorLimpieza) }}</div></div>
+    <div class="col-md-4">{{ form_label(form.valorInstaServ) }}<div>{{ form_widget(form.valorInstaServ) }}</div></div>
+</div>
+
+<h3>Opinión</h3>
+{{ form_row(form.opinion) }}
+{{ form_row(form.loMejor) }}
+{{ form_row(form.porMejorar) }}

@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Opinión Express{% endblock %}
+
+{% block descripcion %}Ingreso de Opinion de pasajeros en el hotel{% endblock %}
+
+{% block body %}
+    {{ include('includes/_reserva-paxer.html.twig', {'noShow': true }) }}
+    <div class="container">
+        {{ include('includes/_flash_messages.html.twig') }}
+        {{ form_start(form) }}
+        <div class="panel panel-primary">
+            <div class="panel-heading">Ingreso Opinión Express</div>
+        <div class="panel-body">
+            {{ form_errors(form) }}
+
+            <h3>Datos Reserva</h3>
+            {{ form_row(form.nombre) }}
+            {{ form_row(form.habitacion) }}
+            {{ form_row(form.pais) }}
+
+            {{ include('opinion/_opinion_comun.html.twig') }}
+
+        </div>
+        <div class="panel-footer  text-right">
+            <button class="btn btn-primary" type="submit">Publicar opinión</button>
+        </div>
+        {{ form_end(form) }}
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{ asset('bundles/adcomponent/js/ad_component.jq.rating.js') }}" type="text/javascript"></script>
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('bundles/adcomponent/css/ad_component.css') }}">
+{% endblock %}

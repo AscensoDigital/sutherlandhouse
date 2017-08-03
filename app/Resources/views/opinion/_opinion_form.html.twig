@@ -10,13 +10,10 @@
 
     {# Render any global form error (e.g. when a constraint on a public getter method failed) #}
     {{ form_errors(form) }}
-
-    {{ form_row(form.valorizacion) }}
+    <h3>Datos Reserva</h3>
     {{ form_row(form.habitacion) }}
-    {{ form_row(form.opinion) }}
-    {{ form_row(form.loMejor) }}
-    {{ form_row(form.porMejorar) }}
-
+    {{ form_row(form.pais) }}
+    {{ include('opinion/_opinion_comun.html.twig') }}
     <div class="form-group text-right">
         <button class="btn btn-primary" type="submit">Publicar opinión</button>
     </div>
