@@ -98,11 +98,11 @@ class Promocion
     protected $url;
 
     /**
-     * @var \DateTime
+     * @var integer
      *
-     * @ORM\Column(name="fecha", type="date", nullable=true)
+     * @ORM\Column(name="orden", type="integer", nullable=true)
      */
-    protected $fecha;
+    protected $orden;
 
     /**
      * @var integer
@@ -131,6 +131,13 @@ class Promocion
      * @ORM\Column(name="descripcion", type="text", nullable=true)
      */
     protected $descripcion;
+
+    /**
+     * @var boolean
+     *
+     * @ORM\Column(name="orientacion", type="boolean", nullable=true)
+     */
+    protected $orientacion = true; //true: vertical
 
     /**
      * @var Usuario
@@ -171,6 +178,10 @@ class Promocion
 
     public function hasOpcion2(){
         return !(is_null($this->getOpcion2Nombre()) || $this->getOpcion2Nombre()=="");
+    }
+
+    public function isVertical(){
+        return $this->getOrientacion();
     }
 
     /**
@@ -457,30 +468,6 @@ class Promocion
     }
 
     /**
-     * Set fecha
-     *
-     * @param \DateTime $fecha
-     *
-     * @return Promocion
-     */
-    public function setFecha($fecha)
-    {
-        $this->fecha = $fecha;
-
-        return $this;
-    }
-
-    /**
-     * Get fecha
-     *
-     * @return \DateTime
-     */
-    public function getFecha()
-    {
-        return $this->fecha;
-    }
-
-    /**
      * @param File $imageFile
      * @return Promocion
      */
@@ -627,5 +614,53 @@ class Promocion
     public function getDescripcion()
     {
         return $this->descripcion;
+    }
+
+    /**
+     * Set orden
+     *
+     * @param integer $orden
+     *
+     * @return Promocion
+     */
+    public function setOrden($orden)
+    {
+        $this->orden = $orden;
+
+        return $this;
+    }
+
+    /**
+     * Get orden
+     *
+     * @return integer
+     */
+    public function getOrden()
+    {
+        return $this->orden;
+    }
+
+    /**
+     * Set orientacion
+     *
+     * @param boolean $orientacion
+     *
+     * @return Promocion
+     */
+    public function setOrientacion($orientacion)
+    {
+        $this->orientacion = $orientacion;
+
+        return $this;
+    }
+
+    /**
+     * Get orientacion
+     *
+     * @return boolean
+     */
+    public function getOrientacion()
+    {
+        return $this->orientacion;
     }
 }

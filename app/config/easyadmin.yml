@@ -42,25 +42,23 @@ easy_admin:
                     - id
                     - nombre
                     - slug
+                    - orden
+                    - { property: 'orientacion', label: 'Vertical' }
                     - fechaInicio
                     - fechaTermino
                     - portada
-                    - template
-                    - opcion1Nombre
-                    - opcion2Nombre
                     - camaAdicional
-                    - pesoMinimo
-                    - pesoMaximo
             show:
                 fields:
                     - id
                     - nombre
                     - slug
                     - descripcion
-                    - fecha
+                    - orden
                     - fechaInicio
                     - fechaTermino
                     - portada
+                    - { property: 'orientacion', label: 'Vertical' }
                     - template
                     - opcion1Nombre
                     - opcion2Nombre
@@ -73,7 +71,8 @@ easy_admin:
                 fields:
                     - nombre
                     - descripcion
-                    - fecha
+                    - orden
+                    - { property: 'orientacion', label: 'Vertical' }
                     - fechaInicio
                     - fechaTermino
                     - portada

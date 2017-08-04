@@ -1,16 +1,30 @@
 {% if proms | length %}
     <h2><i class="fa fa-tags"></i> Promociones</h2>
-    {% for pr in proms %}
-    <div>
-        <h3>{{ pr.nombre }}</h3>
-        <div class="fb-compartir">
-            <div class="fb-like" data-href="{{ url('hotel_promocion', {'slug' : pr.slug}) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+    <div class="row">
+    {% for pr in proms['vertical'] %}
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <h3>{{ pr.nombre }}</h3>
+            <div class="fb-compartir">
+                <div class="fb-like" data-href="{{ url('hotel_promocion', {'slug' : pr.slug}) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+            </div>
+            <a href="{{ path('hotel_promocion', {'slug' : pr.slug}) }}" title="{{ pr.nombre | title }} Hotel Boutique Sutherland House Valparaíso">
+                <img class="img-responsive center-block" src="{{ asset(urlBase ~ '/' ~ pr.url) }}" alt="{{ pr.nombre | title }}">
+            </a>
         </div>
-        <a href="{{ path('hotel_promocion', {'slug' : pr.slug}) }}" title="{{ pr.nombre | title }} Hotel Boutique Sutherland House Valparaíso">
-            <img class="img-responsive center-block" src="{{ asset(urlBase ~ '/' ~ pr.url) }}" alt="{{ pr.nombre | title }}">
-        </a>
-    </div>
     {% endfor %}
+    </div>
+    {% for pr in proms['horizontal'] %}
+        <div class="row">
+            <h3>{{ pr.nombre }}</h3>
+            <div class="fb-compartir">
+                <div class="fb-like" data-href="{{ url('hotel_promocion', {'slug' : pr.slug}) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+            </div>
+            <a href="{{ path('hotel_promocion', {'slug' : pr.slug}) }}" title="{{ pr.nombre | title }} Hotel Boutique Sutherland House Valparaíso">
+                <img class="img-responsive center-block" src="{{ asset(urlBase ~ '/' ~ pr.url) }}" alt="{{ pr.nombre | title }}">
+            </a>
+        </div>
+    {% endfor %}
+
     <br>
     <p class="text-right"><a class="btn btn-sm btn-primary" href="{{ path('hotel_tarifa') }}" title="Tarifas y Promociones Hotel Boutique Sutherland House Valparaíso"><i class="fa fa-plus-circle"></i> Tarifas y Promociones</a></p>
 {% endif %}

@@ -15,7 +15,10 @@ class PromocionController extends Controller
      * @Route("/promocion/{slug}", name="hotel_promocion")
      * @ParamConverter("promocion", class="AppBundle:Promocion")
      */
-    public function promocionAction(Promocion $promocion){
+    public function promocionAction(Promocion $promocion = null){
+        if(is_null($promocion)){
+            return $this->redirectToRoute('hotel_tarifa');
+        }
         return $this->render($promocion->hasPromocionPage() ? $promocion->getTemplate() : 'promocion/show.html.twig',
                             ['promocion' => $promocion, 'urlBase' => $this->getParameter('app.path.promocion_images')]);
     }
