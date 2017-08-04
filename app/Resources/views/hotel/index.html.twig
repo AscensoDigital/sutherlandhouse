@@ -45,11 +45,6 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-xs-12">
-                {{ render(controller('AppBundle:Promocion:promocionPortada')) }}
-            </div>
-        </div>
         <br>
         {% if galerias | length %}
             <div class="row">
@@ -60,6 +55,13 @@
             {{ include('galeria/_list.html.twig') }}
             <p class="text-right"><a class="btn btn-sm btn-primary" href="{{ path('galeria_index') }}" title="Galerías de Imagen y Video Hotel Boutique Sutherland House Valparaíso"><i class="fa fa-plus-circle"></i> Galerías</a></p>
         {% endif %}
+
+        <div class="row">
+            <div class="col-xs-12">
+                {{ render(controller('AppBundle:Promocion:promocionPortada')) }}
+            </div>
+        </div>
+
         <div class="col-xs-12 col-sm-6">
             <h2><i class="fa fa-star"></i> Reconocimientos</h2>
             <div class="col-xs-12 col-sm-6 col-lg-4">
