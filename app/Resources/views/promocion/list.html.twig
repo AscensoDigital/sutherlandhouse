@@ -5,7 +5,7 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
             <h3>{{ pr.nombre }}</h3>
             <div class="fb-compartir">
-                <div class="fb-like" data-href="{{ url('hotel_promocion', {'slug' : pr.slug}) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <div class="fb-like" data-href="{{ url('hotel_promocion', {'slug' : pr.slug}) }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
             </div>
             <a href="{{ path('hotel_promocion', {'slug' : pr.slug}) }}" title="{{ pr.nombre | title }} Hotel Boutique Sutherland House Valparaíso">
                 <img class="img-responsive center-block" src="{{ asset(urlBase ~ '/' ~ pr.url) }}" alt="{{ pr.nombre | title }}">
