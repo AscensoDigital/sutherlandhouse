@@ -12,7 +12,7 @@
             <h1>Hotel Sutherland - {{ promocion.nombre }}</h1>
         </div>
         <div class="row text-right">
-            <div class="fb-like" data-href="{{ url('hotel_promocion', {'slug' : promocion.slug}) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+            <div class="fb-like" data-href="{{ url('hotel_promocion', {'slug' : promocion.slug}) }}" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         </div>
         {{ include('includes/_flash_messages.html.twig') }}
 
